@@ -1,0 +1,74 @@
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Distribution and build files
+
+build/
+dist/
+*.egg-info/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Testing and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+
+.vscode/
+.idea/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+
+*.log
+
+# Machine learning models and datasets
+
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+
+# Temporary files
+
+*.tmp
+*.bak
+*.swp
+
+# Type checking and linting
+
+.mypy_cache/
+.ruff_cache/
+
+# Python packaging
+
+pip-wheel-metadata/
+::
+
