@@ -1,0 +1,28 @@
+column,dtype_after_readback
+State,str
+Election Year,int64
+Sno.,int64
+Candidate,string
+Party,string
+Criminal Cases,int64
+Education,str
+source_file,str
+Candidate_source,string
+Party_source,string
+Education_source,string
+Age_source,string
+Total Assets_source,string
+Liabilities_source,string
+Candidate_match_key,str
+Age_years,float64
+Age_parse_status,str
+Total_Assets_INR,float64
+Total_Assets_INR_parse_status,str
+Liabilities_INR,float64
+Liabilities_INR_parse_status,str
+Criminal_Cases_count,int64
+Criminal_Cases_parse_status,str
+duplicate_record_flag,bool
+Total_Assets_INR_iqr_outlier_flag,bool
+Liabilities_INR_iqr_outlier_flag,bool
+manual_review_flag,bool

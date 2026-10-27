@@ -1,0 +1,73 @@
+source_file,state,year,rows,columns,column,dtype_before,missing_before,meaning
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Party,string,0,Party label from MyNeta.
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Education,str,0,Declared education category.
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Age,str,0,Declared age in years.
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\andhra_2014.csv,Andhra,2014,329,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Party,string,0,Party label from MyNeta.
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Education,str,0,Declared education category.
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Age,str,0,Declared age in years.
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\andhra_2019.csv,Andhra,2019,314,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Party,string,0,Party label from MyNeta.
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Education,str,0,Declared education category.
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Age,int64,0,Declared age in years.
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\andhra_2024.csv,Andhra,2024,450,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Party,string,0,Party label from MyNeta.
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Education,str,0,Declared education category.
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Age,str,0,Declared age in years.
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\bihar_2014.csv,Bihar,2014,605,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Party,string,0,Party label from MyNeta.
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Education,str,0,Declared education category.
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Age,int64,0,Declared age in years.
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\bihar_2019.csv,Bihar,2019,619,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Party,string,0,Party label from MyNeta.
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Education,str,0,Declared education category.
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Age,int64,0,Declared age in years.
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\bihar_2024.csv,Bihar,2024,496,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Party,string,0,Party label from MyNeta.
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Education,str,0,Declared education category.
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Age,str,0,Declared age in years.
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\gujarat_2014.csv,Gujarat,2014,333,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Party,string,0,Party label from MyNeta.
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Education,str,0,Declared education category.
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Age,int64,0,Declared age in years.
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\gujarat_2019.csv,Gujarat,2019,371,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Sno.,int64,0,"Source row number, not a stable identifier."
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Candidate,string,0,Candidate name from MyNeta.
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Party,string,0,Party label from MyNeta.
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Criminal Cases,int64,0,Declared criminal-case count.
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Education,str,0,Declared education category.
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Age,int64,0,Declared age in years.
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Total Assets,string,0,Declared assets text; parsed output is nominal INR.
+ocr_data\gujarat_2024.csv,Gujarat,2024,266,8,Liabilities,string,0,Declared liabilities text; parsed output is nominal INR.

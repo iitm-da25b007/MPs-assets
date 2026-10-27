@@ -1,0 +1,2452 @@
+State,Election Year,Sno.,Candidate_source,Candidate_match_key,Party_source,Age_source,Age_years,Age_parse_status,Total Assets_source,Total_Assets_INR,Total_Assets_INR_parse_status,Liabilities_source,Liabilities_INR,Liabilities_INR_parse_status,Total_Assets_INR_iqr_outlier_flag,Liabilities_INR_iqr_outlier_flag,duplicate_record_flag,source_file
+Andhra,2014,1,Abburi Koteswara Rao,abburi koteswara rao,Pyramid Party of India,49,49.0,parsed,"Rs 1,76,20,000
+~ 1 Crore+",17620000.0,parsed,"Rs 38,00,000
+~ 38 Lacs+",3800000.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,2,Abdul Waheed Shaik,abdul waheed shaik,INC,44,44.0,parsed,"Rs 76,54,500
+~ 76 Lacs+",7654500.0,parsed,"Rs 70,00,000
+~ 70 Lacs+",7000000.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,3,Adala Prabhakara Reddy,adala prabhakara reddy,TDP,64,64.0,parsed,"Rs 1,28,25,85,640
+~ 128 Crore+",1282585640.0,parsed,"Rs 13,16,46,350
+~ 13 Crore+",131646350.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,7,Amudala Subramanyam,amudala subramanyam,Rayalaseema Parirakshana Samithi,Unknown,,unparsed_review,"Rs 7,45,000
+~ 7 Lacs+",745000.0,parsed,"Rs 1,10,000
+~ 1 Lacs+",110000.0,parsed,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,11,Annayyagari Sai Prathap,annayyagari sai prathap,INC,69,69.0,parsed,"Rs 1,10,11,974
+~ 1 Crore+",11011974.0,parsed,"Rs 43,32,082
+~ 43 Lacs+",4332082.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,17,Avinash Devineni,avinash devineni,INC,26,26.0,parsed,"Rs 22,80,35,761
+~ 22 Crore+",228035761.0,parsed,"Rs 65,41,922
+~ 65 Lacs+",6541922.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,18,Avinash Reddy Yeduguri Sandinti,avinash reddy yeduguri sandinti,Yuvajana Sramika Rythu Congress Party,29,29.0,parsed,"Rs 7,04,80,623 Crore+",70480623.0,parsed,"Rs 55,47,296 55 Lacst-",5547296.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,19,Avss Amarnadh Gudivada,avss amarnadh gudivada,Yuvajana Sramika Rythu Congress Party,29,29.0,parsed,"Rs 6,02,11,000
+~ 6 Crore+",60211000.0,parsed,"Rs 16,25,000
+~ 16 Lacs+",1625000.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,21,Ayodhya Rami Reddy Alla,ayodhya rami reddy alla,Yuvajana Sramika Rythu Congress Party,50,50.0,parsed,"Rs 6,54,33,81,756
+~ 654 Crore+",6543381756.0,parsed,"Rs 60,40,35,456
+~ 60 Crore+",604035456.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,25,Balashowry Vallabhaneni,balashowry vallabhaneni,Yuvajana Sramika Rythu Congress Party,45,45.0,parsed,"Rs 79,40,17,805
+~ 79 Crore+",794017805.0,parsed,"Rs 48,37,66,785
+~ 48 Crore+",483766785.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,29,Bellamkonda Venkata Rao,bellamkonda venkata rao,IND,46,46.0,parsed,"Rs 1,24,000 Lacst",124000.0,parsed,Rs 52.177 52 Thou+,52.177,decimal_review,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,34,Boddu Venkata Ramana Chowdary,boddu venkata ramana chowdary,Yuvajana Sramika Rythu Congress Party,39,39.0,parsed,"Rs 35,62,00,864
+~ 35 Crore+",356200864.0,parsed,"Rs 1,37,96,000
+~ 1 Crore+",13796000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,35,Bolisetti Satyanarayana,bolisetti satyanarayana,INC,57,57.0,parsed,"Rs 16,67,46,916
+~ 16 Crore+",166746916.0,parsed,"Rs 3,68,001
+~ 3 Lacs+",368001.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,44,Butta Renuka,butta renuka,Yuvajana Sramika Rythu Congress Party,42,42.0,parsed,"Rs 2,42,62,40,513
+~ 242 Crore+",2426240513.0,parsed,"Rs 31,22,79,927
+~ 31 Crore+",312279927.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,60,Daggubati Purandeswari,daggubati purandeswari,BJP,54,54.0,parsed,"Rs 8,48,41,544
+~ 8 Crore+",84841544.0,parsed,"Rs 2,96,10,440
+~ 2 Crore+",29610440.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,62,Dande Yugander,dande yugander,IND,45,45.0,parsed,"Rs 13,56,54,625
+~ 13 Crore+",135654625.0,parsed,"Rs 4,00,47,000
+~ 4 Crore+",40047000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,63,Darisi Veera Venkata Pavan Kumar @ Darisi Pavana Kumar,darisi veera venkata pavan kumar @ darisi pavana kumar,INC,52,52.0,parsed,"Rs 46,43,29,120
+~ 46 Crore+",464329120.0,parsed,"Rs 57,08,354
+~ 57 Lacs+",5708354.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,70,Dr. Kambhampati Hari Babu,kambhampati hari babu,BJP,60,60.0,parsed,"Rs 9,01,03,580
+~ 9 Crore+",90103580.0,parsed,"Rs 18,54,856
+~ 18 Lacs+",1854856.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,72,Duddukunta Sreedhar Reddy,duddukunta sreedhar reddy,Yuvajana Sramika Rythu Congress Party,43,43.0,parsed,"Rs 42,09,13,035
+~ 42 Crore+",420913035.0,parsed,"Rs 3,42,91,359
+~ 3 Crore+",34291359.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,80,Gadde Thyagaraju,gadde thyagaraju,IND,Unknown,,unparsed_review,"Rs 11,85,000
+~ 11 Lacs+",1185000.0,parsed,"Rs 1,00,000
+~ 1 Lacs+",100000.0,parsed,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,85,Gedela Krishna Rao,gedela krishna rao,IND,60,60.0,parsed,"Rs 65,81,18,000
+~ 65 Crore+",658118000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,88,Gokaraju Ganga Raju,gokaraju ganga raju,BJP,69,69.0,parsed,"Rs 2,88,35,67,122
+~ 288 Crore+",2883567122.0,parsed,"Rs 16,85,01,286
+~ 16 Crore+",168501286.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,89,Golla Babu Rao,golla babu rao,IND,Unknown,,unparsed_review,"Rs 1,55,000 Lacst",155000.0,parsed,Rs 0,0.0,parsed,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,108,Jayadev Galla,jayadev galla,TDP,48,48.0,parsed,"Rs 6,83,05,81,361
+~ 683 Crore+",6830581361.0,parsed,"Rs 20,23,34,283
+~ 20 Crore+",202334283.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,110,Jhansi Lakshmi Botcha,jhansi lakshmi botcha,INC,50,50.0,parsed,"Rs 5,48,24,574
+~ 5 Crore+",54824574.0,parsed,"Rs 88,49,835
+~ 88 Lacs+",8849835.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,113,Jutur Chinna Reddy Divakar Reddy,jutur chinna reddy divakar reddy,TDP,70,70.0,parsed,"Rs 22,64,81,020
+~ 22 Crore+",226481020.0,parsed,"Rs 32,65,000
+~ 32 Lacs+",3265000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,117,K.pedda Reddi,k pedda reddi,IND,48,48.0,parsed,"Rs 3,30,18,797
+~ 3 Crore+",33018797.0,parsed,"Rs 98,83,924
+~ 98 Lacs+",9883924.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,122,Kammili Srinivas,kammili srinivas,Jai Samaikyandhra Party,42,42.0,parsed,"Rs 49,93,99,880
+~ 49 Crore+",499399880.0,parsed,"Rs 2,28,00,000
+~ 2 Crore+",22800000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,123,Kandula Lakshmi Durgesh Prasad,kandula lakshmi durgesh prasad,INC,55,55.0,parsed,"Rs 11,12,86,820
+~ 11 Crore+",111286820.0,parsed,"Rs 78,65,379
+~ 78 Lacs+",7865379.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,125,Kanumuri Bapiraju S/o. Krishnam Raju,kanumuri bapiraju,INC,66,66.0,parsed,"Rs 9,27,84,471
+~ 9 Crore+",92784471.0,parsed,"Rs 55,69,281
+~ 55 Lacs+",5569281.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,139,Kolusu Partha Sarathy,kolusu partha sarathy,Yuvajana Sramika Rythu Congress Party,48,48.0,parsed,"Rs 5,99,30,668
+~ 5 Crore+",59930668.0,parsed,"Rs 38,51,887
+~ 38 Lacs+",3851887.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,141,Konakalla Narayana Rao,konakalla narayana rao,TDP,64,64.0,parsed,"Rs 3,48,50,000
+~ 3 Crore+",34850000.0,parsed,"Rs 98,00,000
+~ 98 Lacs+",9800000.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,142,Kondapalli Venkateswarlu,kondapalli venkateswarlu,INC,58,58.0,parsed,"Rs 6,97,81,168
+~ 6 Crore+",69781168.0,parsed,"Rs 97,23,000
+~ 97 Lacs+",9723000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,147,Kothapalli Geetha,kothapalli geetha,Yuvajana Sramika Rythu Congress Party,43,43.0,parsed,"Rs 6,51,47,467
+~ 6 Crore+",65147467.0,parsed,"Rs 4,32,61,606
+~ 4 Crore+",43261606.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,151,Koutharapu Ravindra,koutharapu ravindra,Great India Party,Unknown,,unparsed_review,"Rs 3,88,61,445
+~ 3 Crore+",38861445.0,parsed,"Rs 2,05,91,835
+~ 2 Crore+",20591835.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,157,Lakshmi Reddy Putta,lakshmi reddy putta,AIFB,26,26.0,parsed,"Rs 75,00,000
+~ 75 Lacs+",7500000.0,parsed,"Rs 47,33,000
+~ 47 Lacs+",4733000.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,161,Magunta Srinivasulu Reddy,magunta srinivasulu reddy,TDP,60,60.0,parsed,"Rs 18,78,48,488
+~ 18 Crore+",187848488.0,parsed,"Rs 8,25,78,365
+~ 8 Crore+",82578365.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,169,Manapati Solmon,manapati solmon,Andhra Rastra Praja Samithi,60,60.0,parsed,"Rs 62.44,000 62 Lacst_",62.44,decimal_review,"Rs 75,000 75 Thou+",75000.0,parsed,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,170,Mangapati Pallam Raju Mallipudi,mangapati pallam raju mallipudi,INC,51,51.0,parsed,"Rs 11,35,18,442
+~ 11 Crore+",113518442.0,parsed,"Rs 33,30,358
+~ 33 Lacs+",3330358.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,177,Mekapati Rajamohan Reddy,mekapati rajamohan reddy,Yuvajana Sramika Rythu Congress Party,69,69.0,parsed,"Rs 36,17,46,068
+~ 36 Crore+",361746068.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,181,Mohammad Ishaq,mohammad ishaq,IND,41,41.0,parsed,"Rs 1,11,49,954
+~ 1 Crore+",11149954.0,parsed,"Rs 51,33,921
+~ 51 Lacs+",5133921.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,184,Murali Mohan Maganti,murali mohan maganti,TDP,73,73.0,parsed,"Rs 18,08,22,216
+~ 18 Crore+",180822216.0,parsed,"Rs 1,22,45,000
+~ 1 Crore+",12245000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,186,Muttamsetti Srinivasa Rao,muttamsetti srinivasa rao,TDP,47,47.0,parsed,"Rs 21,32,94,327
+~ 21 Crore+",213294327.0,parsed,"Rs 6,48,99,193
+~ 6 Crore+",64899193.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,204,P.v.midhun Reddy,p v midhun reddy,Yuvajana Sramika Rythu Congress Party,36,36.0,parsed,"Rs 22,59,84,036
+~ 22 Crore+",225984036.0,parsed,"Rs 81,83,862
+~ 81 Lacs+",8183862.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,208,Panabaka Lakshmi,panabaka lakshmi,INC,56,56.0,parsed,"Rs 6,57,82,130
+~ 6 Crore+",65782130.0,parsed,"Rs 16,82,000
+~ 16 Lacs+",1682000.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,222,"Polasapalli Saroja,",polasapalli saroja,Jai Samaikyandhra Party,33,33.0,parsed,"Rs 6,72,65,000
+~ 6 Crore+",67265000.0,parsed,"Rs 3,50,000
+~ 3 Lacs+",350000.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,224,Poreddy Prabhakar Reddy,poreddy prabhakar reddy,IND,48,48.0,parsed,"Rs 3,13,12,193
+~ 3 Crore+",31312193.0,parsed,"Rs 38,08,810
+~ 38 Lacs+",3808810.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,230,Rajendra Prasad Koneru,rajendra prasad koneru,Yuvajana Sramika Rythu Congress Party,63,63.0,parsed,"Rs 1,37,79,63,388
+~ 137 Crore+",1377963388.0,parsed,"Rs 3,58,22,311
+~ 3 Crore+",35822311.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,235,Rammohannaidu Kinjarapu,rammohannaidu kinjarapu,TDP,27,27.0,parsed,"Rs 8,41,73,423
+~ 8 Crore+",84173423.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,240,Rayapati Sambasiva Rao,rayapati sambasiva rao,TDP,70,70.0,parsed,"Rs 59,58,38,093
+~ 59 Crore+",595838093.0,parsed,"Rs 5,62,63,516
+~ 5 Crore+",56263516.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,245,S.p.y Reddy,s p y reddy,Yuvajana Sramika Rythu Congress Party,64,64.0,parsed,"Rs 21,95,77,179
+~ 21 Crore+",219577179.0,parsed,"Rs 10,77,820
+~ 10 Lacs+",1077820.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,246,Sabbam Hari,sabbam hari,Jai Samaikyandhra Party,60,60.0,parsed,"Rs 10,82,70,254
+~ 10 Crore+",108270254.0,parsed,"Rs 8,24,380
+~ 8 Lacs+",824380.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,248,Sajid Hussain,sajid hussain,AAP,50,50.0,parsed,"Rs 5,46,32,098
+~ 5 Crore+",54632098.0,parsed,"Rs 1,08,40,808
+~ 1 Crore+",10840808.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,253,Sarisa Leela Prasanna Kumari,sarisa leela prasanna kumari,Pyramid Party of India,Unknown,,unparsed_review,"Rs 3,70,000
+~ 3 Lacs+",370000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,260,Shanthi Reddy,shanthi reddy,Yuvajana Sramika Rythu Congress Party,45,45.0,parsed,"Rs 7,91,40,770
+~ 7 Crore+",79140770.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,265,Smt. Thota Vijaya Lakshmi,thota vijaya lakshmi,INC,44,44.0,parsed,"Rs 5,73,24,010
+~ 5 Crore+",57324010.0,parsed,"Rs 40,98,674
+~ 40 Lacs+",4098674.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,269,Srinivas Kesineni,srinivas kesineni,TDP,48,48.0,parsed,"Rs 1,28,41,22,669 128 Crore+_",1284122669.0,parsed,"Rs 71,54,62,989 71 Crore+.",715462989.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,272,Srinivasa Reddy Reddeppagari,srinivasa reddy reddeppagari,TDP,46,46.0,parsed,"Rs 49,75,43,411
+~ 49 Crore+",497543411.0,parsed,"Rs 10,02,08,035
+~ 10 Crore+",100208035.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,274,Sunil Kumar Chalamalasetty,sunil kumar chalamalasetty,Yuvajana Sramika Rythu Congress Party,44,44.0,parsed,"Rs 10,19,92,671
+~ 10 Crore+",101992671.0,parsed,"Rs 1,89,30,000
+~ 1 Crore+",18930000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,276,Svpkh Gopala Krishnam Raju S/o. Venkathiraju,svpkh gopala krishnam raju,Pyramid Party of India,48,48.0,parsed,"Rs 5,92,50,056
+~ 5 Crore+",59250056.0,parsed,"Rs 82,00,000
+~ 82 Lacs+",8200000.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,277,Syed Haneef,syed haneef,Jai Samaikyandhra Party,43,43.0,parsed,"Rs 4,80,73,859
+~ 4 Crore+",48073859.0,parsed,"Rs 45,39,500
+~ 45 Lacs+",4539500.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,278,T. Kuldeep Choudary,t kuldeep choudary,Samaikya Telugu Rajyam,60,60.0,parsed,"Rs 9,13,31,000 9 Crore+",91331000.0,parsed,"Rs 6,36,000 6 Lacst_",636000.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,288,Udaia Kumar Musuku,udaia kumar musuku,Indian Christian Secular Party,57,57.0,parsed,"Rs 44,26,24,916
+~ 44 Crore+",442624916.0,parsed,"Rs 9,54,406
+~ 9 Lacs+",954406.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,289,Ullagi David Jaya Kumar,ullagi david jaya kumar,AAP,56,56.0,parsed,"Rs 2,29,000 2 Lacst_",229000.0,parsed,"Rs 1,.40,000 Lacst",1.4,decimal_review,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,292,V Pattabhi,v pattabhi,IND,Unknown,,unparsed_review,Nil,0.0,explicit_nil_zero,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,297,Vakati Narayana Reddy,vakati narayana reddy,INC,51,51.0,parsed,"Rs 2,51,38,66,365
+~ 251 Crore+",2513866365.0,parsed,"Rs 45,93,22,369
+~ 45 Crore+",459322369.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,298,Vangala Sreenivasa Reddy,vangala sreenivasa reddy,IND,Unknown,,unparsed_review,"Rs 50,50,000 50 Lacst",5050000.0,parsed,"Rs 6,50,000 Lacst",650000.0,parsed,False,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,300,Vanka Ravindranath S/o Satyanarayana,vanka ravindranath,Yuvajana Sramika Rythu Congress Party,53,53.0,parsed,"Rs 1,26,79,07,245
+~ 126 Crore+",1267907245.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,301,Varaprasad Rao Velagapalli,varaprasad rao velagapalli,Yuvajana Sramika Rythu Congress Party,61,61.0,parsed,"Rs 12,91,28,388
+~ 12 Crore+",129128388.0,parsed,"Rs 31,32,962
+~ 31 Lacs+",3132962.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,302,Varikuti Amruthapani,varikuti amruthapani,Yuvajana Sramika Rythu Congress Party,54,54.0,parsed,"Rs 5,26,33,913
+~ 5 Crore+",52633913.0,parsed,"Rs 1,46,62,335
+~ 1 Crore+",14662335.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,309,Venkata Swetha Chalapathi Kumara Krishna Rangarao Ravu,venkata swetha chalapathi kumara krishna rangarao ravu,Yuvajana Sramika Rythu Congress Party,33,33.0,parsed,"Rs 13,85,15,567 13 Crore+",138515567.0,parsed,"Rs 1,61,35,804 Crore+",16135804.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,310,Venkateswara Rao Maganti,venkateswara rao maganti,TDP,54,54.0,parsed,"Rs 12,93,94,729
+~ 12 Crore+",129394729.0,parsed,"Rs 5,52,94,433
+~ 5 Crore+",55294433.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,314,Vijaya Harsha Kumar Geddam,vijaya harsha kumar geddam,Jai Samaikyandhra Party,54,54.0,parsed,"Rs 1,13,84,157
+~ 1 Crore+",11384157.0,parsed,"Rs 40,50,000
+~ 40 Lacs+",4050000.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,317,Viswarupu Pinipe,viswarupu pinipe,Yuvajana Sramika Rythu Congress Party,51,51.0,parsed,"Rs 2,89,90,944
+~ 2 Crore+",28990944.0,parsed,"Rs 79,77,496
+~ 79 Lacs+",7977496.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,322,Yaram Katam Raju,yaram katam raju,IND,52,52.0,parsed,"Rs 18,00,47,712
+~ 18 Crore+",180047712.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2014.csv
+Andhra,2014,323,Yarlagadda Rama Mohana Rao,yarlagadda rama mohana rao,IND,51,51.0,parsed,"Rs 1,06,72,000
+~ 1 Crore+",10672000.0,parsed,"Rs 32,10,000
+~ 32 Lacs+",3210000.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,324,Yarram Venkata Subbareddy,yarram venkata subbareddy,Yuvajana Sramika Rythu Congress Party,53,53.0,parsed,"Rs 73,54,51,548
+~ 73 Crore+",735451548.0,parsed,"Rs 24,05,57,614
+~ 24 Crore+",240557614.0,parsed,True,True,False,ocr_data\andhra_2014.csv
+Andhra,2014,327,Yellipalem Ramesh Reddy,yellipalem ramesh reddy,JD(U),46,46.0,parsed,"Rs 4,27,30,000
+~ 4 Crore+",42730000.0,parsed,"Rs 1,40,00,000
+~ 1 Crore+",14000000.0,parsed,False,True,False,ocr_data\andhra_2014.csv
+Andhra,2019,3,Adala Prabhakara Reddy,adala prabhakara reddy,YSRCP,70,70.0,parsed,"Rs 2,21,16,63,364
+~ 221 Crore+",2211663364.0,parsed,"Rs 15,22,81,255
+~ 15 Crore+",152281255.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,4,Adari Anand Kumar,adari anand kumar,TDP,43,43.0,parsed,"Rs 41,05,47,212
+~ 41 Crore+",410547212.0,parsed,"Rs 20,55,91,400
+~ 20 Crore+",205591400.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,7,Ahmed Ali Khan,ahmed ali khan,INC,42,42.0,parsed,"Rs 15,88,31,414
+~ 15 Crore+",158831414.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,8,Akula Satyanarayana,akula satyanarayana,Janasena Party,55,55.0,parsed,"Rs 67,39,24,565
+~ 67 Crore+",673924565.0,parsed,"Rs 46,19,54,372
+~ 46 Crore+",461954372.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,21,Ashok Gajapathi Raju Pusapati,ashok gajapathi raju pusapati,TDP,67,67.0,parsed,"Rs 18,35,34,582
+~ 18 Crore+",183534582.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,26,Balashowry Vallabhaneni,balashowry vallabhaneni,YSRCP,50,50.0,parsed,"Rs 99,05,75,840
+~ 99 Crore+",990575840.0,parsed,"Rs 74,63,10,844
+~ 74 Crore+",746310844.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,29,Bandreddi Ramakrishna,bandreddi ramakrishna,Janasena Party,44,44.0,parsed,"Rs 10,08,00,000 10 Crore+",100800000.0,parsed,"Rs 3,76,00,000 3 Crore+",37600000.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,30,Beeda Masthan Rao,beeda masthan rao,TDP,60,60.0,parsed,"Rs 1,65,43,92,880
+~ 165 Crore+",1654392880.0,parsed,"Rs 68,09,73,688
+~ 68 Crore+",680973688.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,32,Bellana Chandra Sekhar,bellana chandra sekhar,YSRCP,57,57.0,parsed,"Rs 2,10,35,766
+~ 2 Crore+",21035766.0,parsed,"Rs 1,11,30,148
+~ 1 Crore+",11130148.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,34,Bharat Mathukumilli,bharat mathukumilli,TDP,29,29.0,parsed,"Rs 2,32,53,73,550
+~ 232 Crore+",2325373550.0,parsed,"Rs 95,91,144
+~ 95 Lacs+",9591144.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,38,Bolisetty Hari Babu,bolisetty hari babu,IND,60,60.0,parsed,"Rs 4,56,08,000 Crore+",45608000.0,parsed,"Rs 1,09,44,696 Crore+",10944696.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,40,Bonaboyina Srinivasa Rao,bonaboyina srinivasa rao,Janasena Party,50,50.0,parsed,"Rs 3,28,76,690
+~ 3 Crore+",32876690.0,parsed,"Rs 1,24,82,935
+~ 1 Crore+",12482935.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,44,C. Punyamurthy,c punyamurthy,BSP,45,45.0,parsed,"Rs 3,03,23,800
+~ 3 Crore+",30323800.0,parsed,"Rs 2,16,35,686
+~ 2 Crore+",21635686.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,53,Chinnam Rama Kotayya,chinnam rama kotayya,BJP,58,58.0,parsed,"Rs 10,09,61,778
+~ 10 Crore+",100961778.0,parsed,"Rs 77,13,964
+~ 77 Lacs+",7713964.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,57,Chintala Partha Sarathi,chintala partha sarathi,Janasena Party,56,56.0,parsed,"Rs 33,53,08,506
+~ 33 Crore+",335308506.0,parsed,"Rs 11,09,28,567
+~ 11 Crore+",110928567.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,60,D.A. Sathya Prabha,d a sathya prabha,TDP,68,68.0,parsed,"Rs 2,20,48,33,211
+~ 220 Crore+",2204833211.0,parsed,"Rs 59,32,75,186
+~ 59 Crore+",593275186.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,61,Daggubati Purandeswari,daggubati purandeswari,BJP,58,58.0,parsed,"Rs 32,40,38,450
+~ 32 Crore+",324038450.0,parsed,"Rs 3,49,49,036
+~ 3 Crore+",34949036.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,67,Dileep Kilaru,dileep kilaru,BJP,48,48.0,parsed,"Rs 1,36,90,17,847
+~ 136 Crore+",1369017847.0,parsed,"Rs 42,62,122
+~ 42 Lacs+",4262122.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,69,Dola Jagan Mohana Rao,dola jagan mohana rao,INC,53,53.0,parsed,"Rs 1,23,90,000 Crore+",12390000.0,parsed,"Rs 38.46,000 38 Lacst_",38.46,decimal_review,False,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,72,Dr Gandi Venkata Satyanarayana Rao,gandi venkata satyanarayana rao,BJP,65,65.0,parsed,"Rs 5,76,88,924
+~ 5 Crore+",57688924.0,parsed,"Rs 94,97,894
+~ 94 Lacs+",9497894.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,73,Dr Sanjeev Kumar,sanjeev kumar,YSRCP,52,52.0,parsed,"Rs 32,59,14,387
+~ 32 Crore+",325914387.0,parsed,"Rs 6,20,70,621
+~ 6 Crore+",62070621.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,78,Dr.Beesetti Venkata Satyavathi,dr beesetti venkata satyavathi,YSRCP,52,52.0,parsed,"Rs 9,15,26,244 9 Crore+",91526244.0,parsed,"Rs 1,11,39,279 Crore+",11139279.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,101,Gollu Krishna,gollu krishna,INC,55,55.0,parsed,"Rs 87,95,000
+~ 87 Lacs+",8795000.0,parsed,"Rs 1,14,00,000
+~ 1 Crore+",11400000.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,102,Gona Purushottam Reddy,gona purushottam reddy,IND,40,40.0,parsed,"Rs 2,24,73,647
+~ 2 Crore+",22473647.0,parsed,"Rs 92,06,703
+~ 92 Lacs+",9206703.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,105,Gudivaka Ramanjaneyulu,gudivaka ramanjaneyulu,BJP,57,57.0,parsed,"Rs 3,26,95,161
+~ 3 Crore+",32695161.0,parsed,"Rs 1,05,00,000
+~ 1 Crore+",10500000.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,116,Jakku Chenna Krishna Reddy,jakku chenna krishna reddy,IND,44,44.0,parsed,"Rs 2,47,46,957
+~ 2 Crore+",24746957.0,parsed,"Rs 1,23,80,000
+~ 1 Crore+",12380000.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,118,Jayadev Galla,jayadev galla,TDP,53,53.0,parsed,"Rs 3,05,14,85,242 305 Crore+_",3051485242.0,parsed,"Rs 20,34,52,417 20 Crore+-",203452417.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,123,Jesudasu Seelam,jesudasu seelam,INC,67,67.0,parsed,"Rs 12,63,97,634
+~ 12 Crore+",126397634.0,parsed,"Rs 83,42,498
+~ 83 Lacs+",8342498.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,125,Juturu Chinna Reddy Pavan Reddy,juturu chinna reddy pavan reddy,TDP,46,46.0,parsed,"Rs 37,38,87,429
+~ 37 Crore+",373887429.0,parsed,"Rs 8,45,50,726
+~ 8 Crore+",84550726.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,126,Jyothula Venkateswara Rao,jyothula venkateswara rao,Janasena Party,62,62.0,parsed,"Rs 17,34,51,539
+~ 17 Crore+",173451539.0,parsed,"Rs 11,50,000
+~ 11 Lacs+",1150000.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,132,K.T.Sreedhar,k t sreedhar,INC,41,41.0,parsed,"Rs 4,34,62,500
+~ 4 Crore+",43462500.0,parsed,"Rs 81,28,000
+~ 81 Lacs+",8128000.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,137,Kanna Lakshmi Narayana,kanna lakshmi narayana,BJP,64,64.0,parsed,"Rs 39,13,60,844
+~ 39 Crore+",391360844.0,parsed,"Rs 2,25,61,506
+~ 2 Crore+",22561506.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,140,Kanumuru Bapiraju,kanumuru bapiraju,INC,71,71.0,parsed,"Rs 14,33,19,558
+~ 14 Crore+",143319558.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,141,Kanumuru Raghu Rama Krishna Raju,kanumuru raghu rama krishna raju,YSRCP,57,57.0,parsed,"Rs 3,25,94,05,378
+~ 325 Crore+",3259405378.0,parsed,"Rs 1,01,44,67,354
+~ 101 Crore+",1014467354.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,143,Karra Siva,karra siva,Pyramid Party of India,Unknown,,unparsed_review,"Rs 15,000
+~ 15 Thou+",15000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,150,Konakalla Narayana Rao,konakalla narayana rao,TDP,68,68.0,parsed,"Rs 5,86,49,214
+~ 5 Crore+",58649214.0,parsed,"Rs 1,68,09,408
+~ 1 Crore+",16809408.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,153,Kotla Jaya Surya Prakash Reddy,kotla jaya surya prakash reddy,TDP,67,67.0,parsed,"Rs 17,47,62,674
+~ 17 Crore+",174762674.0,parsed,"Rs 14,50,000
+~ 14 Lacs+",1450000.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,159,Lavu Sri Krishna Devarayalu,lavu sri krishna devarayalu,YSRCP,36,36.0,parsed,"Rs 17,77,10,073
+~ 17 Crore+",177710073.0,parsed,"Rs 1,01,42,413
+~ 1 Crore+",10142413.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,163,M V V Satyanarayana,m v v satyanarayana,YSRCP,52,52.0,parsed,"Rs 2,03,08,85,624
+~ 203 Crore+",2030885624.0,parsed,"Rs 16,00,30,959
+~ 16 Crore+",160030959.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,170,Maganti Venkateswara Rao,maganti venkateswara rao,TDP,59,59.0,parsed,"Rs 19,97,62,023
+~ 19 Crore+",199762023.0,parsed,"Rs 3,33,03,902
+~ 3 Crore+",33303902.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,171,Magunta Sreenivasulu Reddy,magunta sreenivasulu reddy,YSRCP,65,65.0,parsed,"Rs 26,65,83,686
+~ 26 Crore+",266583686.0,parsed,"Rs 9,13,02,133
+~ 9 Crore+",91302133.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,174,Mandra Sivananda Reddy,mandra sivananda reddy,TDP,57,57.0,parsed,"Rs 34,89,03,562
+~ 34 Crore+",348903562.0,parsed,"Rs 6,86,93,655
+~ 6 Crore+",68693655.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,178,Margani Bharat Ram,margani bharat ram,YSRCP,36,36.0,parsed,"Rs 45,82,05,360 45 Crore+",458205360.0,parsed,"Rs 1,78,14,757 Crore+",17814757.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,184,Medisetti Vijaya Kumar,medisetti vijaya kumar,IND,53,53.0,parsed,"Rs 4,62,43,484
+~ 4 Crore+",46243484.0,parsed,"Rs 1,13,58,500
+~ 1 Crore+",11358500.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,187,Mitta Parthasarathi,mitta parthasarathi,BJP,60,60.0,parsed,"Rs 35,78,49,990
+~ 35 Crore+",357849990.0,parsed,"Rs 10,68,20,000
+~ 10 Crore+",106820000.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,188,Modugula Venugopala Reddy,modugula venugopala reddy,YSRCP,52,52.0,parsed,"Rs 13,74,66,129
+~ 13 Crore+",137466129.0,parsed,"Rs 16,75,274
+~ 16 Lacs+",1675274.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,198,N. Reddeppa,n reddeppa,YSRCP,68,68.0,parsed,"Rs 1,73,55,862 Crore+",17355862.0,parsed,"Rs 13.41,542 13 Lacst-",13.41,decimal_review,False,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,201,Nagababu Konidela,nagababu konidela,Janasena Party,58,58.0,parsed,"Rs 36,78,20,773
+~ 36 Crore+",367820773.0,parsed,"Rs 2,16,78,798
+~ 2 Crore+",21678798.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,208,Naraharisetty Narasimha Rao,naraharisetty narasimha rao,INC,58,58.0,parsed,"Rs 1,93,42,702
+~ 1 Crore+",19342702.0,parsed,"Rs 67,88,257
+~ 67 Lacs+",6788257.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,219,P.V. Parthasarathi,p v parthasarathi,BJP,48,48.0,parsed,"Rs 29,75,10,890
+~ 29 Crore+",297510890.0,parsed,"Rs 6,23,28,052
+~ 6 Crore+",62328052.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,221,P.V.Midhun Reddy,p v midhun reddy,YSRCP,42,42.0,parsed,"Rs 66,50,85,701
+~ 66 Crore+",665085701.0,parsed,"Rs 20,54,73,477
+~ 20 Crore+",205473477.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,223,Pakkala Suribabu,pakkala suribabu,INC,60,60.0,parsed,"Rs 7,45,37,563
+~ 7 Crore+",74537563.0,parsed,"Rs 1,91,26,000
+~ 1 Crore+",19126000.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,229,Pedada Ramanikumari,pedada ramanikumari,INC,48,48.0,parsed,"Rs 11,79,36,000 11 Crore+_",117936000.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,234,Perla Samba Murthy,perla samba murthy,BJP,58,58.0,parsed,"Rs 37,51,99,993
+~ 37 Crore+",375199993.0,parsed,"Rs 12,00,00,000
+~ 12 Crore+",120000000.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,235,Pocha Brahmananda Reddy,pocha brahmananda reddy,YSRCP,60,60.0,parsed,"Rs 58,59,32,911
+~ 58 Crore+",585932911.0,parsed,"Rs 17,70,35,582
+~ 17 Crore+",177035582.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,238,Prasad Veera Potluri,prasad veera potluri,YSRCP,48,48.0,parsed,"Rs 3,47,76,16,326 347 Crore+_",3477616326.0,parsed,"Rs 20,95,77,562 20 Crore+",209577562.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,246,Rammohannaidu Kinjarapu,rammohannaidu kinjarapu,TDP,32,32.0,parsed,"Rs 12,27,91,042
+~ 12 Crore+",122791042.0,parsed,"Rs 1,20,00,000
+~ 1 Crore+",12000000.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,248,Rayapati Sambasiva Rao,rayapati sambasiva rao,TDP,75,75.0,parsed,"Rs 43,79,40,180
+~ 43 Crore+",437940180.0,parsed,"Rs 12,33,171
+~ 12 Lacs+",1233171.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,252,Roopa Rammohan Maganti,roopa rammohan maganti,TDP,45,45.0,parsed,"Rs 43,18,48,590
+~ 43 Crore+",431848590.0,parsed,"Rs 32,48,74,000
+~ 32 Crore+",324874000.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,257,S.P.Y. Reddy,s p y reddy,Janasena Party,69,69.0,parsed,"Rs 33,37,60,526
+~ 33 Crore+",333760526.0,parsed,"Rs 95,94,811
+~ 95 Lacs+",9594811.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,262,Sanyasi Raju Pakalapati,sanyasi raju pakalapati,BJP,60,60.0,parsed,"Rs 12,51,55,000
+~ 12 Crore+",125155000.0,parsed,"Rs 2,26,88,000
+~ 2 Crore+",22688000.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,270,Sidda Raghava Rao,sidda raghava rao,TDP,61,61.0,parsed,"Rs 91,68,36,770
+~ 91 Crore+",916836770.0,parsed,"Rs 12,94,14,369
+~ 12 Crore+",129414369.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,271,Siva Chandra Reddy Komma,siva chandra reddy komma,Anna YSR Congress Party,Unknown,,unparsed_review,"Rs 51,60,000
+~ 51 Lacs+",5160000.0,parsed,"Rs 11,00,000
+~ 11 Lacs+",1100000.0,parsed,False,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,274,Sri Rama Chandra Singareddy,sri rama chandra singareddy,BJP,50,50.0,parsed,"Rs 8,49,71,019
+~ 8 Crore+",84971019.0,parsed,"Rs 1,58,86,451
+~ 1 Crore+",15886451.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,275,Sridhar Kotagiri,sridhar kotagiri,YSRCP,46,46.0,parsed,"Rs 46,28,08,829
+~ 46 Crore+",462808829.0,parsed,"Rs 3,35,60,974
+~ 3 Crore+",33560974.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,276,Srinivas Duvvada,srinivas duvvada,YSRCP,52,52.0,parsed,"Rs 5,28,21,196
+~ 5 Crore+",52821196.0,parsed,"Rs 2,58,48,939
+~ 2 Crore+",25848939.0,parsed,False,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,277,Srinivas Kesineni,srinivas kesineni,TDP,53,53.0,parsed,"Rs 80,81,52,415
+~ 80 Crore+",808152415.0,parsed,"Rs 51,23,32,955
+~ 51 Crore+",512332955.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,279,Sunil Kumar Chalamalasetty,sunil kumar chalamalasetty,TDP,49,49.0,parsed,"Rs 25,32,66,524
+~ 25 Crore+",253266524.0,parsed,"Rs 1,83,10,000
+~ 1 Crore+",18310000.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,284,Taadi Veera Jagadeeshwari,taadi veera jagadeeshwari,Pyramid Party of India,65,65.0,parsed,"Rs 28,62,42,307
+~ 28 Crore+",286242307.0,parsed,"Rs 3,18,680
+~ 3 Lacs+",318680.0,parsed,True,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,296,Vanga Geetha Viswanatham,vanga geetha viswanatham,YSRCP,55,55.0,parsed,"Rs 20,25,28,594
+~ 20 Crore+",202528594.0,parsed,"Rs 3,44,16,878
+~ 3 Crore+",34416878.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,298,Vasamsetty Venakta Ramana,vasamsetty venakta ramana,AIFB,Unknown,,unparsed_review,"Rs 48,50,000 48 Lacst_",4850000.0,parsed,"Rs 21,70,000 21 Lacst",2170000.0,parsed,False,False,False,ocr_data\andhra_2019.csv
+Andhra,2019,309,Yalla Venkata Rama Mohana Rao,yalla venkata rama mohana rao,BJP,46,46.0,parsed,"Rs 10,79,92,410 10 Crore+",107992410.0,parsed,"Rs 1,84,24,937 Crore+",18424937.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2019,312,Yeduguri Sandinti Avinash Reddy,yeduguri sandinti avinash reddy,YSRCP,34,34.0,parsed,"Rs 18,69,69,794
+~ 18 Crore+",186969794.0,parsed,"Rs 2,28,33,319
+~ 2 Crore+",22833319.0,parsed,True,True,False,ocr_data\andhra_2019.csv
+Andhra,2024,21,Amarthaluri Venkateswara Rao,amarthaluri venkateswara rao,Marxist Communist Party of India (United),56,56.0,parsed,"Rs 2,21,10,958
+~ 2 Crore+",22110958.0,parsed,"Rs 1,05,50,000
+~ 1 Crore+",10550000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,23,Ambica G Lakshminarayana Valmiki,ambica g lakshminarayana valmiki,TDP,60,60.0,parsed,"Rs 4,75,40,056
+~ 4 Crore+",47540056.0,parsed,"Rs 21,19,559
+~ 21 Lacs+",2119559.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,27,Anil Kumar Maddineni,anil kumar maddineni,IND,45,45.0,parsed,"Rs 33,55,000
+~ 33 Lacs+",3355000.0,parsed,"Rs 52,60,000
+~ 52 Lacs+",5260000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,28,Anil Kumar Poluboina,anil kumar poluboina,YSRCP,44,44.0,parsed,"Rs 11,06,67,086
+~ 11 Crore+",110667086.0,parsed,"Rs 2,00,75,212
+~ 2 Crore+",20075212.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,32,Appala Raju Nammi,appala raju nammi,Bharatha Chaitanya Yuvajana Party,54,54.0,parsed,"Rs 4,78,10,500
+~ 4 Crore+",47810500.0,parsed,"Rs 86,00,000
+~ 86 Lacs+",8600000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,33,Appalanaidu Kalisetti,appalanaidu kalisetti,TDP,50,50.0,parsed,"Rs 6,23,65,187
+~ 6 Crore+",62365187.0,parsed,"Rs 66,70,915
+~ 66 Lacs+",6670915.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,44,B A Samad Shaheen,b a samad shaheen,INC,60,60.0,parsed,"Rs 5,63,87,631
+~ 5 Crore+",56387631.0,parsed,"Rs 1,17,30,500
+~ 1 Crore+",11730500.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,45,B C Ramanadha Areddy,b c ramanadha areddy,IND,58,58.0,parsed,"Rs 2,87,88,630
+~ 2 Crore+",28788630.0,parsed,"Rs 1,49,34,781
+~ 1 Crore+",14934781.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,46,B K Parthasarathi,b k parthasarathi,TDP,65,65.0,parsed,"Rs 16,89,59,895
+~ 16 Crore+",168959895.0,parsed,"Rs 1,78,90,470
+~ 1 Crore+",17890470.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,49,B.Nagamuthyalu,b nagamuthyalu,SUCI(C),42,42.0,parsed,"Rs 3.45,573 3 Lacst_",3.45,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,53,Balashowry Vallabhaneni,balashowry vallabhaneni,Janasena Party,55,55.0,parsed,"Rs 1,33,72,14,564
+~ 133 Crore+",1337214564.0,parsed,"Rs 86,81,02,917
+~ 86 Crore+",868102917.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,59,Bastipati Nagaraju Panchalingala,bastipati nagaraju panchalingala,TDP,45,45.0,parsed,"Rs 9,01,76,000
+~ 9 Crore+",90176000.0,parsed,"Rs 19,36,439
+~ 19 Lacs+",1936439.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,63,Bellana Chandrasekhar,bellana chandrasekhar,YSRCP,62,62.0,parsed,"Rs 2,20,00,775
+~ 2 Crore+",22000775.0,parsed,"Rs 98,52,470
+~ 98 Lacs+",9852470.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,67,Bhargav Valluru,bhargav valluru,INC,36,36.0,parsed,"Rs 12,96,53,183
+~ 12 Crore+",129653183.0,parsed,"Rs 6,04,81,248
+~ 6 Crore+",60481248.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,70,Bhuma Veera Bhadra Reddy,bhuma veera bhadra reddy,Navarang Congress Party,55,55.0,parsed,"Rs 48,50,000
+~ 48 Lacs+",4850000.0,parsed,"Rs 48,00,000
+~ 48 Lacs+",4800000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,71,Bhupathi Raju Srinivasa Varma,bhupathi raju srinivasa varma,BJP,56,56.0,parsed,"Rs 7,16,64,809
+~ 7 Crore+",71664809.0,parsed,"Rs 1,69,26,961
+~ 1 Crore+",16926961.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,78,Bommanaboina Vsr Murthy,bommanaboina vsr murthy,IND,67,67.0,parsed,"Rs 6,76,43,000 6 Crore+",67643000.0,parsed,"Rs 27,40,000 27 Lacst_",2740000.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,82,Botcha Jhansilakshmi,botcha jhansilakshmi,YSRCP,61,61.0,parsed,"Rs 19,76,03,661
+~ 19 Crore+",197603661.0,parsed,"Rs 4,24,87,569
+~ 4 Crore+",42487569.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,86,Budi Mutyala Naidu,budi mutyala naidu,YSRCP,60,60.0,parsed,"Rs 7,39,92,295
+~ 7 Crore+",73992295.0,parsed,"Rs 1,77,19,071
+~ 1 Crore+",17719071.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,89,Buraga Ratnam,buraga ratnam,Loktantrik Janta Dal,53,53.0,parsed,"Rs 4,70,13,655 Crore+",47013655.0,parsed,"Rs 1,40,34,000 Crore+",14034000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,92,Byraboyina Malyadri,byraboyina malyadri,Bharatha Chaitanya Yuvajana Party,55,55.0,parsed,"Rs 1,21,70,000
+~ 1 Crore+",12170000.0,parsed,"Rs 79,70,000
+~ 79 Lacs+",7970000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,95,C. Punyamurthy,c punyamurthy,United Republican Party of India,50,50.0,parsed,"Rs 22,53,020
+~ 22 Lacs+",2253020.0,parsed,"Rs 48,35,485
+~ 48 Lacs+",4835485.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,96,C.M.Ramesh,c m ramesh,BJP,58,58.0,parsed,"Rs 4,97,60,24,996
+~ 497 Crore+",4976024996.0,parsed,"Rs 1,01,61,83,515
+~ 101 Crore+",1016183515.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,99,Chadipiralla Bhupesh Subbarami Reddy,chadipiralla bhupesh subbarami reddy,TDP,37,37.0,parsed,"Rs 3,00,34,646
+~ 3 Crore+",30034646.0,parsed,"Rs 1,13,34,283
+~ 1 Crore+",11334283.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,101,Chalamalasetty Sunil,chalamalasetty sunil,YSRCP,54,54.0,parsed,"Rs 1,49,99,62,589
+~ 149 Crore+",1499962589.0,parsed,"Rs 6,82,39,876
+~ 6 Crore+",68239876.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,116,Daggubati Purandheshwari,daggubati purandheshwari,BJP,67,67.0,parsed,"Rs 62,50,41,146
+~ 62 Crore+",625041146.0,parsed,"Rs 6,98,60,440
+~ 6 Crore+",69860440.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,117,Daggumalla Prasada Rao,daggumalla prasada rao,TDP,62,62.0,parsed,"Rs 38,44,93,765
+~ 38 Crore+",384493765.0,parsed,"Rs 8,02,79,565
+~ 8 Crore+",80279565.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,118,Damodara Rao Gudavalli,damodara rao gudavalli,IND,58,58.0,parsed,"Rs 1,08,35,978 Crore+",10835978.0,parsed,"Rs 49,36,385 49 Lacst-",4936385.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,122,Devamani Devarapalli,devamani devarapalli,BSP,46,46.0,parsed,"Rs 10,75,88,446
+~ 10 Crore+",107588446.0,parsed,"Rs 2,81,39,567
+~ 2 Crore+",28139567.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,125,Devarasetty Raveendra Babu,devarasetty raveendra babu,Andhra Rastra Praja Samithi,49,49.0,parsed,"Rs 3,79,21,000
+~ 3 Crore+",37921000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,132,Dr Byreddy Shabari,byreddy shabari,TDP,40,40.0,parsed,"Rs 14,76,31,050
+~ 14 Crore+",147631050.0,parsed,"Rs 3,20,33,423
+~ 3 Crore+",32033423.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,133,Dr Chandra Sekhar Pemmasani,chandra sekhar pemmasani,TDP,48,48.0,parsed,"Rs 57,05,47,27,538
+~ 5705 Crore+",57054727538.0,parsed,"Rs 10,38,00,00,000
+~ 1038 Crore+",10380000000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,134,Dr Chevireddy Bhaskar Reddy,chevireddy bhaskar reddy,YSRCP,51,51.0,parsed,"Rs 17,25,30,612
+~ 17 Crore+",172530612.0,parsed,"Rs 8,59,20,196
+~ 8 Crore+",85920196.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,137,Dr. Guduri Srinivas,guduri srinivas,YSRCP,60,60.0,parsed,"Rs 16,45,68,281
+~ 16 Crore+",164568281.0,parsed,"Rs 1,26,94,933
+~ 1 Crore+",12694933.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,145,Durga Prasad D Byatarayanaji,durga prasad d byatarayanaji,Challengers Party,58,58.0,parsed,"Rs 4,88,58,000
+~ 4 Crore+",48858000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,150,G M Harish (Balayogi),g m harish,TDP,33,33.0,parsed,"Rs 10,53,89,128
+~ 10 Crore+",105389128.0,parsed,"Rs 1,99,712
+~ 1 Lacs+",199712.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,152,G.V.Ramana Reddy,g v ramana reddy,IND,59,59.0,parsed,"Rs 5,14,19,000
+~ 5 Crore+",51419000.0,parsed,"Rs 6,40,000
+~ 6 Lacs+",640000.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,154,Gaggera Venkata Ramanaiah,gaggera venkata ramanaiah,IND,41,41.0,parsed,"Rs 93,00,000
+~ 93 Lacs+",9300000.0,parsed,"Rs 81,82,000
+~ 81 Lacs+",8182000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,164,Garnepudi Alexander Sudhakar,garnepudi alexander sudhakar,INC,55,55.0,parsed,"Rs 1,76,61,990
+~ 1 Crore+",17661990.0,parsed,"Rs 77,80,000
+~ 77 Lacs+",7780000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,168,Gidugu Rudraraju,gidugu rudraraju,INC,55,55.0,parsed,"Rs 3,53,94,877
+~ 3 Crore+",35394877.0,parsed,"Rs 93,41,000
+~ 93 Lacs+",9341000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,171,Gollu Krishna,gollu krishna,INC,60,60.0,parsed,"Rs 2,50,66,000
+~ 2 Crore+",25066000.0,parsed,"Rs 85,00,000
+~ 85 Lacs+",8500000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,183,J Lakshmi Narasimha Yadav,j lakshmi narasimha yadav,INC,38,38.0,parsed,"Rs 1,13,90,000
+~ 1 Crore+",11390000.0,parsed,"Rs 54,53,367
+~ 54 Lacs+",5453367.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,184,J Shantha,j shantha,YSRCP,51,51.0,parsed,"Rs 4,87,46,996
+~ 4 Crore+",48746996.0,parsed,"Rs 1,32,54,147
+~ 1 Crore+",13254147.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,186,J.D. Seelam,j d seelam,INC,72,72.0,parsed,"Rs 27,69,54,926
+~ 27 Crore+",276954926.0,parsed,"Rs 1,03,20,039
+~ 1 Crore+",10320039.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,189,Jaladi Vijaya Kumari,jaladi vijaya kumari,SP,52,52.0,parsed,"Rs 27,23,960 27 Lacst_",2723960.0,parsed,"Rs 5.40,580 5 Lacst_",5.4,decimal_review,False,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,196,Junnuri J Srinivas,junnuri j srinivas,IND,54,54.0,parsed,"Rs 5,63,40,957
+~ 5 Crore+",56340957.0,parsed,"Rs 59,00,000
+~ 59 Lacs+",5900000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,200,K.B.R.Naidu,k b r naidu,INC,64,64.0,parsed,"Rs 5,81,06,670
+~ 5 Crore+",58106670.0,parsed,"Rs 86,56,204
+~ 86 Lacs+",8656204.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,209,Karumuri Sunil Kumar,karumuri sunil kumar,YSRCP,33,33.0,parsed,"Rs 27,04,00,000 27 Crore+-",270400000.0,parsed,"Rs 1,02,00,000 Crore+",10200000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,216,Kavuri Lavanya,kavuri lavanya,INC,47,47.0,parsed,"Rs 36,79,09,925
+~ 36 Crore+",367909925.0,parsed,"Rs 3,43,00,000
+~ 3 Crore+",34300000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,218,Kesineni Sivanath (Chinni),kesineni sivanath,TDP,55,55.0,parsed,"Rs 29,20,86,245 29 Crore+-",292086245.0,parsed,"Rs 26,17,40,856 26 Crore+-",261740856.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,219,Kesineni Srinivas (Nani),kesineni srinivas,YSRCP,58,58.0,parsed,"Rs 77,32,92,381
+~ 77 Crore+",773292381.0,parsed,"Rs 36,42,52,011
+~ 36 Crore+",364252011.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,221,Kethireddy Raghunathareddy,kethireddy raghunathareddy,IND,48,48.0,parsed,"Rs 22,00,500
+~ 22 Lacs+",2200500.0,parsed,"Rs 65,00,000
+~ 65 Lacs+",6500000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,222,Kilari Venkata Rosaiah,kilari venkata rosaiah,YSRCP,57,57.0,parsed,"Rs 78,08,11,167
+~ 78 Crore+",780811167.0,parsed,"Rs 5,00,81,433
+~ 5 Crore+",50081433.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,223,Kinjarapu Rammohan Naidu,kinjarapu rammohan naidu,TDP,36,36.0,parsed,"Rs 23,30,73,561
+~ 23 Crore+",233073561.0,parsed,"Rs 2,98,63,859
+~ 2 Crore+",29863859.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,229,Koppula Raju,koppula raju,INC,67,67.0,parsed,"Rs 11,55,38,871 11 Crore+.",115538871.0,parsed,"Rs 1,02,95,125 Crore+",10295125.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,233,Kothapalli Geetha,kothapalli geetha,BJP,53,53.0,parsed,"Rs 16,71,66,953
+~ 16 Crore+",167166953.0,parsed,"Rs 11,76,54,232
+~ 11 Crore+",117654232.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,236,Krishna Prasad Tenneti,krishna prasad tenneti,TDP,64,64.0,parsed,"Rs 15,57,57,943
+~ 15 Crore+",155757943.0,parsed,"Rs 1,94,00,000
+~ 1 Crore+",19400000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,243,Lavu Srikrishna Devarayalu,lavu srikrishna devarayalu,TDP,41,41.0,parsed,"Rs 56,65,48,466
+~ 56 Crore+",566548466.0,parsed,"Rs 6,80,88,135
+~ 6 Crore+",68088135.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,252,Magunta Sreenivasulu Reddy,magunta sreenivasulu reddy,TDP,70,70.0,parsed,"Rs 57,95,39,820
+~ 57 Crore+",579539820.0,parsed,"Rs 27,63,23,277
+~ 27 Crore+",276323277.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,254,Malagundla Sankar Narayana,malagundla sankar narayana,YSRCP,59,59.0,parsed,"Rs 19,31,07,649
+~ 19 Crore+",193107649.0,parsed,"Rs 37,65,464
+~ 37 Lacs+",3765464.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,259,Mallikarjuna Vajjala,mallikarjuna vajjala,INC,61,61.0,parsed,"Rs 6,99,18,391
+~ 6 Crore+",69918391.0,parsed,"Rs 84,30,000
+~ 84 Lacs+",8430000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,260,Mallipudi Mangapati Pallam Raju,mallipudi mangapati pallam raju,INC,61,61.0,parsed,"Rs 28,19,77,369
+~ 28 Crore+",281977369.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,271,Metta Rama Rao,metta rama rao,IND,58,58.0,parsed,"Rs 11,28,50,440
+~ 11 Crore+",112850440.0,parsed,"Rs 34,61,278
+~ 34 Lacs+",3461278.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,288,Nallari Kiran Kumar Reddy,nallari kiran kumar reddy,BJP,63,63.0,parsed,"Rs 95,33,92,516
+~ 95 Crore+",953392516.0,parsed,"Rs 23,00,05,240
+~ 23 Crore+",230005240.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,293,Olety Nagendra Krishna,olety nagendra krishna,Jaibhim Rao Bharat Party,55,55.0,parsed,"Rs 1,25,87,802
+~ 1 Crore+",12587802.0,parsed,"Rs 89,08,885
+~ 89 Lacs+",8908885.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,298,P V Midhun Reddy,p v midhun reddy,YSRCP,46,46.0,parsed,"Rs 1,46,85,01,685 146 Crore+_",1468501685.0,parsed,"Rs 56,09,18,969 56 Crore+",560918969.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,303,P.Chowdeswari,p chowdeswari,IND,38,38.0,parsed,"Rs 3,30,40,267
+~ 3 Crore+",33040267.0,parsed,"Rs 56,07,058
+~ 56 Lacs+",5607058.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,319,Pedada Parameswara Rao,pedada parameswara rao,INC,59,59.0,parsed,"Rs 5,15,75,569
+~ 5 Crore+",51575569.0,parsed,"Rs 9,50,000
+~ 9 Lacs+",950000.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,323,Peram Siva Nageswara Rao,peram siva nageswara rao,Republican Party of India (Athawale),55,55.0,parsed,"Rs 6,92,19,943
+~ 6 Crore+",69219943.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,327,Pocha Brahmananda Reddy,pocha brahmananda reddy,YSRCP,66,66.0,parsed,"Rs 1,47,74,74,610
+~ 147 Crore+",1477474610.0,parsed,"Rs 54,37,44,458
+~ 54 Crore+",543744458.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,329,Prabhakar Reddy Vemireddy,prabhakar reddy vemireddy,TDP,68,68.0,parsed,"Rs 7,16,33,22,265 716 Crore+_",7163322265.0,parsed,"Rs 1,97,29,62,603 197 Crore+_",1972962603.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,332,Prasad Patibandla,prasad patibandla,IND,40,40.0,parsed,"Rs 14,54,941
+~ 14 Lacs+",1454941.0,parsed,"Rs 56,04,423
+~ 56 Lacs+",5604423.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,337,Putta Mahesh Kumar,putta mahesh kumar,TDP,36,36.0,parsed,"Rs 72,08,51,715
+~ 72 Crore+",720851715.0,parsed,"Rs 20,04,30,056
+~ 20 Crore+",200430056.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,354,Sanapala Sravan Kumar,sanapala sravan kumar,IND,37,37.0,parsed,"Rs 5,42,91,939
+~ 5 Crore+",54291939.0,parsed,"Rs 1,84,29,000
+~ 1 Crore+",18429000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,357,Shaik Basheed,shaik basheed,INC,38,38.0,parsed,"Rs 2,04,10,000
+~ 2 Crore+",20410000.0,parsed,"Rs 90,00,000
+~ 90 Lacs+",9000000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,365,Simhadri Chandra Sekhar Rao,simhadri chandra sekhar rao,YSRCP,70,70.0,parsed,"Rs 1,38,45,33,974
+~ 138 Crore+",1384533974.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,372,Sreenivasulu Marripati,sreenivasulu marripati,IND,50,50.0,parsed,"Rs 42,417
+~ 42 Thou+",42417.0,parsed,"Rs 1,03,99,558
+~ 1 Crore+",10399558.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,374,Sribharat Mathukumili,sribharat mathukumili,TDP,35,35.0,parsed,"Rs 2,98,95,86,580
+~ 298 Crore+",2989586580.0,parsed,"Rs 1,89,64,522
+~ 1 Crore+",18964522.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,380,Sunkara Sreedhar,sunkara sreedhar,Jai Bharat National Party,38,38.0,parsed,"Rs 3,63,71,260
+~ 3 Crore+",36371260.0,parsed,"Rs 1,58,65,000
+~ 1 Crore+",15865000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,381,Suresh Babu Nandigam,suresh babu nandigam,YSRCP,46,46.0,parsed,"Rs 3,23,70,631
+~ 3 Crore+",32370631.0,parsed,"Rs 1,44,34,297
+~ 1 Crore+",14434297.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,392,Tangella Uday Srinivas (Tea Time Uday),tangella uday srinivas,Janasena Party,38,38.0,parsed,"Rs 31,15,35,620
+~ 31 Crore+",311535620.0,parsed,"Rs 3,62,10,120
+~ 3 Crore+",36210120.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,396,Tilak Perada,tilak perada,YSRCP,50,50.0,parsed,"Rs 12,75,77,004
+~ 12 Crore+",127577004.0,parsed,"Rs 1,08,02,798
+~ 1 Crore+",10802798.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,401,Umabala Guduri,umabala guduri,YSRCP,57,57.0,parsed,"Rs 8,88,48,578
+~ 8 Crore+",88848578.0,parsed,"Rs 15,32,921
+~ 15 Lacs+",1532921.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,402,Umar Bhasha Shaik,umar bhasha shaik,Jana Sahayaka Sakthi,34,34.0,parsed,"Rs 2,80,50,000
+~ 2 Crore+",28050000.0,parsed,"Rs 59,44,068
+~ 59 Lacs+",5944068.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,406,V.C. Naveen Gupta,v c naveen gupta,IND,46,46.0,parsed,"Rs 62,33,92,464
+~ 62 Crore+",623392464.0,parsed,"Rs 16,47,72,793
+~ 16 Crore+",164772793.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,410,Vaddi Hari Ganesh,vaddi hari ganesh,IND,42,42.0,parsed,"Rs 2,45,57,202
+~ 2 Crore+",24557202.0,parsed,"Rs 70,40,000
+~ 70 Lacs+",7040000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,418,Vara Prasad Rao Velagapalli,vara prasad rao velagapalli,BJP,71,71.0,parsed,"Rs 31,18,03,400 31 Crore+-",311803400.0,parsed,"Rs 1,77,83,675 Crore+",17783675.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,420,Vegi Venkatesh,vegi venkatesh,INC,50,50.0,parsed,"Rs 2,35,96,732
+~ 2 Crore+",23596732.0,parsed,"Rs 96,04,000
+~ 96 Lacs+",9604000.0,parsed,False,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,428,Venumbaka Vijayasai Reddy,venumbaka vijayasai reddy,YSRCP,66,66.0,parsed,"Rs 36,51,67,286
+~ 36 Crore+",365167286.0,parsed,"Rs 22,84,855
+~ 22 Lacs+",2284855.0,parsed,True,False,False,ocr_data\andhra_2024.csv
+Andhra,2024,430,Vijay Kumar G.Srkr,vijay kumar g srkr,Liberation Congress Party,61,61.0,parsed,"Rs 9,74,63,302
+~ 9 Crore+",97463302.0,parsed,"Rs 3,00,00,000
+~ 3 Crore+",30000000.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,431,Vijaya Bhaskar .Reddypogu,vijaya bhaskar reddypogu,IND,44,44.0,parsed,"Rs 8,85,18,693
+~ 8 Crore+",88518693.0,parsed,"Rs 12,96,015
+~ 12 Lacs+",1296015.0,parsed,True,False,True,ocr_data\andhra_2024.csv
+Andhra,2024,432,Vijaya Bhaskar Reddypogu,vijaya bhaskar reddypogu,IND,44,44.0,parsed,"Rs 8,85,18,693
+~ 8 Crore+",88518693.0,parsed,"Rs 12,96,015
+~ 12 Lacs+",1296015.0,parsed,True,False,True,ocr_data\andhra_2024.csv
+Andhra,2024,436,Vishnu Reddy Lankireddy,vishnu reddy lankireddy,Bengaluru Nava Nirmana Party,33,33.0,parsed,"Rs 16,45,64,426
+~ 16 Crore+",164564426.0,parsed,"Rs 54,68,575
+~ 54 Lacs+",5468575.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,440,Y. S. Avinash Reddy,y s avinash reddy,YSRCP,39,39.0,parsed,"Rs 40,43,01,973
+~ 40 Crore+",404301973.0,parsed,"Rs 11,56,43,913
+~ 11 Crore+",115643913.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Andhra,2024,441,Y.S. Sharmila Reddy,y s sharmila reddy,INC,50,50.0,parsed,"Rs 1,81,81,88,237
+~ 181 Crore+",1818188237.0,parsed,"Rs 1,18,58,90,981
+~ 118 Crore+",1185890981.0,parsed,True,True,False,ocr_data\andhra_2024.csv
+Bihar,2014,1,Kaushal Yadav,kaushal yadav,JD(U),44,44.0,parsed,"Rs 15,45,66,136
+~ 15 Crore+",154566136.0,parsed,"Rs 26,04,969
+~ 26 Lacs+",2604969.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,2,Abdul Bari Siddiqui,abdul bari siddiqui,RJD,62,62.0,parsed,"Rs 1,63,43,817
+~ 1 Crore+",16343817.0,parsed,"Rs 27,18,221
+~ 27 Lacs+",2718221.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,5,Abu Qaiser,abu qaiser,JD(U),40,40.0,parsed,"Rs 4,51,38,014
+~ 4 Crore+",45138014.0,parsed,"Rs 17,00,000
+~ 17 Lacs+",1700000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,9,Ajay Nishad,ajay nishad,BJP,45,45.0,parsed,"Rs 14,57,12,654 14 Crore+.",145712654.0,parsed,"Rs 9,89,888 9 Lacst_",989888.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,12,Akhilesh Prasad Singh,akhilesh prasad singh,INC,44,44.0,parsed,"Rs 21,62,75,454
+~ 21 Crore+",216275454.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,13,Akhtarul Iman,akhtarul iman,JD(U),48,48.0,parsed,"Rs 49,07,533
+~ 49 Lacs+",4907533.0,parsed,"Rs 8,20,788
+~ 8 Lacs+",820788.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,14,Akshay Verma,akshay verma,Sarvajan Kalyan Loktantrik Party,27,27.0,parsed,"Rs 4,78,45,505
+~ 4 Crore+",47845505.0,parsed,"Rs 1,49,49,074
+~ 1 Crore+",14949074.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,18,Alok Kumar Mehta,alok kumar mehta,RJD,45,45.0,parsed,"Rs 5,16,15,071 5 Crore+",51615071.0,parsed,"Rs 36,61,335 36 Lacst-",3661335.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,22,Amarnath Tiwari,amarnath tiwari,INC,59,59.0,parsed,"Rs 4,33,29,826
+~ 4 Crore+",43329826.0,parsed,"Rs 67,31,845
+~ 67 Lacs+",6731845.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,24,Amit Kumar Chaubey,amit kumar chaubey,AAP,30,30.0,parsed,"Rs 62,38,000
+~ 62 Lacs+",6238000.0,parsed,"Rs 9,60,000
+~ 9 Lacs+",960000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,29,Angesh Kumar,angesh kumar,BSP,43,43.0,parsed,"Rs 17,94,40,000 17 Crore+_",179440000.0,parsed,"Rs 57,50,000 57 Lacst",5750000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,33,Anil Kumar Sharma,anil kumar sharma,JD(U),50,50.0,parsed,"Rs 8,49,88,03,720
+~ 849 Crore+",8498803720.0,parsed,"Rs 1,09,53,93,904
+~ 109 Crore+",1095393904.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,36,Anu Shukla,anu shukla,IND,38,38.0,parsed,"Rs 11,56,49,612
+~ 11 Crore+",115649612.0,parsed,"Rs 18,78,947
+~ 18 Lacs+",1878947.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,41,Ashish Ranjan Sinha,ashish ranjan sinha,INC,64,64.0,parsed,"Rs 9,42,10,202
+~ 9 Crore+",94210202.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,43,Ashok Kumar,ashok kumar,JMM,Unknown,,unparsed_review,"Rs 18,43,000
+~ 18 Lacs+",1843000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,50,Ashwamedh Devi,ashwamedh devi,JD(U),51,51.0,parsed,"Rs 89,16,714
+~ 89 Lacs+",8916714.0,parsed,"Rs 34,30,311
+~ 34 Lacs+",3430311.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,51,Ashwini Kumar Choubey,ashwini kumar choubey,BJP,61,61.0,parsed,"Rs 2,21,00,499
+~ 2 Crore+",22100499.0,parsed,"Rs 19,23,552
+~ 19 Lacs+",1923552.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,54,Awanish Kumar Singh,awanish kumar singh,JD(U),49,49.0,parsed,"Rs 7,57,81,467
+~ 7 Crore+",75781467.0,parsed,"Rs 34,77,531
+~ 34 Lacs+",3477531.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,56,Bagi Kumar Verma,bagi kumar verma,JD(U),61,61.0,parsed,"Rs 3,27,66,379
+~ 3 Crore+",32766379.0,parsed,"Rs 16,00,000
+~ 16 Lacs+",1600000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,57,Baidhnath Prasad Mahto,baidhnath prasad mahto,JD(U),57,57.0,parsed,"Rs 1,47,21,287
+~ 1 Crore+",14721287.0,parsed,"Rs 37,15,011
+~ 37 Lacs+",3715011.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,65,Barun Kumar Jha,barun kumar jha,IND,52,52.0,parsed,"Rs 4,86,26,946
+~ 4 Crore+",48626946.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,83,Brahmadeo Prasad Karyee,brahmadeo prasad karyee,Bajjikanchal Vikas Party,61,61.0,parsed,"Rs 43,28,327
+~ 43 Lacs+",4328327.0,parsed,"Rs 9,19,512
+~ 9 Lacs+",919512.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,87,Chandan Kumar Alias Chandan Gupta,chandan kumar alias chandan gupta,Bihar Janta Party,34,34.0,parsed,"Rs 28,00,179
+~ 28 Lacs+",2800179.0,parsed,"Rs 15,16,000
+~ 15 Lacs+",1516000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,88,Chandra Bhushan,chandra bhushan,AAP,48,48.0,parsed,"Rs 1,40,88,067
+~ 1 Crore+",14088067.0,parsed,"Rs 50,25,161
+~ 50 Lacs+",5025161.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,89,Chandra Bhushan Prasad Chandravnsi,chandra bhushan prasad chandravnsi,Bahujan Mukti Party,44,44.0,parsed,"Rs 2,97,11,938 2 Crore+",29711938.0,parsed,Rs 50.200 50 Thou+_,50.2,decimal_review,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,92,Chandra Shekhar Yadav,chandra shekhar yadav,Bahujan Mukti Party,37,37.0,parsed,"Rs 1,65,57,292
+~ 1 Crore+",16557292.0,parsed,"Rs 34,00,000
+~ 34 Lacs+",3400000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,94,Chandramohan Jha,chandramohan jha,IND,59,59.0,parsed,"Rs 13,88,13,648
+~ 13 Crore+",138813648.0,parsed,"Rs 51,588
+~ 51 Thou+",51588.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,96,Chhedi Paswan,chhedi paswan,BJP,58,58.0,parsed,"Rs 3,57,76,803
+~ 3 Crore+",35776803.0,parsed,"Rs 2,75,000
+~ 2 Lacs+",275000.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,98,Chirag Kumar Paswan,chirag kumar paswan,LJP,32,32.0,parsed,"Rs 1,04,14,470 Crore+",10414470.0,parsed,"Rs 44,58,954 44 Lacst-",4458954.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,101,Choudhary Mahboob Ali Kaiser,choudhary mahboob ali kaiser,LJP,47,47.0,parsed,"Rs 6,65,69,502
+~ 6 Crore+",66569502.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,102,Colonel Lakshmeshwar Mishra,colonel lakshmeshwar mishra,CPI(ML)L,55,55.0,parsed,"Rs 1,54,06,445
+~ 1 Crore+",15406445.0,parsed,"Rs 20,79,445
+~ 20 Lacs+",2079445.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,103,Dadan Yadav,dadan yadav,BSP,50,50.0,parsed,"Rs 2,62,50,000
+~ 2 Crore+",26250000.0,parsed,"Rs 10,35,94,500
+~ 10 Crore+",103594500.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,107,Dev Kumar Choudhary,dev kumar choudhary,IND,39,39.0,parsed,"Rs 50,87,170
+~ 50 Lacs+",5087170.0,parsed,"Rs 8,00,000
+~ 8 Lacs+",800000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,109,Devendra Rakesh,devendra rakesh,Bajjikanchal Vikas Party,63,63.0,parsed,"Rs 4,58,99,000 Crore+",45899000.0,parsed,"Rs 2,56,000 2 Lacst_",256000.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,119,Dilip Singh,dilip singh,IND,Unknown,,unparsed_review,"Rs 1,19,76,871
+~ 1 Crore+",11976871.0,parsed,"Rs 4,50,000
+~ 4 Lacs+",450000.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,120,Dilip Varma,dilip varma,IND,60,60.0,parsed,"Rs 10,99,90,624
+~ 10 Crore+",109990624.0,parsed,"Rs 1,50,08,466
+~ 1 Crore+",15008466.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,121,Dinanath Manjhi,dinanath manjhi,IND,Unknown,,unparsed_review,"Rs 23,77,269
+~ 23 Lacs+",2377269.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,125,Doctor Mahato,doctor mahato,Janvadi Party(Socialist),44,44.0,parsed,"Rs 71,71,000
+~ 71 Lacs+",7171000.0,parsed,"Rs 12,50,000
+~ 12 Lacs+",1250000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,126,Dr Dilip Kumar Jaiswal,dilip kumar jaiswal,BJP,50,50.0,parsed,"Rs 3,29,49,581
+~ 3 Crore+",32949581.0,parsed,"Rs 57,93,000
+~ 57 Lacs+",5793000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,128,Dr. Arun Kumar,arun kumar,Rashtriya Lok Samta Party,55,55.0,parsed,"Rs 3,88,46,631
+~ 3 Crore+",38846631.0,parsed,"Rs 10,00,000
+~ 10 Lacs+",1000000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,129,Dr. Ashok Kumar,ashok kumar,INC,59,59.0,parsed,"Rs 1,45,32,873 Crore+",14532873.0,parsed,"Rs 11,92,539 Lacst_",1192539.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,130,Dr. Ashok Kumar Singh,ashok kumar singh,SHS,Unknown,,unparsed_review,"Rs 20,54,194
+~ 20 Lacs+",2054194.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,134,Dr. Ram Prakash Mahto,ram prakash mahto,JD(U),62,62.0,parsed,"Rs 1,18,29,625
+~ 1 Crore+",11829625.0,parsed,"Rs 12,31,046
+~ 12 Lacs+",1231046.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,135,Dr. Sanjay Jayaswal,sanjay jayaswal,BJP,49,49.0,parsed,"Rs 3,59,41,299
+~ 3 Crore+",35941299.0,parsed,"Rs 61,97,804
+~ 61 Lacs+",6197804.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,137,Dr. Swami Vivekanand,swami vivekanand,AAP,50,50.0,parsed,"Rs 98,90,017
+~ 98 Lacs+",9890017.0,parsed,"Rs 9,00,000
+~ 9 Lacs+",900000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,140,"Durganand Mahavir Nayak,",durganand mahavir nayak,BSP,42,42.0,parsed,"Rs 6,35,62,000
+~ 6 Crore+",63562000.0,parsed,"Rs 3,04,995
+~ 3 Lacs+",304995.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,155,Giriraj Singh,giriraj singh,BJP,61,61.0,parsed,"Rs 5,00,54,771
+~ 5 Crore+",50054771.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,157,Gopal Prasad Sinha,gopal prasad sinha,JD(U),71,71.0,parsed,"Rs 5,91,31,851
+~ 5 Crore+",59131851.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,162,Hari Manjhi,hari manjhi,BJP,51,51.0,parsed,"Rs 1,01,84,120
+~ 1 Crore+",10184120.0,parsed,"Rs 20,00,000
+~ 20 Lacs+",2000000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,164,Hena Sahab,hena sahab,RJD,41,41.0,parsed,"Rs 7,40,95,721
+~ 7 Crore+",74095721.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,166,Hukum Deo Narayan Yadav,hukum deo narayan yadav,BJP,77,77.0,parsed,"Rs 7,79,78,890
+~ 7 Crore+",77978890.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,169,Inderaj Singh Saini,inderaj singh saini,IND,70,70.0,parsed,"Rs 1,19,18,305 Crore+",11918305.0,parsed,"Rs 20,00,000 20 Lacst_",2000000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,178,Jai Prakash Das,jai prakash das,CPI(ML)L,61,61.0,parsed,"Rs 1,.43,450 Lacst",1.43,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,181,Jaiprakash Narayan Yadav,jaiprakash narayan yadav,RJD,60,60.0,parsed,"Rs 2,78,46,274
+~ 2 Crore+",27846274.0,parsed,"Rs 7,91,539
+~ 7 Lacs+",791539.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,183,Janak Ram,janak ram,BJP,42,42.0,parsed,"Rs 1,05,82,664
+~ 1 Crore+",10582664.0,parsed,"Rs 10,39,000
+~ 10 Lacs+",1039000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,194,Kameshwar Chaupal,kameshwar chaupal,BJP,58,58.0,parsed,"Rs 4,13,72,252
+~ 4 Crore+",41372252.0,parsed,"Rs 12,909
+~ 12 Thou+",12909.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,198,Kanti Singh,kanti singh,RJD,59,59.0,parsed,"Rs 6,03,90,021 6 Crore+",60390021.0,parsed,"Rs 3,37,826 3 Lacst_",337826.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,200,Karra Parasu Ramaiah,karra parasu ramaiah,JD(U),59,59.0,parsed,"Rs 2,45,00,404
+~ 2 Crore+",24500404.0,parsed,"Rs 16,72,000
+~ 16 Lacs+",1672000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,208,Krishana Kumari Yadav,krishana kumari yadav,RJD,39,39.0,parsed,"Rs 7,83,52,261
+~ 7 Crore+",78352261.0,parsed,"Rs 18,50,000
+~ 18 Lacs+",1850000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,215,Kunal Singh,kunal singh,INC,58,58.0,parsed,"Rs 5,12,71,000
+~ 5 Crore+",51271000.0,parsed,"Rs 7,50,000
+~ 7 Lacs+",750000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,230,Mahabali Singh,mahabali singh,JD(U),59,59.0,parsed,"Rs 3,34,37,255
+~ 3 Crore+",33437255.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,234,Mahesh Kumar,mahesh kumar,BSP,48,48.0,parsed,"Rs 1,21,36,000
+~ 1 Crore+",12136000.0,parsed,"Rs 8,00,000
+~ 8 Lacs+",800000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,238,Mahesh Paswan,mahesh paswan,IND,46,46.0,parsed,"Rs 5.40,000 5 Lacst_",5.4,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,239,Mahesh Rai,mahesh rai,Bahujan Mukti Party,54,54.0,parsed,"Rs 3,95,73,603
+~ 3 Crore+",39573603.0,parsed,"Rs 77,600
+~ 77 Thou+",77600.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,240,Maheshwar Hazari,maheshwar hazari,JD(U),43,43.0,parsed,"Rs 2,14,64,499
+~ 2 Crore+",21464499.0,parsed,"Rs 69,41,446
+~ 69 Lacs+",6941446.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,244,Mangni Lal Mandal,mangni lal mandal,RJD,65,65.0,parsed,"Rs 7,69,50,805
+~ 7 Crore+",76950805.0,parsed,"Rs 16,54,819
+~ 16 Lacs+",1654819.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,249,Manoj Kr Singh,manoj kr singh,JD(U),45,45.0,parsed,"Rs 9,92,24,071 9 Crore+",99224071.0,parsed,"Rs 14,36,515 14 Lacst-",1436515.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,251,Manoranjan Singh,manoranjan singh,JD(U),54,54.0,parsed,"Rs 3,51,83,301
+~ 3 Crore+",35183301.0,parsed,"Rs 23,11,198
+~ 23 Lacs+",2311198.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,255,Md Anwarul Haque,md anwarul haque,RJD,70,70.0,parsed,"Rs 1,95,80,000
+~ 1 Crore+",19580000.0,parsed,"Rs 11,49,181
+~ 11 Lacs+",1149181.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,258,Md Mokim Ansari,md mokim ansari,JKNPP,49,49.0,parsed,"Rs 3,45,81,400 3 Crore+",34581400.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,273,Meena,meena,JD(U),49,49.0,parsed,"Rs 9,07,37,486
+~ 9 Crore+",90737486.0,parsed,"Rs 69,15,766
+~ 69 Lacs+",6915766.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,275,Meira Kumar,meira kumar,INC,68,68.0,parsed,"Rs 38,47,51,309
+~ 38 Crore+",384751309.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,279,Misha Bharti,misha bharti,RJD,39,39.0,parsed,"Rs 4,76,34,901
+~ 4 Crore+",47634901.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,289,Mohammad Jahid Husain,mohammad jahid husain,AITC,42,42.0,parsed,"Rs 16,57.448 16 Lacst-",1657.448,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,298,Mukesh Kumar Sinha,mukesh kumar sinha,Bhartiya Ekta Manch Party,42,42.0,parsed,"Rs 69,05,132 69 Lacst",6905132.0,parsed,"Rs 25,88,967 25 Lacst-",2588967.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,317,Naresh Prasad Singh,naresh prasad singh,IND,43,43.0,parsed,"Rs 1,13,87,000
+~ 1 Crore+",11387000.0,parsed,"Rs 25,99,000
+~ 25 Lacs+",2599000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,318,Naushaba Khanam,naushaba khanam,BSP,33,33.0,parsed,"Rs 67,.56.440 67 Lacst",67.56,decimal_review,"Rs 6,00,000 6 Lacst_",600000.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,323,Nikhil Kumar,nikhil kumar,INC,72,72.0,parsed,"Rs 29,73,02,441
+~ 29 Crore+",297302441.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,332,Nityanand Rai,nityanand rai,BJP,48,48.0,parsed,"Rs 14,67,43,540
+~ 14 Crore+",146743540.0,parsed,"Rs 39,65,423
+~ 39 Lacs+",3965423.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,333,Nityanand Singh,nityanand singh,IND,39,39.0,parsed,"Rs 13,92,245
+~ 13 Lacs+",1392245.0,parsed,"Rs 20,00,000
+~ 20 Lacs+",2000000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,334,Om Prakash Yadav,om prakash yadav,BJP,48,48.0,parsed,"Rs 22,13,023
+~ 22 Lacs+",2213023.0,parsed,"Rs 19,56,467
+~ 19 Lacs+",1956467.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,335,Om Shanti Baba,om shanti baba,IND,50,50.0,parsed,"Rs 19,02,15,000
+~ 19 Crore+",190215000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,343,Parmatama Singh,parmatama singh,AAP,60,60.0,parsed,"Rs 1,44,62,242
+~ 1 Crore+",14462242.0,parsed,"Rs 10,41,900
+~ 10 Lacs+",1041900.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,348,Parnav Prakash,parnav prakash,AAP,Unknown,,unparsed_review,"Rs 5,84,83,543
+~ 5 Crore+",58483543.0,parsed,"Rs 1,60,00,000
+~ 1 Crore+",16000000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,349,Parveen Amanullah,parveen amanullah,AAP,56,56.0,parsed,"Rs 3,42,92,500 3 Crore+",34292500.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,355,Prabhat Ranjan Das,prabhat ranjan das,AAP,56,56.0,parsed,"Rs 36,46,42,463
+~ 36 Crore+",364642463.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,359,Pradeep Kumar Joshi,pradeep kumar joshi,Rashtra Sewa Dal,45,45.0,parsed,"Rs 1,17,21,162
+~ 1 Crore+",11721162.0,parsed,"Rs 1,19,08,841
+~ 1 Crore+",11908841.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,361,Pradeep Kumar Singh,pradeep kumar singh,BJP,48,48.0,parsed,"Rs 42,91,479
+~ 42 Lacs+",4291479.0,parsed,"Rs 8,02,182
+~ 8 Lacs+",802182.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,367,Pramod Narayan Poddar,pramod narayan poddar,Bhartiya Jantantrik Janata Dal,57,57.0,parsed,"Rs 86,42,000
+~ 86 Lacs+",8642000.0,parsed,"Rs 7,50,000
+~ 7 Lacs+",750000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,377,Purnmasi Ram,purnmasi ram,INC,57,57.0,parsed,"Rs 5,47,64,527
+~ 5 Crore+",54764527.0,parsed,"Rs 1,43,10,110
+~ 1 Crore+",14310110.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,378,Purushottam Choubey,purushottam choubey,SP,47,47.0,parsed,"Rs 1,15,63,93,030 115 Crore+",1156393030.0,parsed,"Rs 2,03,10,000 2 Crore+",20310000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,379,Putul Kumari,putul kumari,BJP,54,54.0,parsed,"Rs 5,80,28,261
+~ 5 Crore+",58028261.0,parsed,"Rs 7,25,973
+~ 7 Lacs+",725973.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,380,Raaj Mangal Prasad,raaj mangal prasad,AAP,54,54.0,parsed,"Rs 1,94,34,996
+~ 1 Crore+",19434996.0,parsed,"Rs 21,72,103
+~ 21 Lacs+",2172103.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,381,Rabri Devi,rabri devi,RJD,61,61.0,parsed,"Rs 7,53,81,900
+~ 7 Crore+",75381900.0,parsed,"Rs 1,30,00,000
+~ 1 Crore+",13000000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,382,Radha Mohan Singh,radha mohan singh,BJP,64,64.0,parsed,"Rs 2,25,58,073
+~ 2 Crore+",22558073.0,parsed,"Rs 42,70,360
+~ 42 Lacs+",4270360.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,383,Raghunath Gupta,raghunath gupta,SP,64,64.0,parsed,"Rs 2,07,00,955
+~ 2 Crore+",20700955.0,parsed,"Rs 15,09,000
+~ 15 Lacs+",1509000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,384,Raghunath Jha,raghunath jha,RJD,68,68.0,parsed,"Rs 1,95,13,745
+~ 1 Crore+",19513745.0,parsed,"Rs 45,08,715
+~ 45 Lacs+",4508715.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,392,Raj Kumar Singh,raj kumar singh,BJP,61,61.0,parsed,"Rs 5,04,03,293
+~ 5 Crore+",50403293.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,397,Rajballabh Prasad,rajballabh prasad,RJD,52,52.0,parsed,"Rs 8,31,37,973
+~ 8 Crore+",83137973.0,parsed,"Rs 13,87,290
+~ 13 Lacs+",1387290.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,398,Rajeev Ranjan,rajeev ranjan,AITC,35,35.0,parsed,"Rs 7,95,05,000 Crore+",79505000.0,parsed,"Rs 40,00,000 40 Lacst_",4000000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,403,Rajendra Singh,rajendra singh,AAP,58,58.0,parsed,"Rs 14,55,858
+~ 14 Lacs+",1455858.0,parsed,"Rs 8,58,745
+~ 8 Lacs+",858745.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,409,Rajesh Ranjan Urf Pappu Yadav,rajesh ranjan urf pappu yadav,RJD,46,46.0,parsed,"Rs 8,12,42,966 8 Crore+",81242966.0,parsed,"Rs 9,56,306 9 Lacst_",956306.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,410,Rajiv Pratap Rudy,rajiv pratap rudy,BJP,53,53.0,parsed,"Rs 6,25,45,997
+~ 6 Crore+",62545997.0,parsed,"Rs 10,08,658
+~ 10 Lacs+",1008658.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,411,Rajiv Ranjan Singh Alias Lalan Singh,rajiv ranjan singh alias lalan singh,JD(U),60,60.0,parsed,"Rs 5,57,57,926
+~ 5 Crore+",55757926.0,parsed,"Rs 35,12,083
+~ 35 Lacs+",3512083.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,415,Rakesh Sharma,rakesh sharma,IND,42,42.0,parsed,"Rs 1,26,93,861
+~ 1 Crore+",12693861.0,parsed,"Rs 8,28,288
+~ 8 Lacs+",828288.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,416,Ram Badan Rai,ram badan rai,SP,59,59.0,parsed,"Rs 2,38,60,981
+~ 2 Crore+",23860981.0,parsed,"Rs 10,00,000
+~ 10 Lacs+",1000000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,422,Ram Kripal Yadav,ram kripal yadav,BJP,53,53.0,parsed,"Rs 1,39,89,431
+~ 1 Crore+",13989431.0,parsed,"Rs 21,00,000
+~ 21 Lacs+",2100000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,427,Ram Pukar Rai,ram pukar rai,IND,42,42.0,parsed,"Rs 1,20,14,000
+~ 1 Crore+",12014000.0,parsed,"Rs 7,23,000
+~ 7 Lacs+",723000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,428,Ram Sundar Das,ram sundar das,JD(U),93,93.0,parsed,"Rs 67,48,748
+~ 67 Lacs+",6748748.0,parsed,"Rs 11,16,705
+~ 11 Lacs+",1116705.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,431,Rama Devi,rama devi,BJP,65,65.0,parsed,"Rs 30,85,91,850
+~ 30 Crore+",308591850.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,432,Rama Kishore Singh,rama kishore singh,LJP,51,51.0,parsed,"Rs 2,16,10,218
+~ 2 Crore+",21610218.0,parsed,"Rs 33,23,006
+~ 33 Lacs+",3323006.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,433,Rama Shankar Singh,rama shankar singh,AIFB,40,40.0,parsed,"Rs 30,12,000
+~ 30 Lacs+",3012000.0,parsed,"Rs 10,00,000
+~ 10 Lacs+",1000000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,449,Ranjan Prasad Yadav,ranjan prasad yadav,JD(U),69,69.0,parsed,"Rs 5,53,27,154 5 Crore+",55327154.0,parsed,"Rs 17,66,678 17 Lacst-",1766678.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,450,Ranjeet Kumar Jha,ranjeet kumar jha,IND,28,28.0,parsed,"Rs 1,79,60,000
+~ 1 Crore+",17960000.0,parsed,"Rs 22,00,000
+~ 22 Lacs+",2200000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,451,Ranjeet Ranjan,ranjeet ranjan,INC,41,41.0,parsed,"Rs 8,12,42,965
+~ 8 Crore+",81242965.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,457,Rina Ragni,rina ragni,Bahujan Mukti Party,37,37.0,parsed,"Rs 16,43,000
+~ 16 Lacs+",1643000.0,parsed,"Rs 16,00,000
+~ 16 Lacs+",1600000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,460,Rita Devi,rita devi,SP,43,43.0,parsed,"Rs 51,36,715
+~ 51 Lacs+",5136715.0,parsed,"Rs 8,00,000
+~ 8 Lacs+",800000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,467,Saleem Perwez,saleem perwez,JD(U),53,53.0,parsed,"Rs 6,49,20,000
+~ 6 Crore+",64920000.0,parsed,"Rs 1,02,837
+~ 1 Lacs+",102837.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,468,Sandeep,sandeep,AAP,28,28.0,parsed,"Rs 57,90,000
+~ 57 Lacs+",5790000.0,parsed,"Rs 7,50,000
+~ 7 Lacs+",750000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,472,Sanjay Kumar,sanjay kumar,BSP,58,58.0,parsed,"Rs 18,00,000
+~ 18 Lacs+",1800000.0,parsed,"Rs 12,00,000
+~ 12 Lacs+",1200000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,473,Sanjay Kumar,sanjay kumar,CPI,50,50.0,parsed,"Rs 2,36,33,247
+~ 2 Crore+",23633247.0,parsed,"Rs 94,60,885
+~ 94 Lacs+",9460885.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,474,Sanjay Kumar Jha,sanjay kumar jha,JD(U),46,46.0,parsed,"Rs 18,13,83,957
+~ 18 Crore+",181383957.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,479,Sanjeev Prasad Toni,sanjeev prasad toni,INC,57,57.0,parsed,"Rs 7,52,79,297
+~ 7 Crore+",75279297.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,480,Santosh Kumar,santosh kumar,JD(U),35,35.0,parsed,"Rs 2,23,16,594
+~ 2 Crore+",22316594.0,parsed,"Rs 14,06,515
+~ 14 Lacs+",1406515.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,492,Satya Narayan Singh,satya narayan singh,IND,51,51.0,parsed,"Rs 1,94,50,824
+~ 1 Crore+",19450824.0,parsed,"Rs 23,96,194
+~ 23 Lacs+",2396194.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,493,Satya Prakash Pandey,satya prakash pandey,AAP,43,43.0,parsed,"Rs 1,22,31,703
+~ 1 Crore+",12231703.0,parsed,"Rs 74,07,841
+~ 74 Lacs+",7407841.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,495,Shah Tariq Anwar,shah tariq anwar,NCP,63,63.0,parsed,"Rs 10,46,00,951
+~ 10 Crore+",104600951.0,parsed,"Rs 2,04,54,853
+~ 2 Crore+",20454853.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,496,Shahid Ali Khan,shahid ali khan,JD(U),54,54.0,parsed,"Rs 4,74,46,000
+~ 4 Crore+",47446000.0,parsed,"Rs 29,85,065
+~ 29 Lacs+",2985065.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,500,Shakaldev Mandal,shakaldev mandal,Samajwadi Janata Party (Rashtriya),70,70.0,parsed,"Rs 8,28,54,500
+~ 8 Crore+",82854500.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,505,Shankar Prasad,shankar prasad,Bahujan Mukti Party,49,49.0,parsed,"Rs 4,02,53,000
+~ 4 Crore+",40253000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,506,Sharad Yadav,sharad yadav,JD(U),66,66.0,parsed,"Rs 5,46,76,401
+~ 5 Crore+",54676401.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,513,Shatrughan Sinha,shatrughan sinha,BJP,67,67.0,parsed,"Rs 1,31,74,05,961
+~ 131 Crore+",1317405961.0,parsed,"Rs 16,87,60,929
+~ 16 Crore+",168760929.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,514,Shatruhan Tiwary,shatruhan tiwary,Bajjikanchal Vikas Party,48,48.0,parsed,"Rs 8,52,48,200
+~ 8 Crore+",85248200.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,519,Shivanandan Prasad,shivanandan prasad,IND,70,70.0,parsed,"Rs 5,02,04,169
+~ 5 Crore+",50204169.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,525,Shyam Lal Singh Kushwaha,shyam lal singh kushwaha,JD(U),59,59.0,parsed,"Rs 8,18,11,000
+~ 8 Crore+",81811000.0,parsed,"Rs 19,32,000
+~ 19 Lacs+",1932000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,526,Shyam Nandan Prasad,shyam nandan prasad,IND,59,59.0,parsed,"Rs 3,65,72,000
+~ 3 Crore+",36572000.0,parsed,"Rs 9,43,000
+~ 9 Lacs+",943000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,528,Sitaram Yadav,sitaram yadav,RJD,66,66.0,parsed,"Rs 6,34,72,115
+~ 6 Crore+",63472115.0,parsed,"Rs 20,91,108
+~ 20 Lacs+",2091108.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,532,Sri Bhagwan Singh Kushwaha,sri bhagwan singh kushwaha,RJD,48,48.0,parsed,"Rs 79,73,528
+~ 79 Lacs+",7973528.0,parsed,"Rs 20,39,416
+~ 20 Lacs+",2039416.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,533,Sri Praksh Jha,sri praksh jha,JD(U),61,61.0,parsed,"Rs 92,54,80,118
+~ 92 Crore+",925480118.0,parsed,"Rs 55,22,93,138
+~ 55 Crore+",552293138.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,535,Subodh Narayan Jha,subodh narayan jha,AITC,63,63.0,parsed,"Rs 77,26,666
+~ 77 Lacs+",7726666.0,parsed,"Rs 22,50,000
+~ 22 Lacs+",2250000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,538,Sudhansu Shekhar Bhaskar,sudhansu shekhar bhaskar,RJD,46,46.0,parsed,"Rs 1,39,50,638 Crore+",13950638.0,parsed,"Rs 12,06,926 12 Lacst-",1206926.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,539,Sulochana Devi,sulochana devi,IND,39,39.0,parsed,"Rs 72,75,000
+~ 72 Lacs+",7275000.0,parsed,"Rs 8,00,000
+~ 8 Lacs+",800000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,544,Sunil Kumar Singh,sunil kumar singh,IND,45,45.0,parsed,"Rs 12,33,69,500
+~ 12 Crore+",123369500.0,parsed,"Rs 61,000
+~ 61 Thou+",61000.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,545,Sunita Kumar,sunita kumar,SP,46,46.0,parsed,"Rs 2,80,13,750
+~ 2 Crore+",28013750.0,parsed,"Rs 25,00,000
+~ 25 Lacs+",2500000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,548,Surendra Prasad Yadav,surendra prasad yadav,RJD,56,56.0,parsed,"Rs 4,94,62,901
+~ 4 Crore+",49462901.0,parsed,"Rs 10,22,720
+~ 10 Lacs+",1022720.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,553,Suresh Kumar,suresh kumar,IND,45,45.0,parsed,"Rs 46,54,200
+~ 46 Lacs+",4654200.0,parsed,"Rs 9,12,000
+~ 9 Lacs+",912000.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,560,Sushil Kumar Singh,sushil kumar singh,BJP,48,48.0,parsed,"Rs 12,78,45,854
+~ 12 Crore+",127845854.0,parsed,"Rs 73,21,626
+~ 73 Lacs+",7321626.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,561,Syed Abu Dojana,syed abu dojana,SP,49,49.0,parsed,"Rs 6,63,53,562
+~ 6 Crore+",66353562.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,564,Syed Shahnawaz Hussain,syed shahnawaz hussain,BJP,45,45.0,parsed,"Rs 4,70,44,000
+~ 4 Crore+",47044000.0,parsed,"Rs 1,40,07,000
+~ 1 Crore+",14007000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,566,Taslim Uddin,taslim uddin,RJD,72,72.0,parsed,"Rs 4,23,68,468
+~ 4 Crore+",42368468.0,parsed,"Rs 10,26,919
+~ 10 Lacs+",1026919.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,570,Uchit Kumar,uchit kumar,IND,Unknown,,unparsed_review,"Rs 1,76,574
+~ 1 Lacs+",176574.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,572,Uday Singh Urf Pappu Singh,uday singh urf pappu singh,BJP,61,61.0,parsed,"Rs 1,46,63,64,723
+~ 146 Crore+",1466364723.0,parsed,"Rs 12,31,00,000
+~ 12 Crore+",123100000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,579,Upendra Kushwaha,upendra kushwaha,Rashtriya Lok Samta Party,51,51.0,parsed,"Rs 2,48,29,741
+~ 2 Crore+",24829741.0,parsed,"Rs 8,23,834
+~ 8 Lacs+",823834.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,582,Upendra Ravidas,upendra ravidas,JMM,35,35.0,parsed,"Rs 42,12,80,000
+~ 42 Crore+",421280000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2014.csv
+Bihar,2014,595,Vijay Kumar Singh,vijay kumar singh,BJP,56,56.0,parsed,"Rs 1,62,10,739
+~ 1 Crore+",16210739.0,parsed,"Rs 15,98,602
+~ 15 Lacs+",1598602.0,parsed,False,True,False,ocr_data\bihar_2014.csv
+Bihar,2014,598,Vinod Kumar Shrivastava,vinod kumar shrivastava,RJD,54,54.0,parsed,"Rs 6,58,85,912 6 Crore+",65885912.0,parsed,"Rs 20,00,000 20 Lacst_",2000000.0,parsed,True,True,False,ocr_data\bihar_2014.csv
+Bihar,2019,9,Abhijit Kumar Singh,abhijit kumar singh,IND,58,58.0,parsed,"Rs 3,00.46,633 3 Crore+",300.46,decimal_review,"Rs 9,00,000 9 Lacst_",900000.0,parsed,False,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,12,Abhishek Priyadarshi,abhishek priyadarshi,IND,37,37.0,parsed,"Rs 97,09,948
+~ 97 Lacs+",9709948.0,parsed,"Rs 40,70,000
+~ 40 Lacs+",4070000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,18,Ajay Kumar Mandal,ajay kumar mandal,JD(U),41,41.0,parsed,"Rs 68,01,126 68 Lacst-",6801126.0,parsed,"Rs 53,64,747 53 Lacst-",5364747.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,20,Ajay Nishad,ajay nishad,BJP,50,50.0,parsed,"Rs 29,88,67,486
+~ 29 Crore+",298867486.0,parsed,"Rs 1,57,14,320
+~ 1 Crore+",15714320.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,25,Akhtarul Iman,akhtarul iman,All India Majlis-E-Ittehadul Muslimeen,55,55.0,parsed,"Rs 72,62,890
+~ 72 Lacs+",7262890.0,parsed,"Rs 19,08,918
+~ 19 Lacs+",1908918.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,30,Amarjeet Kumar,amarjeet kumar,IND,34,34.0,parsed,"Rs 69,40,000
+~ 69 Lacs+",6940000.0,parsed,"Rs 22,50,000
+~ 22 Lacs+",2250000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,46,Anil Kumar,anil kumar,Jantantrik Vikas Party,46,46.0,parsed,"Rs 16,22,40,912
+~ 16 Crore+",162240912.0,parsed,"Rs 1,31,03,750
+~ 1 Crore+",13103750.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,49,Anil Kumar Singh,anil kumar singh,Pragatishil Samajwadi Party (Lohia),66,66.0,parsed,"Rs 27,78,737 27 Lacst-",2778737.0,parsed,"Rs 30,08,344 30 Lacst-",3008344.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,53,Anirudh Prasad,anirudh prasad,BSP,54,54.0,parsed,"Rs 7,98,25,395
+~ 7 Crore+",79825395.0,parsed,"Rs 2,24,04,267
+~ 2 Crore+",22404267.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,56,Arbind Kumar,arbind kumar,Rajnaitik Vikalp Party,68,68.0,parsed,"Rs 91,20,02,858
+~ 91 Crore+",912002858.0,parsed,"Rs 12,92,562
+~ 12 Lacs+",1292562.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,59,Arjun Ray,arjun ray,RJD,47,47.0,parsed,"Rs 1,89,88,281
+~ 1 Crore+",18988281.0,parsed,"Rs 15,11,335
+~ 15 Lacs+",1511335.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,61,Arun Kumar,arun kumar,Rashtriya Samta Party (Secular),60,60.0,parsed,"Rs 6,94,73,960
+~ 6 Crore+",69473960.0,parsed,"Rs 11,15,692
+~ 11 Lacs+",1115692.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,62,Arvind Kumar,arvind kumar,IND,39,39.0,parsed,"Rs 4,10,43,115
+~ 4 Crore+",41043115.0,parsed,"Rs 1,22,07,247
+~ 1 Crore+",12207247.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,70,Ashok Kumar Azad,ashok kumar azad,Hindustani Awam Morcha (Secular),46,46.0,parsed,"Rs 5,67,86,845
+~ 5 Crore+",56786845.0,parsed,"Rs 11,29,071
+~ 11 Lacs+",1129071.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,71,Ashok Kumar Gupta,ashok kumar gupta,IND,67,67.0,parsed,"Rs 14,72,48,402
+~ 14 Crore+",147248402.0,parsed,"Rs 3,00,000
+~ 3 Lacs+",300000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,75,Ashok Kumar Yadav,ashok kumar yadav,BJP,49,49.0,parsed,"Rs 4,66,99,125
+~ 4 Crore+",46699125.0,parsed,"Rs 78,92,847
+~ 78 Lacs+",7892847.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,76,Ashwini Kumar Choubey,ashwini kumar choubey,BJP,66,66.0,parsed,"Rs 4,01,83,612
+~ 4 Crore+",40183612.0,parsed,"Rs 13,50,667
+~ 13 Lacs+",1350667.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,81,Baidyanath Prasad Mahto,baidyanath prasad mahto,JD(U),62,62.0,parsed,"Rs 1,79,34,888
+~ 1 Crore+",17934888.0,parsed,"Rs 29,15,945
+~ 29 Lacs+",2915945.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,88,Basudeo Hazarika,basudeo hazarika,IND,54,54.0,parsed,"Rs 1,05,01,023
+~ 1 Crore+",10501023.0,parsed,"Rs 22,73,000
+~ 22 Lacs+",2273000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,95,Bhudeo Choudhary,bhudeo choudhary,Rashtriya Lok Samta Party,56,56.0,parsed,"Rs 1,77,23,000
+~ 1 Crore+",17723000.0,parsed,"Rs 15,00,000
+~ 15 Lacs+",1500000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,104,Brijesh Kumar Kushwaha,brijesh kumar kushwaha,Rashtriya Lok Samta Party,41,41.0,parsed,"Rs 14,41,90,332
+~ 14 Crore+",144190332.0,parsed,"Rs 2,45,07,384
+~ 2 Crore+",24507384.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,105,Chandan Singh,chandan singh,LJP,36,36.0,parsed,"Rs 17,67,20,167
+~ 17 Crore+",176720167.0,parsed,"Rs 47,22,200
+~ 47 Lacs+",4722200.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,106,Chandeshwar Prasad,chandeshwar prasad,JD(U),68,68.0,parsed,"Rs 13,92,71,693
+~ 13 Crore+",139271693.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,107,Chandra Prakash,chandra prakash,IND,37,37.0,parsed,"Rs 1,25,02,946
+~ 1 Crore+",12502946.0,parsed,"Rs 85,00,000
+~ 85 Lacs+",8500000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,109,Chandrika Roy,chandrika roy,RJD,61,61.0,parsed,"Rs 9,69,44,980 9 Crore+",96944980.0,parsed,"Rs 19,01,831 19 Lacst-",1901831.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,110,Chhedi Paswan,chhedi paswan,BJP,63,63.0,parsed,"Rs 3,77,86,578
+~ 3 Crore+",37786578.0,parsed,"Rs 22,14,842
+~ 22 Lacs+",2214842.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,114,Chiranjib Kumar,chiranjib kumar,SHS,39,39.0,parsed,"Rs 2,76,47,098
+~ 2 Crore+",27647098.0,parsed,"Rs 76,00,000
+~ 76 Lacs+",7600000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,115,Choudhary Mahbub Ali Kaisar,choudhary mahbub ali kaisar,LJP,52,52.0,parsed,"Rs 10,97,88,313
+~ 10 Crore+",109788313.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,120,Deepak Yadav,deepak yadav,BSP,42,42.0,parsed,"Rs 56,94,31,975
+~ 56 Crore+",569431975.0,parsed,"Rs 24,09,792
+~ 24 Lacs+",2409792.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,124,Devendra Rakesh,devendra rakesh,Bajjikanchal Vikas Party,69,69.0,parsed,"Rs 9,67,15,000
+~ 9 Crore+",96715000.0,parsed,"Rs 2,90,000
+~ 2 Lacs+",290000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,125,Devendra Singh,devendra singh,Rashtriya Sarvjan Vikas Party,35,35.0,parsed,"Rs 5,32,90,135
+~ 5 Crore+",53290135.0,parsed,"Rs 2,20,000
+~ 2 Lacs+",220000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,126,Dhaneshwar Mahto,dhaneshwar mahto,Bhartiya Mitra Party,43,43.0,parsed,"Rs 3,14,50,000
+~ 3 Crore+",31450000.0,parsed,"Rs 27,00,000
+~ 27 Lacs+",2700000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,145,Dinesh Chandra Yadav,dinesh chandra yadav,JD(U),67,67.0,parsed,"Rs 3,74,20,953
+~ 3 Crore+",37420953.0,parsed,"Rs 7,00,000
+~ 7 Lacs+",700000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,150,Dr. Alok Kumar Suman,alok kumar suman,JD(U),61,61.0,parsed,"Rs 3,27,39,903
+~ 3 Crore+",32739903.0,parsed,"Rs 35,76,376
+~ 35 Lacs+",3576376.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,154,Dr. Mohammad Jawed,mohammad jawed,INC,54,54.0,parsed,"Rs 9,09,73,803
+~ 9 Crore+",90973803.0,parsed,"Rs 53,83,958
+~ 53 Lacs+",5383958.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,156,Dr. Sanjay Jaiswal,sanjay jaiswal,BJP,54,54.0,parsed,"Rs 19,94,04,885
+~ 19 Crore+",199404885.0,parsed,"Rs 6,73,70,030
+~ 6 Crore+",67370030.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,158,Dulal Chandra Goswami,dulal chandra goswami,JD(U),51,51.0,parsed,"Rs 1,33,02,734 Crore+",13302734.0,parsed,"Rs 31,30,766 31 Lacst",3130766.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,163,Ganpati Jha,ganpati jha,IND,53,53.0,parsed,"Rs 4,53,05,838
+~ 4 Crore+",45305838.0,parsed,"Rs 3,50,000
+~ 3 Lacs+",350000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,166,Ghanshyam Tiwari,ghanshyam tiwari,SP,39,39.0,parsed,"Rs 67,92,703
+~ 67 Lacs+",6792703.0,parsed,"Rs 45,80,000
+~ 45 Lacs+",4580000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,169,Giriraj Singh,giriraj singh,BJP,66,66.0,parsed,"Rs 8,30,24,577 8 Crore+",83024577.0,parsed,"Rs 1,22,36,000 Crore+",12236000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,172,Gulab Yadav,gulab yadav,RJD,51,51.0,parsed,"Rs 9,68,21,512
+~ 9 Crore+",96821512.0,parsed,"Rs 1,67,77,175
+~ 1 Crore+",16777175.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,175,Hena Shahab,hena shahab,RJD,46,46.0,parsed,"Rs 13,90,78,374
+~ 13 Crore+",139078374.0,parsed,"Rs 10,00,000
+~ 10 Lacs+",1000000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,182,Jai Prakash Narayan Yadav,jai prakash narayan yadav,RJD,65,65.0,parsed,"Rs 6,87,39,932
+~ 6 Crore+",68739932.0,parsed,"Rs 6,18,721
+~ 6 Lacs+",618721.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,195,Jitendra Urab,jitendra urab,BSP,49,49.0,parsed,"Rs 6,14,97,000
+~ 6 Crore+",61497000.0,parsed,"Rs 7,00,000
+~ 7 Lacs+",700000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,202,Kaushlendra Kumar,kaushlendra kumar,JD(U),60,60.0,parsed,"Rs 2,92,51,651
+~ 2 Crore+",29251651.0,parsed,"Rs 27,12,389
+~ 27 Lacs+",2712389.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,209,Kumar Gaurav,kumar gaurav,Jai Prakash Janata Dal,45,45.0,parsed,"Rs 8,05,50,000 8 Crore+",80550000.0,parsed,"Rs 10,00,000 10 Lacst_",1000000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,213,Kumar Saurabh,kumar saurabh,IND,39,39.0,parsed,"Rs 1,02,43,062
+~ 1 Crore+",10243062.0,parsed,"Rs 29,55,000
+~ 29 Lacs+",2955000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,218,Lakshaman Kumar Ojha,lakshaman kumar ojha,IND,48,48.0,parsed,"Rs 3,36,75,230 3 Crore+",33675230.0,parsed,"Rs 1,05,00,000 Crore+",10500000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,222,Lalita Ray,lalita ray,Bahujan Nyay Dal,35,35.0,parsed,"Rs 5,23,65,000
+~ 5 Crore+",52365000.0,parsed,"Rs 2,40,162
+~ 2 Lacs+",240162.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,226,M.K.Singh Rathour,m k singh rathour,IND,47,47.0,parsed,"Rs 3,56,23,127
+~ 3 Crore+",35623127.0,parsed,"Rs 15,47,000
+~ 15 Lacs+",1547000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,228,Madhuvala Devi,madhuvala devi,Aam Janta Party Rashtriya,51,51.0,parsed,"Rs 77,83,673
+~ 77 Lacs+",7783673.0,parsed,"Rs 33,00,000
+~ 33 Lacs+",3300000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,229,Mahabali Singh,mahabali singh,JD(U),64,64.0,parsed,"Rs 4,34,42,051 Crore+",43442051.0,parsed,"Rs 30,00,000 30 Lacst_",3000000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,238,Manoj Kumar,manoj kumar,Janhit Kisan Party,28,28.0,parsed,"Rs 41,09,638 41 Lacst",4109638.0,parsed,"Rs 22,00,000 22 Lacst_",2200000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,239,Manoj Kumar,manoj kumar,Janta Raj Vikas Party,37,37.0,parsed,"Rs 33,25,000
+~ 33 Lacs+",3325000.0,parsed,"Rs 14,00,000
+~ 14 Lacs+",1400000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,242,Manoj Singh Kushvaha,manoj singh kushvaha,Jai Prakash Janata Dal,45,45.0,parsed,"Rs 2,69,34,906
+~ 2 Crore+",26934906.0,parsed,"Rs 33,80,000
+~ 33 Lacs+",3380000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,259,Md. Tanweer Hassan,md tanweer hassan,RJD,59,59.0,parsed,"Rs 1,54,83,136
+~ 1 Crore+",15483136.0,parsed,"Rs 14,46,000
+~ 14 Lacs+",1446000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,261,Meira Kumar,meira kumar,INC,74,74.0,parsed,"Rs 47,51,94,636
+~ 47 Crore+",475194636.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,262,Menaka Raman,menaka raman,IND,38,38.0,parsed,"Rs 78,14,034
+~ 78 Lacs+",7814034.0,parsed,"Rs 16,78,000
+~ 16 Lacs+",1678000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,265,Misha Bharti,misha bharti,RJD,42,42.0,parsed,"Rs 7,56,13,265
+~ 7 Crore+",75613265.0,parsed,"Rs 9,85,079
+~ 9 Lacs+",985079.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,281,Mukesh Kumar Jha,mukesh kumar jha,BSP,31,31.0,parsed,"Rs 2,24,47,516
+~ 2 Crore+",22447516.0,parsed,"Rs 97,00,000
+~ 97 Lacs+",9700000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,282,Mukesh Sahani,mukesh sahani,Vikassheel Insaan Party,40,40.0,parsed,"Rs 11,96,99,803
+~ 11 Crore+",119699803.0,parsed,"Rs 1,65,47,563
+~ 1 Crore+",16547563.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,298,Naveen Kumar Singh,naveen kumar singh,Bihar Lok Nirman Dal,39,39.0,parsed,"Rs 49.41,000 49 Lacst_",49.41,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,300,Neelam Kumari,neelam kumari,IND,53,53.0,parsed,"Rs 4,36,29,000
+~ 4 Crore+",43629000.0,parsed,"Rs 15,00,000
+~ 15 Lacs+",1500000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,302,Nilam Devi,nilam devi,INC,48,48.0,parsed,"Rs 62,16,59,689
+~ 62 Crore+",621659689.0,parsed,"Rs 21,46,10,632
+~ 21 Crore+",214610632.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,305,Nita Devi,nita devi,IND,36,36.0,parsed,"Rs 7,64,54,511
+~ 7 Crore+",76454511.0,parsed,"Rs 4,88,000
+~ 4 Lacs+",488000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,306,Nityanand Rai,nityanand rai,BJP,53,53.0,parsed,"Rs 18,70,07,570
+~ 18 Crore+",187007570.0,parsed,"Rs 3,57,561
+~ 3 Lacs+",357561.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,308,Nivedita Singh,nivedita singh,IND,44,44.0,parsed,"Rs 7,14,10,600
+~ 7 Crore+",71410600.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,313,Pankaj Kumar,pankaj kumar,Aap Aur Hum Party,41,41.0,parsed,"Rs 34,05,000
+~ 34 Lacs+",3405000.0,parsed,"Rs 24,50,000
+~ 24 Lacs+",2450000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,321,Pashupati Kumar Paras,pashupati kumar paras,LJP,66,66.0,parsed,"Rs 6,28,34,200
+~ 6 Crore+",62834200.0,parsed,"Rs 67,44,375
+~ 67 Lacs+",6744375.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,326,Prabhakar Jayaswal,prabhakar jayaswal,CPI,55,55.0,parsed,"Rs 29,02,51,911
+~ 29 Crore+",290251911.0,parsed,"Rs 3,67,711
+~ 3 Lacs+",367711.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,327,Prabhash Chandra Sharma,prabhash chandra sharma,Vanchit Samaj Party,42,42.0,parsed,"Rs 49,33,48,961
+~ 49 Crore+",493348961.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,330,Prabhu Narayan,prabhu narayan,SHS,47,47.0,parsed,"Rs 5,57,46,000
+~ 5 Crore+",55746000.0,parsed,"Rs 4,00,000
+~ 4 Lacs+",400000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,336,Prakash Chandra,prakash chandra,Public Mission Party,53,53.0,parsed,"Rs 81,91,437
+~ 81 Lacs+",8191437.0,parsed,"Rs 38,40,400
+~ 38 Lacs+",3840400.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,345,Prof. K.B. Prasad,k b prasad,IND,69,69.0,parsed,"Rs 1,68,12,828
+~ 1 Crore+",16812828.0,parsed,"Rs 17,00,000
+~ 17 Lacs+",1700000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,347,Punit Kumar,punit kumar,IND,30,30.0,parsed,"Rs 80,89,711
+~ 80 Lacs+",8089711.0,parsed,"Rs 19,25,500
+~ 19 Lacs+",1925500.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,350,Putul Kumari,putul kumari,IND,61,61.0,parsed,"Rs 5,38,01,629
+~ 5 Crore+",53801629.0,parsed,"Rs 17,00,000
+~ 17 Lacs+",1700000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,351,R. K. Singh,r k singh,BJP,66,66.0,parsed,"Rs 7,99,71,720
+~ 7 Crore+",79971720.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,353,Raghunath Kumar,raghunath kumar,AAP,47,47.0,parsed,"Rs 4,85,60,000
+~ 4 Crore+",48560000.0,parsed,"Rs 87,00,000
+~ 87 Lacs+",8700000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,356,Raj Bhushan Chaudhry,raj bhushan chaudhry,Vikassheel Insaan Party,41,41.0,parsed,"Rs 7,16,00,000
+~ 7 Crore+",71600000.0,parsed,"Rs 1,41,00,000
+~ 1 Crore+",14100000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,360,Raj Kumar Chauhan,raj kumar chauhan,Bihar Lok Nirman Dal,57,57.0,parsed,"Rs 10,48,89,810
+~ 10 Crore+",104889810.0,parsed,"Rs 44,52,814
+~ 44 Lacs+",4452814.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,365,Raj Kumar Singh,raj kumar singh,BSP,63,63.0,parsed,"Rs 7,99,00,219
+~ 7 Crore+",79900219.0,parsed,"Rs 1,00,000
+~ 1 Lacs+",100000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,367,Raja Ram Singh,raja ram singh,CPI(ML)(L),63,63.0,parsed,"Rs 1,33,81,190
+~ 1 Crore+",13381190.0,parsed,"Rs 14,80,000
+~ 14 Lacs+",1480000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,373,Rajesh Kumar,rajesh kumar,Janata Party,38,38.0,parsed,"Rs 3,42,13,000
+~ 3 Crore+",34213000.0,parsed,"Rs 73,80,000
+~ 73 Lacs+",7380000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,382,Rajesh Ranjan,rajesh ranjan,Jan Adhikar Party (Loktantrik),51,51.0,parsed,"Rs 11,95,43,561
+~ 11 Crore+",119543561.0,parsed,"Rs 1,76,95,194
+~ 1 Crore+",17695194.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,386,Rajiv Pratap Rudy,rajiv pratap rudy,BJP,58,58.0,parsed,"Rs 8,07,40,349
+~ 8 Crore+",80740349.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,387,Rajiv Ranjan,rajiv ranjan,Janta Dal Rashtravadi,44,44.0,parsed,"Rs 4,64,95,000
+~ 4 Crore+",46495000.0,parsed,"Rs 1,19,00,000
+~ 1 Crore+",11900000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,388,Rajiv Ranjan Singh,rajiv ranjan singh,JD(U),65,65.0,parsed,"Rs 8,83,24,866
+~ 8 Crore+",88324866.0,parsed,"Rs 75,34,918
+~ 75 Lacs+",7534918.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,389,Rajkishor Prasad,rajkishor prasad,JMM,42,42.0,parsed,"Rs 17,34,43,409 17 Crore+.",173443409.0,parsed,"Rs 73,59,160 73 Lacst_",7359160.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,396,Rakesh Kumar,rakesh kumar,BSP,39,39.0,parsed,"Rs 31,37,201
+~ 31 Lacs+",3137201.0,parsed,"Rs 18,87,232
+~ 18 Lacs+",1887232.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,397,Rakesh Kumar Rai,rakesh kumar rai,IND,45,45.0,parsed,"Rs 4,68,12,000
+~ 4 Crore+",46812000.0,parsed,"Rs 86,000
+~ 86 Thou+",86000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,401,Ram Charitra Prasad Singh,ram charitra prasad singh,Hindusthan Nirman Dal,72,72.0,parsed,"Rs 89,75,000
+~ 89 Lacs+",8975000.0,parsed,"Rs 19,84,000
+~ 19 Lacs+",1984000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,403,Ram Kripal Yadav,ram kripal yadav,BJP,58,58.0,parsed,"Rs 2,92,13,467
+~ 2 Crore+",29213467.0,parsed,"Rs 17,17,310
+~ 17 Lacs+",1717310.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,411,Rama Devi,rama devi,BJP,69,69.0,parsed,"Rs 32,83,64,940
+~ 32 Crore+",328364940.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,421,Ramesh Kamat,ramesh kamat,Aam Adhikar Morcha,32,32.0,parsed,"Rs 16,56,261
+~ 16 Lacs+",1656261.0,parsed,"Rs 14,11,261
+~ 14 Lacs+",1411261.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,423,Ramesh Kumar Sharma,ramesh kumar sharma,IND,63,63.0,parsed,"Rs 11,07,58,33,190
+~ 1107 Crore+",11075833190.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,429,Ramprit Mandal,ramprit mandal,JD(U),63,63.0,parsed,"Rs 8,81,19,686 8 Crore+",88119686.0,parsed,"Rs 10,00,000 10 Lacst_",1000000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,431,Randhir Kumar Singh,randhir kumar singh,RJD,36,36.0,parsed,"Rs 3,91,12,311
+~ 3 Crore+",39112311.0,parsed,"Rs 62,66,511
+~ 62 Lacs+",6266511.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,435,Ranjeet Ranjan,ranjeet ranjan,INC,46,46.0,parsed,"Rs 11,95,43,561
+~ 11 Crore+",119543561.0,parsed,"Rs 1,76,95,194
+~ 1 Crore+",17695194.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,440,Ratneshwar Jha,ratneshwar jha,Aadarsh Mithila Party,55,55.0,parsed,"Rs 53,10,000
+~ 53 Lacs+",5310000.0,parsed,"Rs 15,00,000
+~ 15 Lacs+",1500000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,442,Ravi Raj,ravi raj,Pragatishil Samajwadi Party (Lohia),40,40.0,parsed,"Rs 69,57,512
+~ 69 Lacs+",6957512.0,parsed,"Rs 28,00,000
+~ 28 Lacs+",2800000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,443,Ravi Shankar Prasad,ravi shankar prasad,BJP,64,64.0,parsed,"Rs 23,52,75,591
+~ 23 Crore+",235275591.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,456,Samir Kumar Jha,samir kumar jha,IND,41,41.0,parsed,"Rs 2,51,06,000
+~ 2 Crore+",25106000.0,parsed,"Rs 57,83,943
+~ 57 Lacs+",5783943.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,458,Sandeep Kumar Singh,sandeep kumar singh,IND,41,41.0,parsed,"Rs 6,08,08,000 6 Crore+",60808000.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,471,Santosh Kumar,santosh kumar,JD(U),42,42.0,parsed,"Rs 4,10,36,294
+~ 4 Crore+",41036294.0,parsed,"Rs 25,00,000
+~ 25 Lacs+",2500000.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,475,Sarfaraz Alam,sarfaraz alam,RJD,50,50.0,parsed,"Rs 7,66,18,366
+~ 7 Crore+",76618366.0,parsed,"Rs 85,66,199
+~ 85 Lacs+",8566199.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,477,Satish Chandra Jha,satish chandra jha,Purvanchal Janta Party (Secular),51,51.0,parsed,"Rs 1,42,52,124
+~ 1 Crore+",14252124.0,parsed,"Rs 13,27,234
+~ 13 Lacs+",1327234.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,484,Satyendra Kumar,satyendra kumar,AAP,47,47.0,parsed,"Rs 2,97,85,377
+~ 2 Crore+",29785377.0,parsed,"Rs 15,20,000
+~ 15 Lacs+",1520000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,487,Shabana,shabana,Jai Prakash Janata Dal,31,31.0,parsed,"Rs 1,48,91,000
+~ 1 Crore+",14891000.0,parsed,"Rs 15,01,500
+~ 15 Lacs+",1501500.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,488,Shah Tariq Anwar,shah tariq anwar,INC,68,68.0,parsed,"Rs 11,92,91,973
+~ 11 Crore+",119291973.0,parsed,"Rs 5,82,950
+~ 5 Lacs+",582950.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,491,Shailesh Kumar,shailesh kumar,RJD,43,43.0,parsed,"Rs 3,03,64,808
+~ 3 Crore+",30364808.0,parsed,"Rs 21,80,647
+~ 21 Lacs+",2180647.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,498,Sharad Yadav,sharad yadav,RJD,71,71.0,parsed,"Rs 8,15,33,690 8 Crore+",81533690.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,503,Shashwat Kedar,shashwat kedar,INC,32,32.0,parsed,"Rs 2,13,70,000
+~ 2 Crore+",21370000.0,parsed,"Rs 17,28,000
+~ 17 Lacs+",1728000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,504,Shatrughan Sinha,shatrughan sinha,INC,73,73.0,parsed,"Rs 1,93,54,59,756
+~ 193 Crore+",1935459756.0,parsed,"Rs 28,48,63,762
+~ 28 Crore+",284863762.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,505,Shatrughna Tiwary,shatrughna tiwary,Bajjikanchal Vikas Party,59,59.0,parsed,"Rs 8,78,80,034
+~ 8 Crore+",87880034.0,parsed,"Rs 3,30,000
+~ 3 Lacs+",330000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,516,Shivchandra Ram,shivchandra ram,RJD,49,49.0,parsed,"Rs 1,86,30,915
+~ 1 Crore+",18630915.0,parsed,"Rs 49,97,011
+~ 49 Lacs+",4997011.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,518,Shiwani Kant,shiwani kant,IND,32,32.0,parsed,"Rs 45,32,567 45 Lacst-",4532567.0,parsed,"Rs 15,56,750 15 Lacst_",1556750.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,528,Som Prakash,som prakash,Swaraj Party (Loktantrik),46,46.0,parsed,"Rs 14,37,80,000
+~ 14 Crore+",143780000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,532,Subhash Singh,subhash singh,Jago Hindustan Party,45,45.0,parsed,"Rs 3,71,25,000
+~ 3 Crore+",37125000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,538,Sudhir Kumar Ray,sudhir kumar ray,IND,27,27.0,parsed,"Rs 68,76,444 68 Lacst-",6876444.0,parsed,"Rs 13,56,760 13 Lacst_",1356760.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,544,Sunil Kumar,sunil kumar,JD(U),58,58.0,parsed,"Rs 6,07,17,031
+~ 6 Crore+",60717031.0,parsed,"Rs 1,02,77,790
+~ 1 Crore+",10277790.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,545,Sunil Kumar,sunil kumar,IND,53,53.0,parsed,"Rs 1,23,29,000
+~ 1 Crore+",12329000.0,parsed,"Rs 23,00,000
+~ 23 Lacs+",2300000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,553,Surendra Prasad Yadav,surendra prasad yadav,RJD,60,60.0,parsed,"Rs 8,73,52,346
+~ 8 Crore+",87352346.0,parsed,"Rs 30,63,057
+~ 30 Lacs+",3063057.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,559,Suresh Kumar Bharti,suresh kumar bharti,Asli Deshi Party,37,37.0,parsed,"Rs 3,93,07,685
+~ 3 Crore+",39307685.0,parsed,"Rs 4,20,000
+~ 4 Lacs+",420000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,566,Sushil Kumar Singh,sushil kumar singh,BJP,53,53.0,parsed,"Rs 16,78,95,109
+~ 16 Crore+",167895109.0,parsed,"Rs 37,46,607
+~ 37 Lacs+",3746607.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,567,Sushma Devi,sushma devi,SHS,38,38.0,parsed,"Rs 4,17,80,000
+~ 4 Crore+",41780000.0,parsed,"Rs 1,00,000
+~ 1 Lacs+",100000.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2019,568,Swarnlata Devi,swarnlata devi,BSP,47,47.0,parsed,"Rs 3,33,50,332
+~ 3 Crore+",33350332.0,parsed,"Rs 47,37,454
+~ 47 Lacs+",4737454.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,570,Syed Faisal Ali,syed faisal ali,RJD,52,52.0,parsed,"Rs 2,55,26,590
+~ 2 Crore+",25526590.0,parsed,"Rs 88,14,643
+~ 88 Lacs+",8814643.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,571,Syed Mahmood Ashraf,syed mahmood ashraf,JD(U),54,54.0,parsed,"Rs 1,98,54,930
+~ 1 Crore+",19854930.0,parsed,"Rs 35,98,799
+~ 35 Lacs+",3598799.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,575,Tulsi Dayal,tulsi dayal,IND,56,56.0,parsed,"Rs 1,10,22,795
+~ 1 Crore+",11022795.0,parsed,"Rs 42,98,451
+~ 42 Lacs+",4298451.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,578,Uday Singh,uday singh,INC,66,66.0,parsed,"Rs 3,41,86,43,970 341 Crore+",3418643970.0,parsed,"Rs 71,57,92,024 71 Crore+.",715792024.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,584,Umesh Das,umesh das,BSP,47,47.0,parsed,"Rs 1,10,21,433
+~ 1 Crore+",11021433.0,parsed,"Rs 15,00,000
+~ 15 Lacs+",1500000.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,588,Upendra Kushwaha,upendra kushwaha,Rashtriya Lok Samta Party,56,56.0,parsed,"Rs 2,44,41,520
+~ 2 Crore+",24441520.0,parsed,"Rs 13,58,960
+~ 13 Lacs+",1358960.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,589,Upendra Kushwaha,upendra kushwaha,Rashtriya Lok Samta Party,56,56.0,parsed,"Rs 3,10,34,113 3 Crore+",31034113.0,parsed,"Rs 13,58,960 13 Lacst_",1358960.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,595,Veena Devi,veena devi,LJP,48,48.0,parsed,"Rs 33,72,84,632
+~ 33 Crore+",337284632.0,parsed,"Rs 11,20,89,220
+~ 11 Crore+",112089220.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,596,Vibha Devi,vibha devi,RJD,53,53.0,parsed,"Rs 11,84,31,743
+~ 11 Crore+",118431743.0,parsed,"Rs 48,49,749
+~ 48 Lacs+",4849749.0,parsed,True,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,598,Vidya Jyoti,vidya jyoti,Bahujan Mukti Party,47,47.0,parsed,"Rs 1,30,22,788 Crore+",13022788.0,parsed,"Rs 16,83,054 16 Lacst-",1683054.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,602,Vijay Kumar,vijay kumar,JD(U),55,55.0,parsed,"Rs 1,27,66,141
+~ 1 Crore+",12766141.0,parsed,"Rs 31,48,932
+~ 31 Lacs+",3148932.0,parsed,False,True,False,ocr_data\bihar_2019.csv
+Bihar,2019,616,Vishnu Dev Yadav,vishnu dev yadav,BSP,67,67.0,parsed,"Rs 4,34,39,000
+~ 4 Crore+",43439000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2019.csv
+Bihar,2024,3,Aakash Kumar Singh,aakash kumar singh,INC,33,33.0,parsed,"Rs 6,59,33,186
+~ 6 Crore+",65933186.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,8,Abha Ray,abha ray,Peoples Party of India (Democratic),30,30.0,parsed,"Rs 1,56,27,000
+~ 1 Crore+",15627000.0,parsed,"Rs 20,00,000
+~ 20 Lacs+",2000000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,10,Abhay Kumar Sinha,abhay kumar sinha,RJD,53,53.0,parsed,"Rs 10,77,18,589
+~ 10 Crore+",107718589.0,parsed,"Rs 4,78,01,483
+~ 4 Crore+",47801483.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,15,Ajay Kumar Mandal,ajay kumar mandal,JD(U),46,46.0,parsed,"Rs 1,22,32,756
+~ 1 Crore+",12232756.0,parsed,"Rs 49,80,480
+~ 49 Lacs+",4980480.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,17,Ajay Nishad,ajay nishad,INC,55,55.0,parsed,"Rs 29,62,91,687
+~ 29 Crore+",296291687.0,parsed,"Rs 1,02,02,589
+~ 1 Crore+",10202589.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,21,Ajeet Sharma,ajeet sharma,INC,70,70.0,parsed,"Rs 54,51,51,545
+~ 54 Crore+",545151545.0,parsed,"Rs 4,56,76,250
+~ 4 Crore+",45676250.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,26,Akhileshwar Prasad Singh,akhileshwar prasad singh,All India Majlis-E-Ittehadul Muslimeen,72,72.0,parsed,"Rs 36,00,85,130
+~ 36 Crore+",360085130.0,parsed,"Rs 55,000
+~ 55 Thou+",55000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,27,Akhileshwar Shrivaishanv,akhileshwar shrivaishanv,IND,29,29.0,parsed,"Rs 5,18,01,680
+~ 5 Crore+",51801680.0,parsed,"Rs 20,89,000
+~ 20 Lacs+",2089000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,29,Alok Kumar Mehta,alok kumar mehta,RJD,55,55.0,parsed,"Rs 10,58,15,493 10 Crore+.",105815493.0,parsed,"Rs 16,33,010 16 Lacst_",1633010.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,42,Anil Kumar,anil kumar,BSP,45,45.0,parsed,"Rs 8,47,36,820
+~ 8 Crore+",84736820.0,parsed,"Rs 1,17,04,610
+~ 1 Crore+",11704610.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,47,Archana Kumari,archana kumari,RJD,38,38.0,parsed,"Rs 6,16,56,118
+~ 6 Crore+",61656118.0,parsed,"Rs 4,93,163
+~ 4 Lacs+",493163.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,50,Arun Bharti,arun bharti,Lok Janshakti Party(Ram Vilas),45,45.0,parsed,"Rs 6,48,70,319
+~ 6 Crore+",64870319.0,parsed,"Rs 3,12,04,393
+~ 3 Crore+",31204393.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,54,Arun Kumar,arun kumar,BSP,65,65.0,parsed,"Rs 9,90,21,663
+~ 9 Crore+",99021663.0,parsed,"Rs 9,00,000
+~ 9 Lacs+",900000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,58,Ashok Kumar Yadav,ashok kumar yadav,BJP,54,54.0,parsed,"Rs 5,85,83,773 5 Crore+",58583773.0,parsed,"Rs 1,02,24,706 Crore+",10224706.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,61,Ashutosh Vinay Kumar,ashutosh vinay kumar,Rashtriya Garib Dal,61,61.0,parsed,"Rs 12,24,52,780
+~ 12 Crore+",122452780.0,parsed,"Rs 19,52,961
+~ 19 Lacs+",1952961.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,71,Baidya Nath Mehta,baidya nath mehta,IND,54,54.0,parsed,"Rs 19,10,45,076
+~ 19 Crore+",191045076.0,parsed,"Rs 8,00,33,508
+~ 8 Crore+",80033508.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,82,Bikash Kumar,bikash kumar,BSP,53,53.0,parsed,"Rs 11,78,10,727
+~ 11 Crore+",117810727.0,parsed,"Rs 3,12,99,383
+~ 3 Crore+",31299383.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,83,Bima Bharti,bima bharti,RJD,49,49.0,parsed,"Rs 5,03,32,043
+~ 5 Crore+",50332043.0,parsed,"Rs 32,62,644
+~ 32 Lacs+",3262644.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,85,Binod Yadav,binod yadav,IND,48,48.0,parsed,"Rs 2,05,44,561
+~ 2 Crore+",20544561.0,parsed,"Rs 1,28,00,000
+~ 1 Crore+",12800000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,87,Chandeshwar Prasad,chandeshwar prasad,JD(U),72,72.0,parsed,"Rs 14,46,82,826
+~ 14 Crore+",144682826.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,90,Chandra Kishor Thakur,chandra kishor thakur,Aam Janta Party Rashtriya,54,54.0,parsed,"Rs 7,45,64,423
+~ 7 Crore+",74564423.0,parsed,"Rs 1,24,83,338
+~ 1 Crore+",12483338.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,97,Da Kumar Chandradeep,da kumar chandradeep,RJD,57,57.0,parsed,"Rs 10,60,88,059
+~ 10 Crore+",106088059.0,parsed,"Rs 1,09,92,699
+~ 1 Crore+",10992699.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,98,Dadan Yadav,dadan yadav,IND,60,60.0,parsed,"Rs 5,64,37,500 5 Crore+",56437500.0,parsed,"Rs 46,04,30,000 46 Crore+-",460430000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,101,Deepak Kumar,deepak kumar,Jagrook Janta Party,26,26.0,parsed,"Rs 1,74,89,137
+~ 1 Crore+",17489137.0,parsed,"Rs 29,32,060
+~ 29 Lacs+",2932060.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,103,Deepak Yadav,deepak yadav,RJD,46,46.0,parsed,"Rs 74,87,88,248
+~ 74 Crore+",748788248.0,parsed,"Rs 6,16,67,976
+~ 6 Crore+",61667976.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,105,Devesh Chandra Thakur,devesh chandra thakur,JD(U),71,71.0,parsed,"Rs 8,84,65,387
+~ 8 Crore+",88465387.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,116,Dilip Kumar Mishra,dilip kumar mishra,Prabal Bharat Party,60,60.0,parsed,"Rs 54,64,106
+~ 54 Lacs+",5464106.0,parsed,"Rs 21,64,392
+~ 21 Lacs+",2164392.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,118,Dinanath Chandravanshi,dinanath chandravanshi,IND,39,39.0,parsed,"Rs 12.71,000 12 Lacst_",12.71,decimal_review,"Rs 14,06,000 14 Lacst",1406000.0,parsed,False,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,121,Dinesh Chandra Yadav,dinesh chandra yadav,JD(U),72,72.0,parsed,"Rs 6,62,09,377
+~ 6 Crore+",66209377.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,129,Dr.Sanjay Jaiswal,dr sanjay jaiswal,BJP,58,58.0,parsed,"Rs 29,05,35,126 29 Crore+-",290535126.0,parsed,"Rs 13,525 13 Thou+",13525.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,130,Dulal Chandra Goswami,dulal chandra goswami,JD(U),56,56.0,parsed,"Rs 2,38,13,270
+~ 2 Crore+",23813270.0,parsed,"Rs 63,63,267
+~ 63 Lacs+",6363267.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,131,Durgananda Mahavir Nayak,durgananda mahavir nayak,BSP,52,52.0,parsed,"Rs 13,95,67,172
+~ 13 Crore+",139567172.0,parsed,"Rs 56,25,000
+~ 56 Lacs+",5625000.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,139,Gauri Shankar Sahu,gauri shankar sahu,IND,64,64.0,parsed,"Rs 11,58,52,062
+~ 11 Crore+",115852062.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,143,Giridhari Yadav,giridhari yadav,JD(U),63,63.0,parsed,"Rs 1,72,81,101
+~ 1 Crore+",17281101.0,parsed,"Rs 56,95,769
+~ 56 Lacs+",5695769.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,144,Giriraj Singh,giriraj singh,BJP,71,71.0,parsed,"Rs 14,31,69,297
+~ 14 Crore+",143169297.0,parsed,"Rs 90,00,000
+~ 90 Lacs+",9000000.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,145,Gopal Jee Thakur,gopal jee thakur,BJP,54,54.0,parsed,"Rs 3,90,78,830
+~ 3 Crore+",39078830.0,parsed,"Rs 68,75,610
+~ 68 Lacs+",6875610.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,148,Gulab Yadav,gulab yadav,BSP,56,56.0,parsed,"Rs 16,25,04,239
+~ 16 Crore+",162504239.0,parsed,"Rs 49,09,206
+~ 49 Lacs+",4909206.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,149,Gunjan Kumar,gunjan kumar,IND,34,34.0,parsed,"Rs 5,70,65,762 5 Crore+",57065762.0,parsed,"Rs 20,00,000 20 Lacst_",2000000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,155,Harikeshwar Ram,harikeshwar ram,BSP,62,62.0,parsed,"Rs 7,99,72,625
+~ 7 Crore+",79972625.0,parsed,"Rs 9,00,000
+~ 9 Lacs+",900000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,159,Hena Shahab,hena shahab,IND,53,53.0,parsed,"Rs 14,24,76,988
+~ 14 Crore+",142476988.0,parsed,"Rs 11,16,288
+~ 11 Lacs+",1116288.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,162,Jagdish Prasad,jagdish prasad,Loktantrik Samajik Nyay Party,69,69.0,parsed,"Rs 10,15,31,131
+~ 10 Crore+",101531131.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,164,Jai Prakash Narayan Yadav,jai prakash narayan yadav,RJD,70,70.0,parsed,"Rs 7,73,75,059
+~ 7 Crore+",77375059.0,parsed,"Rs 1,11,288
+~ 1 Lacs+",111288.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,169,Jeewan Kumar,jeewan kumar,IND,34,34.0,parsed,"Rs 7,80,86,445 Crore+",78086445.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,172,Jitendra Kumar,jitendra kumar,IND,56,56.0,parsed,"Rs 4,92,13,293
+~ 4 Crore+",49213293.0,parsed,"Rs 36,88,000
+~ 36 Lacs+",3688000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,178,Kaushalendra Kumar,kaushalendra kumar,JD(U),65,65.0,parsed,"Rs 4,24,53,773 Crore+",42453773.0,parsed,"Rs 73,46,973 73 Lacst-",7346973.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,181,Khalid Mobarak,khalid mobarak,IND,37,37.0,parsed,"Rs 36,05,481
+~ 36 Lacs+",3605481.0,parsed,"Rs 72,40,000
+~ 72 Lacs+",7240000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,185,Kishor Kumar Das,kishor kumar das,Akhil Bhartiya Parivar Party,55,55.0,parsed,"Rs 6,49,56,800
+~ 6 Crore+",64956800.0,parsed,"Rs 4,20,00,000
+~ 4 Crore+",42000000.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,194,Kumar Sarvjeet,kumar sarvjeet,RJD,48,48.0,parsed,"Rs 11,90,61,473
+~ 11 Crore+",119061473.0,parsed,"Rs 29,88,914
+~ 29 Lacs+",2988914.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,200,Lalit Kumar Yadav,lalit kumar yadav,RJD,58,58.0,parsed,"Rs 17,92,48,671
+~ 17 Crore+",179248671.0,parsed,"Rs 3,79,85,379
+~ 3 Crore+",37985379.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,202,Lovely Anand,lovely anand,JD(U),57,57.0,parsed,"Rs 9,45,53,723
+~ 9 Crore+",94553723.0,parsed,"Rs 31,69,916
+~ 31 Lacs+",3169916.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,204,Madhuri Kumari,madhuri kumari,All India Forward Bloc,42,42.0,parsed,"Rs 64,45,948
+~ 64 Lacs+",6445948.0,parsed,"Rs 30,00,000
+~ 30 Lacs+",3000000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,209,Mahesh Kumar,mahesh kumar,Samata Party,36,36.0,parsed,"Rs 4,28.457 Lacst_",428.457,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,212,Manoj Kumar,manoj kumar,INC,40,40.0,parsed,"Rs 3,24,91,416
+~ 3 Crore+",32491416.0,parsed,"Rs 24,00,000
+~ 24 Lacs+",2400000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,218,Md Farooque Raza,md farooque raza,All India Majlis-E-Ittehadul Muslimeen,42,42.0,parsed,"Rs 2,49,49,734 2 Crore+",24949734.0,parsed,"Rs 20,00,000 20 Lacst_",2000000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,229,Misha Bharti,misha bharti,RJD,47,47.0,parsed,"Rs 10,26,19,562 10 Crore+_",102619562.0,parsed,"Rs 1,14,62,479 Crore+",11462479.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,231,Mithilesh Tiwari,mithilesh tiwari,BJP,53,53.0,parsed,"Rs 2,67,88,071
+~ 2 Crore+",26788071.0,parsed,"Rs 20,12,016
+~ 20 Lacs+",2012016.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,234,Mohammad Anzarul Hasan,mohammad anzarul hasan,All India Majlis-E-Ittehadul Muslimeen,54,54.0,parsed,"Rs 67,04,465
+~ 67 Lacs+",6704465.0,parsed,"Rs 20,00,000
+~ 20 Lacs+",2000000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,235,Mohammad Jawed,mohammad jawed,INC,60,60.0,parsed,"Rs 15,96,75,943
+~ 15 Crore+",159675943.0,parsed,"Rs 1,65,62,000
+~ 1 Crore+",16562000.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,254,Mushtak Alam,mushtak alam,IND,49,49.0,parsed,"Rs 7,28,90,900
+~ 7 Crore+",72890900.0,parsed,"Rs 3,50,000
+~ 3 Lacs+",350000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,269,Neeraj Kumar,neeraj kumar,BSP,48,48.0,parsed,"Rs 23,61,70,405 23 Crore+-",236170405.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,270,Neetish Kumar,neetish kumar,IND,36,36.0,parsed,"Rs 8,36,77,293
+~ 8 Crore+",83677293.0,parsed,"Rs 70,000
+~ 70 Thou+",70000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,279,Nityanand Rai,nityanand rai,BJP,58,58.0,parsed,"Rs 17,95,27,017
+~ 17 Crore+",179527017.0,parsed,"Rs 14,00,000
+~ 14 Lacs+",1400000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,287,Pawan Singh,pawan singh,IND,38,38.0,parsed,"Rs 16,75,43,819
+~ 16 Crore+",167543819.0,parsed,"Rs 1,00,00,000
+~ 1 Crore+",10000000.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,292,Prabhakar Ranjan,prabhakar ranjan,Ekam Sanatan Bharat Dal,40,40.0,parsed,"Rs 1,08,96,000
+~ 1 Crore+",10896000.0,parsed,"Rs 97,38,012
+~ 97 Lacs+",9738012.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,294,Pradeep Kumar Joshi,pradeep kumar joshi,Rashtra Sewa Dal,55,55.0,parsed,"Rs 1,53,40,000
+~ 1 Crore+",15340000.0,parsed,"Rs 1,35,45,361
+~ 1 Crore+",13545361.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,296,Prakash Mani Tiwari,prakash mani tiwari,IND,40,40.0,parsed,"Rs 1,08,33,048
+~ 1 Crore+",10833048.0,parsed,"Rs 50,32,431
+~ 50 Lacs+",5032431.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,301,Pravesh Kumar Mishra Alias Anup,pravesh kumar mishra alias anup,IND,48,48.0,parsed,"Rs 6,45,76,997
+~ 6 Crore+",64576997.0,parsed,"Rs 42,05,970
+~ 42 Lacs+",4205970.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,303,Prem Nath Chanchal Alias Chanchal Paswan,prem nath chanchal alias chanchal paswan,Vikassheel Insaan Party,36,36.0,parsed,"Rs 1,83,71,625
+~ 1 Crore+",18371625.0,parsed,"Rs 30,07,530
+~ 30 Lacs+",3007530.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,311,R. K. Singh,r k singh,BJP,71,71.0,parsed,"Rs 12,32,13,777
+~ 12 Crore+",123213777.0,parsed,"Rs 20,243
+~ 20 Thou+",20243.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,312,Radha Mohan Singh,radha mohan singh,BJP,74,74.0,parsed,"Rs 4,29,65,416
+~ 4 Crore+",42965416.0,parsed,"Rs 29,41,310
+~ 29 Lacs+",2941310.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,315,Raj Bhushan Choudhary,raj bhushan choudhary,BJP,46,46.0,parsed,"Rs 20,52,95,066
+~ 20 Crore+",205295066.0,parsed,"Rs 5,46,08,134
+~ 5 Crore+",54608134.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,318,Raj Kumar Paswan,raj kumar paswan,Yuva Bihar Sena,37,37.0,parsed,"Rs 1,.45,000 Lacst",1.45,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,320,Raj Kumar Yadav,raj kumar yadav,Viro Ke Vir Indian Party,47,47.0,parsed,"Rs 86,83,841
+~ 86 Lacs+",8683841.0,parsed,"Rs 26,13,574
+~ 26 Lacs+",2613574.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,322,Raja Ram Singh,raja ram singh,CPI(ML)(L),66,66.0,parsed,"Rs 2,59,19,942
+~ 2 Crore+",25919942.0,parsed,"Rs 19,00,000
+~ 19 Lacs+",1900000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,329,Rajesh Ranjan Alias Pappu Yadav,rajesh ranjan alias pappu yadav,IND,56,56.0,parsed,"Rs 12,08,84,682 12 Crore+-",120884682.0,parsed,"Rs 1,72,36,808 Crore+",17236808.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,331,Rajesh Verma,rajesh verma,Lok Janshakti Party(Ram Vilas),31,31.0,parsed,"Rs 5,38,94,412
+~ 5 Crore+",53894412.0,parsed,"Rs 4,07,45,130
+~ 4 Crore+",40745130.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,334,Rajiv Pratap Rudy,rajiv pratap rudy,BJP,62,62.0,parsed,"Rs 8,37,11,219
+~ 8 Crore+",83711219.0,parsed,"Rs 6,56,891
+~ 6 Lacs+",656891.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,335,Rajiv Ranjan Singh Alias Lalan Singh,rajiv ranjan singh alias lalan singh,JD(U),70,70.0,parsed,"Rs 13,82,28,639
+~ 13 Crore+",138228639.0,parsed,"Rs 29,15,378
+~ 29 Lacs+",2915378.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,342,Ram Badan Rai,ram badan rai,Karpoori Janta Dal,69,69.0,parsed,"Rs 1,76,73,000
+~ 1 Crore+",17673000.0,parsed,"Rs 60,50,000
+~ 60 Lacs+",6050000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,356,Ramprit Mandal,ramprit mandal,JD(U),68,68.0,parsed,"Rs 10,59,78,772
+~ 10 Crore+",105978772.0,parsed,"Rs 4,26,593
+~ 4 Lacs+",426593.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,359,Rana Ranjit,rana ranjit,All India Majlis-E-Ittehadul Muslimeen,37,37.0,parsed,"Rs 96,70,741
+~ 96 Lacs+",9670741.0,parsed,"Rs 53,16,018
+~ 53 Lacs+",5316018.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,361,Randhir Paswan,randhir paswan,IND,36,36.0,parsed,"Rs 12,61,000
+~ 12 Lacs+",1261000.0,parsed,"Rs 19,38,693
+~ 19 Lacs+",1938693.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,369,Ravi Kumar Roy,ravi kumar roy,IND,40,40.0,parsed,"Rs 3,76,000 3 Lacst_",376000.0,parsed,"Rs 4,99.010 Lacst_",499.01,decimal_review,False,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,371,Ravi Shankar Prasad,ravi shankar prasad,BJP,69,69.0,parsed,"Rs 40,60,98,345
+~ 40 Crore+",406098345.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,372,Ravindra Mandal,ravindra mandal,SUCI(C),58,58.0,parsed,"Rs 11,73,64,000
+~ 11 Crore+",117364000.0,parsed,"Rs 1,99,000
+~ 1 Lacs+",199000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,373,Ritu Jaiswal,ritu jaiswal,RJD,46,46.0,parsed,"Rs 3,08,54,389
+~ 3 Crore+",30854389.0,parsed,"Rs 34,98,761
+~ 34 Lacs+",3498761.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,374,Rohini Acharya,rohini acharya,RJD,44,44.0,parsed,"Rs 36,62,40,901
+~ 36 Crore+",366240901.0,parsed,"Rs 1,30,73,478
+~ 1 Crore+",13073478.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,375,Rupam Devi,rupam devi,IND,32,32.0,parsed,"Rs 40,85,200
+~ 40 Lacs+",4085200.0,parsed,"Rs 35,51,000
+~ 35 Lacs+",3551000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,384,Sanjay Kumar Sah,sanjay kumar sah,Bhartiya Lok Nayak Party,37,37.0,parsed,"Rs 1,46,75,000
+~ 1 Crore+",14675000.0,parsed,"Rs 45,00,000
+~ 45 Lacs+",4500000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,390,Santosh Kumar,santosh kumar,JD(U),48,48.0,parsed,"Rs 8,80,37,133
+~ 8 Crore+",88037133.0,parsed,"Rs 1,63,10,012
+~ 1 Crore+",16310012.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,394,Sarfaraj Alam,sarfaraj alam,Akhil Bhartiya Parivar Party,43,43.0,parsed,"Rs 93,81,607
+~ 93 Lacs+",9381607.0,parsed,"Rs 29,30,217
+~ 29 Lacs+",2930217.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,408,Shambhavi,shambhavi,Lok Janshakti Party(Ram Vilas),25,25.0,parsed,"Rs 4,54,06,719
+~ 4 Crore+",45406719.0,parsed,"Rs 1,72,50,997
+~ 1 Crore+",17250997.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,412,Shashi Kumar,shashi kumar,Samaj Shakti Party,38,38.0,parsed,"Rs 35,82,427
+~ 35 Lacs+",3582427.0,parsed,"Rs 20,00,000
+~ 20 Lacs+",2000000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,413,Shashi Ranjan Suman,shashi ranjan suman,IND,36,36.0,parsed,"Rs 7,31,00,000
+~ 7 Crore+",73100000.0,parsed,"Rs 6,50,000
+~ 6 Lacs+",650000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,415,Shatrudhan Tiwary,shatrudhan tiwary,Bhartiya Sarthak Party,63,63.0,parsed,"Rs 2,61,24,905
+~ 2 Crore+",26124905.0,parsed,"Rs 1,16,89,473
+~ 1 Crore+",11689473.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,419,Shiv Chandra Ram,shiv chandra ram,RJD,53,53.0,parsed,"Rs 2,41,07,571
+~ 2 Crore+",24107571.0,parsed,"Rs 65,27,138
+~ 65 Lacs+",6527138.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,424,Shivesh Kumar,shivesh kumar,BJP,56,56.0,parsed,"Rs 14,59,67,040
+~ 14 Crore+",145967040.0,parsed,"Rs 30,99,677
+~ 30 Lacs+",3099677.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,425,Shrawan Kumar,shrawan kumar,RJD,50,50.0,parsed,"Rs 6,90,99,613
+~ 6 Crore+",69099613.0,parsed,"Rs 2,44,00,000
+~ 2 Crore+",24400000.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,427,Shyam Sundar Prasad,shyam sundar prasad,IND,55,55.0,parsed,"Rs 4,98,40,600
+~ 4 Crore+",49840600.0,parsed,"Rs 74,00,000
+~ 74 Lacs+",7400000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,431,Subhash Kumar,subhash kumar,Bhartiya Lok Chetna Party,47,47.0,parsed,"Rs 11,93,61,258
+~ 11 Crore+",119361258.0,parsed,"Rs 28,00,000
+~ 28 Lacs+",2800000.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,433,Sudama Prasad,sudama prasad,CPI(ML)(L),56,56.0,parsed,"Rs 90,98,946
+~ 90 Lacs+",9098946.0,parsed,"Rs 29,21,615
+~ 29 Lacs+",2921615.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,435,Sudhakar Singh,sudhakar singh,RJD,52,52.0,parsed,"Rs 6,78,51,400
+~ 6 Crore+",67851400.0,parsed,"Rs 5,73,94,347
+~ 5 Crore+",57394347.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,441,Suman Kumar Mahaseth,suman kumar mahaseth,Vikassheel Insaan Party,59,59.0,parsed,"Rs 21,44,27,249
+~ 21 Crore+",214427249.0,parsed,"Rs 6,00,000
+~ 6 Lacs+",600000.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,445,Sunil Kumar,sunil kumar,JD(U),39,39.0,parsed,"Rs 1,27,64,194
+~ 1 Crore+",12764194.0,parsed,"Rs 65,02,981
+~ 65 Lacs+",6502981.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,448,Sunny Hazari,sunny hazari,INC,33,33.0,parsed,"Rs 1,22,18,896
+~ 1 Crore+",12218896.0,parsed,"Rs 26,55,000
+~ 26 Lacs+",2655000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,453,Surendra Prasad Yadav,surendra prasad yadav,RJD,65,65.0,parsed,"Rs 13,87,54,448
+~ 13 Crore+",138754448.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,456,Sureshwar Poddar,sureshwar poddar,Aadarsh Mithila Party,66,66.0,parsed,"Rs 2,60,75,549
+~ 2 Crore+",26075549.0,parsed,"Rs 49,12,607
+~ 49 Lacs+",4912607.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,457,Sushil Kumar Singh,sushil kumar singh,BJP,58,58.0,parsed,"Rs 20,21,21,473
+~ 20 Crore+",202121473.0,parsed,"Rs 75,61,319
+~ 75 Lacs+",7561319.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,459,Tariq Anwar,tariq anwar,INC,73,73.0,parsed,"Rs 19,60,57,169
+~ 19 Crore+",196057169.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\bihar_2024.csv
+Bihar,2024,471,Upendra Sahani,upendra sahani,Rashtriya Jansambhavna Party,52,52.0,parsed,"Rs 3,33,89,000
+~ 3 Crore+",33389000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,True,ocr_data\bihar_2024.csv
+Bihar,2024,472,Upendra Sahani,upendra sahani,Rashtriya Jansambhavna Party,52,52.0,parsed,"Rs 3,33,89,000
+~ 3 Crore+",33389000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,True,ocr_data\bihar_2024.csv
+Bihar,2024,475,Veena Devi,veena devi,Lok Janshakti Party(Ram Vilas),53,53.0,parsed,"Rs 46,71,70,049
+~ 46 Crore+",467170049.0,parsed,"Rs 16,47,62,876
+~ 16 Crore+",164762876.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,476,Vidya Nand Ram,vidya nand ram,Wazib Adhikar Party,50,50.0,parsed,"Rs 53,50,000
+~ 53 Lacs+",5350000.0,parsed,"Rs 50,000
+~ 50 Thou+",50000.0,parsed,False,False,True,ocr_data\bihar_2024.csv
+Bihar,2024,477,Vidya Nand Ram,vidya nand ram,Wazib Adhikar Party,50,50.0,parsed,"Rs 53,50,000
+~ 53 Lacs+",5350000.0,parsed,"Rs 50,000
+~ 50 Thou+",50000.0,parsed,False,False,True,ocr_data\bihar_2024.csv
+Bihar,2024,480,Vijay Kumar Shukla,vijay kumar shukla,RJD,55,55.0,parsed,"Rs 27,89,09,949
+~ 27 Crore+",278909949.0,parsed,"Rs 7,85,44,428
+~ 7 Crore+",78544428.0,parsed,True,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,481,Vijayesh Kumar,vijayesh kumar,BSP,47,47.0,parsed,"Rs 5,77,81,000
+~ 5 Crore+",57781000.0,parsed,"Rs 1,25,00,000
+~ 1 Crore+",12500000.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Bihar,2024,494,Vivek Thakur,vivek thakur,BJP,54,54.0,parsed,"Rs 5,05,66,297
+~ 5 Crore+",50566297.0,parsed,"Rs 1,04,44,564
+~ 1 Crore+",10444564.0,parsed,False,True,False,ocr_data\bihar_2024.csv
+Gujarat,2014,4,Anilkumar Chhitubhai Bhagat,anilkumar chhitubhai bhagat,JD(U),49,49.0,parsed,"Rs 2,85,98,975
+~ 2 Crore+",28598975.0,parsed,"Rs 14,92,925
+~ 14 Lacs+",1492925.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,5,Anilkumar Kasturchand,anilkumar kasturchand,IND,60,60.0,parsed,"Rs 4,14,94,101
+~ 4 Crore+",41494101.0,parsed,"Rs 24,00,000
+~ 24 Lacs+",2400000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,8,Arjunbhai Versingbhai Rathva,arjunbhai versingbhai rathva,AAP,40,40.0,parsed,"Rs 31,57,543
+~ 31 Lacs+",3157543.0,parsed,"Rs 11,35,000
+~ 11 Lacs+",1135000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,18,Bhabhor Jasvantsinh Sumanbhai,bhabhor jasvantsinh sumanbhai,BJP,47,47.0,parsed,"Rs 1,96,61,231 Crore+",19661231.0,parsed,"Rs 17,41,547 17 Lacst-",1741547.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,34,Chaudhary Dineshbhai Salubhai,chaudhary dineshbhai salubhai,Vishva Hindustani Sangathan,37,37.0,parsed,"Rs 44,10,200
+~ 44 Lacs+",4410200.0,parsed,"Rs 6,95,000
+~ 6 Lacs+",695000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,36,Chauhan Devusinh Jesingbhai,chauhan devusinh jesingbhai,BJP,49,49.0,parsed,"Rs 94,26,376
+~ 94 Lacs+",9426376.0,parsed,"Rs 10,47,919
+~ 10 Lacs+",1047919.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,42,Chavda Manubhai Parsottambhaix,chavda manubhai parsottambhaix,JD(U),52,52.0,parsed,"Rs 3,61,41,803
+~ 3 Crore+",36141803.0,parsed,"Rs 91,05,641
+~ 91 Lacs+",9105641.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,45,Choudhary Adambhai Nasirbhai,choudhary adambhai nasirbhai,SP,46,46.0,parsed,"Rs 6,38,93,750
+~ 6 Crore+",63893750.0,parsed,"Rs 13,06,49,812
+~ 13 Crore+",130649812.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,46,Chudasama Rajeshbhai Naranbhai,chudasama rajeshbhai naranbhai,BJP,31,31.0,parsed,"Rs 74,46,059
+~ 74 Lacs+",7446059.0,parsed,"Rs 11,10,690
+~ 11 Lacs+",1110690.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,54,Desai Khodabhai Laljibhai,desai khodabhai laljibhai,IND,47,47.0,parsed,"Rs 5,02,58,019
+~ 5 Crore+",50258019.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,55,Desai Naishadhbhai Bhupatbhai,desai naishadhbhai bhupatbhai,INC,57,57.0,parsed,"Rs 6,64,44,237
+~ 6 Crore+",66444237.0,parsed,"Rs 39,40,761
+~ 39 Lacs+",3940761.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,61,Dinesh Babulal Vaghela,dinesh babulal vaghela,AAP,62,62.0,parsed,"Rs 2,43,87,875
+~ 2 Crore+",24387875.0,parsed,"Rs 47,05,653
+~ 47 Lacs+",4705653.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,62,Dinsha Jhavarbhai Patel,dinsha jhavarbhai patel,INC,77,77.0,parsed,"Rs 5,22,07,873
+~ 5 Crore+",52207873.0,parsed,"Rs 30,61,779
+~ 30 Lacs+",3061779.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,63,Dr Parmar Jivanbhai Gabhabhai,parmar jivanbhai gabhabhai,Bahujan Mukti Party,57,57.0,parsed,"Rs 1,82,19,448
+~ 1 Crore+",18219448.0,parsed,"Rs 22,07,833
+~ 22 Lacs+",2207833.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,65,Dr. K.c.patel,k c patel,BJP,65,65.0,parsed,"Rs 13,11,41,867
+~ 13 Crore+",131141867.0,parsed,"Rs 23,81,344
+~ 23 Lacs+",2381344.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,67,Dr. Solanki Kiritbhai Premjibhai,solanki kiritbhai premjibhai,BJP,64,64.0,parsed,"Rs 3,40,85,266
+~ 3 Crore+",34085266.0,parsed,"Rs 2,08,007
+~ 2 Lacs+",208007.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,87,Jadeja Kandhalbhai Sarmanbhai,jadeja kandhalbhai sarmanbhai,NCP,42,42.0,parsed,"Rs 28,39,45,804
+~ 28 Crore+",283945804.0,parsed,"Rs 46,41,521
+~ 46 Lacs+",4641521.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,88,Jagatsinh Laljibhai Vasava,jagatsinh laljibhai vasava,JD(U),61,61.0,parsed,"Rs 5,11,29,838
+~ 5 Crore+",51129838.0,parsed,"Rs 44,51,070
+~ 44 Lacs+",4451070.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,90,Jagrala Imran Mahemud,jagrala imran mahemud,IND,37,37.0,parsed,"Rs 42,19,599
+~ 42 Lacs+",4219599.0,parsed,"Rs 19,14,236
+~ 19 Lacs+",1914236.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,92,Jardosh Darshnaben Vikrambhai,jardosh darshnaben vikrambhai,BJP,53,53.0,parsed,"Rs 1,80,38,444
+~ 1 Crore+",18038444.0,parsed,"Rs 20,20,458
+~ 20 Lacs+",2020458.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,93,Jayeshbhai Ambalalbhai Patel,jayeshbhai ambalalbhai patel,INC,57,57.0,parsed,"Rs 3,34,26,809
+~ 3 Crore+",33426809.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,95,Jhala Rajendrasinh,jhala rajendrasinh,AAP,52,52.0,parsed,"Rs 48,70,529
+~ 48 Lacs+",4870529.0,parsed,"Rs 7,97,500
+~ 7 Lacs+",797500.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,100,Kachhadiya Naranbhai Bhikhabhai,kachhadiya naranbhai bhikhabhai,BJP,58,58.0,parsed,"Rs 3,41,64,801
+~ 3 Crore+",34164801.0,parsed,"Rs 49,71,590
+~ 49 Lacs+",4971590.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,107,Keshavji L. Saradva,keshavji l saradva,IND,62,62.0,parsed,"Rs 5,67,38,000
+~ 5 Crore+",56738000.0,parsed,"Rs 6,50,000
+~ 6 Lacs+",650000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,111,Khristi Adward Khushalbhai,khristi adward khushalbhai,IND,Unknown,,unparsed_review,"Rs 6,30,000
+~ 6 Lacs+",630000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,114,Kishanbhai Vestabhai Patel,kishanbhai vestabhai patel,INC,48,48.0,parsed,"Rs 92,72,641
+~ 92 Lacs+",9272641.0,parsed,"Rs 28,57,545
+~ 28 Lacs+",2857545.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,115,Koli Patel Somabhai Gandalal,koli patel somabhai gandalal,INC,73,73.0,parsed,"Rs 7,91,84,058
+~ 7 Crore+",79184058.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,118,Lal Krishna Advani,lal krishna advani,BJP,86,86.0,parsed,"Rs 7,59,15,276 Crore+",75915276.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,121,Maadam Poonamben Hematbhai,maadam poonamben hematbhai,BJP,39,39.0,parsed,"Rs 17,43,72,249
+~ 17 Crore+",174372249.0,parsed,"Rs 6,28,24,615
+~ 6 Crore+",62824615.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,122,Madam Vikrambhai Arjanbhai,madam vikrambhai arjanbhai,INC,56,56.0,parsed,"Rs 2,59,46,450
+~ 2 Crore+",25946450.0,parsed,"Rs 18,16,432
+~ 18 Lacs+",1816432.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,131,Malek Sabirhusen Ismaelbhai,malek sabirhusen ismaelbhai,IND,Unknown,,unparsed_review,"Rs 75,000
+~ 75 Thou+",75000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,132,Malek Sadikhusen Mahmadhusen,malek sadikhusen mahmadhusen,IND,Unknown,,unparsed_review,"Rs 1,65,000
+~ 1 Lacs+",165000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,133,Malek Yakubmiya Nabimiya,malek yakubmiya nabimiya,IND,Unknown,,unparsed_review,"Rs 10,38,000
+~ 10 Lacs+",1038000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,137,Mansukhbhai Dhanjibhai Vasava,mansukhbhai dhanjibhai vasava,BJP,56,56.0,parsed,"Rs 65,71,062
+~ 65 Lacs+",6571062.0,parsed,"Rs 6,39,000
+~ 6 Lacs+",639000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,141,Mehta Rahul Chimanlal,mehta rahul chimanlal,IND,45,45.0,parsed,"Rs 4,82,00,000
+~ 4 Crore+",48200000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,142,Mehta Rituraj Gautamchand,mehta rituraj gautamchand,AAP,47,47.0,parsed,"Rs 25,79,90,872
+~ 25 Crore+",257990872.0,parsed,"Rs 18,55,65,236
+~ 18 Crore+",185565236.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,147,Mevada Jayantibhai Jethalal,mevada jayantibhai jethalal,AAP,59,59.0,parsed,"Rs 8,47,42,785
+~ 8 Crore+",84742785.0,parsed,"Rs 1,65,46,028
+~ 1 Crore+",16546028.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,148,Mistry Madhusadan Devram,mistry madhusadan devram,INC,69,69.0,parsed,"Rs 3,17,59,626
+~ 3 Crore+",31759626.0,parsed,"Rs 4,80,000
+~ 4 Lacs+",480000.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,149,Mohanbhai Kalyanjibhai Kundariya,mohanbhai kalyanjibhai kundariya,BJP,62,62.0,parsed,"Rs 3,95,12,950 3 Crore+",39512950.0,parsed,"Rs 23,35,530 23 Lacst-",2335530.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,154,Munia Kamalsinh Chhaganbhai,munia kamalsinh chhaganbhai,AAP,66,66.0,parsed,"Rs 96,12,321
+~ 96 Lacs+",9612321.0,parsed,"Rs 17,09,159
+~ 17 Lacs+",1709159.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,156,Naranbhai Jemlabhai Rathwa,naranbhai jemlabhai rathwa,INC,60,60.0,parsed,"Rs 4,09,04,985
+~ 4 Crore+",40904985.0,parsed,"Rs 8,50,000
+~ 8 Lacs+",850000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,170,Pandya Chiragbhai Hariombhai,pandya chiragbhai hariombhai,IND,40,40.0,parsed,"Rs 33,16,540
+~ 33 Lacs+",3316540.0,parsed,"Rs 9,00,000
+~ 9 Lacs+",900000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,172,Parbhubhai Nagarbhai Vasava,parbhubhai nagarbhai vasava,BJP,44,44.0,parsed,"Rs 1,59,09,957
+~ 1 Crore+",15909957.0,parsed,"Rs 13,53,400
+~ 13 Lacs+",1353400.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,173,Paresh Dahyalal Rawal,paresh dahyalal rawal,BJP,59,59.0,parsed,"Rs 79,52,11,576
+~ 79 Crore+",795211576.0,parsed,"Rs 8,14,72,461
+~ 8 Crore+",81472461.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,182,Parmar Ramsinh Prabhatsinh,parmar ramsinh prabhatsinh,INC,70,70.0,parsed,"Rs 4,38,16,858
+~ 4 Crore+",43816858.0,parsed,"Rs 5,47,000
+~ 5 Lacs+",547000.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,185,Patel Bhogilal Haribhai,patel bhogilal haribhai,Bharatiya National Janta Dal,45,45.0,parsed,"Rs 38,72,000
+~ 38 Lacs+",3872000.0,parsed,"Rs 26,60,000
+~ 26 Lacs+",2660000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,187,Patel Dilipbhai Manibhai,patel dilipbhai manibhai,BJP,59,59.0,parsed,"Rs 7,59,98,610
+~ 7 Crore+",75998610.0,parsed,"Rs 76,32,620
+~ 76 Lacs+",7632620.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,191,Patel Himmatsingh Prahladsingh,patel himmatsingh prahladsingh,INC,52,52.0,parsed,"Rs 3,84,89,984
+~ 3 Crore+",38489984.0,parsed,"Rs 17,08,500
+~ 17 Lacs+",1708500.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,194,Patel Jayshreeben Kanubhai,patel jayshreeben kanubhai,BJP,55,55.0,parsed,"Rs 1,32,78,493
+~ 1 Crore+",13278493.0,parsed,"Rs 18,14,057
+~ 18 Lacs+",1814057.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,195,Patel Jivabhai Ambalal,patel jivabhai ambalal,INC,75,75.0,parsed,"Rs 22,94,80,000
+~ 22 Crore+",229480000.0,parsed,"Rs 2,68,29,000
+~ 2 Crore+",26829000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,196,Patel Joitabhai Kasanabhai,patel joitabhai kasanabhai,INC,72,72.0,parsed,"Rs 2,39,87,116
+~ 2 Crore+",23987116.0,parsed,"Rs 3,56,250
+~ 3 Lacs+",356250.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,197,Patel Kiritbhai Ishvarbhai,patel kiritbhai ishvarbhai,INC,56,56.0,parsed,"Rs 3,56,74,384
+~ 3 Crore+",35674384.0,parsed,"Rs 31,30,000
+~ 31 Lacs+",3130000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,198,Patel Mehool Kumar Thakorbhai,patel mehool kumar thakorbhai,AAP,48,48.0,parsed,"Rs 1,91,78,744 Crore+",19178744.0,parsed,"Rs 20,77,958 20 Lacst-",2077958.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,207,Pathan Amanullakha Sitabkha,pathan amanullakha sitabkha,IND,Unknown,,unparsed_review,"Rs 97,000
+~ 97 Thou+",97000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,210,Patil Chandrakant Raghunath,patil chandrakant raghunath,BJP,59,59.0,parsed,"Rs 74,47,61,133
+~ 74 Crore+",744761133.0,parsed,"Rs 40,58,88,122
+~ 40 Crore+",405888122.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,218,Pravinbhai Jinabhai Rathod,pravinbhai jinabhai rathod,INC,43,43.0,parsed,"Rs 28,88,968 28 Lacst_",2888968.0,parsed,"Rs 24,75,000 24 Lacst",2475000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,219,Pravinchandra Chunilal Parekh,pravinchandra chunilal parekh,IND,83,83.0,parsed,"Rs 4,28,90,000
+~ 4 Crore+",42890000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,220,Punjabhai Bhimabhai Vansh,punjabhai bhimabhai vansh,INC,51,51.0,parsed,"Rs 1,83,36,717
+~ 1 Crore+",18336717.0,parsed,"Rs 20,67,932
+~ 20 Lacs+",2067932.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,225,Radadiya Vithalbhai Hansrajbhai,radadiya vithalbhai hansrajbhai,BJP,55,55.0,parsed,"Rs 7,30,03,639
+~ 7 Crore+",73003639.0,parsed,"Rs 3,16,000
+~ 3 Lacs+",316000.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,234,Rathod Bhavsinhbhai Dahyabhai,rathod bhavsinhbhai dahyabhai,INC,78,78.0,parsed,"Rs 61,63,441
+~ 61 Lacs+",6163441.0,parsed,"Rs 30,19,000
+~ 30 Lacs+",3019000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,239,Rathwa Ramsingbhai Patalbhai,rathwa ramsingbhai patalbhai,BJP,62,62.0,parsed,"Rs 3,97,69,675
+~ 3 Crore+",39769675.0,parsed,"Rs 97,63,903
+~ 97 Lacs+",9763903.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,240,Ravaliben Shankarbhai Chaudhari,ravaliben shankarbhai chaudhari,CPI,55,55.0,parsed,"Rs 84,75,030
+~ 84 Lacs+",8475030.0,parsed,"Rs 15,00,000
+~ 15 Lacs+",1500000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,247,Roshan Priyavadan Shah,roshan priyavadan shah,IND,39,39.0,parsed,"Rs 2,75,60,000
+~ 2 Crore+",27560000.0,parsed,"Rs 8,00,000
+~ 8 Lacs+",800000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,248,Roshan Priyvadan Shah,roshan priyvadan shah,IND,39,39.0,parsed,"Rs 2,75,60,000
+~ 2 Crore+",27560000.0,parsed,"Rs 8,07,000
+~ 8 Lacs+",807000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,260,Sanjaykumar Somnathbhai Raval,sanjaykumar somnathbhai raval,AAP,48,48.0,parsed,"Rs 3,47,85,000
+~ 3 Crore+",34785000.0,parsed,"Rs 99,85,000
+~ 99 Lacs+",9985000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,272,Shekh Arif Abdullatif,shekh arif abdullatif,SP,36,36.0,parsed,"Rs 13,98,500
+~ 13 Lacs+",1398500.0,parsed,"Rs 10,51,000
+~ 10 Lacs+",1051000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,273,Shekhada Atulbhai Govindbhai,shekhada atulbhai govindbhai,AAP,45,45.0,parsed,"Rs 1,68,64,109
+~ 1 Crore+",16864109.0,parsed,"Rs 75,34,109
+~ 75 Lacs+",7534109.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,275,Shyal Bhartiben Dhirubhai,shyal bhartiben dhirubhai,BJP,50,50.0,parsed,"Rs 1,04,48,925
+~ 1 Crore+",10448925.0,parsed,"Rs 30,72,058
+~ 30 Lacs+",3072058.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,278,Solanki Bharatbhai Madhavsinh,solanki bharatbhai madhavsinh,INC,60,60.0,parsed,"Rs 6,04,84,100 6 Crore+",60484100.0,parsed,"Rs 23,34,855 23 Lacst-",2334855.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,288,Sunil Digambar Kulkarni,sunil digambar kulkarni,AAP,47,47.0,parsed,"Rs 1,21,10,000
+~ 1 Crore+",12110000.0,parsed,"Rs 26,80,000
+~ 26 Lacs+",2680000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,289,Surendrabhai Simabhai Gamit,surendrabhai simabhai gamit,IND,42,42.0,parsed,"Rs 3,12,16,000 3 Crore+",31216000.0,parsed,Rs 0,0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,300,Thakor Mansangji Punjaji,thakor mansangji punjaji,Bahujan Mukti Party,56,56.0,parsed,"Rs 30,63,558
+~ 30 Lacs+",3063558.0,parsed,"Rs 9,00,000
+~ 9 Lacs+",900000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,304,Thummar Virjibhai Keshavbhai,thummar virjibhai keshavbhai,INC,54,54.0,parsed,"Rs 4,88,34,257
+~ 4 Crore+",48834257.0,parsed,"Rs 52,50,474
+~ 52 Lacs+",5250474.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,306,Tusharbhai Amarsinhbhai Chaudhari,tusharbhai amarsinhbhai chaudhari,INC,48,48.0,parsed,"Rs 6,24,30,584
+~ 6 Crore+",62430584.0,parsed,"Rs 4,06,995
+~ 4 Lacs+",406995.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,311,Vaghda Jivabhai Devabhai,vaghda jivabhai devabhai,IND,53,53.0,parsed,"Rs 65,50,000
+~ 65 Lacs+",6550000.0,parsed,"Rs 15,00,000
+~ 15 Lacs+",1500000.0,parsed,False,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,317,Vaghela Shankersinh,vaghela shankersinh,INC,74,74.0,parsed,"Rs 21,35,76,053
+~ 21 Crore+",213576053.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2014.csv
+Gujarat,2014,324,Vasava Kishorbhai Chhotubhai,vasava kishorbhai chhotubhai,JD(U),40,40.0,parsed,"Rs 4,40,83,000
+~ 4 Crore+",44083000.0,parsed,"Rs 1,05,00,000
+~ 1 Crore+",10500000.0,parsed,True,True,False,ocr_data\gujarat_2014.csv
+Gujarat,2019,2,A. J. Patel,a j patel,INC,73,73.0,parsed,"Rs 69,87,73,712
+~ 69 Crore+",698773712.0,parsed,"Rs 9,62,20,673
+~ 9 Crore+",96220673.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,4,Aantroliya Karabhai,aantroliya karabhai,IND,40,40.0,parsed,"Rs 7,60,000
+~ 7 Lacs+",760000.0,parsed,"Rs 13,29,600
+~ 13 Lacs+",1329600.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,10,Amit Shah,amit shah,BJP,54,54.0,parsed,"Rs 40,32,75,307
+~ 40 Crore+",403275307.0,parsed,"Rs 47,69,587
+~ 47 Lacs+",4769587.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,14,Ashok Vallabhbhai Pate,ashok vallabhbhai pate,INC,45,45.0,parsed,"Rs 1,90,12,482
+~ 1 Crore+",19012482.0,parsed,"Rs 31,25,964
+~ 31 Lacs+",3125964.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,25,Bhanderi Amarshibhai Chhaganbhai,bhanderi amarshibhai chhaganbhai,IND,47,47.0,parsed,"Rs 11,27,34,000
+~ 11 Crore+",112734000.0,parsed,"Rs 9,24,75,000
+~ 9 Crore+",92475000.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,30,Bharatbhai Madhavsinh Solanki,bharatbhai madhavsinh solanki,INC,65,65.0,parsed,"Rs 5,44,90,955
+~ 5 Crore+",54490955.0,parsed,"Rs 19,34,855
+~ 19 Lacs+",1934855.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,33,Bharvad Saileshkumar Kalidas,bharvad saileshkumar kalidas,IND,42,42.0,parsed,"Rs 35,90,000
+~ 35 Lacs+",3590000.0,parsed,"Rs 18,00,000
+~ 18 Lacs+",1800000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,36,Bhatt Sunilkumar Narendrabhai,bhatt sunilkumar narendrabhai,Right to Recall Party,38,38.0,parsed,"Rs 25,05,720
+~ 25 Lacs+",2505720.0,parsed,"Rs 0
+~",0.0,parsed,False,False,True,ocr_data\gujarat_2019.csv
+Gujarat,2019,37,Bhatt Sunilkumar Narendrabhai,bhatt sunilkumar narendrabhai,Right to Recall Party,38,38.0,parsed,"Rs 25,05,720
+~ 25 Lacs+",2505720.0,parsed,"Rs 0
+~",0.0,parsed,False,False,True,ocr_data\gujarat_2019.csv
+Gujarat,2019,42,Bhut Ashokbhai Bhimjibhai,bhut ashokbhai bhimjibhai,Rashtriya Samajwadi Party (Secular),66,66.0,parsed,"Rs 78,82,314
+~ 78 Lacs+",7882314.0,parsed,"Rs 13,61,151
+~ 13 Lacs+",1361151.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,43,Bimalbhai Shah,bimalbhai shah,INC,58,58.0,parsed,"Rs 8,63,98,716
+~ 8 Crore+",86398716.0,parsed,"Rs 2,55,12,343
+~ 2 Crore+",25512343.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,52,Chaudhari Tusharbhai Amarsinhbhai,chaudhari tusharbhai amarsinhbhai,INC,53,53.0,parsed,"Rs 6,93,45,867
+~ 6 Crore+",69345867.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,67,Chavda Chatursinh Javanji,chavda chatursinh javanji,INC,61,61.0,parsed,"Rs 12,04,68,223
+~ 12 Crore+",120468223.0,parsed,"Rs 1,92,23,728
+~ 1 Crore+",19223728.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,70,Chavda Vinod Lakhamshi,chavda vinod lakhamshi,BJP,40,40.0,parsed,"Rs 3,35,08,455
+~ 3 Crore+",33508455.0,parsed,"Rs 1,24,58,607
+~ 1 Crore+",12458607.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,71,Chhotubhai Vasava,chhotubhai vasava,Bhartiya Tribal Party,73,73.0,parsed,"Rs 2,01,46,320
+~ 2 Crore+",20146320.0,parsed,"Rs 45,95,420
+~ 45 Lacs+",4595420.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,73,Chudasama Rajeshbhai Naranbhai,chudasama rajeshbhai naranbhai,BJP,36,36.0,parsed,"Rs 1,08,66,041
+~ 1 Crore+",10866041.0,parsed,"Rs 14,81,768
+~ 14 Lacs+",1481768.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,74,Dabhi Bharatsinhji Shankarji,dabhi bharatsinhji shankarji,BJP,64,64.0,parsed,"Rs 4,73,73,221
+~ 4 Crore+",47373221.0,parsed,"Rs 56,13,860
+~ 56 Lacs+",5613860.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,75,Dalvadi Nakum Rasik Lalji,dalvadi nakum rasik lalji,IND,30,30.0,parsed,"Rs 69,98,443
+~ 69 Lacs+",6998443.0,parsed,"Rs 36,05,798
+~ 36 Lacs+",3605798.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,79,Dekavadiya Darjibhai Maganbhai,dekavadiya darjibhai maganbhai,Hindusthan Nirman Dal,58,58.0,parsed,"Rs 1,67,67,782
+~ 1 Crore+",16767782.0,parsed,"Rs 23,94,129
+~ 23 Lacs+",2394129.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,85,Dhameliya Piyushkumar Vallabhabhai,dhameliya piyushkumar vallabhabhai,Real Democracy Party,39,39.0,parsed,"Rs 2,67,73,999
+~ 2 Crore+",26773999.0,parsed,"Rs 1,32,74,706
+~ 1 Crore+",13274706.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,86,Dhapa Dharamshibhai Ramjibhai,dhapa dharamshibhai ramjibhai,Vyavastha Parivartan Party,45,45.0,parsed,"Rs 30,60,000
+~ 30 Lacs+",3060000.0,parsed,"Rs 1,77,000
+~ 1 Lacs+",177000.0,parsed,False,False,True,ocr_data\gujarat_2019.csv
+Gujarat,2019,87,Dhapa Dharamshibhai Ramjibhai,dhapa dharamshibhai ramjibhai,Vyavastha Parivartan Party,45,45.0,parsed,"Rs 30,60,000
+~ 30 Lacs+",3060000.0,parsed,"Rs 1,77,000
+~ 1 Lacs+",177000.0,parsed,False,False,True,ocr_data\gujarat_2019.csv
+Gujarat,2019,92,Dipakbhai Ramnikbhai Gangani,dipakbhai ramnikbhai gangani,IND,34,34.0,parsed,"Rs 59,33,453
+~ 59 Lacs+",5933453.0,parsed,"Rs 38,70,000
+~ 38 Lacs+",3870000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,93,Dipika Jitendrakumar Sutaria,dipika jitendrakumar sutaria,Manvadhikar National Party,49,49.0,parsed,"Rs 2,55,70,000
+~ 2 Crore+",25570000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,94,Donga Jayantilal Arjanbhai,donga jayantilal arjanbhai,IND,53,53.0,parsed,"Rs 1,25,16,500
+~ 1 Crore+",12516500.0,parsed,"Rs 17,00,000
+~ 17 Lacs+",1700000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,96,Dr. Chandraben,chandraben,IND,56,56.0,parsed,"Rs 4,06,41,649
+~ 4 Crore+",40641649.0,parsed,"Rs 70,60,912
+~ 70 Lacs+",7060912.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,97,Dr. Hiteshkumar Mahendrabhai,hiteshkumar mahendrabhai,Nirbhay Bharteey Party,38,38.0,parsed,"Rs 54,66,908
+~ 54 Lacs+",5466908.0,parsed,"Rs 21,33,343
+~ 21 Lacs+",2133343.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,98,Dr. Rahul Vasudevbhai Vyas,rahul vasudevbhai vyas,IND,39,39.0,parsed,"Rs 2,09,24,425 2 Crore+",20924425.0,parsed,"Rs 83,89,504 83 Lacst-",8389504.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,99,Dr. Solanki Kiritbhai,solanki kiritbhai,BJP,69,69.0,parsed,"Rs 8,94,74,039
+~ 8 Crore+",89474039.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,100,Dr.Bharatiben Dhirubhai Shiyal,dr bharatiben dhirubhai shiyal,BJP,55,55.0,parsed,"Rs 1,77,53,161
+~ 1 Crore+",17753161.0,parsed,"Rs 36,89,036
+~ 36 Lacs+",3689036.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,101,Dr.K.C.Patel,dr k c patel,BJP,69,69.0,parsed,"Rs 6,82,39,480
+~ 6 Crore+",68239480.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,107,Gautamraj G. Hindustani,gautamraj g hindustani,Yuva Sarkar,50,50.0,parsed,"Rs 6,83,61,125
+~ 6 Crore+",68361125.0,parsed,"Rs 6,32,760
+~ 6 Lacs+",632760.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,108,Geetaben Patel,geetaben patel,INC,39,39.0,parsed,"Rs 4,03,75,418
+~ 4 Crore+",40375418.0,parsed,"Rs 31,21,888
+~ 31 Lacs+",3121888.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,109,Gohil Rinku,gohil rinku,Yuva Jan Jagriti Party,32,32.0,parsed,"Rs 28,99,350 28 Lacst-",2899350.0,parsed,"Rs 14,00,000 14 Lacst",1400000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,115,Hareshbhai Babubhai Vegad,hareshbhai babubhai vegad,IND,35,35.0,parsed,"Rs 74,15,000
+~ 74 Lacs+",7415000.0,parsed,"Rs 37,00,000
+~ 37 Lacs+",3700000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,117,Hiramaniben,hiramaniben,Rashtriya Samaj Paksha,32,32.0,parsed,"Rs 1,86,000
+~ 1 Lacs+",186000.0,parsed,"Rs 13,00,000
+~ 13 Lacs+",1300000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,120,Jadav Ulpesh Jyantilal,jadav ulpesh jyantilal,Peoples Party of India (Democratic),37,37.0,parsed,"Rs 36,66,184
+~ 36 Lacs+",3666184.0,parsed,"Rs 31,16,079
+~ 31 Lacs+",3116079.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,127,Jardosh Darshnaben Vikrambhai,jardosh darshnaben vikrambhai,BJP,58,58.0,parsed,"Rs 2,38,72,876
+~ 2 Crore+",23872876.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,129,Jaspalsinh Tomar,jaspalsinh tomar,IND,34,34.0,parsed,"Rs 37.48,000 37 Lacst_",37.48,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,130,Jasvantsinh Sumanbhai Bhabhor,jasvantsinh sumanbhai bhabhor,BJP,52,52.0,parsed,"Rs 2,70,70,480
+~ 2 Crore+",27070480.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,136,Jitendra Parmar,jitendra parmar,IND,56,56.0,parsed,"Rs 2,10,24,000
+~ 2 Crore+",21024000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,139,Kachhadiya Naranbhai Bhikhabhai,kachhadiya naranbhai bhikhabhai,BJP,64,64.0,parsed,"Rs 3,59,00,763
+~ 3 Crore+",35900763.0,parsed,"Rs 8,28,961
+~ 8 Lacs+",828961.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,142,Kagathara Lalitbhai,kagathara lalitbhai,INC,61,61.0,parsed,"Rs 9,75,82,897
+~ 9 Crore+",97582897.0,parsed,"Rs 8,21,06,333
+~ 8 Crore+",82106333.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,146,Kandoriya Mulubhai Ranmalbhai,kandoriya mulubhai ranmalbhai,INC,61,61.0,parsed,"Rs 29,08,28,040
+~ 29 Crore+",290828040.0,parsed,"Rs 4,38,38,249
+~ 4 Crore+",43838249.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,147,Karia Dhirenbhai Amrutlal,karia dhirenbhai amrutlal,IND,37,37.0,parsed,"Rs 8,29,28,865
+~ 8 Crore+",82928865.0,parsed,"Rs 57,96,716
+~ 57 Lacs+",5796716.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,149,Katara Babubhai Khimabhai,katara babubhai khimabhai,INC,58,58.0,parsed,"Rs 4,80,20,539 Crore+",48020539.0,parsed,"Rs 24,90,502 24 Lacst",2490502.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,151,Khadadiya Kanubhai Tapubhai,khadadiya kanubhai tapubhai,SUCI(C),61,61.0,parsed,"Rs 75,91,975
+~ 75 Lacs+",7591975.0,parsed,"Rs 12,00,000
+~ 12 Lacs+",1200000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,153,Kharadi Dharmendrasingh Samsubhai,kharadi dharmendrasingh samsubhai,Bhartiya Tribal Party,34,34.0,parsed,"Rs 26,97,325
+~ 26 Lacs+",2697325.0,parsed,"Rs 13,88,000
+~ 13 Lacs+",1388000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,154,Khodabhai Lalajibhai Desai,khodabhai lalajibhai desai,IND,51,51.0,parsed,"Rs 18,86,90,310
+~ 18 Crore+",188690310.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,157,Koli Patel Laljibhai Chaturbhai,koli patel laljibhai chaturbhai,IND,63,63.0,parsed,"Rs 4,56,57,414
+~ 4 Crore+",45657414.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,159,Kolipatel Somabhai,kolipatel somabhai,INC,79,79.0,parsed,"Rs 6,65,58,302
+~ 6 Crore+",66558302.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,160,Kundaria Mohanbhai,kundaria mohanbhai,BJP,67,67.0,parsed,"Rs 6,88,18,120
+~ 6 Crore+",68818120.0,parsed,"Rs 1,65,66,856
+~ 1 Crore+",16566856.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,163,Lalit Vasoya,lalit vasoya,INC,57,57.0,parsed,"Rs 2,32,84,746
+~ 2 Crore+",23284746.0,parsed,"Rs 5,09,206
+~ 5 Lacs+",509206.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,169,Mahendrabhai Munjpara,mahendrabhai munjpara,BJP,50,50.0,parsed,"Rs 7,90,84,513 Crore+",79084513.0,parsed,"Rs 1,48,22,528 Crore+",14822528.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,171,Mahesh Prabhudas Ahuja,mahesh prabhudas ahuja,IND,57,57.0,parsed,"Rs 1,11,37,240
+~ 1 Crore+",11137240.0,parsed,"Rs 15,28,108
+~ 15 Lacs+",1528108.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,172,Maheshwari Devjibhai Vachhiyabhai,maheshwari devjibhai vachhiyabhai,Bahujan Mukti Party,43,43.0,parsed,"Rs 51,28,027
+~ 51 Lacs+",5128027.0,parsed,"Rs 14,20,000
+~ 14 Lacs+",1420000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,180,Manharbhai Nagjibhai Patel,manharbhai nagjibhai patel,INC,50,50.0,parsed,"Rs 7,59,61,835
+~ 7 Crore+",75961835.0,parsed,"Rs 55,95,198
+~ 55 Lacs+",5595198.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,181,Manoj Premchand Gupta,manoj premchand gupta,Sarvodaya Bharat Party,35,35.0,parsed,"Rs 39,25,000
+~ 39 Lacs+",3925000.0,parsed,"Rs 16,00,000
+~ 16 Lacs+",1600000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,189,Mishra Rajkumar Malekchand,mishra rajkumar malekchand,IND,36,36.0,parsed,"Rs 42,40,000 42 Lacst_",4240000.0,parsed,"Rs 27,78,000 27 Lacst_",2778000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,190,Miteshbhai Patel,miteshbhai patel,BJP,54,54.0,parsed,"Rs 7,70,43,053
+~ 7 Crore+",77043053.0,parsed,"Rs 78,10,840
+~ 78 Lacs+",7810840.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,202,Nimesh Patel (Kamrol),nimesh patel,IND,33,33.0,parsed,"Rs 26,79,190
+~ 26 Lacs+",2679190.0,parsed,"Rs 30,22,000
+~ 30 Lacs+",3022000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,207,Parbatbhai Patel,parbatbhai patel,BJP,70,70.0,parsed,"Rs 4,18,19,177
+~ 4 Crore+",41819177.0,parsed,"Rs 45,00,000
+~ 45 Lacs+",4500000.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,208,Parbhubhai Nagarbhai Vasava,parbhubhai nagarbhai vasava,BJP,49,49.0,parsed,"Rs 2,83,50,217
+~ 2 Crore+",28350217.0,parsed,"Rs 36,76,869
+~ 36 Lacs+",3676869.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,211,Parmar Ashokchandra,parmar ashokchandra,IND,58,58.0,parsed,"Rs 3,62,19,720
+~ 3 Crore+",36219720.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,213,Parmar Ghoghjibhai Kanjibhai,parmar ghoghjibhai kanjibhai,NCP,64,64.0,parsed,"Rs 95,97,000
+~ 95 Lacs+",9597000.0,parsed,"Rs 15,00,000
+~ 15 Lacs+",1500000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,216,Parthibhai Galbabhai Bhatol,parthibhai galbabhai bhatol,INC,75,75.0,parsed,"Rs 4,04,04,078
+~ 4 Crore+",40404078.0,parsed,"Rs 21,64,385
+~ 21 Lacs+",2164385.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,218,Patel Amarish Jasvantlal,patel amarish jasvantlal,Hindusthan Nirman Dal,65,65.0,parsed,"Rs 6,62,64,748 6 Crore+",66264748.0,parsed,"Rs 6,.40,916 6 Lacst_",6.4,decimal_review,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,222,Patel Dharmeshbhai,patel dharmeshbhai,INC,47,47.0,parsed,"Rs 3,18,46,750
+~ 3 Crore+",31846750.0,parsed,"Rs 16,59,481
+~ 16 Lacs+",1659481.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,223,Patel Hasmukhbhai Somabhai,patel hasmukhbhai somabhai,BJP,58,58.0,parsed,"Rs 7,46,99,690
+~ 7 Crore+",74699690.0,parsed,"Rs 62,52,577
+~ 62 Lacs+",6252577.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,225,Patel Jayntibhai Shamjibhai,patel jayntibhai shamjibhai,Hindusthan Nirman Dal,57,57.0,parsed,"Rs 39,82,042
+~ 39 Lacs+",3982042.0,parsed,"Rs 21,59,588
+~ 21 Lacs+",2159588.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,239,Patil Chandrakant,patil chandrakant,BJP,64,64.0,parsed,"Rs 44,60,44,269
+~ 44 Crore+",446044269.0,parsed,"Rs 5,68,46,658
+~ 5 Crore+",56846658.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,240,Poonamben Hematbhai Maadam,poonamben hematbhai maadam,BJP,44,44.0,parsed,"Rs 42,73,31,034
+~ 42 Crore+",427331034.0,parsed,"Rs 9,86,32,194
+~ 9 Crore+",98632194.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,243,Pragneshbhai Ratilal Chaudhari,pragneshbhai ratilal chaudhari,IND,41,41.0,parsed,"Rs 54,20,035
+~ 54 Lacs+",5420035.0,parsed,"Rs 20,50,000
+~ 20 Lacs+",2050000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,247,Prashant Patel,prashant patel,INC,44,44.0,parsed,"Rs 3,10,42,006
+~ 3 Crore+",31042006.0,parsed,"Rs 1,09,38,685
+~ 1 Crore+",10938685.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,249,Purohit Shyamaben Naranbhai,purohit shyamaben naranbhai,IND,33,33.0,parsed,"Rs 25,.78,000 25 Lacst_",25.78,decimal_review,"Rs 23,06,381 23 Lacst-",2306381.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,251,Rabari Karshanbhai Jeshabhai,rabari karshanbhai jeshabhai,IND,47,47.0,parsed,"Rs 19,28,903
+~ 19 Lacs+",1928903.0,parsed,"Rs 14,19,300
+~ 14 Lacs+",1419300.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,253,Rahul Chimanbhai Mehta,rahul chimanbhai mehta,Right to Recall Party,50,50.0,parsed,"Rs 5,48,19,000
+~ 5 Crore+",54819000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,256,Raju Parmar,raju parmar,INC,68,68.0,parsed,"Rs 26,29,97,727
+~ 26 Crore+",262997727.0,parsed,"Rs 1,89,43,977
+~ 1 Crore+",18943977.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,259,Rameshbhai Dhaduk,rameshbhai dhaduk,BJP,57,57.0,parsed,"Rs 35,75,64,783
+~ 35 Crore+",357564783.0,parsed,"Rs 21,79,44,697
+~ 21 Crore+",217944697.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,261,Ranjanben Bhatt,ranjanben bhatt,BJP,56,56.0,parsed,"Rs 2,94,26,428
+~ 2 Crore+",29426428.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,263,Ratansinh Rathod,ratansinh rathod,BJP,59,59.0,parsed,"Rs 1,02,60,663
+~ 1 Crore+",10260663.0,parsed,"Rs 10,81,611
+~ 10 Lacs+",1081611.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,265,Rathava Ranjitsinh Mohansinh,rathava ranjitsinh mohansinh,INC,53,53.0,parsed,"Rs 3,47,21,898
+~ 3 Crore+",34721898.0,parsed,"Rs 37,69,537
+~ 37 Lacs+",3769537.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,270,Rathod Dipsinh Shankarsinh,rathod dipsinh shankarsinh,BJP,67,67.0,parsed,"Rs 2,39,97,443
+~ 2 Crore+",23997443.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,285,Sachin Kinra,sachin kinra,Rashtriya Nav Nirman Bharat Party,37,37.0,parsed,"Rs 1,37,58,802
+~ 1 Crore+",13758802.0,parsed,"Rs 22,80,942
+~ 22 Lacs+",2280942.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,286,Sahdevsinh Chudasama,sahdevsinh chudasama,IND,44,44.0,parsed,"Rs 67,00,100
+~ 67 Lacs+",6700100.0,parsed,"Rs 11,65,000
+~ 11 Lacs+",1165000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,292,Santolkumar Patel,santolkumar patel,IND,40,40.0,parsed,"Rs 62,16,107
+~ 62 Lacs+",6216107.0,parsed,"Rs 12,23,545
+~ 12 Lacs+",1223545.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,300,Shardaben Anilbhai Patel,shardaben anilbhai patel,BJP,71,71.0,parsed,"Rs 44,03,08,300
+~ 44 Crore+",440308300.0,parsed,"Rs 74,77,793
+~ 74 Lacs+",7477793.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,316,Solanki Shaileshbhai Nagarbhai,solanki shaileshbhai nagarbhai,BSP,35,35.0,parsed,"Rs 45,36,170
+~ 45 Lacs+",4536170.0,parsed,"Rs 11,31,656
+~ 11 Lacs+",1131656.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,326,Tejabhai Nethibhai Rabari,tejabhai nethibhai rabari,BSP,49,49.0,parsed,"Rs 79,85,000
+~ 79 Lacs+",7985000.0,parsed,"Rs 18,00,000
+~ 18 Lacs+",1800000.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,328,Thakor Jagdishbhai,thakor jagdishbhai,INC,62,62.0,parsed,"Rs 2,21,36,618
+~ 2 Crore+",22136618.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,333,Thakor Rajendrasinh,thakor rajendrasinh,INC,46,46.0,parsed,"Rs 2,26,87,227
+~ 2 Crore+",22687227.0,parsed,"Rs 8,00,000
+~ 8 Lacs+",800000.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,337,Tulasibhai Laxmanbhai Dakhara,tulasibhai laxmanbhai dakhara,IND,52,52.0,parsed,"Rs 1,86,37,833
+~ 1 Crore+",18637833.0,parsed,"Rs 51,38,000
+~ 51 Lacs+",5138000.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,344,Vaghela Ganeshbhai Narsinhbhai,vaghela ganeshbhai narsinhbhai,BSP,59,59.0,parsed,"Rs 7,09,10,239
+~ 7 Crore+",70910239.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,352,Vansh Punjabhai Bhimabhai,vansh punjabhai bhimabhai,INC,55,55.0,parsed,"Rs 2,45,71,504
+~ 2 Crore+",24571504.0,parsed,"Rs 27,88,342
+~ 27 Lacs+",2788342.0,parsed,True,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,359,Vechatbhai Khant,vechatbhai khant,INC,68,68.0,parsed,"Rs 3,34,36,760
+~ 3 Crore+",33436760.0,parsed,"Rs 6,00,000
+~ 6 Lacs+",600000.0,parsed,True,False,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,368,Yasinali Polra,yasinali polra,New All India Congress Party,47,47.0,parsed,"Rs 33,63,000
+~ 33 Lacs+",3363000.0,parsed,"Rs 20,14,250
+~ 20 Lacs+",2014250.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2019,370,Zala Mukeshbhai Bharmalbhai,zala mukeshbhai bharmalbhai,IND,36,36.0,parsed,"Rs 1,05,72,716
+~ 1 Crore+",10572716.0,parsed,"Rs 18,78,780
+~ 18 Lacs+",1878780.0,parsed,False,True,False,ocr_data\gujarat_2019.csv
+Gujarat,2024,7,Alpeshkumar Chandulal Trambadiya,alpeshkumar chandulal trambadiya,Log Party,45,45.0,parsed,"Rs 78,61,971
+~ 78 Lacs+",7861971.0,parsed,"Rs 24,33,001
+~ 24 Lacs+",2433001.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,8,Amit Chavda,amit chavda,INC,48,48.0,parsed,"Rs 3,39,27,324
+~ 3 Crore+",33927324.0,parsed,"Rs 6,20,000
+~ 6 Lacs+",620000.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,9,Amit Shah,amit shah,BJP,59,59.0,parsed,"Rs 65,67,12,498 65 Crore+.",656712498.0,parsed,"Rs 42,09,587 42 Lacst-",4209587.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,14,Anilbhai Sharma,anilbhai sharma,Hindrashtra Sangh,40,40.0,parsed,"Rs 1,05,77,131
+~ 1 Crore+",10577131.0,parsed,"Rs 48,10,000
+~ 48 Lacs+",4810000.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,15,Anilkumar Niranjankumar Mundada,anilkumar niranjankumar mundada,Log Party,44,44.0,parsed,"Rs 53,86,596
+~ 53 Lacs+",5386596.0,parsed,"Rs 44,50,000
+~ 44 Lacs+",4450000.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,25,Balvant Chhatraliya,balvant chhatraliya,BSP,42,42.0,parsed,"Rs 8,13,75,000
+~ 8 Crore+",81375000.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,30,Bharat Yogendra Makwana,bharat yogendra makwana,INC,60,60.0,parsed,"Rs 25,58,54,377
+~ 25 Crore+",255854377.0,parsed,"Rs 48,55,877
+~ 48 Lacs+",4855877.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,33,Bhavesh Upendrabhai Acharya,bhavesh upendrabhai acharya,IND,61,61.0,parsed,"Rs 1,00,77,898
+~ 1 Crore+",10077898.0,parsed,"Rs 71,48,000
+~ 71 Lacs+",7148000.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,46,C R Patil,c r patil,BJP,69,69.0,parsed,"Rs 39,49,30,044
+~ 39 Crore+",394930044.0,parsed,"Rs 2,75,82,988
+~ 2 Crore+",27582988.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,49,Chandanji Talaji Thakor,chandanji talaji thakor,INC,51,51.0,parsed,"Rs 13,72,02,075 13 Crore+",137202075.0,parsed,"Rs 9,57,65,693 9 Crore+",95765693.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,53,Chaudhari Tushar Amarsinh,chaudhari tushar amarsinh,INC,58,58.0,parsed,"Rs 9,19,90,661
+~ 9 Crore+",91990661.0,parsed,"Rs 3,00,000
+~ 3 Lacs+",300000.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,54,Chaudhary Siddharth Amarsinh,chaudhary siddharth amarsinh,INC,47,47.0,parsed,"Rs 4,59,58,292
+~ 4 Crore+",45958292.0,parsed,"Rs 1,16,11,706
+~ 1 Crore+",11611706.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,59,Chavda Vinod Lakhamshi,chavda vinod lakhamshi,BJP,45,45.0,parsed,"Rs 7,09,80,147
+~ 7 Crore+",70980147.0,parsed,"Rs 1,56,05,895
+~ 1 Crore+",15605895.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,62,Chudasama Rajeshbhai Naranbhai,chudasama rajeshbhai naranbhai,BJP,42,42.0,parsed,"Rs 3,34,52,812
+~ 3 Crore+",33452812.0,parsed,"Rs 9,89,043
+~ 9 Lacs+",989043.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,64,Dabhi Bharatsinhji Shankarji,dabhi bharatsinhji shankarji,BJP,69,69.0,parsed,"Rs 6,84,30,049
+~ 6 Crore+",68430049.0,parsed,"Rs 29,57,861
+~ 29 Lacs+",2957861.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,71,Devendrabhai Dhanjibhai Motivaras,devendrabhai dhanjibhai motivaras,IND,48,48.0,parsed,"Rs 2,35,66,650
+~ 2 Crore+",23566650.0,parsed,"Rs 1,70,00,000
+~ 1 Crore+",17000000.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,72,Devusinh Chauhan,devusinh chauhan,BJP,59,59.0,parsed,"Rs 3,49,76,572
+~ 3 Crore+",34976572.0,parsed,"Rs 49,96,647
+~ 49 Lacs+",4996647.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,76,Dhaval Laxmanbhai Patel,dhaval laxmanbhai patel,BJP,37,37.0,parsed,"Rs 6,78,50,853
+~ 6 Crore+",67850853.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,78,Dilipbhai Chhotubhai Vasava,dilipbhai chhotubhai vasava,Bharat Adivasi Party,45,45.0,parsed,"Rs 3,80,25,530 3 Crore+",38025530.0,parsed,"Rs 1,17,20,311 Crore+",11720311.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,80,Dineshbhai Makwana (Advocate),dineshbhai makwana,BJP,54,54.0,parsed,"Rs 14,17,69,586
+~ 14 Crore+",141769586.0,parsed,"Rs 1,32,22,046
+~ 1 Crore+",13222046.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,82,Dr. Hemang Joshi,hemang joshi,BJP,33,33.0,parsed,"Rs 1,03,88,939
+~ 1 Crore+",10388939.0,parsed,"Rs 31,80,318
+~ 31 Lacs+",3180318.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,84,Dr. Mansukh Mandaviya,mansukh mandaviya,BJP,51,51.0,parsed,"Rs 7,95,04,705
+~ 7 Crore+",79504705.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,86,Dr. Rahul Vasudevbhai Vyas,rahul vasudevbhai vyas,IND,45,45.0,parsed,"Rs 5,03,99,405
+~ 5 Crore+",50399405.0,parsed,"Rs 39,46,187
+~ 39 Lacs+",3946187.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,87,Dr. Rekhaben Hiteshbhai Chaudhari,rekhaben hiteshbhai chaudhari,BJP,44,44.0,parsed,"Rs 8,34,52,239
+~ 8 Crore+",83452239.0,parsed,"Rs 58,84,283
+~ 58 Lacs+",5884283.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,95,Haribhai Patel,haribhai patel,BJP,62,62.0,parsed,"Rs 3,98,63,356
+~ 3 Crore+",39863356.0,parsed,"Rs 12,66,000
+~ 12 Lacs+",1266000.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,98,Hasmukhbhai Patel (H.S.Patel),hasmukhbhai patel,BJP,63,63.0,parsed,"Rs 8,64,70,298 8 Crore+",86470298.0,parsed,"Rs 1,35,15,602 Crore+",13515602.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,100,Himmatsinh Prahladsinh Patel,himmatsinh prahladsinh patel,INC,62,62.0,parsed,"Rs 11,48,82,848
+~ 11 Crore+",114882848.0,parsed,"Rs 60,12,313
+~ 60 Lacs+",6012313.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,109,Jadav Amitkumar Ramjibhai,jadav amitkumar ramjibhai,BSP,48,48.0,parsed,"Rs 1,60,80,000 Crore+",16080000.0,parsed,"Rs 15.88,000 15 Lacst_",15.88,decimal_review,False,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,113,Jaswantsinh Sumanbhai Bhabhor,jaswantsinh sumanbhai bhabhor,BJP,57,57.0,parsed,"Rs 4,84,04,861
+~ 4 Crore+",48404861.0,parsed,"Rs 62,87,842
+~ 62 Lacs+",6287842.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,116,Jenny Thummar,jenny thummar,INC,40,40.0,parsed,"Rs 8,47,44,413
+~ 8 Crore+",84744413.0,parsed,"Rs 3,29,83,633
+~ 3 Crore+",32983633.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,118,Jigneshbhai Mahajan,jigneshbhai mahajan,IND,37,37.0,parsed,Rs 37.411 37 Thou+,37.411,decimal_review,Rs 0,0.0,parsed,False,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,120,Jotva Hirabhai Arjanbhai,jotva hirabhai arjanbhai,INC,55,55.0,parsed,"Rs 6,65,60,865
+~ 6 Crore+",66560865.0,parsed,"Rs 50,42,297
+~ 50 Lacs+",5042297.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,123,Kalpeshbhai Shete,kalpeshbhai shete,Gunj Satya Ni Janata Party,43,43.0,parsed,"Rs 2,89,87,334
+~ 2 Crore+",28987334.0,parsed,"Rs 49,30,000
+~ 49 Lacs+",4930000.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,125,Kamleshbhai Popatbhai Patel,kamleshbhai popatbhai patel,Bhartiya Jan Parishad,51,51.0,parsed,"Rs 56,86,000
+~ 56 Lacs+",5686000.0,parsed,"Rs 39,00,000
+~ 39 Lacs+",3900000.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,133,Khira Yusuf Sidikbhai,khira yusuf sidikbhai,IND,46,46.0,parsed,"Rs 60,77,800
+~ 60 Lacs+",6077800.0,parsed,"Rs 49,34,000
+~ 49 Lacs+",4934000.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,137,Lalit Vasoya,lalit vasoya,INC,62,62.0,parsed,"Rs 2,57,27,722
+~ 2 Crore+",25727722.0,parsed,"Rs 8,68,756
+~ 8 Lacs+",868756.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,146,Manish Kumar Dubey,manish kumar dubey,Swaraj Kranti Party,37,37.0,parsed,"Rs 3,05,84,661
+~ 3 Crore+",30584661.0,parsed,"Rs 1,68,81,383
+~ 1 Crore+",16881383.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,148,Mansukhbhai Dhanjibhai Vasava,mansukhbhai dhanjibhai vasava,BJP,66,66.0,parsed,"Rs 2,54,99,808
+~ 2 Crore+",25499808.0,parsed,"Rs 11,04,414
+~ 11 Lacs+",1104414.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,154,Mitesh Patel (Bakabhai),mitesh patel,BJP,59,59.0,parsed,"Rs 11,04,48,824
+~ 11 Crore+",110448824.0,parsed,"Rs 1,28,55,662
+~ 1 Crore+",12855662.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,158,Mukeshkumar Chandrakaant Dalal,mukeshkumar chandrakaant dalal,BJP,62,62.0,parsed,"Rs 17,80,13,262 17 Crore+.",178013262.0,parsed,"Rs 1,79,57,360 Crore+",17957360.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,162,Naishadhbhai Bhupatbhai Desai,naishadhbhai bhupatbhai desai,INC,67,67.0,parsed,"Rs 14,19,14,403
+~ 14 Crore+",141914403.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,166,Nathabhai Bhurabhai Odedra,nathabhai bhurabhai odedra,IND,59,59.0,parsed,"Rs 8,41,65,042
+~ 8 Crore+",84165042.0,parsed,"Rs 11,60,500
+~ 11 Lacs+",1160500.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,168,Navsadalam Ibrahimbhai Malek,navsadalam ibrahimbhai malek,IND,39,39.0,parsed,"Rs 2,54,28,628
+~ 2 Crore+",25428628.0,parsed,"Rs 5,52,000
+~ 5 Lacs+",552000.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,170,Nilkanthkumar Mansukhlal Mistri,nilkanthkumar mansukhlal mistri,IND,46,46.0,parsed,"Rs 1,79,41,566
+~ 1 Crore+",17941566.0,parsed,"Rs 36,64,930
+~ 36 Lacs+",3664930.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,171,Nimuben Jayantibhai Bambhaniya (Nimuben Bambhaniya),nimuben jayantibhai bambhaniya,BJP,57,57.0,parsed,"Rs 2,61,15,193
+~ 2 Crore+",26115193.0,parsed,"Rs 58,29,447
+~ 58 Lacs+",5829447.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,173,Padhiyar Jashpalsinh Mahendrasinh (Bapu),padhiyar jashpalsinh mahendrasinh,INC,42,42.0,parsed,"Rs 6,17,80,052
+~ 6 Crore+",61780052.0,parsed,"Rs 64,88,192
+~ 64 Lacs+",6488192.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,174,Pandor Kaushikkumar Shankarbhai,pandor kaushikkumar shankarbhai,IND,40,40.0,parsed,"Rs 66,65,000
+~ 66 Lacs+",6665000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,True,ocr_data\gujarat_2024.csv
+Gujarat,2024,175,Pandor Kaushikkumar Shankarbhai,pandor kaushikkumar shankarbhai,IND,40,40.0,parsed,"Rs 66,65,000
+~ 66 Lacs+",6665000.0,parsed,"Rs 0
+~",0.0,parsed,False,False,True,ocr_data\gujarat_2024.csv
+Gujarat,2024,176,Parbhubhai Nagarbhai Vasava,parbhubhai nagarbhai vasava,BJP,54,54.0,parsed,"Rs 4,70,03,506
+~ 4 Crore+",47003506.0,parsed,"Rs 84,55,874
+~ 84 Lacs+",8455874.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,177,Pareshbhai Parsottambhai Mungara,pareshbhai parsottambhai mungara,Rashtriya Mahaswaraj Bhumi Party,47,47.0,parsed,"Rs 3,52,40,229
+~ 3 Crore+",35240229.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,185,Parshottambhai Rupala,parshottambhai rupala,BJP,69,69.0,parsed,"Rs 17,43,16,673
+~ 17 Crore+",174316673.0,parsed,"Rs 1,95,000
+~ 1 Lacs+",195000.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,186,Parthiv Vijaykumar Dave,parthiv vijaykumar dave,Right to Recall Party,46,46.0,parsed,"Rs 79,15,000
+~ 79 Lacs+",7915000.0,parsed,"Rs 55,00,000
+~ 55 Lacs+",5500000.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,195,Poonamben Hematbhai Maadam,poonamben hematbhai maadam,BJP,49,49.0,parsed,"Rs 1,47,70,02,341
+~ 147 Crore+",1477002341.0,parsed,"Rs 53,00,00,000
+~ 53 Crore+",530000000.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,202,Rahul Chimanbhai Mehta,rahul chimanbhai mehta,Right to Recall Party,55,55.0,parsed,"Rs 5,03,04,024
+~ 5 Crore+",50304024.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,209,Ramji Thakor,ramji thakor,INC,54,54.0,parsed,"Rs 8,55,12,315 8 Crore+",85512315.0,parsed,"Rs 14,86,990 14 Lacst",1486990.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,219,Rutvikbhai Lavjibhai Makwana,rutvikbhai lavjibhai makwana,INC,49,49.0,parsed,"Rs 1,37,13,992
+~ 1 Crore+",13713992.0,parsed,"Rs 53,09,353
+~ 53 Lacs+",5309353.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,230,Shobhanaben Mahendrasinh Baraiya,shobhanaben mahendrasinh baraiya,BJP,50,50.0,parsed,"Rs 3,18,28,842
+~ 3 Crore+",31828842.0,parsed,"Rs 1,27,44,653
+~ 1 Crore+",12744653.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,234,Sidhhapara Harsukhlal Jivanbhai,sidhhapara harsukhlal jivanbhai,Log Party,56,56.0,parsed,"Rs 48,00,378
+~ 48 Lacs+",4800378.0,parsed,"Rs 1,07,74,531
+~ 1 Crore+",10774531.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,239,Sonal Ramanbhai Patel,sonal ramanbhai patel,INC,64,64.0,parsed,"Rs 17,59,84,810
+~ 17 Crore+",175984810.0,parsed,"Rs 1,48,03,218
+~ 1 Crore+",14803218.0,parsed,True,True,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,241,Sukhrambhai Hariyabhai Rathwa,sukhrambhai hariyabhai rathwa,INC,67,67.0,parsed,"Rs 3,28,33,658
+~ 3 Crore+",32833658.0,parsed,"Rs 0
+~",0.0,parsed,True,False,False,ocr_data\gujarat_2024.csv
+Gujarat,2024,252,Umeshbhai Naranbhai Makwana,umeshbhai naranbhai makwana,AAP,46,46.0,parsed,"Rs 92,88,600
+~ 92 Lacs+",9288600.0,parsed,"Rs 33,93,500
+~ 33 Lacs+",3393500.0,parsed,False,True,False,ocr_data\gujarat_2024.csv
