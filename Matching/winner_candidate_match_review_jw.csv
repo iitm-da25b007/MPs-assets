@@ -1,0 +1,274 @@
+﻿State,Election Year,Constituency,Winner Candidate,Winner Party,Matched Candidate,Candidate Party,Candidate Sno,Match Method,Name Similarity,Match Status
+Andhra Pradesh,2014,Araku,Kothapalli Geetha,YSRCP,Kothapalli Geetha,Yuvajana Sramika Rythu Congress Party,147.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Srikakulam,Ram Mohan Naidu Kinjarapu,TDP,Rammohannaidu Kinjarapu,TDP,235.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Vizianagaram,Ashok Gajapathi Raju,TDP,Ashok Gajapathi Raju Pusapati,TDP,16.0,jaro_winkler_name_same_party,93.8,review_fuzzy
+Andhra Pradesh,2014,Visakhapatnam,Kambhampati Hari Babu,BJP,Dr. Kambhampati Hari Babu,BJP,70.0,jaro_winkler_name_same_party,96.8,review_fuzzy
+Andhra Pradesh,2014,Anakapalle,Muttamsetti Srinivasa Rao,TDP,Muttamsetti Srinivasa Rao,TDP,186.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Kakinada,Thota Narasimham,TDP,,,,jaro_winkler_name_same_party,89.6,unmatched
+Andhra Pradesh,2014,Amalapuram,Pandula Ravindra Babu,TDP,Pandula Ravindra Babu,TDP,210.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Rajahmundry,Murali Mohan,TDP,Murali Mohan Maganti,TDP,184.0,jaro_winkler_name_same_party,92.2,review_fuzzy
+Andhra Pradesh,2014,Narasapuram,Gokaraju Ganga Raju,BJP,Gokaraju Ganga Raju,BJP,88.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Eluru,Maganti Venkateswara Rao,TDP,,,,jaro_winkler_name_same_party,76.9,unmatched
+Andhra Pradesh,2014,Machilipatnam,Konakalla Narayana Rao,TDP,Konakalla Narayana Rao,TDP,141.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Vijayawada,Kesineni Srinivas (Nani),TDP,,,,jaro_winkler_name_same_party,76.7,unmatched
+Andhra Pradesh,2014,Guntur,Galla Jayadev,TDP,,,,jaro_winkler_name_same_party,72.2,unmatched
+Andhra Pradesh,2014,Narasaraopet,Rayapati Sambasiva Rao,TDP,Rayapati Sambasiva Rao,TDP,240.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Bapatla,Malyadri Sriram,TDP,Malyadri Sriram,TDP,168.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Ongole,Y. V. Subba Reddy,YSRCP,,,,jaro_winkler_name_same_party,77.2,unmatched
+Andhra Pradesh,2014,Nandyal,S. P. Y. Reddy,YSRCP,S.p.y Reddy,Yuvajana Sramika Rythu Congress Party,245.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Kurnool,Butta Renuka,YSRCP,Butta Renuka,Yuvajana Sramika Rythu Congress Party,44.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Anantapur,J. C. Diwakar Reddy,TDP,,,,jaro_winkler_name_same_party,67.1,unmatched
+Andhra Pradesh,2014,Hindupur,Kristappa Nimmala,TDP,Kristappa Nimmala,TDP,152.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Kadapa,Y. S. Avinash Reddy,YSRCP,,,,jaro_winkler_name_same_party,81.6,unmatched
+Andhra Pradesh,2014,Nellore,Mekapati Rajamohan Reddy,YSRCP,Mekapati Rajamohan Reddy,Yuvajana Sramika Rythu Congress Party,177.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Tirupati,Varaprasad Rao Velagapalli,YSRCP,Varaprasad Rao Velagapalli,Yuvajana Sramika Rythu Congress Party,301.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Rajampet,P. V. Midhun Reddy,YSRCP,P.v.midhun Reddy,Yuvajana Sramika Rythu Congress Party,204.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2014,Chittoor,Naramalli Sivaprasad,TDP,Naramalli Sivaprasad,TDP,194.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Valmiki Nagar,Satish Chandra Dubey,BJP,Satish Dubey,BJP,486.0,jaro_winkler_name_same_party,92.2,review_fuzzy
+Bihar,2014,Paschim Champaran,Sanjay Jaiswal,BJP,,,,jaro_winkler_name_same_party,86.3,unmatched
+Bihar,2014,Purvi Champaran,Radha Mohan Singh,BJP,Radha Mohan Singh,BJP,382.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Sheohar,Rama Devi,BJP,Rama Devi,BJP,431.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Sitamarhi,Ram Kumar Sharma,Rashtriya Lok Samta Party,Ram Kumar Sharma,Rashtriya Lok Samta Party,424.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Madhubani,Hukmdev Narayan Yadav,BJP,Hukum Deo Narayan Yadav,BJP,166.0,jaro_winkler_name_same_party,96.4,review_fuzzy
+Bihar,2014,Jhanjharpur,Birendra Chaudhary,BJP,Birendra Kumar Chaudhary,BJP,81.0,jaro_winkler_name_same_party,90.7,review_fuzzy
+Bihar,2014,Supaul,Ranjeet Ranjan,INC,Ranjeet Ranjan,INC,451.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Araria,Taslimuddin,RJD,Taslim Uddin,RJD,566.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Kishanganj,Asrarul Haq Qasmi,INC,,,,jaro_winkler_name_same_party,66.1,unmatched
+Bihar,2014,Katihar,Tariq Anwar,NCP,,,,jaro_winkler_name_same_party,77.1,unmatched
+Bihar,2014,Purnia,Santosh Kushwaha,JD(U),Santosh Kumar,JD(U),480.0,jaro_winkler_name_same_party,90.0,review_fuzzy
+Bihar,2014,Madhepura,Pappu Yadav,RJD,,,,jaro_winkler_name_same_party,58.9,unmatched
+Bihar,2014,Darbhanga,Kirti Azad,BJP,Kirti Azad,BJP,205.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Muzaffarpur,Ajay Nishad,BJP,Ajay Nishad,BJP,9.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Vaishali,Rama Kishore Singh,LJP,Rama Kishore Singh,LJP,432.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Gopalganj (SC),Janak Ram,BJP,Janak Ram,BJP,183.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Siwan,Om Prakash Yadav,BJP,Om Prakash Yadav,BJP,334.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Maharajganj,Janardan Singh Sigriwal,BJP,Janardan Singh Sigriwal,BJP,185.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Saran,Rajiv Pratap Rudy,BJP,Rajiv Pratap Rudy,BJP,410.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Hajipur (SC),Ram Vilas Paswan,LJP,Ram Vilas Paswan,LJP,429.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Ujiarpur,Nityanand Rai,BJP,Nityanand Rai,BJP,332.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Samastipur (SC),Ram Chandra Paswan,LJP,Ram Chandra Paswan,LJP,418.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Begusarai,Bhola Singh,BJP,Bhola Singh,BJP,71.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Khagaria,Mehboob Ali Kaiser,LJP,,,,jaro_winkler_name_same_party,69.0,unmatched
+Bihar,2014,Bhagalpur,Shailesh Mandal,RJD,,,,jaro_winkler_name_same_party,84.4,unmatched
+Bihar,2014,Banka,Jay Prakash Narayan Yadav,RJD,Jaiprakash Narayan Yadav,RJD,181.0,jaro_winkler_name_same_party,97.6,review_fuzzy
+Bihar,2014,Munger,Veena Devi,LJP,Veena Devi,LJP,585.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Nalanda,Kaushalendra Kumar,JD(U),Kaushlendra Kumar,JD(U),202.0,jaro_winkler_name_same_party,92.6,review_fuzzy
+Bihar,2014,Patna Sahib,Shatrughan Sinha,BJP,Shatrughan Sinha,BJP,513.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Pataliputra,Ram Kripal Yadav,BJP,Ram Kripal Yadav,BJP,422.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Arrah,R. K. Singh,BJP,,,,jaro_winkler_name_same_party,67.5,unmatched
+Bihar,2014,Buxar,Ashwini Choubey,BJP,Ashwini Kumar Choubey,BJP,51.0,jaro_winkler_name_same_party,91.9,review_fuzzy
+Bihar,2014,Sasaram (SC),Chhedi Paswan,BJP,Chhedi Paswan,BJP,96.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Karakat,Upendra Kushwaha,Rashtriya Lok Samta Party,Upendra Kushwaha,Rashtriya Lok Samta Party,579.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Jahanabad,Arun Kumar,Rashtriya Lok Samta Party,Dr. Arun Kumar,Rashtriya Lok Samta Party,128.0,jaro_winkler_name_same_party,90.2,review_fuzzy
+Bihar,2014,Aurangabad,Sushil Singh,BJP,Sushil Kumar Singh,BJP,560.0,jaro_winkler_name_same_party,93.8,review_fuzzy
+Bihar,2014,Gaya (SC),Hari Manjhi,BJP,Hari Manjhi,BJP,162.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Nawada,Giriraj Singh,BJP,Giriraj Singh,BJP,155.0,exact_name_and_party,100.0,matched_exact
+Bihar,2014,Jamui (SC),Chirag Paswan,LJP,Chirag Kumar Paswan,LJP,98.0,jaro_winkler_name_same_party,90.8,review_fuzzy
+Gujarat,2014,Kachchh,Vinodbhai Chavda,BJP,,,,jaro_winkler_name_same_party,68.5,unmatched
+Gujarat,2014,Banaskantha,Haribhai Chaudhary,BJP,,,,jaro_winkler_name_same_party,74.7,unmatched
+Gujarat,2014,Patan,Liladhar Vaghela,BJP,,,,jaro_winkler_name_same_party,74.4,unmatched
+Gujarat,2014,Mahesana,Jayshreeben Patel,BJP,,,,jaro_winkler_name_same_party,74.3,unmatched
+Gujarat,2014,Sabarkantha,Dipsinh Rathod,BJP,,,,jaro_winkler_name_same_party,69.3,unmatched
+Gujarat,2014,Gandhinagar,L. K. Advani,BJP,,,,jaro_winkler_name_same_party,61.4,unmatched
+Gujarat,2014,Ahmedabad East,Paresh Rawal,BJP,,,,jaro_winkler_name_same_party,87.9,unmatched
+Gujarat,2014,Ahmedabad West,Kirit Solanki,BJP,,,,jaro_winkler_name_same_party,65.0,unmatched
+Gujarat,2014,Surendranagar,Devajibhai Fatepara,BJP,,,,jaro_winkler_name_same_party,73.3,unmatched
+Gujarat,2014,Rajkot,Mohan Kundariya,BJP,,,,jaro_winkler_name_same_party,65.7,unmatched
+Gujarat,2014,Porbandar,Vitthal Radadiya,BJP,,,,jaro_winkler_name_same_party,67.1,unmatched
+Gujarat,2014,Jamnagar,Poonamben Maadam,BJP,,,,jaro_winkler_name_same_party,74.2,unmatched
+Gujarat,2014,Junagadh,Rajesh Chudasama,BJP,,,,jaro_winkler_name_same_party,69.0,unmatched
+Gujarat,2014,Amreli,Naranbhai Kachhadia,BJP,,,,jaro_winkler_name_same_party,72.5,unmatched
+Gujarat,2014,Bhavnagar,Bharti Shiyal,BJP,,,,jaro_winkler_name_same_party,70.2,unmatched
+Gujarat,2014,Anand,Dilip Patel,BJP,,,,jaro_winkler_name_same_party,78.0,unmatched
+Gujarat,2014,Kheda,Devusinh Chauhan,BJP,,,,jaro_winkler_name_same_party,73.3,unmatched
+Gujarat,2014,Panchmahal,Prabhatsinh Chauhan,BJP,,,,jaro_winkler_name_same_party,75.1,unmatched
+Gujarat,2014,Dahod,Jasvantsinh Bhabhor,BJP,,,,jaro_winkler_name_same_party,76.2,unmatched
+Gujarat,2014,Vadodara,Narendra Modi,BJP,Narendra Modi,BJP,157.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2014,Chhota Udaipur,Ramsinh Rathwa,BJP,,,,jaro_winkler_name_same_party,76.4,unmatched
+Gujarat,2014,Bharuch,Mansukhbhai Vasava,BJP,Mansukhbhai Dhanjibhai Vasava,BJP,137.0,jaro_winkler_name_same_party,90.2,review_fuzzy
+Gujarat,2014,Bardoli,Parbhubhai Vasava,BJP,Parbhubhai Nagarbhai Vasava,BJP,172.0,jaro_winkler_name_same_party,90.3,review_fuzzy
+Gujarat,2014,Surat,Darshana Jardosh,BJP,,,,jaro_winkler_name_same_party,71.9,unmatched
+Gujarat,2014,Navsari,C. R. Patil,BJP,,,,jaro_winkler_name_same_party,78.6,unmatched
+Gujarat,2014,Valsad,K. C. Patel,BJP,Dr. K.c.patel,BJP,65.0,jaro_winkler_name_same_party,92.6,review_fuzzy
+Andhra Pradesh,2019,Araku (ST),Goddeti Madhavi,YSRCP,Goddeti Madhavi,YSRCP,97.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Srikakulam,Kinjarapu Ram Mohan Naidu,TDP,,,,jaro_winkler_name_same_party,76.9,unmatched
+Andhra Pradesh,2019,Vizianagaram,Bellana Chandra Sekhar,YSRCP,Bellana Chandra Sekhar,YSRCP,32.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Visakhapatnam,M. V. V. Satyanarayana,YSRCP,M V V Satyanarayana,YSRCP,163.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Anakapalle,Beesetti Venkata Satyavathi,YSRCP,Dr.Beesetti Venkata Satyavathi,YSRCP,78.0,jaro_winkler_name_same_party,97.5,review_fuzzy
+Andhra Pradesh,2019,Kakinada,Vanga Geetha,YSRCP,Vanga Geetha Viswanatham,YSRCP,296.0,jaro_winkler_name_same_party,90.0,review_fuzzy
+Andhra Pradesh,2019,Amalapuram (SC),Chinta Anuradha,YSRCP,Chinta Anuradha,YSRCP,55.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Rajahmundry,Margani Bharat,YSRCP,Margani Bharat Ram,YSRCP,178.0,jaro_winkler_name_same_party,96.2,review_fuzzy
+Andhra Pradesh,2019,Narasapuram,Raghu Rama Krishna Raju,YSRCP,,,,jaro_winkler_name_same_party,77.1,unmatched
+Andhra Pradesh,2019,Eluru,Kotagiri Sridhar,YSRCP,,,,jaro_winkler_name_same_party,67.4,unmatched
+Andhra Pradesh,2019,Machilipatnam,Vallabhaneni Balashowry,YSRCP,,,,jaro_winkler_name_same_party,71.1,unmatched
+Andhra Pradesh,2019,Vijayawada,Kesineni Nani,TDP,,,,jaro_winkler_name_same_party,66.0,unmatched
+Andhra Pradesh,2019,Guntur,Galla Jayadev,TDP,,,,jaro_winkler_name_same_party,72.2,unmatched
+Andhra Pradesh,2019,Narasaraopet,Lavu Sri Krishna Devarayalu,YSRCP,Lavu Sri Krishna Devarayalu,YSRCP,159.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Bapatla (SC),Nandigam Suresh,YSRCP,,,,jaro_winkler_name_same_party,67.5,unmatched
+Andhra Pradesh,2019,Ongole,Magunta Sreenivasulu Reddy,YSRCP,Magunta Sreenivasulu Reddy,YSRCP,171.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Nandyal,Pocha Brahmananda Reddy,YSRCP,Pocha Brahmananda Reddy,YSRCP,235.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Kurnool,Sanjeev Kumar,YSRCP,Dr Sanjeev Kumar,YSRCP,73.0,jaro_winkler_name_same_party,95.2,review_fuzzy
+Andhra Pradesh,2019,Anantapur,Talari Rangaiah,YSRCP,Talari Rangaiah,YSRCP,285.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Hindupur,Kuruva Gorantla Madhav,YSRCP,Kuruva Gorantla Madhav,YSRCP,155.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Kadapa,Y. S. Avinash Reddy,YSRCP,,,,jaro_winkler_name_same_party,74.1,unmatched
+Andhra Pradesh,2019,Nellore,Adala Prabhakara Reddy,YSRCP,Adala Prabhakara Reddy,YSRCP,3.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Tirupati (SC),Balli Durga Prasad Rao,YSRCP,Balli Durgaprasad Rao,YSRCP,27.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Rajampet,P. V. Midhun Reddy,YSRCP,P.V.Midhun Reddy,YSRCP,221.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2019,Chittoor (SC),N. Reddeppa,YSRCP,N. Reddeppa,YSRCP,198.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Valmiki Nagar,Baidyanath Prasad Mahto,JD(U),Baidyanath Prasad Mahto,JD(U),81.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Paschim Champaran,Sanjay Jaiswal,BJP,Dr. Sanjay Jaiswal,BJP,156.0,jaro_winkler_name_same_party,95.6,review_fuzzy
+Bihar,2019,Purvi Champaran,Radha Mohan Singh,BJP,Radha Mohan Singh,BJP,352.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Sheohar,Rama Devi,BJP,Rama Devi,BJP,411.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Sitamarhi,Sunil Kumar Pintu,JD(U),Sunil Kumar,JD(U),544.0,jaro_winkler_name_same_party,93.3,review_fuzzy
+Bihar,2019,Madhubani,Ashok Kumar Yadav,BJP,Ashok Kumar Yadav,BJP,75.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Jhanjharpur,Ramprit Mandal,JD(U),Ramprit Mandal,JD(U),429.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Supaul,Dileshwar Kamait,JD(U),Dileshwar Kamait,JD(U),137.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Araria,Pradeep Kumar Singh,BJP,Pradeep Kumar Singh,BJP,333.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Kishanganj,Mohammad Jawed,INC,Dr. Mohammad Jawed,INC,154.0,jaro_winkler_name_same_party,95.6,review_fuzzy
+Bihar,2019,Katihar,Dulal Chandra Goswami,JD(U),Dulal Chandra Goswami,JD(U),158.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Purnia,Santosh Kumar Kushwaha,JD(U),Santosh Kumar,JD(U),471.0,jaro_winkler_name_same_party,92.0,review_fuzzy
+Bihar,2019,Madhepura,Dinesh Chandra Yadav,JD(U),Dinesh Chandra Yadav,JD(U),145.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Darbhanga,Gopal Jee Thakur,BJP,Gopaljee Thakur,BJP,170.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Muzaffarpur,Ajay Nishad,BJP,Ajay Nishad,BJP,20.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Vaishali,Veena Devi,LJP,Veena Devi,LJP,595.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Gopalganj,Alok Kumar Suman,JD(U),,,,jaro_winkler_name_same_party,86.3,unmatched
+Bihar,2019,Siwan,Kavita Singh,JD(U),Kavita Singh,JD(U),203.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Maharajganj,Janardan Singh Sigriwal,BJP,Janardan Singh Sigriwal,BJP,184.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Saran,Rajiv Pratap Rudy,BJP,Rajiv Pratap Rudy,BJP,386.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Hajipur (SC),Pashupati Kumar Paras,LJP,Pashupati Kumar Paras,LJP,321.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Ujiarpur,Nityanand Rai,BJP,Nityanand Rai,BJP,306.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Samastipur (SC),Ram Chandra Paswan,LJP,Ramchandra Paswan,LJP,416.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Begusarai,Giriraj Singh,BJP,Giriraj Singh,BJP,169.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Khagaria,Mehboob Ali Kaiser,LJP,,,,jaro_winkler_name_same_party,63.1,unmatched
+Bihar,2019,Bhagalpur,Ajay Kumar Mandal,JD(U),Ajay Kumar Mandal,JD(U),18.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Banka,Giridhari Yadav,JD(U),Giridhari Yadav,JD(U),168.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Munger,Lalan Singh,JD(U),,,,jaro_winkler_name_same_party,72.2,unmatched
+Bihar,2019,Nalanda,Kaushalendra Kumar,JD(U),Kaushlendra Kumar,JD(U),202.0,jaro_winkler_name_same_party,92.6,review_fuzzy
+Bihar,2019,Patna Sahib,Ravi Shankar Prasad,BJP,Ravi Shankar Prasad,BJP,443.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Pataliputra,Ram Kripal Yadav,BJP,Ram Kripal Yadav,BJP,403.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Arrah,R. K. Singh,BJP,R. K. Singh,BJP,351.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Buxar,Ashwini Choubey,BJP,Ashwini Kumar Choubey,BJP,76.0,jaro_winkler_name_same_party,91.9,review_fuzzy
+Bihar,2019,Sasaram (SC),Chhedi Paswan,BJP,Chhedi Paswan,BJP,110.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Karakat,Mahabali Singh,JD(U),Mahabali Singh,JD(U),229.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Jahanabad,Chandeshwar Prasad,JD(U),Chandeshwar Prasad,JD(U),106.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Aurangabad,Sushil Kumar Singh,BJP,Sushil Kumar Singh,BJP,566.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Gaya (SC),Vijay Kumar Manjhi,JD(U),Vijay Kumar,JD(U),602.0,jaro_winkler_name_same_party,92.5,review_fuzzy
+Bihar,2019,Nawada,Chandan Singh,LJP,Chandan Singh,LJP,105.0,exact_name_and_party,100.0,matched_exact
+Bihar,2019,Jamui (SC),Chirag Paswan,LJP,Chirag Kumar Paswan,LJP,113.0,jaro_winkler_name_same_party,90.8,review_fuzzy
+Gujarat,2019,Kachchh,Vinodbhai Chavda,BJP,,,,jaro_winkler_name_same_party,68.5,unmatched
+Gujarat,2019,Banaskantha,Parbatbhai Patel,BJP,Parbatbhai Patel,BJP,207.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2019,Patan,Bharatsinhji Dabhi Thakor,BJP,,,,jaro_winkler_name_same_party,78.0,unmatched
+Gujarat,2019,Mahesana,Shardaben Patel,BJP,,,,jaro_winkler_name_same_party,89.9,unmatched
+Gujarat,2019,Sabarkantha,Dipsinh Rathod,BJP,,,,jaro_winkler_name_same_party,71.2,unmatched
+Gujarat,2019,Gandhinagar,Amit Shah,BJP,Amit Shah,BJP,10.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2019,Ahmedabad East,Hasmukh Patel,BJP,,,,jaro_winkler_name_same_party,70.9,unmatched
+Gujarat,2019,Ahmedabad West,Kirit Solanki,BJP,,,,jaro_winkler_name_same_party,69.1,unmatched
+Gujarat,2019,Surendranagar,Mahendra Munjapara,BJP,Mahendrabhai Munjpara,BJP,169.0,jaro_winkler_name_same_party,94.6,review_fuzzy
+Gujarat,2019,Rajkot,Mohan Kundariya,BJP,,,,jaro_winkler_name_same_party,65.0,unmatched
+Gujarat,2019,Porbandar,Rameshbhai Dhaduk,BJP,Rameshbhai Dhaduk,BJP,259.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2019,Jamnagar,Poonamben Maadam,BJP,Poonamben Hematbhai Maadam,BJP,240.0,jaro_winkler_name_same_party,91.2,review_fuzzy
+Gujarat,2019,Junagadh,Rajesh Chudasama,BJP,,,,jaro_winkler_name_same_party,69.0,unmatched
+Gujarat,2019,Amreli,Naranbhai Kachhadia,BJP,,,,jaro_winkler_name_same_party,72.5,unmatched
+Gujarat,2019,Bhavnagar,Bharti Shiyal,BJP,,,,jaro_winkler_name_same_party,73.3,unmatched
+Gujarat,2019,Anand,Miteshbhai Patel,BJP,Miteshbhai Patel,BJP,190.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2019,Kheda,Devusinh Chauhan,BJP,,,,jaro_winkler_name_same_party,64.9,unmatched
+Gujarat,2019,Panchmahal,Ratansinh Rathod,BJP,Ratansinh Rathod,BJP,263.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2019,Dahod,Jasvantsinh Bhabhor,BJP,Jasvantsinh Sumanbhai Bhabhor,BJP,130.0,jaro_winkler_name_same_party,92.2,review_fuzzy
+Gujarat,2019,Vadodara,Ranjanben Bhatt,BJP,Ranjanben Bhatt,BJP,261.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2019,Chhota Udaipur,Gitaben Rathva,BJP,,,,jaro_winkler_name_same_party,68.6,unmatched
+Gujarat,2019,Bharuch,Mansukhbhai Vasava,BJP,Mansukhbhai Vasava,BJP,182.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2019,Bardoli,Parbhubhai Vasava,BJP,Parbhubhai Nagarbhai Vasava,BJP,208.0,jaro_winkler_name_same_party,90.3,review_fuzzy
+Gujarat,2019,Surat,Darshana Jardosh,BJP,,,,jaro_winkler_name_same_party,71.9,unmatched
+Gujarat,2019,Navsari,C. R. Patil,BJP,,,,jaro_winkler_name_same_party,78.6,unmatched
+Gujarat,2019,Valsad,Dr. K C Patel,BJP,Dr.K.C.Patel,BJP,101.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Araku (ST),Gumma Thanuja Rani,YSRCP,Gumma Thanuja Rani,YSRCP,176.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Srikakulam,K. Ram Mohan Naidu,TDP,,,,jaro_winkler_name_same_party,76.2,unmatched
+Andhra Pradesh,2024,Vizianagaram,Appala Naidu Kalisetti,TDP,Appalanaidu Kalisetti,TDP,33.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Visakhapatnam,Mathukumilli Bharat,TDP,,,,jaro_winkler_name_same_party,77.5,unmatched
+Andhra Pradesh,2024,Anakapalle,C. M. Ramesh,BJP,C.M.Ramesh,BJP,96.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Kakinada,Tangella Uday Srinivas,Janasena Party,Tangella Uday Srinivas (Tea Time Uday),Janasena Party,392.0,jaro_winkler_name_same_party,92.9,review_fuzzy
+Andhra Pradesh,2024,Amalapuram (SC),Ganti Harish Madhur,TDP,,,,jaro_winkler_name_same_party,65.8,unmatched
+Andhra Pradesh,2024,Rajahmundry,Daggubati Purandeswari,BJP,Daggubati Purandheshwari,BJP,116.0,jaro_winkler_name_same_party,98.3,review_fuzzy
+Andhra Pradesh,2024,Narasapuram,Bhupathi Srinivasa Varma,BJP,Bhupathi Raju Srinivasa Varma,BJP,71.0,jaro_winkler_name_same_party,92.4,review_fuzzy
+Andhra Pradesh,2024,Eluru,Putta Mahesh Kumar,TDP,Putta Mahesh Kumar,TDP,337.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Machilipatnam,Vallabhaneni Balashowry,Janasena Party,,,,jaro_winkler_name_same_party,71.1,unmatched
+Andhra Pradesh,2024,Vijayawada,Kesineni Sivanath,TDP,Kesineni Sivanath (Chinni),TDP,218.0,jaro_winkler_name_same_party,94.5,review_fuzzy
+Andhra Pradesh,2024,Guntur,Chandra Sekhar Pemmasani,TDP,,,,jaro_winkler_name_same_party,88.1,unmatched
+Andhra Pradesh,2024,Narasaraopet,Lavu Sri Krishna Devarayalu,TDP,Lavu Srikrishna Devarayalu,TDP,243.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Bapatla (SC),Krishna Prasad Tenneti,TDP,Krishna Prasad Tenneti,TDP,236.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Ongole,Magunta S. Reddy,TDP,Magunta Sreenivasulu Reddy,TDP,252.0,jaro_winkler_name_same_party,90.8,review_fuzzy
+Andhra Pradesh,2024,Nandyal,Byreddy Shabari,TDP,Dr Byreddy Shabari,TDP,132.0,jaro_winkler_name_same_party,91.1,review_fuzzy
+Andhra Pradesh,2024,Kurnool,Bastipati Nagaraju,TDP,Bastipati Nagaraju Panchalingala,TDP,59.0,jaro_winkler_name_same_party,91.3,review_fuzzy
+Andhra Pradesh,2024,Anantapur,Ambika G. L Valmiki,TDP,,,,jaro_winkler_name_same_party,68.2,unmatched
+Andhra Pradesh,2024,Hindupur,B. K. Parthasarathi,TDP,B K Parthasarathi,TDP,46.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Kadapa,Y. S. Avinash Reddy,YSRCP,Y. S. Avinash Reddy,YSRCP,440.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Nellore,Vemireddy Prabhakar Reddy,TDP,,,,jaro_winkler_name_same_party,79.6,unmatched
+Andhra Pradesh,2024,Tirupati (SC),Maddila Gurumoorthy,YSRCP,,,,jaro_winkler_name_same_party,66.1,unmatched
+Andhra Pradesh,2024,Rajampet,P. V. Midhun Reddy,YSRCP,P V Midhun Reddy,YSRCP,298.0,exact_name_and_party,100.0,matched_exact
+Andhra Pradesh,2024,Chittoor (SC),Daggumalla Prasada Rao,TDP,Daggumalla Prasada Rao,TDP,117.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Valmiki Nagar,Sunil Kumar,JD(U),Sunil Kumar,JD(U),445.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Paschim Champaran,Sanjay Jaiswal,BJP,Dr.Sanjay Jaiswal,BJP,129.0,jaro_winkler_name_same_party,95.6,review_fuzzy
+Bihar,2024,Purvi Champaran,Radha Mohan Singh,BJP,Radha Mohan Singh,BJP,312.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Sheohar,Lovely Anand,JD(U),Lovely Anand,JD(U),202.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Sitamarhi,Devesh Chandra Thakur,JD(U),Devesh Chandra Thakur,JD(U),105.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Madhubani,Ashok Kumar Yadav,BJP,Ashok Kumar Yadav,BJP,58.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Jhanjharpur,Ramprit Mandal,JD(U),Ramprit Mandal,JD(U),356.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Supaul,Dileshwar Kamait,JD(U),Dileshwar Kamait,JD(U),113.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Araria,Pradeep Kumar Singh,BJP,Pradeep Kumar Singh,BJP,295.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Kishanganj,Mohammad Jawed,INC,Mohammad Jawed,INC,235.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Katihar,Tariq Anwar,INC,Tariq Anwar,INC,459.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Purnia,Pappu Yadav,IND,,,,jaro_winkler_name_same_party,71.5,unmatched
+Bihar,2024,Madhepura,Dinesh Chandra Yadav,JD(U),Dinesh Chandra Yadav,JD(U),121.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Darbhanga,Gopal Jee Thakur,BJP,Gopal Jee Thakur,BJP,145.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Muzaffarpur,Raj Bhushan Choudhary,BJP,Raj Bhushan Choudhary,BJP,315.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Vaishali,Veena Devi,Lok Janshakti Party(Ram Vilas),Veena Devi,Lok Janshakti Party(Ram Vilas),475.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Gopalganj (SC),Alok Kumar Suman,JD(U),,,,jaro_winkler_name_same_party,86.3,unmatched
+Bihar,2024,Siwan,Vijaylakshmi Devi,JD(U),Vijaylakshmi Devi,JD(U),482.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Maharajganj,Janardan Singh,BJP,Janardan Singh (Sigriwal),BJP,165.0,jaro_winkler_name_same_party,92.4,review_fuzzy
+Bihar,2024,Saran,Rajiv Pratap Rudy,BJP,Rajiv Pratap Rudy,BJP,334.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Hajipur (SC),Chirag Paswan,Lok Janshakti Party(Ram Vilas),Chirag Paswan,Lok Janshakti Party(Ram Vilas),96.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Ujiarpur,Nityanand Rai,BJP,Nityanand Rai,BJP,279.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Samastipur (SC),Shambhavi Choudhary,Lok Janshakti Party(Ram Vilas),Shambhavi,Lok Janshakti Party(Ram Vilas),408.0,jaro_winkler_name_same_party,90.0,review_fuzzy
+Bihar,2024,Begusarai,Giriraj Singh,BJP,Giriraj Singh,BJP,144.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Khagaria,Rajesh Verma,Lok Janshakti Party(Ram Vilas),Rajesh Verma,Lok Janshakti Party(Ram Vilas),331.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Bhagalpur,Ajay Kumar Mandal,JD(U),Ajay Kumar Mandal,JD(U),15.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Banka,Giridhari Yadav,JD(U),Giridhari Yadav,JD(U),143.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Munger,Lalan Singh,JD(U),,,,jaro_winkler_name_same_party,60.3,unmatched
+Bihar,2024,Nalanda,Kaushalendra Kumar,JD(U),Kaushalendra Kumar,JD(U),178.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Patna Sahib,Ravi Shankar Prasad,BJP,Ravi Shankar Prasad,BJP,371.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Pataliputra,Misa Bharti,RJD,Misha Bharti,RJD,229.0,jaro_winkler_name_same_party,95.5,review_fuzzy
+Bihar,2024,Arrah,Sudama Prasad,CPI(ML)L,Sudama Prasad,CPI(ML)(L),433.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Buxar,Sudhakar Singh,RJD,Sudhakar Singh,RJD,435.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Sasaram (SC),Manoj Kumar,INC,Manoj Kumar,INC,212.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Karakat,Raja Ram Singh,CPI(ML)L,Raja Ram Singh,CPI(ML)(L),322.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Jahanabad,Surendra Prasad Yadav,RJD,Surendra Prasad Yadav,RJD,453.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Aurangabad,Abhay Kushwaha,RJD,,,,jaro_winkler_name_same_party,89.8,unmatched
+Bihar,2024,Gaya (SC),Jitan Ram Manjhi,Hindustani Awam Morcha (Secular),Jitan Ram Manjhi,Hindustani Awam Morcha (Secular),171.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Nawada,Vivek Thakur,BJP,Vivek Thakur,BJP,494.0,exact_name_and_party,100.0,matched_exact
+Bihar,2024,Jamui (SC),Arun Bharti,Lok Janshakti Party(Ram Vilas),Arun Bharti,Lok Janshakti Party(Ram Vilas),50.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2024,Kachchh,Vinodbhai Chavda,BJP,,,,jaro_winkler_name_same_party,68.5,unmatched
+Gujarat,2024,Banaskantha,Geni Thakor,INC,,,,jaro_winkler_name_same_party,77.9,unmatched
+Gujarat,2024,Patan,Bharatsinhji Dabhi,BJP,,,,jaro_winkler_name_same_party,83.9,unmatched
+Gujarat,2024,Mahesana,Haribhai Patel,BJP,Haribhai Patel,BJP,95.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2024,Sabarkantha,Shobhanaben Baraiya,BJP,,,,jaro_winkler_name_same_party,88.7,unmatched
+Gujarat,2024,Gandhinagar,Amit Shah,BJP,Amit Shah,BJP,9.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2024,Ahmedabad East,Hasmukh Patel,BJP,,,,jaro_winkler_name_same_party,88.8,unmatched
+Gujarat,2024,Ahmedabad West,Dinesh Makwana,BJP,,,,jaro_winkler_name_same_party,85.8,unmatched
+Gujarat,2024,Surendranagar,Chandubhai Shihora,BJP,,,,jaro_winkler_name_same_party,88.6,unmatched
+Gujarat,2024,Rajkot,Parshottam Rupala,BJP,Parshottambhai Rupala,BJP,185.0,jaro_winkler_name_same_party,92.2,review_fuzzy
+Gujarat,2024,Porbandar,Mansukh Mandaviya,BJP,Dr. Mansukh Mandaviya,BJP,84.0,jaro_winkler_name_same_party,96.3,review_fuzzy
+Gujarat,2024,Jamnagar,Poonamben Maadam,BJP,Poonamben Hematbhai Maadam,BJP,195.0,jaro_winkler_name_same_party,91.2,review_fuzzy
+Gujarat,2024,Junagadh,Rajesh Chudasama,BJP,,,,jaro_winkler_name_same_party,69.0,unmatched
+Gujarat,2024,Amreli,Bharatbhai Sutariya,BJP,Bharatbhai Manubhai Sutariya,BJP,31.0,jaro_winkler_name_same_party,90.5,review_fuzzy
+Gujarat,2024,Bhavnagar,Nimuben Bambhaniya,BJP,,,,jaro_winkler_name_same_party,69.5,unmatched
+Gujarat,2024,Anand,Mitesh Patel,BJP,Mitesh Patel (Bakabhai),BJP,154.0,jaro_winkler_name_same_party,91.6,review_fuzzy
+Gujarat,2024,Kheda,Devusinh Chauhan,BJP,Devusinh Chauhan,BJP,72.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2024,Panchmahal,Rajpalsinh Jadav,BJP,,,,jaro_winkler_name_same_party,88.4,unmatched
+Gujarat,2024,Dahod,Jasvantsinh Bhabhor,BJP,,,,jaro_winkler_name_same_party,88.7,unmatched
+Gujarat,2024,Vadodara,Hemang Joshi,BJP,Dr. Hemang Joshi,BJP,82.0,jaro_winkler_name_same_party,94.9,review_fuzzy
+Gujarat,2024,Chhota Udaipur,Jashubhai Rathva,BJP,,,,jaro_winkler_name_same_party,89.8,unmatched
+Gujarat,2024,Bharuch,Mansukhbhai Vasava,BJP,Mansukhbhai Dhanjibhai Vasava,BJP,148.0,jaro_winkler_name_same_party,90.2,review_fuzzy
+Gujarat,2024,Bardoli,Parbhubhai Vasava,BJP,Parbhubhai Nagarbhai Vasava,BJP,176.0,jaro_winkler_name_same_party,90.3,review_fuzzy
+Gujarat,2024,Surat,Mukesh Dalal,BJP,,,,jaro_winkler_name_same_party,67.6,unmatched
+Gujarat,2024,Navsari,C. R. Patil,BJP,C R Patil,BJP,46.0,exact_name_and_party,100.0,matched_exact
+Gujarat,2024,Valsad,Dhavalbhai Patel,BJP,,,,jaro_winkler_name_same_party,89.0,unmatched
