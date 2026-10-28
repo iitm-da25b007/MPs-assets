@@ -1,28 +1,244 @@
-column,dtype_after_readback
-State,str
-Election Year,int64
-Sno.,int64
-Candidate,string
-Party,string
-Criminal Cases,int64
-Education,str
-source_file,str
-Candidate_source,string
-Party_source,string
-Education_source,string
-Age_source,string
-Total Assets_source,string
-Liabilities_source,string
-Candidate_match_key,str
-Age_years,float64
-Age_parse_status,str
-Total_Assets_INR,float64
-Total_Assets_INR_parse_status,str
-Liabilities_INR,float64
-Liabilities_INR_parse_status,str
-Criminal_Cases_count,int64
-Criminal_Cases_parse_status,str
-duplicate_record_flag,bool
-Total_Assets_INR_iqr_outlier_flag,bool
-Liabilities_INR_iqr_outlier_flag,bool
-manual_review_flag,bool
+state,year,file,column,dtype_after_readback
+Andhra,2014,andhra_2014.parquet,State,str
+Andhra,2014,andhra_2014.parquet,Election Year,int64
+Andhra,2014,andhra_2014.parquet,Sno.,int64
+Andhra,2014,andhra_2014.parquet,Candidate,string
+Andhra,2014,andhra_2014.parquet,Party,string
+Andhra,2014,andhra_2014.parquet,Criminal Cases,int64
+Andhra,2014,andhra_2014.parquet,Education,str
+Andhra,2014,andhra_2014.parquet,source_file,str
+Andhra,2014,andhra_2014.parquet,Candidate_source,string
+Andhra,2014,andhra_2014.parquet,Party_source,string
+Andhra,2014,andhra_2014.parquet,Education_source,string
+Andhra,2014,andhra_2014.parquet,Age_source,string
+Andhra,2014,andhra_2014.parquet,Total Assets_source,string
+Andhra,2014,andhra_2014.parquet,Liabilities_source,string
+Andhra,2014,andhra_2014.parquet,Candidate_match_key,str
+Andhra,2014,andhra_2014.parquet,Age_years,float64
+Andhra,2014,andhra_2014.parquet,Age_parse_status,str
+Andhra,2014,andhra_2014.parquet,Total_Assets_INR,float64
+Andhra,2014,andhra_2014.parquet,Total_Assets_INR_parse_status,str
+Andhra,2014,andhra_2014.parquet,Liabilities_INR,float64
+Andhra,2014,andhra_2014.parquet,Liabilities_INR_parse_status,str
+Andhra,2014,andhra_2014.parquet,Criminal_Cases_count,int64
+Andhra,2014,andhra_2014.parquet,Criminal_Cases_parse_status,str
+Andhra,2014,andhra_2014.parquet,duplicate_record_flag,bool
+Andhra,2014,andhra_2014.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Andhra,2014,andhra_2014.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Andhra,2014,andhra_2014.parquet,manual_review_flag,bool
+Andhra,2019,andhra_2019.parquet,State,str
+Andhra,2019,andhra_2019.parquet,Election Year,int64
+Andhra,2019,andhra_2019.parquet,Sno.,int64
+Andhra,2019,andhra_2019.parquet,Candidate,string
+Andhra,2019,andhra_2019.parquet,Party,string
+Andhra,2019,andhra_2019.parquet,Criminal Cases,int64
+Andhra,2019,andhra_2019.parquet,Education,str
+Andhra,2019,andhra_2019.parquet,source_file,str
+Andhra,2019,andhra_2019.parquet,Candidate_source,string
+Andhra,2019,andhra_2019.parquet,Party_source,string
+Andhra,2019,andhra_2019.parquet,Education_source,string
+Andhra,2019,andhra_2019.parquet,Age_source,string
+Andhra,2019,andhra_2019.parquet,Total Assets_source,string
+Andhra,2019,andhra_2019.parquet,Liabilities_source,string
+Andhra,2019,andhra_2019.parquet,Candidate_match_key,str
+Andhra,2019,andhra_2019.parquet,Age_years,float64
+Andhra,2019,andhra_2019.parquet,Age_parse_status,str
+Andhra,2019,andhra_2019.parquet,Total_Assets_INR,float64
+Andhra,2019,andhra_2019.parquet,Total_Assets_INR_parse_status,str
+Andhra,2019,andhra_2019.parquet,Liabilities_INR,float64
+Andhra,2019,andhra_2019.parquet,Liabilities_INR_parse_status,str
+Andhra,2019,andhra_2019.parquet,Criminal_Cases_count,int64
+Andhra,2019,andhra_2019.parquet,Criminal_Cases_parse_status,str
+Andhra,2019,andhra_2019.parquet,duplicate_record_flag,bool
+Andhra,2019,andhra_2019.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Andhra,2019,andhra_2019.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Andhra,2019,andhra_2019.parquet,manual_review_flag,bool
+Andhra,2024,andhra_2024.parquet,State,str
+Andhra,2024,andhra_2024.parquet,Election Year,int64
+Andhra,2024,andhra_2024.parquet,Sno.,int64
+Andhra,2024,andhra_2024.parquet,Candidate,string
+Andhra,2024,andhra_2024.parquet,Party,string
+Andhra,2024,andhra_2024.parquet,Criminal Cases,int64
+Andhra,2024,andhra_2024.parquet,Education,str
+Andhra,2024,andhra_2024.parquet,source_file,str
+Andhra,2024,andhra_2024.parquet,Candidate_source,string
+Andhra,2024,andhra_2024.parquet,Party_source,string
+Andhra,2024,andhra_2024.parquet,Education_source,string
+Andhra,2024,andhra_2024.parquet,Age_source,string
+Andhra,2024,andhra_2024.parquet,Total Assets_source,string
+Andhra,2024,andhra_2024.parquet,Liabilities_source,string
+Andhra,2024,andhra_2024.parquet,Candidate_match_key,str
+Andhra,2024,andhra_2024.parquet,Age_years,float64
+Andhra,2024,andhra_2024.parquet,Age_parse_status,str
+Andhra,2024,andhra_2024.parquet,Total_Assets_INR,float64
+Andhra,2024,andhra_2024.parquet,Total_Assets_INR_parse_status,str
+Andhra,2024,andhra_2024.parquet,Liabilities_INR,float64
+Andhra,2024,andhra_2024.parquet,Liabilities_INR_parse_status,str
+Andhra,2024,andhra_2024.parquet,Criminal_Cases_count,int64
+Andhra,2024,andhra_2024.parquet,Criminal_Cases_parse_status,str
+Andhra,2024,andhra_2024.parquet,duplicate_record_flag,bool
+Andhra,2024,andhra_2024.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Andhra,2024,andhra_2024.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Andhra,2024,andhra_2024.parquet,manual_review_flag,bool
+Bihar,2014,bihar_2014.parquet,State,str
+Bihar,2014,bihar_2014.parquet,Election Year,int64
+Bihar,2014,bihar_2014.parquet,Sno.,int64
+Bihar,2014,bihar_2014.parquet,Candidate,string
+Bihar,2014,bihar_2014.parquet,Party,string
+Bihar,2014,bihar_2014.parquet,Criminal Cases,int64
+Bihar,2014,bihar_2014.parquet,Education,str
+Bihar,2014,bihar_2014.parquet,source_file,str
+Bihar,2014,bihar_2014.parquet,Candidate_source,string
+Bihar,2014,bihar_2014.parquet,Party_source,string
+Bihar,2014,bihar_2014.parquet,Education_source,string
+Bihar,2014,bihar_2014.parquet,Age_source,string
+Bihar,2014,bihar_2014.parquet,Total Assets_source,string
+Bihar,2014,bihar_2014.parquet,Liabilities_source,string
+Bihar,2014,bihar_2014.parquet,Candidate_match_key,str
+Bihar,2014,bihar_2014.parquet,Age_years,float64
+Bihar,2014,bihar_2014.parquet,Age_parse_status,str
+Bihar,2014,bihar_2014.parquet,Total_Assets_INR,float64
+Bihar,2014,bihar_2014.parquet,Total_Assets_INR_parse_status,str
+Bihar,2014,bihar_2014.parquet,Liabilities_INR,float64
+Bihar,2014,bihar_2014.parquet,Liabilities_INR_parse_status,str
+Bihar,2014,bihar_2014.parquet,Criminal_Cases_count,int64
+Bihar,2014,bihar_2014.parquet,Criminal_Cases_parse_status,str
+Bihar,2014,bihar_2014.parquet,duplicate_record_flag,bool
+Bihar,2014,bihar_2014.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Bihar,2014,bihar_2014.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Bihar,2014,bihar_2014.parquet,manual_review_flag,bool
+Bihar,2019,bihar_2019.parquet,State,str
+Bihar,2019,bihar_2019.parquet,Election Year,int64
+Bihar,2019,bihar_2019.parquet,Sno.,int64
+Bihar,2019,bihar_2019.parquet,Candidate,string
+Bihar,2019,bihar_2019.parquet,Party,string
+Bihar,2019,bihar_2019.parquet,Criminal Cases,int64
+Bihar,2019,bihar_2019.parquet,Education,str
+Bihar,2019,bihar_2019.parquet,source_file,str
+Bihar,2019,bihar_2019.parquet,Candidate_source,string
+Bihar,2019,bihar_2019.parquet,Party_source,string
+Bihar,2019,bihar_2019.parquet,Education_source,string
+Bihar,2019,bihar_2019.parquet,Age_source,string
+Bihar,2019,bihar_2019.parquet,Total Assets_source,string
+Bihar,2019,bihar_2019.parquet,Liabilities_source,string
+Bihar,2019,bihar_2019.parquet,Candidate_match_key,str
+Bihar,2019,bihar_2019.parquet,Age_years,float64
+Bihar,2019,bihar_2019.parquet,Age_parse_status,str
+Bihar,2019,bihar_2019.parquet,Total_Assets_INR,float64
+Bihar,2019,bihar_2019.parquet,Total_Assets_INR_parse_status,str
+Bihar,2019,bihar_2019.parquet,Liabilities_INR,float64
+Bihar,2019,bihar_2019.parquet,Liabilities_INR_parse_status,str
+Bihar,2019,bihar_2019.parquet,Criminal_Cases_count,int64
+Bihar,2019,bihar_2019.parquet,Criminal_Cases_parse_status,str
+Bihar,2019,bihar_2019.parquet,duplicate_record_flag,bool
+Bihar,2019,bihar_2019.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Bihar,2019,bihar_2019.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Bihar,2019,bihar_2019.parquet,manual_review_flag,bool
+Bihar,2024,bihar_2024.parquet,State,str
+Bihar,2024,bihar_2024.parquet,Election Year,int64
+Bihar,2024,bihar_2024.parquet,Sno.,int64
+Bihar,2024,bihar_2024.parquet,Candidate,string
+Bihar,2024,bihar_2024.parquet,Party,string
+Bihar,2024,bihar_2024.parquet,Criminal Cases,int64
+Bihar,2024,bihar_2024.parquet,Education,str
+Bihar,2024,bihar_2024.parquet,source_file,str
+Bihar,2024,bihar_2024.parquet,Candidate_source,string
+Bihar,2024,bihar_2024.parquet,Party_source,string
+Bihar,2024,bihar_2024.parquet,Education_source,string
+Bihar,2024,bihar_2024.parquet,Age_source,string
+Bihar,2024,bihar_2024.parquet,Total Assets_source,string
+Bihar,2024,bihar_2024.parquet,Liabilities_source,string
+Bihar,2024,bihar_2024.parquet,Candidate_match_key,str
+Bihar,2024,bihar_2024.parquet,Age_years,float64
+Bihar,2024,bihar_2024.parquet,Age_parse_status,str
+Bihar,2024,bihar_2024.parquet,Total_Assets_INR,float64
+Bihar,2024,bihar_2024.parquet,Total_Assets_INR_parse_status,str
+Bihar,2024,bihar_2024.parquet,Liabilities_INR,float64
+Bihar,2024,bihar_2024.parquet,Liabilities_INR_parse_status,str
+Bihar,2024,bihar_2024.parquet,Criminal_Cases_count,int64
+Bihar,2024,bihar_2024.parquet,Criminal_Cases_parse_status,str
+Bihar,2024,bihar_2024.parquet,duplicate_record_flag,bool
+Bihar,2024,bihar_2024.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Bihar,2024,bihar_2024.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Bihar,2024,bihar_2024.parquet,manual_review_flag,bool
+Gujarat,2014,gujarat_2014.parquet,State,str
+Gujarat,2014,gujarat_2014.parquet,Election Year,int64
+Gujarat,2014,gujarat_2014.parquet,Sno.,int64
+Gujarat,2014,gujarat_2014.parquet,Candidate,string
+Gujarat,2014,gujarat_2014.parquet,Party,string
+Gujarat,2014,gujarat_2014.parquet,Criminal Cases,int64
+Gujarat,2014,gujarat_2014.parquet,Education,str
+Gujarat,2014,gujarat_2014.parquet,source_file,str
+Gujarat,2014,gujarat_2014.parquet,Candidate_source,string
+Gujarat,2014,gujarat_2014.parquet,Party_source,string
+Gujarat,2014,gujarat_2014.parquet,Education_source,string
+Gujarat,2014,gujarat_2014.parquet,Age_source,string
+Gujarat,2014,gujarat_2014.parquet,Total Assets_source,string
+Gujarat,2014,gujarat_2014.parquet,Liabilities_source,string
+Gujarat,2014,gujarat_2014.parquet,Candidate_match_key,str
+Gujarat,2014,gujarat_2014.parquet,Age_years,float64
+Gujarat,2014,gujarat_2014.parquet,Age_parse_status,str
+Gujarat,2014,gujarat_2014.parquet,Total_Assets_INR,float64
+Gujarat,2014,gujarat_2014.parquet,Total_Assets_INR_parse_status,str
+Gujarat,2014,gujarat_2014.parquet,Liabilities_INR,float64
+Gujarat,2014,gujarat_2014.parquet,Liabilities_INR_parse_status,str
+Gujarat,2014,gujarat_2014.parquet,Criminal_Cases_count,int64
+Gujarat,2014,gujarat_2014.parquet,Criminal_Cases_parse_status,str
+Gujarat,2014,gujarat_2014.parquet,duplicate_record_flag,bool
+Gujarat,2014,gujarat_2014.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Gujarat,2014,gujarat_2014.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Gujarat,2014,gujarat_2014.parquet,manual_review_flag,bool
+Gujarat,2019,gujarat_2019.parquet,State,str
+Gujarat,2019,gujarat_2019.parquet,Election Year,int64
+Gujarat,2019,gujarat_2019.parquet,Sno.,int64
+Gujarat,2019,gujarat_2019.parquet,Candidate,string
+Gujarat,2019,gujarat_2019.parquet,Party,string
+Gujarat,2019,gujarat_2019.parquet,Criminal Cases,int64
+Gujarat,2019,gujarat_2019.parquet,Education,str
+Gujarat,2019,gujarat_2019.parquet,source_file,str
+Gujarat,2019,gujarat_2019.parquet,Candidate_source,string
+Gujarat,2019,gujarat_2019.parquet,Party_source,string
+Gujarat,2019,gujarat_2019.parquet,Education_source,string
+Gujarat,2019,gujarat_2019.parquet,Age_source,string
+Gujarat,2019,gujarat_2019.parquet,Total Assets_source,string
+Gujarat,2019,gujarat_2019.parquet,Liabilities_source,string
+Gujarat,2019,gujarat_2019.parquet,Candidate_match_key,str
+Gujarat,2019,gujarat_2019.parquet,Age_years,float64
+Gujarat,2019,gujarat_2019.parquet,Age_parse_status,str
+Gujarat,2019,gujarat_2019.parquet,Total_Assets_INR,float64
+Gujarat,2019,gujarat_2019.parquet,Total_Assets_INR_parse_status,str
+Gujarat,2019,gujarat_2019.parquet,Liabilities_INR,float64
+Gujarat,2019,gujarat_2019.parquet,Liabilities_INR_parse_status,str
+Gujarat,2019,gujarat_2019.parquet,Criminal_Cases_count,int64
+Gujarat,2019,gujarat_2019.parquet,Criminal_Cases_parse_status,str
+Gujarat,2019,gujarat_2019.parquet,duplicate_record_flag,bool
+Gujarat,2019,gujarat_2019.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Gujarat,2019,gujarat_2019.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Gujarat,2019,gujarat_2019.parquet,manual_review_flag,bool
+Gujarat,2024,gujarat_2024.parquet,State,str
+Gujarat,2024,gujarat_2024.parquet,Election Year,int64
+Gujarat,2024,gujarat_2024.parquet,Sno.,int64
+Gujarat,2024,gujarat_2024.parquet,Candidate,string
+Gujarat,2024,gujarat_2024.parquet,Party,string
+Gujarat,2024,gujarat_2024.parquet,Criminal Cases,int64
+Gujarat,2024,gujarat_2024.parquet,Education,str
+Gujarat,2024,gujarat_2024.parquet,source_file,str
+Gujarat,2024,gujarat_2024.parquet,Candidate_source,string
+Gujarat,2024,gujarat_2024.parquet,Party_source,string
+Gujarat,2024,gujarat_2024.parquet,Education_source,string
+Gujarat,2024,gujarat_2024.parquet,Age_source,string
+Gujarat,2024,gujarat_2024.parquet,Total Assets_source,string
+Gujarat,2024,gujarat_2024.parquet,Liabilities_source,string
+Gujarat,2024,gujarat_2024.parquet,Candidate_match_key,str
+Gujarat,2024,gujarat_2024.parquet,Age_years,float64
+Gujarat,2024,gujarat_2024.parquet,Age_parse_status,str
+Gujarat,2024,gujarat_2024.parquet,Total_Assets_INR,float64
+Gujarat,2024,gujarat_2024.parquet,Total_Assets_INR_parse_status,str
+Gujarat,2024,gujarat_2024.parquet,Liabilities_INR,float64
+Gujarat,2024,gujarat_2024.parquet,Liabilities_INR_parse_status,str
+Gujarat,2024,gujarat_2024.parquet,Criminal_Cases_count,int64
+Gujarat,2024,gujarat_2024.parquet,Criminal_Cases_parse_status,str
+Gujarat,2024,gujarat_2024.parquet,duplicate_record_flag,bool
+Gujarat,2024,gujarat_2024.parquet,Total_Assets_INR_iqr_outlier_flag,bool
+Gujarat,2024,gujarat_2024.parquet,Liabilities_INR_iqr_outlier_flag,bool
+Gujarat,2024,gujarat_2024.parquet,manual_review_flag,bool
