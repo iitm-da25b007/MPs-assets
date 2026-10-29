@@ -1,0 +1,28 @@
+﻿Source File,Output File,Column,Method,Missing Before,Imputation Value
+andhra_2014.parquet,andhra_2014_imputed.csv,Age,state_year_median,7,46.0
+andhra_2014.parquet,andhra_2014_imputed.csv,Total Assets,state_year_median,8,2916762.0
+andhra_2014.parquet,andhra_2014_imputed.csv,Liabilities,state_year_median,0,50000.0
+andhra_2019.parquet,andhra_2019_imputed.csv,Age,state_year_median,3,48.0
+andhra_2019.parquet,andhra_2019_imputed.csv,Total Assets,state_year_median,5,5020544.0
+andhra_2019.parquet,andhra_2019_imputed.csv,Liabilities,state_year_median,0,200000.0
+andhra_2024.parquet,andhra_2024_imputed.csv,Age,state_year_median,0,47.0
+andhra_2024.parquet,andhra_2024_imputed.csv,Total Assets,state_year_median,11,2354678.0
+andhra_2024.parquet,andhra_2024_imputed.csv,Liabilities,state_year_median,0,156000.0
+bihar_2014.parquet,bihar_2014_imputed.csv,Age,state_year_median,6,45.0
+bihar_2014.parquet,bihar_2014_imputed.csv,Total Assets,state_year_median,2,3490200.0
+bihar_2014.parquet,bihar_2014_imputed.csv,Liabilities,state_year_median,0,0.0
+bihar_2019.parquet,bihar_2019_imputed.csv,Age,state_year_median,0,45.0
+bihar_2019.parquet,bihar_2019_imputed.csv,Total Assets,state_year_median,2,4180500.0
+bihar_2019.parquet,bihar_2019_imputed.csv,Liabilities,state_year_median,0,0.0
+bihar_2024.parquet,bihar_2024_imputed.csv,Age,state_year_median,0,47.0
+bihar_2024.parquet,bihar_2024_imputed.csv,Total Assets,state_year_median,0,5084246.5
+bihar_2024.parquet,bihar_2024_imputed.csv,Liabilities,state_year_median,0,0.0
+gujarat_2014.parquet,gujarat_2014_imputed.csv,Age,state_year_median,5,48.0
+gujarat_2014.parquet,gujarat_2014_imputed.csv,Total Assets,state_year_median,1,1698975.0
+gujarat_2014.parquet,gujarat_2014_imputed.csv,Liabilities,state_year_median,0,0.0
+gujarat_2019.parquet,gujarat_2019_imputed.csv,Age,state_year_median,0,46.0
+gujarat_2019.parquet,gujarat_2019_imputed.csv,Total Assets,state_year_median,1,1737500.0
+gujarat_2019.parquet,gujarat_2019_imputed.csv,Liabilities,state_year_median,0,0.0
+gujarat_2024.parquet,gujarat_2024_imputed.csv,Age,state_year_median,0,47.0
+gujarat_2024.parquet,gujarat_2024_imputed.csv,Total Assets,state_year_median,0,2120000.0
+gujarat_2024.parquet,gujarat_2024_imputed.csv,Liabilities,state_year_median,0,0.0

@@ -1,0 +1,28 @@
+﻿Source File,Column,Original Missing Count,Imputed Value Count,Remaining Missing Count
+andhra_2014.parquet,Age,7,7,0
+andhra_2014.parquet,Total Assets,8,8,0
+andhra_2014.parquet,Liabilities,0,0,0
+andhra_2019.parquet,Age,3,3,0
+andhra_2019.parquet,Total Assets,5,5,0
+andhra_2019.parquet,Liabilities,0,0,0
+andhra_2024.parquet,Age,0,0,0
+andhra_2024.parquet,Total Assets,11,11,0
+andhra_2024.parquet,Liabilities,0,0,0
+bihar_2014.parquet,Age,6,6,0
+bihar_2014.parquet,Total Assets,2,2,0
+bihar_2014.parquet,Liabilities,0,0,0
+bihar_2019.parquet,Age,0,0,0
+bihar_2019.parquet,Total Assets,2,2,0
+bihar_2019.parquet,Liabilities,0,0,0
+bihar_2024.parquet,Age,0,0,0
+bihar_2024.parquet,Total Assets,0,0,0
+bihar_2024.parquet,Liabilities,0,0,0
+gujarat_2014.parquet,Age,5,5,0
+gujarat_2014.parquet,Total Assets,1,1,0
+gujarat_2014.parquet,Liabilities,0,0,0
+gujarat_2019.parquet,Age,0,0,0
+gujarat_2019.parquet,Total Assets,1,1,0
+gujarat_2019.parquet,Liabilities,0,0,0
+gujarat_2024.parquet,Age,0,0,0
+gujarat_2024.parquet,Total Assets,0,0,0
+gujarat_2024.parquet,Liabilities,0,0,0

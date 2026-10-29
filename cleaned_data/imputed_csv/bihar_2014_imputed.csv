@@ -1,0 +1,606 @@
+﻿Sno.,Candidate,Party,Criminal Cases,Education,Age,Total Assets,Liabilities
+1,Kaushal Yadav,JD(U),8,Post Graduate,44.0,154566136.0,2604969
+2,Abdul Bari Siddiqui,RJD,3,12th Pass,62.0,16343817.0,2718221
+3,Abdul Rahman,BSP,0,Literate,29.0,813848.0,0
+4,Abdur Rahaman,Bharatiya Momin Front,0,12th Pass,51.0,627100.0,35000
+5,Abu Qaiser,JD(U),1,Graduate,40.0,45138014.0,1700000
+6,Aditya Narayan,IND,0,Graduate,32.0,15770000.0,0
+7,Ajad Geeta Prasad Sharma,IND,0,12th Pass,48.0,7080000.0,0
+8,Ajay Kumar,IND,1,12th Pass,37.0,716000.0,0
+9,Ajay Nishad,BJP,0,Graduate,45.0,145712654.0,989888
+10,Ajitansh Gaur,IND,0,Post Graduate,25.0,23000.0,0
+11,Akhil Bhartiya Sharma,IND,0,Graduate Professional,48.0,50000.0,0
+12,Akhilesh Prasad Singh,INC,0,Doctorate,44.0,216275454.0,0
+13,Akhtarul Iman,JD(U),1,Post Graduate,48.0,4907533.0,820788
+14,Akshay Verma,Sarvajan Kalyan Loktantrik Party,0,Post Graduate,27.0,47845505.0,14949074
+15,Akthaar Ali,Jai Prakash Janata Dal,0,Graduate,44.0,116600.0,0
+16,Alimuddin Ansari,IND,0,Others,53.0,352000.0,0
+17,Alimuddin Ansari,AAP,0,10th Pass,59.0,5210680.0,0
+18,Alok Kumar Mehta,RJD,4,Graduate Professional,45.0,51615071.0,3661335
+19,Aman Kumar Samajsevi,BSP,0,12th Pass,33.0,5728000.0,0
+20,Amar Nath Yadav,CPI(ML)L,8,Literate,49.0,6357303.0,89897
+21,Amar Sahani,Bharatiya Ekta Dal,0,Literate,38.0,2566000.0,0
+22,Amarnath Tiwari,INC,1,Graduate,59.0,43329826.0,6731845
+23,Amit Kumar,Samajwadi Janata Party (Rashtriya),1,12th Pass,25.0,1478998.0,195000
+24,Amit Kumar Chaubey,AAP,0,Post Graduate,30.0,6238000.0,960000
+25,Amrendra Kumar Yadav,Rashtriya Krantikari Samajwadi Party,2,Post Graduate,41.0,796700.0,12500
+26,Anand Kaushal Singh,AAP,0,12th Pass,34.0,1506647.0,506875
+27,Anand Kumar Jain,IND,0,Graduate Professional,52.0,6172660.0,0
+28,Anand Prasad,IND,0,10th Pass,36.0,13570606.0,248000
+29,Angesh Kumar,BSP,2,Graduate Professional,43.0,179440000.0,5750000
+30,Anil Kumar,IND,0,Post Graduate,48.0,199542.0,0
+31,Anil Kumar,JD(U),0,Graduate,46.0,11618500.0,0
+32,Anil Kumar Mahto,Janvadi Party(Socialist),0,10th Pass,30.0,681406.0,0
+33,Anil Kumar Sharma,JD(U),1,Doctorate,50.0,8498803720.0,1095393904
+34,Anil Kumar Singh,Jai Maha Bharath Party,0,12th Pass,42.0,23846000.0,0
+35,Anirud Sahu,Samajwadi Janata Party (Rashtriya),0,12th Pass,41.0,586000.0,800
+36,Anu Shukla,IND,1,12th Pass,38.0,115649612.0,1878947
+37,Anwar Alam,AAP,0,Others,38.0,770380.0,0
+38,Arjun Kumar Sah,IND,0,8th Pass,29.0,1760800.0,0
+39,Arjun Rai,JD(U),1,Doctorate,42.0,17523332.0,641651
+40,Arjun Thakur,IND,0,Post Graduate,52.0,1212500.0,0
+41,Ashish Ranjan Sinha,INC,0,Graduate,64.0,94210202.0,0
+42,Ashok Ku Bhagat,IND,1,Literate,42.0,1196345.0,0
+43,Ashok Kumar,JMM,0,Post Graduate,45.0,1843000.0,0
+44,Ashok Kumar,Rajnaitik Vikalp Party,1,Literate,37.0,3116000.0,0
+45,Ashok Kumar,IND,0,12th Pass,44.0,94891.0,0
+46,Ashok Kumar Jha,SHS,0,10th Pass,48.0,10460864.0,600000
+47,Ashok Kumar Singh,SUCI(C),1,10th Pass,62.0,13317000.0,120200
+48,Ashok Paswan,Bahujan Mukti Party,0,Graduate,28.0,71308.0,0
+49,Ashok Ram,IND,0,12th Pass,41.0,71051.0,0
+50,Ashwamedh Devi,JD(U),0,5th Pass,51.0,8916714.0,3430311
+51,Ashwini Kumar Choubey,BJP,0,Graduate,61.0,22100499.0,1923552
+52,Avinash Kumar,Bharatiya Jan Kranti Dal (Democratic),0,Post Graduate,53.0,1520412.0,56797
+53,Awadh Kumar,IND,0,Graduate,40.0,6189466.0,0
+54,Awanish Kumar Singh,JD(U),0,12th Pass,49.0,75781467.0,3477531
+55,Awdhesh Kumar Shingh,IND,0,Graduate,46.0,1280000.0,134
+56,Bagi Kumar Verma,JD(U),0,Graduate,61.0,32766379.0,1600000
+57,Baidhnath Prasad Mahto,JD(U),2,10th Pass,57.0,14721287.0,3715011
+58,Baijnath Paswan,IND,0,Graduate,37.0,119000.0,0
+59,Baijnath Yadav,Bahujan Mukti Party,0,5th Pass,49.0,6060167.0,350000
+60,Bal Mukund Chauhan,BSP,0,Graduate Professional,46.0,4937691.0,43248
+61,Balendra Singh,IND,0,12th Pass,66.0,30070000.0,508000
+62,Baleshwar Bharti,BSP,0,10th Pass,58.0,273200.0,0
+63,Baleshwar Marandi,JMM,0,Graduate,60.0,465871.0,0
+64,Baleshwar Paswan,Janta Dal Rashtravadi,0,Graduate,59.0,1958000.0,100000
+65,Barun Kumar Jha,IND,0,Graduate Professional,52.0,48626946.0,0
+66,Bhairaw Dayal Singh,IND,0,Post Graduate,70.0,16847000.0,0
+67,Bharat Bhushan Pandey,Akhil Bharatiya Jan Sangh,0,Doctorate,40.0,1757000.0,0
+68,Bharat Bhushan Sahni,Sarvajan Kalyan Loktantrik Party,0,12th Pass,44.0,350000.0,261000
+69,Bhikha Paswan,Bharat Vikas Morcha,0,Graduate,51.0,5819278.0,103000
+70,Bhola Sao,Krantikari Vikas Dal,0,Literate,52.0,140000.0,0
+71,Bhola Singh,BJP,0,Doctorate,75.0,25248102.0,0
+72,Bhuneswar Das,Rashtriya Ahinsa Manch,0,Literate,50.0,1829000.0,0
+73,Bibhaker Jha,AAP,1,Graduate,37.0,373035.0,0
+74,Bidya Nand Paswan,Bahujan Mukti Party,0,12th Pass,61.0,856973.0,7000
+75,Bighnesh Bhagat,Bahujan Mukti Party,0,Graduate,41.0,2092390.0,0
+76,Bijendra Chaudhary,JD(U),6,Graduate,47.0,17245873.0,398572
+77,Bindeshwari Sahani,Proutist Sarva Samaj,0,10th Pass,63.0,4420630.0,84000
+78,Binod Kumar Das,AAP,1,12th Pass,34.0,252600.0,0
+79,Binod Kumar Sahu,IND,0,Graduate,45.0,1535000.0,50000
+80,Bipin Kumar Jha,Bharat Vikas Morcha,0,Graduate,35.0,4051668.0,300000
+81,Birendra Kumar Chaudhary,BJP,0,Post Graduate,60.0,5158792.0,0
+82,Brahmadav Anand Paswan,BSP,0,12th Pass,58.0,9493973.0,175000
+83,Brahmadeo Prasad Karyee,Bajjikanchal Vikas Party,0,Doctorate,61.0,4328327.0,919512
+84,Brahmdev Mukhiya,Rashtriya Naujawan Dal,2,Literate,58.0,4472000.0,0
+85,Brinda Pathak,IND,0,Graduate Professional,68.0,7890000.0,0
+86,Byas Manjhi,Bahujan Mukti Party,0,Graduate Professional,43.0,11782000.0,0
+87,Chandan Kumar Alias Chandan Gupta,Bihar Janta Party,4,Post Graduate,34.0,2800179.0,1516000
+88,Chandra Bhushan,AAP,0,Graduate Professional,48.0,14088067.0,5025161
+89,Chandra Bhushan Prasad Chandravnsi,Bahujan Mukti Party,1,Literate,44.0,29711938.0,50
+90,Chandra Deep Ram,BSP,1,Post Graduate,30.0,9220000.0,0
+91,Chandra Dev Prasad,Bahujan Mukti Party,0,Post Graduate,41.0,479600.0,0
+92,Chandra Shekhar Yadav,Bahujan Mukti Party,2,Graduate,37.0,16557292.0,3400000
+93,Chandrabhushan Sharma,AAP,0,Doctorate,64.0,7877980.0,0
+94,Chandramohan Jha,IND,3,Doctorate,59.0,138813648.0,51588
+95,Chandrika Prasad,IND,0,12th Pass,39.0,1091362.0,45520
+96,Chhedi Paswan,BJP,0,Post Graduate,58.0,35776803.0,275000
+97,Chhedi Ram,IND,0,Literate,35.0,17707.0,0
+98,Chirag Kumar Paswan,LJP,0,12th Pass,32.0,10414470.0,4458954
+99,Chitranjan Singh,IND,0,10th Pass,51.0,630000.0,20000
+100,Chote Lal Mahto,IND,0,5th Pass,37.0,334500.0,0
+101,Choudhary Mahboob Ali Kaiser,LJP,1,Graduate,47.0,66569502.0,0
+102,Colonel Lakshmeshwar Mishra,CPI(ML)L,0,Graduate Professional,55.0,15406445.0,2079445
+103,Dadan Yadav,BSP,22,10th Pass,50.0,26250000.0,103594500
+104,Davendra Prasad Yadav,JD(U),0,Graduate,58.0,7941707.0,600000
+105,Deepak Kumar,IND,0,8th Pass,32.0,70700.0,0
+106,Deepak Kumar,SUCI(C),0,12th Pass,35.0,2633089.0,0
+107,Dev Kumar Choudhary,IND,0,Graduate Professional,39.0,5087170.0,800000
+108,Dev Kumar Verma,RPI(A),0,12th Pass,56.0,4333000.0,0
+109,Devendra Rakesh,Bajjikanchal Vikas Party,2,Post Graduate,63.0,45899000.0,256000
+110,Devnarayan Yadav,Bahujan Mukti Party,0,Post Graduate,66.0,9500500.0,250000
+111,Dhananjay Kishore,AAP,0,Graduate Professional,38.0,6509560.0,6102
+112,Dhaneshwar Ram,BSP,0,Graduate,67.0,7066500.0,0
+113,Dharmendra Sahani,BSP,1,12th Pass,34.0,33000.0,0
+114,Dharmesh Prasad Verma,AAP,0,12th Pass,68.0,23394000.0,150000
+115,Dhirendra Kumar,Janvadi Party(Socialist),0,10th Pass,32.0,250000.0,0
+116,Dhruv Narayan Karn,CPI(ML)L,7,10th Pass,54.0,2262312.0,21250
+117,Dileshwar Kamait,JD(U),0,Post Graduate,68.0,17930142.0,0
+118,Dilip Paswan,IND,0,10th Pass,30.0,1531232.0,0
+119,Dilip Singh,IND,0,Literate,45.0,11976871.0,450000
+120,Dilip Varma,IND,3,Graduate,60.0,109990624.0,15008466
+121,Dinanath Manjhi,IND,1,Graduate,45.0,2377269.0,0
+122,Dinanath Ram,IND,0,10th Pass,43.0,72000.0,0
+123,Dinesh Kumar,Bahujan Mukti Party,1,Doctorate,34.0,478500.0,0
+124,Dineshchandra Yadav,JD(U),0,Others,57.0,17668299.0,0
+125,Doctor Mahato,Janvadi Party(Socialist),0,8th Pass,44.0,7171000.0,1250000
+126,Dilip Kumar Jaiswal,BJP,0,Doctorate,50.0,32949581.0,5793000
+127,Jyoti Bharti,INC,3,Doctorate,58.0,16250000.0,0
+128,Arun Kumar,Rashtriya Lok Samta Party,1,Doctorate,55.0,38846631.0,1000000
+129,Ashok Kumar,INC,1,Graduate Professional,59.0,14532873.0,1192539
+130,Ashok Kumar Singh,SHS,0,Doctorate,45.0,2054194.0,0
+131,Binay Kumar Jha,IND,0,Graduate Professional,56.0,664000.0,15000
+132,Mohammad Nabi Hassan,IND,1,Literate,30.0,159986.0,0
+133,Rakesh Datta Mishra,Bharatiya Jan Kranti Dal (Democratic),0,Post Graduate,39.0,149047.0,0
+134,Ram Prakash Mahto,JD(U),5,Doctorate,62.0,11829625.0,1231046
+135,Sanjay Jayaswal,BJP,2,Post Graduate,49.0,35941299.0,6197804
+136,Surendra Kumar Prasad,AAP,0,Post Graduate,59.0,12314344.0,0
+137,Swami Vivekanand,AAP,2,Doctorate,50.0,9890017.0,900000
+138,Dravyan Uraon,IND,0,Graduate,26.0,130263.0,0
+139,Durga Thakur,IND,0,10th Pass,55.0,730000.0,0
+140,Durganand Mahavir Nayak,BSP,2,Post Graduate,42.0,63562000.0,304995
+141,Durgesh Nandan Singh,IND,0,Graduate Professional,37.0,3273000.0,0
+142,Fagu Marandi,Jharkhand Disom Party,1,Graduate,63.0,1151323.0,0
+143,Faiz Ahmad,Jai Prakash Janata Dal,2,Post Graduate,34.0,326684.0,0
+144,Faizal Ahmad,Janta Dal Rashtravadi,0,Graduate,28.0,60000.0,0
+145,Fulmani Hembram,Bharat Vikas Morcha,0,8th Pass,33.0,753000.0,0
+146,Gajendra Kumar,Sankhyanupati Bhagidari Party,0,Graduate,30.0,1575000.0,0
+147,Ganesh Kumar,AAP,0,10th Pass,41.0,2262533.0,0
+148,Ganesh Mukhiya Nishad,Sarvajan Kalyan Loktantrik Party,1,12th Pass,33.0,6829298.0,0
+149,Ganesh Ram,BSP,1,Post Graduate,42.0,779202.0,0
+150,Ganesh Shaw,BSP,0,Graduate,36.0,64000.0,52000
+151,Ganga Vishnu Prasadq,IND,0,Graduate Professional,73.0,6401308.0,0
+152,Gaurav Kumar Ghosh,National Tiger Party,0,12th Pass,35.0,8464037.0,250000
+153,Geeta Arya,AAP,0,8th Pass,47.0,18756436.0,0
+154,Ghulam Kundanam,AAP,1,Graduate Professional,43.0,623000.0,280800
+155,Giriraj Singh,BJP,1,Graduate,61.0,50054771.0,0
+156,Gopal Prasad,IND,0,Graduate Professional,63.0,2518000.0,0
+157,Gopal Prasad Sinha,JD(U),0,Post Graduate,71.0,59131851.0,0
+158,Gopal Singh,IND,0,10th Pass,73.0,2410664.0,0
+159,Guljar Kumar,BSP,0,Graduate,31.0,35.0,0
+160,Haidar,VANCHITSAMAJ INSAAF PARTY,3,Others,49.0,640000.0,0
+161,Hari Kant Prasad,Bharatiya Bahujan Congress,0,10th Pass,37.0,1951470.0,90000
+162,Hari Manjhi,BJP,1,8th Pass,51.0,10184120.0,2000000
+163,Harinarayan Yadav,BSP,1,10th Pass,49.0,12547000.0,25000
+164,Hena Sahab,RJD,0,Graduate,41.0,74095721.0,0
+165,Hriday Narayun Yadav,CPI(M),2,8th Pass,72.0,7363000.0,51576
+166,Hukum Deo Narayan Yadav,BJP,0,Graduate,77.0,77978890.0,0
+167,Ibrahim Abbasi,IND,0,5th Pass,36.0,555764.0,0
+168,Imran Ali,IND,0,Graduate,27.0,7845.0,0
+169,Inderaj Singh Saini,IND,0,10th Pass,70.0,11918305.0,2000000
+170,Indra Deo Choudhary,Bahujan Mukti Party,0,10th Pass,40.0,507000.0,10000
+171,Indradeo Kumar Singh,IND,0,Graduate Professional,35.0,3312913.0,0
+172,Indradeo Roy,SUCI(C),2,Post Graduate,51.0,356214.0,103580
+173,Indu Singh,CPI(ML)L,0,Graduate Professional,36.0,10215879.0,0
+174,Jagadanand Singh,RJD,0,Graduate Professional,70.0,20142620.0,0
+175,Jagdish Chandra Bashu,CPI(M),0,12th Pass,43.0,7069526.0,237000
+176,Jagranath Sahani,Sarvajan Kalyan Loktantrik Party,1,Post Graduate,31.0,2462500.0,0
+177,Jai Kumar Chaudhary,Lok Dal,0,Graduate,36.0,1007900.0,0
+178,Jai Prakash Das,CPI(ML)L,0,8th Pass,61.0,1.0,0
+179,Jai Prakash Yadav,IND,0,Graduate Professional,54.0,1434000.0,0
+180,Jainath,Bahujan Mukti Party,0,10th Pass,33.0,3295482.0,0
+181,Jaiprakash Narayan Yadav,RJD,2,Post Graduate,60.0,27846274.0,791539
+182,Jaleswarnath Ram,Bahujan Mukti Party,0,12th Pass,47.0,2665022.0,0
+183,Janak Ram,BJP,2,Post Graduate,42.0,10582664.0,1039000
+184,Janak Roy,IND,0,Literate,71.0,75000.0,0
+185,Janardan Singh Sigriwal,BJP,4,Graduate,50.0,4795223.0,10000
+186,Jata Shankar Aatreya,Rajnaitik Vikalp Party,0,Post Graduate,51.0,12081068.0,534719
+187,Jauhar Azad,Janta Dal Rashtravadi,0,12th Pass,29.0,560500.0,360000
+188,Jay Narayan Sah,Bajjikanchal Vikas Party,0,Post Graduate,59.0,632255.0,0
+189,Jay Narayan Yadav,CPI(ML)L,2,Graduate,49.0,4748598.0,45000
+190,Jitan Ram Manjhi,JD(U),0,Graduate,68.0,2360142.0,13109
+191,Jitendra Kumar Rai,SHS,0,12th Pass,37.0,1845000.0,0
+192,Jitendra Manjhi,CPI(ML)L,4,8th Pass,30.0,520000.0,45348
+193,Jitendra Prasad,IND,0,10th Pass,40.0,251000.0,0
+194,Kameshwar Chaupal,BJP,1,Post Graduate,58.0,41372252.0,12909
+195,Kamlesh Chaudhary,IND,0,Literate,41.0,906530.0,50000
+196,Kamleshwari Mandal,BSP,0,Others,63.0,3065084.0,0
+197,Kanhai Mandal,IND,0,8th Pass,38.0,579677.0,0
+198,Kanti Singh,RJD,4,Graduate,59.0,60390021.0,337826
+199,Kapil Choudhary,AITC,0,12th Pass,44.0,1606000.0,0
+200,Karra Parasu Ramaiah,JD(U),1,Doctorate,59.0,24500404.0,1672000
+201,Kaushal Kumar Kaushalendra Sinha Alias Bharat Manas,IND,1,12th Pass,40.0,3049003.0,0
+202,Kaushlendra Kumar,JD(U),0,12th Pass,49.0,11812717.0,477000
+203,Kedar Kumar Keshav,SHS,0,Post Graduate,46.0,8366241.0,0
+204,Khalil Miyan Alias Md Khalil Miyan,GGP,0,Post Graduate,38.0,420444.0,0
+205,Kirti Azad,BJP,4,Graduate,55.0,28531267.0,431860
+206,Kishor Kumar,Rashtriya Lok Samta Party,0,12th Pass,36.0,16197016.0,50000
+207,Kishori Das,AAP,2,Post Graduate,63.0,2120000.0,0
+208,Krishana Kumari Yadav,RJD,4,Graduate,39.0,78352261.0,1850000
+209,Krishna Kumar Paswan,IND,0,Graduate,29.0,22000.0,0
+210,Kumar Indra Bhushan,IND,2,Graduate,40.0,9122284.0,285000
+211,Kumar Rajiv,IND,0,Post Graduate,43.0,3490200.0,0
+212,Kumari Rita,SHS,0,Graduate,34.0,2555000.0,0
+213,Kumkum Singh,Bharat Vikas Morcha,1,Doctorate,57.0,825000.0,0
+214,Kunal Priyadarshi,Rashtriya Krantikari Samajwadi Party,0,Graduate,29.0,2550000.0,0
+215,Kunal Singh,INC,0,12th Pass,58.0,51271000.0,750000
+216,Kundan Prasad Singh,AAP,0,12th Pass,57.0,4833000.0,0
+217,Kunj Bihar Paswan,IND,0,Literate,52.0,1266625.0,83000
+218,Lakshman Paswan,JMM,0,8th Pass,47.0,237345.0,0
+219,Lal Bahadur Sada,CPI(ML)L,6,10th Pass,43.0,2077500.0,0
+220,Lal Bahadur Singh Patel,Krantikari Vikas Dal,1,10th Pass,46.0,830000.0,0
+221,Lalan Prasad,IND,0,10th Pass,62.0,411000.0,500000
+222,Lalji Kumar Rakesh,IND,0,Post Graduate,41.0,1367000.0,0
+223,Lallan Rup Narayan Pathak,IND,0,Doctorate,70.0,7750000.0,0
+224,Lallu Ram,Bahujan Mukti Party,0,Literate,44.0,61000.0,0
+225,Lalu Rai,IND,1,12th Pass,39.0,6155000.0,100000
+226,Lata Sinha,IND,0,Post Graduate,38.0,2330367.0,64000
+227,Lovely Anand,SP,1,Graduate,39.0,12804755.0,0
+228,Madhur Sheel,Jai Maha Bharath Party,0,Graduate,45.0,5226000.0,500000
+229,Madhuri,Bahujan Mukti Party,0,Graduate Professional,33.0,3791100.0,0
+230,Mahabali Singh,JD(U),5,8th Pass,59.0,33437255.0,0
+231,Mahadev Kumar,IND,1,10th Pass,57.0,2182100.0,185000
+232,Mahboob Alam Ansari,Bharatiya Momin Front,0,Post Graduate,55.0,8071913.0,0
+233,Mahendra Prasad,Samajwadi Janata Party (Rashtriya),0,Graduate,45.0,1606100.0,0
+234,Mahesh Kumar,BSP,3,Post Graduate,48.0,12136000.0,800000
+235,Mahesh Mandal,Bahujan Mukti Party,3,Doctorate,34.0,1821376.0,0
+236,Mahesh Nandan Singh,IND,0,Graduate,44.0,1701000.0,0
+237,Mahesh Paswan,Bharat Bhrashtachar Mitao Party,1,Graduate,40.0,1930000.0,0
+238,Mahesh Paswan,IND,0,Graduate,46.0,5.0,0
+239,Mahesh Rai,Bahujan Mukti Party,0,8th Pass,54.0,39573603.0,77600
+240,Maheshwar Hazari,JD(U),0,Graduate,43.0,21464499.0,6941446
+241,Makkhan Sah,Samajwadi Janata Party (Rashtriya),0,Graduate,39.0,6470304.0,0
+242,Mamta Kumari,SP,0,12th Pass,33.0,4195976.0,5454
+243,Mananjay Kumar,IND,0,Graduate,31.0,3527000.0,0
+244,Mangni Lal Mandal,RJD,3,Post Graduate,65.0,76950805.0,1654819
+245,Manilal Sahu,BSP,0,5th Pass,69.0,3001000.0,0
+246,Manish Kumar,IND,2,Graduate,40.0,1798755.0,428000
+247,Manju Devi,Krantikari Vikas Dal,1,Literate,51.0,1110000.0,0
+248,Manohar Manoj,IND,0,Post Graduate,45.0,10280000.0,0
+249,Manoj Kr Singh,JD(U),2,12th Pass,45.0,99224071.0,1436515
+250,Manoj Kumar Manjhi,IND,0,12th Pass,32.0,121000.0,150000
+251,Manoranjan Singh,JD(U),10,8th Pass,54.0,35183301.0,2311198
+252,Manowar Alam,Janta Dal Rashtravadi,0,12th Pass,39.0,465813.0,215
+253,Mansoor Alam,SP,0,12th Pass,45.0,7196656.0,600000
+254,Md Akhtar Ali,IND,0,Literate,32.0,110551.0,0
+255,Md Anwarul Haque,RJD,7,Others,70.0,19580000.0,1149181
+256,Md Anwarul Haque,IND,1,8th Pass,41.0,110000.0,25000
+257,Md Aslam Beg,Janta Dal Rashtravadi,1,12th Pass,35.0,15000.0,63733
+258,Md Mokim Ansari,JKNPP,0,Graduate Professional,49.0,34581400.0,0
+259,Md Nasruddin Ansari,National Lokmat Party,0,Literate,41.0,184000.0,0
+260,Md Shahid Akhtar,Bahujan Mukti Party,0,Graduate,59.0,5457339.0,0
+261,Md Shamsher Alam,JMM,1,12th Pass,48.0,6135336.0,300000
+262,Md Tanveer Hasan,RJD,1,Doctorate,54.0,10956399.0,600000
+263,Md Ali Ashraf Fatmi,RJD,0,Post Graduate,60.0,16036505.0,0
+264,Md Dilbas Ansari,IND,0,Post Graduate,62.0,70000.0,0
+265,Md Faiyaz Khan,Janta Dal Rashtravadi,0,Post Graduate,45.0,26805000.0,0
+266,Md Iqbal Ahmad,Samajwadi Janata Party (Rashtriya),2,Others,33.0,2827500.0,0
+267,Md Istiyak,AITC,2,Graduate Professional,49.0,9481904.0,0
+268,Md Nasroodin,Janta Dal Rashtravadi,0,Post Graduate,42.0,16718500.0,0
+269,Md Naushad,VANCHITSAMAJ INSAAF PARTY,0,8th Pass,25.0,235200.0,0
+270,Md Tahir Arman,Naya Daur Party,0,Graduate,27.0,14000.0,0
+271,Md Tariq Anwar,IND,0,12th Pass,28.0,113000.0,0
+272,Md Naushad,BSP,0,8th Pass,35.0,370000.0,316000
+273,Meena,JD(U),0,Graduate,49.0,90737486.0,6915766
+274,Mehboob Alam,CPI(ML)L,11,12th Pass,57.0,1215962.0,0
+275,Meira Kumar,INC,0,Post Graduate,68.0,384751309.0,0
+276,Mina Devi,IND,0,Literate,38.0,18581662.0,400000
+277,Minendra Kumar Singh,IND,0,Others,62.0,1867902.0,0
+278,Mintu Paswan,IND,0,Graduate,31.0,24000.0,0
+279,Misha Bharti,RJD,1,Graduate Professional,39.0,47634901.0,0
+280,Mithilesh Kumar Jha,JMM,0,12th Pass,51.0,1350000.0,95000
+281,Mithilesh Kumar Rajak,IND,0,Graduate,35.0,2540933.0,25000
+282,Mithilesh Kumar Singh,National Loktantrik Party,0,10th Pass,31.0,1986983.0,0
+283,Mohammad Amanullah,IUML,0,Graduate,32.0,1000.0,0
+284,Mohammad Arshad Hussain,Peace Party,0,Others,38.0,1442500.0,0
+285,Mohammad Asrarul Haque,INC,2,Post Graduate,67.0,4616629.0,0
+286,Mohammad Faiyaz Ahmad,IND,0,12th Pass,29.0,6575600.0,0
+287,Mohammad Gulab Siddiqui,Loktantrik Janata Party (Secular),0,8th Pass,44.0,296809.0,0
+288,Mohammad Hamid Mobarak,AITC,0,Graduate,39.0,2677359.0,0
+289,Mohammad Jahid Husain,AITC,0,Graduate,42.0,1657.0,0
+290,Mohammad Javed,IND,0,Literate,44.0,139052.0,0
+291,Mohammad Taiyab,IND,0,8th Pass,43.0,2630000.0,573000
+292,Mohammad Umar Anshari,IND,0,Graduate,58.0,2931380.0,0
+293,Mohammad Wasiqur Rahman,IUML,2,12th Pass,36.0,4830500.0,166000
+294,Mohan Kumar,IND,0,Post Graduate,35.0,1389158.0,0
+295,Mokaram Hussain,Suheldev Bhartiya Samaj Party,0,10th Pass,62.0,2115487.0,0
+296,Monibur Rahman,Janta Dal Rashtravadi,0,12th Pass,44.0,3130000.0,0
+297,Mudrika Baita,IND,0,Graduate,42.0,537500.0,0
+298,Mukesh Kumar Sinha,Bhartiya Ekta Manch Party,0,Doctorate,42.0,6905132.0,2588967
+299,Mukesh Ram,Rashtriya Krantikari Samajwadi Party,0,Graduate,29.0,46000.0,0
+300,Mukul Kumar Sharma,Sankhyanupati Bhagidari Party,1,10th Pass,26.0,2212400.0,0
+301,Munna Prasad,IND,0,10th Pass,46.0,350000.0,0
+302,Muzaffar Fakhruddin,IND,0,Graduate,54.0,1883100.0,0
+303,Nafis Ahamad,IND,1,10th Pass,42.0,1517017.0,49000
+304,Nagendra Kumar,Bharat Vikas Morcha,0,Graduate,33.0,1166489.0,0
+305,Nagendra Prasad,BSP,0,Post Graduate,49.0,10969151.0,245000
+306,Nagendra Tiwari,Loktantrik Janata Party (Secular),0,Post Graduate,36.0,7140920.0,535911
+307,Nageshwar Prasad Singh,IND,0,8th Pass,49.0,1016500.0,25000
+308,Nalini Mandal,IND,0,12th Pass,48.0,351119.0,0
+309,Nand Kishore Singh,IND,0,Graduate Professional,57.0,21239370.0,654750
+310,Nand Lal Ram,IND,0,8th Pass,37.0,688000.0,0
+311,Nandlal Ram,IND,0,Literate,49.0,293000.0,0
+312,Narad Pandit,Jai Prakash Janata Dal,0,8th Pass,41.0,9240000.0,0
+313,Narendar Kumar,SHS,0,Graduate,34.0,311800.0,0
+314,Narendra Mishra,IND,0,Post Graduate,56.0,1626000.0,0
+315,Narendra Pratap Singh,IND,0,Post Graduate,33.0,7294224.0,0
+316,Naresh Kumar Priyadarshi,IND,0,Graduate,38.0,3863500.0,250000
+317,Naresh Prasad Singh,IND,0,Graduate,43.0,11387000.0,2599000
+318,Naushaba Khanam,BSP,2,10th Pass,33.0,67.0,600000
+319,Navlesh Pathak,IND,0,Post Graduate,53.0,25060000.0,10000
+320,Nawal Kishor Jha,Samajwadi Janata Party (Rashtriya),0,Graduate,36.0,850000.0,50000
+321,Nayeb Ali,AITC,0,Doctorate,43.0,1896783.0,0
+322,Neeraj Pathak,AAP,0,Graduate,30.0,13763263.0,120000
+323,Nikhil Kumar,INC,0,Post Graduate,72.0,297302441.0,0
+324,Nikhil Kumar Choudhary,BJP,0,Graduate,68.0,25225976.0,408966
+325,Nilu Singh,"Proutist Bloc, India",0,12th Pass,41.0,1065960.0,0
+326,Niraj Kumar,IND,0,Graduate,48.0,51500.0,0
+327,Niraj Kumar,AAP,0,12th Pass,43.0,1977100.0,0
+328,Niraj Ram,Bahujan Mukti Party,0,Literate,29.0,135000.0,7500
+329,Niraj Sharma,Rajnaitik Vikalp Party,0,Literate,58.0,11399238.0,0
+330,Niranjan Kumar,CPI(ML)L,2,Graduate,40.0,140000.0,1384
+331,Nishi Kant Mandal,Bahujan Mukti Party,0,Graduate Professional,28.0,1480865.0,303354
+332,Nityanand Rai,BJP,1,Graduate,48.0,146743540.0,3965423
+333,Nityanand Singh,IND,2,Literate,39.0,1392245.0,2000000
+334,Om Prakash Yadav,BJP,1,Graduate,48.0,2213023.0,1956467
+335,Om Shanti Baba,IND,0,Literate,50.0,190215000.0,0
+336,Pancham Lal,IND,0,Graduate,63.0,29991521.0,0
+337,Pankaj Kishor Mandal,IND,2,10th Pass,34.0,202412.0,50000
+338,Pankaj Kumar Singh,CPI(ML)L,3,8th Pass,48.0,2961753.0,0
+339,Pankaj Kumar Srivastava,Jai Prakash Janata Dal,0,12th Pass,44.0,65000.0,0
+340,Pankaj Paswan,IND,0,Post Graduate,29.0,102895.0,0
+341,Parasnath Pandey,Janvadi Party(Socialist),0,Graduate,55.0,13750000.0,500000
+342,Parmanand God,Swatantra Samaj Party,0,12th Pass,44.0,315000.0,0
+343,Parmatama Singh,AAP,0,10th Pass,60.0,14462242.0,1041900
+344,Parmendra Kumar Yadav,Bharatiya Ekta Dal,0,12th Pass,34.0,1030800.0,0
+345,Parmeshwar Jha,AAP,0,Graduate,62.0,11516000.0,0
+346,Parmeshwar Manjhi,Bahujan Mukti Party,0,Graduate,41.0,713458.0,60000
+347,Parmeshwar Ram,Bahujan Mukti Party,1,Graduate Professional,64.0,17727192.0,500000
+348,Parnav Prakash,AAP,0,Graduate Professional,45.0,58483543.0,16000000
+349,Parveen Amanullah,AAP,0,Graduate,56.0,34292500.0,0
+350,Parwez Ahmad,Loktantrik Janata Party (Secular),0,Graduate,46.0,88692.0,0
+351,Pawan Kumar,IND,0,Graduate,37.0,5165500.0,0
+352,Pawan Kumar,Kalinga Sena,0,Graduate,25.0,451086.0,0
+353,Phool Babu Singh,CPI(ML)L,2,Post Graduate,37.0,2073785.0,25000
+354,Pinki Devi,Bahujan Mukti Party,2,12th Pass,28.0,3638500.0,0
+355,Prabhat Ranjan Das,AAP,0,Doctorate,56.0,364642463.0,0
+356,Prabhat Suman,AAP,0,Graduate Professional,33.0,6846500.0,7000
+357,Prabhu Nath Singh,RJD,8,12th Pass,61.0,31380728.0,127066
+358,Prabhuraj Narayan Rao,CPI(M),0,Graduate,59.0,5361400.0,45000
+359,Pradeep Kumar Joshi,Rashtra Sewa Dal,21,12th Pass,45.0,11721162.0,11908841
+360,Pradeep Kumar Prasad,Pragatisheel Manav Samaj Party,0,10th Pass,34.0,1994000.0,0
+361,Pradeep Kumar Singh,BJP,4,10th Pass,48.0,4291479.0,802182
+362,Pradeep Paswan,IND,1,12th Pass,38.0,392707.0,0
+363,Pragati Mehta,RJD,0,Graduate,33.0,6422050.0,0
+364,Pramod Kumar,SUCI(C),0,Post Graduate,47.0,1741914.0,0
+365,Pramod Kumar Nirala,Sankhyanupati Bhagidari Party,0,Graduate,45.0,7929000.0,67000
+366,Pramod Kumar Pandey,IND,0,10th Pass,41.0,5670105.0,0
+367,Pramod Narayan Poddar,Bhartiya Jantantrik Janata Dal,1,Graduate,57.0,8642000.0,750000
+368,Prasanna Kumar,IND,0,Post Graduate,61.0,9574085.0,0
+369,Prashuram Bind,Bahujan Mukti Party,0,Graduate,72.0,2636206.0,0
+370,Prashuram Prasad,Bahujan Mukti Party,1,12th Pass,35.0,460000.0,0
+371,Praveen Kumar Jha,IND,0,Post Graduate,41.0,11558930.0,0
+372,Prem Lata Devi,Jai Prakash Janata Dal,0,Literate,42.0,197950.0,36000
+373,Prithwinath Prasad,Mahamukti Dal,0,Graduate,46.0,153271.0,0
+374,Pro Yogendra Mahto,AAP,0,Doctorate,55.0,3087000.0,112000
+375,Amaresh Prasad,JMM,1,Doctorate,62.0,4751000.0,0
+376,Professor Gulam Gaus,JD(U),1,Post Graduate,52.0,10324645.0,403333
+377,Purnmasi Ram,INC,0,12th Pass,57.0,54764527.0,14310110
+378,Purushottam Choubey,SP,2,10th Pass,47.0,1156393030.0,20310000
+379,Putul Kumari,BJP,2,Post Graduate,54.0,58028261.0,725973
+380,Raaj Mangal Prasad,AAP,0,Post Graduate,54.0,19434996.0,2172103
+381,Rabri Devi,RJD,4,8th Pass,61.0,75381900.0,13000000
+382,Radha Mohan Singh,BJP,0,Graduate,64.0,22558073.0,4270360
+383,Raghunath Gupta,SP,0,12th Pass,64.0,20700955.0,1509000
+384,Raghunath Jha,RJD,0,12th Pass,68.0,19513745.0,4508715
+385,Raghuvansh Prasad Singh,RJD,2,Doctorate,67.0,18095679.0,33346
+386,Raghvendra Pratap Singh,Rajnaitik Vikalp Party,0,Literate,25.0,96000.0,0
+387,Ragini Lata Singh,AAP,0,Post Graduate,49.0,14532000.0,183755
+388,Rahul Ranjan,JMM,0,Graduate,27.0,3431000.0,0
+389,Raj Kumar Mandal,IND,0,Post Graduate,48.0,691300.0,0
+390,Raj Kumar Paswan,AAP,0,12th Pass,27.0,840248.0,0
+391,Raj Kumar Ram,BSP,0,10th Pass,41.0,660000.0,450000
+392,Raj Kumar Singh,BJP,0,Graduate Professional,61.0,50403293.0,0
+393,Raj Kumar Uraon,BSP,0,12th Pass,44.0,4277000.0,0
+394,Raj Narain Rao,IND,0,12th Pass,77.0,558000.0,100
+395,Raja Ram Singh,CPI(ML)L,4,Graduate Professional,58.0,6796970.0,0
+396,Rajani Dubey,Akhil Bharatiya Jan Sangh,0,Graduate,41.0,8324677.0,0
+397,Rajballabh Prasad,RJD,3,10th Pass,52.0,83137973.0,1387290
+398,Rajeev Ranjan,AITC,0,Graduate Professional,35.0,79505000.0,4000000
+399,Rajeev Ranjan,BSP,1,Post Graduate,34.0,3860000.0,0
+400,Rajeev Ranjan,Lok Dal,2,12th Pass,31.0,4247500.0,0
+401,Rajendra Kumar Singh Chauhan,Bharat Vikas Morcha,0,Literate,48.0,35000.0,0
+402,Rajendra Prasad Singh,CPI,5,Graduate,68.0,8437962.0,194145
+403,Rajendra Singh,AAP,0,Graduate Professional,58.0,1455858.0,858745
+404,Rajendra Yadav,IND,0,Post Graduate,45.0,7368500.0,0
+405,Rajesh Kumar,Bharat Vikas Morcha,0,10th Pass,46.0,1475000.0,50000
+406,Rajesh Kumar,BSP,0,Graduate,36.0,10016038.0,0
+407,Rajesh Kumar,AIFB,0,Others,26.0,190000.0,0
+408,Rajesh Kumar,Bharatiya Ekta Dal,0,12th Pass,33.0,1172198.0,0
+409,Rajesh Ranjan Urf Pappu Yadav,RJD,24,Graduate,46.0,81242966.0,956306
+410,Rajiv Pratap Rudy,BJP,1,Post Graduate,53.0,62545997.0,1008658
+411,Rajiv Ranjan Singh Alias Lalan Singh,JD(U),1,Graduate,60.0,55757926.0,3512083
+412,Rajo Sah,IND,0,Literate,34.0,3490200.0,650000
+413,Raju Yadav,CPI(ML)L,1,Post Graduate,31.0,491000.0,0
+414,Rakesh Ranjan Sinha,RPI(A),0,Graduate,35.0,3748727.0,16599
+415,Rakesh Sharma,IND,0,Doctorate,42.0,12693861.0,828288
+416,Ram Badan Rai,SP,0,Post Graduate,59.0,23860981.0,1000000
+417,Ram Chandar Ram,BSP,0,Graduate Professional,62.0,2190160.0,0
+418,Ram Chandra Paswan,LJP,3,10th Pass,53.0,13058612.0,0
+419,Ram Chandra Safi,IND,0,10th Pass,47.0,475666.0,44100
+420,Ram Dayal Singh,IND,0,Graduate,59.0,3256600.0,0
+421,Ram Deo Verma,CPI(M),3,Graduate,67.0,4179608.0,597864
+422,Ram Kripal Yadav,BJP,1,Graduate,53.0,13989431.0,2100000
+423,Ram Kumar Manjhi,IND,0,Graduate,34.0,198000.0,0
+424,Ram Kumar Sharma,Rashtriya Lok Samta Party,0,Post Graduate,50.0,9265000.0,82000
+425,Ram Lobhit Paswan,Bahujan Mukti Party,0,Literate,67.0,1790554.0,0
+426,Ram Padarath Yadav,BSP,0,Graduate Professional,47.0,8422000.0,0
+427,Ram Pukar Rai,IND,0,10th Pass,42.0,12014000.0,723000
+428,Ram Sundar Das,JD(U),0,10th Pass,93.0,6748748.0,1116705
+429,Ram Vilas Paswan,LJP,2,Post Graduate,67.0,9642023.0,0
+430,Ram Vinay Ray,Bharatiya Ekta Dal,0,Literate,28.0,185000.0,0
+431,Rama Devi,BJP,6,Graduate Professional,65.0,308591850.0,0
+432,Rama Kishore Singh,LJP,4,Graduate,51.0,21610218.0,3323006
+433,Rama Shankar Singh,AIFB,0,12th Pass,40.0,3012000.0,1000000
+434,Ramadhar Chaudhary,CPI(ML)L,3,10th Pass,58.0,577037.0,0
+435,Ramanand Rishideo,Lok Dal,0,12th Pass,63.0,10000.0,0
+436,Ramashankar Ram,Rashtriya Jan-Jagram Morcha,0,Graduate Professional,48.0,2910000.0,0
+437,Ramashish Mahto,IND,0,8th Pass,69.0,4134220.0,0
+438,Ramdev Sharma,IND,0,12th Pass,55.0,250000.0,0
+439,Ramesh Chandra Badal,BSP,1,Literate,59.0,726000.0,0
+440,Rameshwar Prasad,CPI(ML)L,6,8th Pass,67.0,2386000.0,0
+441,Rameshwar Sah,IND,0,Post Graduate,38.0,1537465.0,0
+442,Ramji Mandal,IND,0,10th Pass,47.0,3631000.0,0
+443,Ramji Manjhi,RJD,0,Graduate,54.0,11115000.0,0
+444,Ramji Singh,IND,0,Post Graduate,45.0,1310000.0,50000
+445,Randhir Kumar Ram,Bajjikanchal Vikas Party,0,Graduate,32.0,502500.0,40000
+446,Ranjan Kumar,IND,0,8th Pass,31.0,355833.0,0
+447,Ranjan Kumar,Bharat Vikas Morcha,0,Graduate,36.0,933578.0,0
+448,Ranjan Kumar,Jai Maha Bharath Party,3,12th Pass,27.0,869000.0,0
+449,Ranjan Prasad Yadav,JD(U),0,Doctorate,69.0,55327154.0,1766678
+450,Ranjeet Kumar Jha,IND,1,12th Pass,28.0,17960000.0,2200000
+451,Ranjeet Ranjan,INC,5,12th Pass,41.0,81242965.0,0
+452,Ratan Kumar Sarkar,IND,0,12th Pass,61.0,3271200.0,0
+453,Ratneshwar Jha,Akhil Bhartiya Mithila Party,0,12th Pass,50.0,1214000.0,0
+454,Ravi Shankar Paswan,IND,0,Graduate,48.0,16033000.0,0
+455,Ravikant Chaudhary,IND,0,10th Pass,32.0,225500.0,0
+456,Ravindra Kumar,BSP,1,Graduate,40.0,1252000.0,0
+457,Rina Ragni,Bahujan Mukti Party,0,Graduate,37.0,1643000.0,1600000
+458,Rina Rani,AAP,1,Graduate,40.0,17836000.0,0
+459,Rinki Kumari,CPI(ML)(L),7,Post Graduate,30.0,22192.0,0
+460,Rita Devi,SP,0,10th Pass,43.0,5136715.0,800000
+461,Rupesh Kumar Kuar,IND,0,Literate,31.0,140000.0,0
+462,Sadre Alam Khan,Akhil Bhartiya Mithila Party,0,10th Pass,65.0,1726698.0,0
+463,Safdar Ismail,IND,0,Graduate Professional,36.0,8605000.0,25000
+464,Said Irsad Akhtar,IND,0,12th Pass,37.0,546818.0,0
+465,Saiyad Samim Akhtar,BSP,2,10th Pass,57.0,12400000.0,0
+466,Sajan Kumar Jha,Jai Maha Bharath Party,0,Graduate,42.0,3228000.0,25000
+467,Saleem Perwez,JD(U),0,Graduate,53.0,64920000.0,102837
+468,Sandeep,AAP,0,Graduate Professional,28.0,5790000.0,750000
+469,Sandhya Devi,IND,0,Literate,43.0,4242000.0,30000
+470,Sanjay Kewat,BSP,0,Graduate,29.0,1997000.0,0
+471,Sanjay Kumar,BSP,0,10th Pass,36.0,920000.0,25000
+472,Sanjay Kumar,BSP,1,10th Pass,58.0,1800000.0,1200000
+473,Sanjay Kumar,CPI,3,Post Graduate,50.0,23633247.0,9460885
+474,Sanjay Kumar Jha,JD(U),0,Post Graduate,46.0,181383957.0,0
+475,Sanjay Kumar Rishidev,CPI(ML)L,1,Literate,32.0,14175.0,0
+476,Sanjay Prasad,IND,0,10th Pass,43.0,8172300.0,399000
+477,Sanjay Singh,IND,0,Post Graduate,44.0,10830016.0,202000
+478,Sanjay Singh,IND,0,10th Pass,35.0,106700.0,0
+479,Sanjeev Prasad Toni,INC,2,10th Pass,57.0,75279297.0,0
+480,Santosh Kumar,JD(U),3,12th Pass,35.0,22316594.0,1406515
+481,Santosh Kumar,BSP,2,Graduate,45.0,130000.0,0
+482,Sargun Sah,IND,0,8th Pass,59.0,1824000.0,0
+483,Saroj Ram,Bahujan Mukti Party,0,Graduate Professional,54.0,2255786.0,80350
+484,Sarwat Jahre Ansari,Samajwadi Janata Party (Rashtriya),0,Post Graduate,37.0,296000.0,0
+485,Satendra Baitha,IND,0,10th Pass,35.0,696174.0,0
+486,Satish Dubey,BJP,3,10th Pass,39.0,6061576.0,626789
+487,Satish Kumar,IND,0,10th Pass,50.0,11610000.0,0
+488,Satish Prasad Singh,IND,1,Graduate,41.0,3462200.0,25000
+489,Satya Nand Sharma,LJP,0,Literate,64.0,12818500.0,0
+490,Satya Narayan Bhagat,Proutist Sarva Samaj,0,Graduate,68.0,1062200.0,0
+491,Satya Narayan Paswan,AIFB,1,5th Pass,48.0,3490200.0,0
+492,Satya Narayan Singh,IND,0,Graduate,51.0,19450824.0,2396194
+493,Satya Prakash Pandey,AAP,0,Graduate Professional,43.0,12231703.0,7407841
+494,Satyendra Bhandari,Bahujan Mukti Party,0,10th Pass,38.0,1006000.0,0
+495,Shah Tariq Anwar,NCP,1,Graduate,63.0,104600951.0,20454853
+496,Shahid Ali Khan,JD(U),3,Graduate Professional,54.0,47446000.0,2985065
+497,Shailesh Kumar,Ati Picchara party,0,Graduate Professional,51.0,4445777.0,0
+498,Shailesh Kumar Diwakar,BSP,0,Post Graduate,34.0,9860000.0,600000
+499,Shailesh Kumar Urph Bulo Mandal,RJD,1,12th Pass,38.0,20216734.0,0
+500,Shakaldev Mandal,Samajwadi Janata Party (Rashtriya),1,Graduate Professional,70.0,82854500.0,0
+501,Shambhu Das,IND,2,Literate,38.0,2549763.0,0
+502,Shambhu Prasad Sharma,Hindustan Vikas Dal,0,Graduate Professional,61.0,300000.0,0
+503,Shankar Dayal Paswan,IND,4,Others,49.0,1525000.0,2500
+504,Shankar Mahato,BSP,4,12th Pass,42.0,3682067.0,14766
+505,Shankar Prasad,Bahujan Mukti Party,2,Graduate,49.0,40253000.0,0
+506,Sharad Yadav,JD(U),0,Graduate Professional,66.0,54676401.0,0
+507,Sharwan Kumar Anand,IND,0,Post Graduate,43.0,5750.0,0
+508,Shashi Yadav,CPI(ML)L,1,Graduate,40.0,14000.0,0
+509,Shatrudhan Sahni,CPI(ML)L,4,5th Pass,42.0,817500.0,50000
+510,Shatrudhan Shah,Bharatiya Ekta Dal,0,10th Pass,46.0,2030000.0,50000
+511,Shatrughan Kumar Paswan,Rashtriya Krantikari Samajwadi Party,1,Post Graduate,44.0,1657000.0,0
+512,Shatrughan Sahu,AAP,0,Post Graduate,38.0,2204235.0,0
+513,Shatrughan Sinha,BJP,1,Graduate,67.0,1317405961.0,168760929
+514,Shatruhan Tiwary,Bajjikanchal Vikas Party,0,8th Pass,48.0,85248200.0,0
+515,Sheo Gopal Chaudhry,IND,0,Graduate,74.0,1010000.0,0
+516,Shiv Kumar Kant,BSP,0,Graduate,64.0,5232500.0,200000
+517,Shiv Nath Mahto,IND,2,Literate,57.0,2523555.0,13741
+518,Shiv Shankar Kumar,Bharat Bhrashtachar Mitao Party,0,Graduate,38.0,1067800.0,0
+519,Shivanandan Prasad,IND,0,Post Graduate,70.0,50204169.0,0
+520,Shivani Umani,Janta Dal Rashtravadi,0,10th Pass,42.0,410500.0,0
+521,Shivendra Kumar,BSP,0,Post Graduate,40.0,495400.0,118033
+522,Shravan Kumar Jha,IND,0,Graduate,30.0,1098546.0,0
+523,Shree Kant Labh,Samajwadi Janata Party (Rashtriya),2,Post Graduate,79.0,57881.0,0
+524,Shweta Pathak,AAP,0,Graduate,30.0,6953992.0,0
+525,Shyam Lal Singh Kushwaha,JD(U),0,10th Pass,59.0,81811000.0,1932000
+526,Shyam Nandan Prasad,IND,1,Doctorate,59.0,36572000.0,943000
+527,Sikandar Tanti,IND,0,8th Pass,40.0,805834.0,0
+528,Sitaram Yadav,RJD,0,Graduate Professional,66.0,63472115.0,2091108
+529,Sohail Anwer,BSP,0,Literate,48.0,415000.0,85000
+530,Somaru Paswan,IND,0,Literate,58.0,3269500.0,0
+531,Sone Lal Sah,IND,0,8th Pass,66.0,2584902.0,0
+532,Sri Bhagwan Singh Kushwaha,RJD,1,10th Pass,48.0,7973528.0,2039416
+533,Sri Praksh Jha,JD(U),1,12th Pass,61.0,925480118.0,552293138
+534,Subhash Paswan,IND,0,Not Given,45.0,163000.0,0
+535,Subodh Narayan Jha,AITC,0,Graduate,63.0,7726666.0,2250000
+536,Suday Yadav,IND,0,10th Pass,26.0,4495000.0,0
+537,Sudeep Roy,AAP,0,Post Graduate,50.0,24764655.0,0
+538,Sudhansu Shekhar Bhaskar,RJD,0,Doctorate,46.0,13950638.0,1206926
+539,Sulochana Devi,IND,0,Literate,39.0,7275000.0,800000
+540,Suman Kumar,IND,0,Graduate,30.0,492000.0,0
+541,Sunil Kumar,AAP,0,Post Graduate,56.0,21040706.0,150000
+542,Sunil Kumar,Samajwadi Janata Party (Rashtriya),0,12th Pass,41.0,800000.0,150000
+543,Sunil Kumar Rao,CPI(ML)L,3,Graduate,41.0,9659800.0,341000
+544,Sunil Kumar Singh,IND,0,Post Graduate,45.0,123369500.0,61000
+545,Sunita Kumar,SP,0,Graduate,46.0,28013750.0,2500000
+546,Surendra Kumar,Bajjikanchal Vikas Party,0,Graduate,33.0,635479.0,595000
+547,Surendra Paswan,Rashtriya Bahujan Congress Party,0,Post Graduate,33.0,3540000.0,200000
+548,Surendra Prasad Yadav,RJD,3,Not Given,56.0,49462901.0,1022720
+549,Surendra Rajvanshi,SP,0,Graduate,35.0,3385189.0,0
+550,Surendra Ram,IND,0,5th Pass,39.0,9289000.0,200000
+551,Surendra Ram,Bharatiya Ekta Dal,0,Literate,46.0,1160000.0,25000
+552,Suresh Choudhary,AAP,0,Post Graduate,71.0,10027072.0,0
+553,Suresh Kumar,IND,1,Graduate,45.0,4654200.0,912000
+554,Suresh Kumar Ajad,Jai Hind Party,0,Post Graduate,46.0,1051233.0,30000
+555,Suresh Paswan,BSP,0,10th Pass,41.0,4087271.0,171000
+556,Suresh Rai,Rashtravadi Janata Party,0,8th Pass,40.0,672000.0,80000
+557,Suresha Paswan,IND,0,10th Pass,48.0,138834.0,0
+558,Suryoday Paswan,Sankhyanupati Bhagidari Party,0,Graduate,40.0,627000.0,0
+559,Sushil Kumar,IND,0,10th Pass,35.0,687780.0,0
+560,Sushil Kumar Singh,BJP,5,Post Graduate,48.0,127845854.0,7321626
+561,Syed Abu Dojana,SP,0,Graduate,49.0,66353562.0,0
+562,Syed Alamdar Hussain,IND,0,12th Pass,38.0,3610000.0,0
+563,Syed Shah Iqbal Alam,Bhartiya Ekta Manch Party,0,12th Pass,48.0,18201000.0,0
+564,Syed Shahnawaz Hussain,BJP,0,10th Pass,45.0,47044000.0,14007000
+565,Taphir Husain,Hindustan Vikas Dal,0,5th Pass,48.0,310000.0,0
+566,Taslim Uddin,RJD,4,Literate,72.0,42368468.0,1026919
+567,Tej Bahadur Singh,Proutist Sarva Samaj,0,Graduate,71.0,2864479.0,0
+568,Tetari Devi,CPI(ML)L,0,Literate,39.0,2138858.0,0
+569,Tiliya Devi,AAP,1,Literate,66.0,301462.0,25000
+570,Uchit Kumar,IND,1,12th Pass,45.0,176574.0,0
+571,Uday Narain Choudhary,JD(U),0,Graduate,61.0,9827813.0,0
+572,Uday Singh Urf Pappu Singh,BJP,4,12th Pass,61.0,1466364723.0,123100000
+573,Ujjawal Kant Hunkar,Bharatiya Momin Front,0,Graduate,49.0,105000.0,0
+574,Umakant Rahi,Shoshit Samaj Dal,0,Post Graduate,42.0,2610034.0,0
+575,Umakant Yadav,Bahujan Mukti Party,0,Graduate Professional,63.0,3015000.0,0
+576,Umashankar Tiwari,IND,0,Graduate Professional,38.0,961700.0,25000
+577,Umesh Chandra Bharati,IND,0,Literate,53.0,565000.0,0
+578,Umesh Kumar,SP,0,Graduate,46.0,1415000.0,0
+579,Upendra Kushwaha,Rashtriya Lok Samta Party,4,Post Graduate,51.0,24829741.0,823834
+580,Upendra Nath,Bahujan Mukti Party,1,Post Graduate,46.0,9228000.0,0
+581,Upendra Ram,IND,0,12th Pass,41.0,256500.0,0
+582,Upendra Ravidas,JMM,0,10th Pass,35.0,421280000.0,0
+583,Usha Sharan,Shoshit Samaj Dal,1,Literate,43.0,3900000.0,1000
+584,Veena Bharti,Janvadi Party(Socialist),0,8th Pass,38.0,729000.0,0
+585,Veena Devi,LJP,0,8th Pass,41.0,31162836.0,0
+586,Veerchandra Paswan,SP,2,Post Graduate,50.0,20627777.0,101383
+587,Viajy Bharti,Rajnaitik Vikalp Party,0,10th Pass,59.0,353558.0,0
+588,Vidhanchandra Rana,Samajwadi Janata Party (Rashtriya),0,Graduate,38.0,430000.0,0
+589,Vifiya Devi Urf Vikiya Devi,IND,0,Literate,30.0,138000.0,0
+590,Vijay Kumar,IND,0,12th Pass,26.0,51300.0,0
+591,Vijay Kumar Mandal,JD(U),1,10th Pass,51.0,4326107.0,0
+592,Vijay Kumar Ram,Rajnaitik Vikalp Party,0,12th Pass,27.0,17000.0,0
+593,Vijay Kumar Sahni,JD(U),2,12th Pass,63.0,11929261.0,58282
+594,Vijay Kumar Sahni,IND,0,Graduate,25.0,7528500.0,0
+595,Vijay Kumar Singh,BJP,4,Graduate,56.0,16210739.0,1598602
+596,Vijay Ram,Moolniwasi Samaj Party,1,10th Pass,42.0,221500.0,0
+597,Vijeet Kumar,IND,0,Graduate,29.0,400000.0,0
+598,Vinod Kumar Shrivastava,RJD,0,Graduate,54.0,65885912.0,2000000
+599,Vinod Pandit,Lokpriya Samaj Party,1,12th Pass,34.0,530000.0,0
+600,Vinod Sah,IND,0,Literate,48.0,1758542.0,0
+601,Viren Das,Sankhyanupati Bhagidari Party,0,Literate,52.0,3010500.0,0
+602,Virendra Prasad Gupta,CPI(ML)L,4,12th Pass,45.0,5222490.0,22550
+603,Vishun Chaudhary,SHS,0,8th Pass,56.0,190000.0,0
+604,Vishwajit Kumar,IND,0,12th Pass,25.0,3409263.0,0
+605,Yogendra Prasad,Bharatiya Inqalab Party,0,12th Pass,65.0,5874500.0,25000
