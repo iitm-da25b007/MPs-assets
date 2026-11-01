@@ -97,11 +97,8 @@ app.layout = dbc.Container([
                 ], className="mb-4"),
 
                 dbc.Row([
-                    dbc.Col(create_graph("ap-asset-graph"), md=12),
-                ], className="mb-4"),
-
-                dbc.Row([
-                    dbc.Col(create_graph("ap-asset-graph-constituency"), md=12),
+                    dbc.Col(create_graph("ap-asset-graph"), md=4),
+                    dbc.Col(create_graph("ap-asset-graph-constituency"), md=8),
                 ], className="mb-4"),
 
             ], fluid=True)
@@ -136,11 +133,8 @@ app.layout = dbc.Container([
                 ], className="mb-4"),
 
                 dbc.Row([
-                    dbc.Col(create_graph("br-asset-graph"), md=12),
-                ], className="mb-4"),
-
-                dbc.Row([
-                    dbc.Col(create_graph("br-asset-graph-constituency"), md=12),
+                    dbc.Col(create_graph("br-asset-graph"), md=4),
+                    dbc.Col(create_graph("br-asset-graph-constituency"), md=8),
                 ], className="mb-4"),
 
             ], fluid=True)
@@ -175,11 +169,8 @@ app.layout = dbc.Container([
                 ], className="mb-4"),
 
                 dbc.Row([
-                    dbc.Col(create_graph("gj-asset-graph"), md=12),
-                ], className="mb-4"),
-
-                dbc.Row([
-                    dbc.Col(create_graph("gj-asset-graph-constituency"), md=12),
+                    dbc.Col(create_graph("gj-asset-graph"), md=4),
+                    dbc.Col(create_graph("gj-asset-graph-constituency"), md=8),
                 ], className="mb-4"),
 
             ], fluid=True)
