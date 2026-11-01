@@ -90,10 +90,10 @@ app.layout = dbc.Container([
                 ], className="mb-4"),
 
                 dbc.Row([
-                    dbc.Col(kpi("ap-winners-change", "Average Asset Change of Winners"), md=3),
-                    dbc.Col(kpi("ap-losers-change", "Average Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("ap-winners-median-pchange", "Median % Asset Change of Winners"), md=3),
                     dbc.Col(kpi("ap-winners-median-change", "Median Asset Change of Winners"), md=3),
-                    dbc.Col(kpi("ap-losers-median-change", "Median Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("ap-losers-median-pchange", "Median % Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("ap-losers-median-change", "Median Asset Change of Losers"), md=3)
                 ], className="mb-4"),
 
                 dbc.Row([
@@ -126,10 +126,10 @@ app.layout = dbc.Container([
                 ], className="mb-4"),
 
                 dbc.Row([
-                    dbc.Col(kpi("br-winners-change", "Average Asset Change of Winners"), md=3),
-                    dbc.Col(kpi("br-losers-change", "Average Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("br-winners-median-pchange", "Median % Asset Change of Winners"), md=3),
                     dbc.Col(kpi("br-winners-median-change", "Median Asset Change of Winners"), md=3),
-                    dbc.Col(kpi("br-losers-median-change", "Median Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("br-losers-median-pchange", "Median % Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("br-losers-median-change", "Median Asset Change of Losers"), md=3)
                 ], className="mb-4"),
 
                 dbc.Row([
@@ -162,10 +162,10 @@ app.layout = dbc.Container([
                 ], className="mb-4"),
 
                 dbc.Row([
-                    dbc.Col(kpi("gj-winners-change", "Average Asset Change of Winners"), md=3),
-                    dbc.Col(kpi("gj-losers-change", "Average Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("gj-winners-median-pchange", "Median % Asset Change of Winners"), md=3),
                     dbc.Col(kpi("gj-winners-median-change", "Median Asset Change of Winners"), md=3),
-                    dbc.Col(kpi("gj-losers-median-change", "Median Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("gj-losers-median-pchange", "Median % Asset Change of Losers"), md=3),
+                    dbc.Col(kpi("gj-losers-median-change", "Median Asset Change of Losers"), md=3)
                 ], className="mb-4"),
 
                 dbc.Row([
@@ -246,41 +246,110 @@ def calculate_statistics(changes: pd.DataFrame):
     losers = changes[changes["Winner"] == False]
     denom_losers = np.where(losers["Previous_assets"] > 0, losers["Previous_assets"], 1)
     losers_percen = (losers["Asset Change"] / denom_losers) * 100
-    
-    # 1. First Bar Graph: Winners vs Losers
-    df1 = changes.groupby("Winner")["Asset Change"].mean().reset_index()
-    df1["Winner"] = df1["Winner"].replace({
-        True: "Winners",
-        False: "Losers"
-    })
-    
-    bar_graph1 = px.bar(
-        df1, 
-        x="Winner", 
-        y="Asset Change",
-        color="Winner",
-        color_discrete_map={
-            "Winners": "#0D9488",
-            "Losers": "#3B82F6"
-        }, 
-        title="Average Asset Change: Winners vs Losers"
-    )
-    
-    df2 = winners.groupby("Constituency")["Asset Change"].mean().reset_index()
-    
-    bar_graph2 = px.bar(
-        df2, 
-        x="Constituency", 
-        y="Asset Change",
-        color="Constituency",
-        title="Asset Change in Each Constituency"
-    )
+
+    if "Period" in changes.columns:
+        df1 = changes.groupby(
+            ["Period", "Winner"]
+        )["Asset Change"].mean().reset_index()
+
+        df1["Winner"] = df1["Winner"].replace({
+            True: "Winners",
+            False: "Losers"
+        })
+
+        bar_graph1 = px.bar(
+            df1,
+            x="Winner",
+            y="Asset Change",
+            color="Period",
+            barmode="group",
+            category_orders={
+                "Winner": ["Winners", "Losers"],
+                "Period": ["2014-2019", "2019-2024"]
+            },
+            color_discrete_map={
+                "2014-2019": "#DC2626",
+                "2019-2024": "#2563EB"
+            },
+            title="Average Asset Change: Winners vs Losers Across Both Periods"
+        )
+
+        df2 = winners.groupby(
+            ["Constituency", "Period"]
+        )["Asset Change"].mean().reset_index()
+
+        # Keep both election periods aligned for every constituency.
+        period_order = ["2014-2019", "2019-2024"]
+        constituency_data = df2.pivot(
+            index="Constituency",
+            columns="Period",
+            values="Asset Change"
+        ).reindex(columns=period_order)
+
+        bar_graph2 = go.Figure()
+
+        period_colors = {
+            "2014-2019": "#DC2626",
+            "2019-2024": "#2563EB"
+        }
+
+        for period in period_order:
+            if period in constituency_data.columns:
+                bar_graph2.add_trace(go.Bar(
+                    x=constituency_data.index,
+                    y=constituency_data[period],
+                    name=period,
+                    marker_color=period_colors[period]
+                ))
+
+        bar_graph2.update_layout(
+            barmode="group",
+            title="Constituency-wise Asset Change Across Both Periods",
+            xaxis_title="Constituency",
+            yaxis_title="Average Asset Change (₹)",
+            xaxis_tickangle=-45,
+            paper_bgcolor="#FFFFFF",
+            plot_bgcolor="#FFFFFF",
+            font_color="#172554",
+            legend_title="Election Period",
+            height=600
+        )
+    else:
+        df1 = changes.groupby("Winner")["Asset Change"].mean().reset_index()
+        df1["Winner"] = df1["Winner"].replace({
+            True: "Winners",
+            False: "Losers"
+        })
+
+        bar_graph1 = px.bar(
+            df1,
+            x="Winner",
+            y="Asset Change",
+            color="Winner",
+            color_discrete_map={
+                "Winners": "#0D9488",
+                "Losers": "#3B82F6"
+            },
+            title="Average Asset Change: Winners vs Losers"
+        )
+
+        df2 = winners.groupby(
+            "Constituency"
+        )["Asset Change"].mean().reset_index()
+
+        bar_graph2 = px.bar(
+            df2,
+            x="Constituency",
+            y="Asset Change",
+            color="Constituency",
+            title="Asset Change in Each Constituency"
+        )
 
     return (
-        f"{winners_percen.mean():,.2f}%" if not winners.empty else "N/A",
-        f"{losers_percen.mean():,.2f}%" if not losers.empty else "N/A",
         f"{winners_percen.median():,.2f}%" if not winners.empty else "N/A",
+        f"₹{winners['Asset Change'].median():,.2f}" if not winners.empty else "N/A",
         f"{losers_percen.median():,.2f}%" if not losers.empty else "N/A",
+        f"₹{losers['Asset Change'].median():,.2f}" if not losers.empty else "N/A",
         bar_graph1,
         bar_graph2
     )
@@ -326,9 +395,9 @@ def create_party_assets_pie(data, state, year, top_n=7):
     return fig
 
 @app.callback(
-    Output("ap-winners-change", "children"),
-    Output("ap-losers-change", "children"),
+    Output("ap-winners-median-pchange", "children"),
     Output("ap-winners-median-change", "children"),
+    Output("ap-losers-median-pchange", "children"),
     Output("ap-losers-median-change", "children"),
     Output("ap-asset-graph", "figure"),
     Output("ap-asset-graph-constituency", "figure"),
@@ -347,14 +416,16 @@ def update_ap_dashboard(period):
     if period == "Both":
         records_14_19 = calculate_asset_changes(andhra_14, andhra_19)
         records_19_24 = calculate_asset_changes(andhra_19, andhra_24)
+        records_14_19["Period"] = "2014-2019"
+        records_19_24["Period"] = "2019-2024"
         combined_records = pd.concat([records_14_19, records_19_24], ignore_index=True)
         
         return calculate_statistics(combined_records)
 
 @app.callback(
-    Output("br-winners-change", "children"),
-    Output("br-losers-change", "children"),
+    Output("br-winners-median-pchange", "children"),
     Output("br-winners-median-change", "children"),
+    Output("br-losers-median-pchange", "children"),
     Output("br-losers-median-change", "children"),
     Output("br-asset-graph", "figure"),
     Output("br-asset-graph-constituency", "figure"),
@@ -373,14 +444,16 @@ def update_ap_dashboard(period):
     if period == "Both":
         records_14_19 = calculate_asset_changes(bihar_14, bihar_19)
         records_19_24 = calculate_asset_changes(bihar_19, bihar_24)
+        records_14_19["Period"] = "2014-2019"
+        records_19_24["Period"] = "2019-2024"
         combined_records = pd.concat([records_14_19, records_19_24], ignore_index=True)
         
         return calculate_statistics(combined_records)
 
 @app.callback(
-    Output("gj-winners-change", "children"),
-    Output("gj-losers-change", "children"),
+    Output("gj-winners-median-pchange", "children"),
     Output("gj-winners-median-change", "children"),
+    Output("gj-losers-median-pchange", "children"),
     Output("gj-losers-median-change", "children"),
     Output("gj-asset-graph", "figure"),
     Output("gj-asset-graph-constituency", "figure"),
@@ -399,6 +472,8 @@ def update_ap_dashboard(period):
     if period == "Both":
         records_14_19 = calculate_asset_changes(gujarat_14, gujarat_19)
         records_19_24 = calculate_asset_changes(gujarat_19, gujarat_24)
+        records_14_19["Period"] = "2014-2019"
+        records_19_24["Period"] = "2019-2024"
         combined_records = pd.concat([records_14_19, records_19_24], ignore_index=True)
         
         return calculate_statistics(combined_records)
