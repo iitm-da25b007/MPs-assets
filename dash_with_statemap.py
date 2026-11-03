@@ -1177,8 +1177,8 @@ def create_party_assets_pie(data, state, year, top_n=7):
         textinfo="percent",
         textfont=dict(color="#0B1020", size=12),
         marker=dict(line=dict(color=CARD, width=2)),
-        hovertemplate="<b>%{customdata[1]}</b><br>Assets: %{customdata[0]}<br>Share: %{percent}<extra></extra>",
-        customdata=top_parties[["Formatted", "Party"]].values.tolist(),
+        hovertemplate="<b>%{label}</b><br>Assets: %{customdata}<br>Share: %{percent}<extra></extra>",
+        customdata=top_parties["Formatted"],
         sort=False,
         domain=dict(x=[0.05, 0.95], y=[0.2, 0.92]),  # same donut size in every card
     )
