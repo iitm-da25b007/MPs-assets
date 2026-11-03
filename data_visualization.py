@@ -11,7 +11,7 @@ def normalize_constituency(c):
     return re.sub(r"\s*\((SC|ST)\)\s*$", "", str(c).strip())
 
 def load(path):
-    df = pd.read_parquet(path)
+    df = pd.read_csv(path)
     df["constituency"] = df["constituency"].map(normalize_constituency)
     return df
 
@@ -22,7 +22,7 @@ YEARS = ("2014", "2019", "2024")
 
 # Load dataset files: DATA["ap"]["2014"] -> Andhra Pradesh 2014 dataframe
 DATA = {
-    key: {year: load(f"clean/{FILE_PREFIX[key]}_{year}.parquet") for year in YEARS}
+    key: {year: load(f"clean/{FILE_PREFIX[key]}_{year}.csv") for year in YEARS}
     for key in STATES
 }
 

@@ -14,7 +14,7 @@ def normalize_constituency(c):
     return re.sub(r"\s*\((SC|ST)\)\s*$", "", str(c).strip())
 
 def load(path):
-    df = pd.read_parquet(path)
+    df = pd.read_csv(path)
     df["constituency"] = df["constituency"].map(normalize_constituency)
     return df
 
@@ -27,8 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent
 # Pipeline folders:
 #   raw/                        scraped CSVs (some asset cells are image URLs)
 #   interim/ocr_data/           CSVs with image-only values recovered by OCR
-#   interim/cleaned_raw_data/   parquet with assets / liabilities / age parsed to ints (-1 = missing)
-#   interim/cleaned_data/       parquet after dropping rows with missing values (and duplicates)
+#   interim/cleaned_raw_data/   csv with assets / liabilities / age parsed to ints (-1 = missing)
+#   interim/cleaned_data/       csv after dropping rows with missing values (and duplicates)
 #   clean/                      dropped files + winner, constituency and Recontester links (used here)
 RAW_DIR = BASE_DIR / "raw"
 OCR_DIR = BASE_DIR / "interim" / "ocr_data"
@@ -36,19 +36,19 @@ CLEANED_RAW_DIR = BASE_DIR / "interim" / "cleaned_raw_data"
 DROPPED_DIR = BASE_DIR / "interim" / "cleaned_data"
 DATA_DIR = BASE_DIR / "clean"
 
-andhra_14 = load(DATA_DIR / "andhra_2014.parquet")
-andhra_19 = load(DATA_DIR / "andhra_2019.parquet")
-andhra_24 = load(DATA_DIR / "andhra_2024.parquet")
+andhra_14 = load(DATA_DIR / "andhra_2014.csv")
+andhra_19 = load(DATA_DIR / "andhra_2019.csv")
+andhra_24 = load(DATA_DIR / "andhra_2024.csv")
 
-bihar_14 = load(DATA_DIR / "bihar_2014.parquet")
-bihar_19 = load(DATA_DIR / "bihar_2019.parquet")
-bihar_24 = load(DATA_DIR / "bihar_2024.parquet")
+bihar_14 = load(DATA_DIR / "bihar_2014.csv")
+bihar_19 = load(DATA_DIR / "bihar_2019.csv")
+bihar_24 = load(DATA_DIR / "bihar_2024.csv")
 
-gujarat_14 = load(DATA_DIR / "gujarat_2014.parquet")
-gujarat_19 = load(DATA_DIR / "gujarat_2019.parquet")
-gujarat_24 = load(DATA_DIR / "gujarat_2024.parquet")
+gujarat_14 = load(DATA_DIR / "gujarat_2014.csv")
+gujarat_19 = load(DATA_DIR / "gujarat_2019.csv")
+gujarat_24 = load(DATA_DIR / "gujarat_2024.csv")
 
-# Cleaning-stage data: scraped CSV -> OCR-enriched CSV -> parsed parquet -> missing rows dropped
+# Cleaning-stage data: scraped CSV -> OCR-enriched CSV -> parsed csv -> missing rows dropped
 STATES = {"Andhra Pradesh": "andhra", "Bihar": "bihar", "Gujarat": "gujarat"}
 YEARS = [2014, 2019, 2024]
 CLEANED = {
@@ -62,8 +62,8 @@ for _state, _slug in STATES.items():
     for _year in YEARS:
         RAW[(_state, _year)] = pd.read_csv(RAW_DIR / f"{_slug}_{_year}.csv", encoding="utf-8-sig")
         OCR[(_state, _year)] = pd.read_csv(OCR_DIR / f"{_slug}_{_year}.csv", encoding="utf-8-sig")
-        CLEANED_RAW[(_state, _year)] = pd.read_parquet(CLEANED_RAW_DIR / f"{_slug}_{_year}.parquet")
-        DROPPED[(_state, _year)] = pd.read_parquet(DROPPED_DIR / f"{_slug}_{_year}_dropped.parquet")
+        CLEANED_RAW[(_state, _year)] = pd.read_csv(CLEANED_RAW_DIR / f"{_slug}_{_year}.csv")
+        DROPPED[(_state, _year)] = pd.read_csv(DROPPED_DIR / f"{_slug}_{_year}_dropped.csv")
 
 def rupees(value):
     """Parse a scraped asset string such as 'Rs 1,23,456 ~ 1 Lacs+' into a number."""
@@ -595,7 +595,7 @@ def cleaning_page():
             dbc.Col(kpi("clean-recovered", "Recovered by OCR", "win", "OCR-enriched CSVs"), md=4, xl=2),
             dbc.Col(kpi("clean-missing", "Rows with gaps", "lose", "Age, assets or liabilities missing"), md=4, xl=2),
             dbc.Col(kpi("clean-dropped", "Rows dropped", "lose", "Missing values or duplicates"), md=4, xl=2),
-            dbc.Col(kpi("clean-final", "Final rows", "neutral", "Cleaned parquet rows"), md=4, xl=2),
+            dbc.Col(kpi("clean-final", "Final rows", "neutral", "Cleaned csv rows"), md=4, xl=2),
         ], className="g-3 mb-4"),
 
         html.Div([
@@ -937,13 +937,12 @@ def calculate_statistics(changes: pd.DataFrame):
 
         df1 = changes.groupby(["Period", "Winner"])["Asset Change"].mean().reset_index()
         df1["Winner"] = df1["Winner"].replace({True: "Winners", False: "Losers"})
-        df1["Scaled Asset Change"] = symlog_transform(df1["Asset Change"])
         df1["Formatted Asset Change"] = df1["Asset Change"].apply(money_short)
 
         bar_graph1 = px.bar(
             df1,
             x="Winner",
-            y="Scaled Asset Change",
+            y="Asset Change",
             color="Period",
             barmode="group",
             custom_data=["Formatted Asset Change"],
@@ -960,7 +959,7 @@ def calculate_statistics(changes: pd.DataFrame):
             )
         )
         tv, tt = symlog_ticks(df1["Asset Change"])
-        bar_graph1.update_layout(xaxis_title="Election outcome", yaxis_title="Mean asset change (symlog scale)")
+        bar_graph1.update_layout(xaxis_title="Election outcome", yaxis_title="Mean asset change")
         bar_graph1.update_yaxes(tickvals=tv, ticktext=tt)
 
         df2 = winners.groupby(["Constituency", "Period"])["Asset Change"].mean().reset_index()
@@ -999,13 +998,12 @@ def calculate_statistics(changes: pd.DataFrame):
     else:
         df1 = changes.groupby("Winner")["Asset Change"].mean().reset_index()
         df1["Winner"] = df1["Winner"].replace({True: "Winners", False: "Losers"})
-        df1["Scaled Asset Change"] = symlog_transform(df1["Asset Change"])
         df1["Formatted Asset Change"] = df1["Asset Change"].apply(money_short)
 
         bar_graph1 = px.bar(
             df1,
             x="Winner",
-            y="Scaled Asset Change",
+            y="Asset Change",
             color="Winner",
             custom_data=["Formatted Asset Change"],
             category_orders={"Winner": ["Winners", "Losers"]},
@@ -1022,7 +1020,7 @@ def calculate_statistics(changes: pd.DataFrame):
         tv, tt = symlog_ticks(df1["Asset Change"])
         bar_graph1.update_layout(
             xaxis_title="Election outcome",
-            yaxis_title="Mean asset change (symlog scale)",
+            yaxis_title="Mean asset change",
             showlegend=False,
         )
         bar_graph1.update_yaxes(tickvals=tv, ticktext=tt)
