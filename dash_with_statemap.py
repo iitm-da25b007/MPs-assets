@@ -913,7 +913,7 @@ def create_asset_histogram(changes):
         title="Distribution of Asset Changes: Winners vs Losers",
         hovermode="closest",
     )
-    outlier_note = " · end bars include outliers" if (clipped_low or clipped_high) else ""
+    outlier_note = "" if (clipped_low or clipped_high) else ""
     fig.update_xaxes(title=f"Asset change (bins of {tick_label(step)}){outlier_note}",
                      range=[edges[0], edges[-1]], tickvals=tv, ticktext=tt, zeroline=False)
     fig.update_yaxes(title="Share of group", tickformat=".0%", zeroline=False, rangemode="tozero")
