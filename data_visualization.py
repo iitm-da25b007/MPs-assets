@@ -8,17 +8,26 @@ import numpy as np
 
 
 # Load dataset files
-andhra_14 = pd.read_parquet("cleaned_data/andhra_2014.parquet")
-andhra_19 = pd.read_parquet("cleaned_data/andhra_2019.parquet")
-andhra_24 = pd.read_parquet("cleaned_data/andhra_2024.parquet")
+from pathlib import Path
 
-bihar_14 = pd.read_parquet("cleaned_data/bihar_2014.parquet")
-bihar_19 = pd.read_parquet("cleaned_data/bihar_2019.parquet")
-bihar_24 = pd.read_parquet("cleaned_data/bihar_2024.parquet")
+# Directory containing this Python script
+BASE_DIR = Path(__file__).resolve().parent
 
-gujarat_14 = pd.read_parquet("cleaned_data/gujarat_2014.parquet")
-gujarat_19 = pd.read_parquet("cleaned_data/gujarat_2019.parquet")
-gujarat_24 = pd.read_parquet("cleaned_data/gujarat_2024.parquet")
+# Directory containing the cleaned datasets
+DATA_DIR = BASE_DIR / "cleaned_data"
+
+# Load datasets
+andhra_14 = pd.read_parquet(DATA_DIR / "andhra_2014.parquet")
+andhra_19 = pd.read_parquet(DATA_DIR / "andhra_2019.parquet")
+andhra_24 = pd.read_parquet(DATA_DIR / "andhra_2024.parquet")
+
+bihar_14 = pd.read_parquet(DATA_DIR / "bihar_2014.parquet")
+bihar_19 = pd.read_parquet(DATA_DIR / "bihar_2019.parquet")
+bihar_24 = pd.read_parquet(DATA_DIR / "bihar_2024.parquet")
+
+gujarat_14 = pd.read_parquet(DATA_DIR / "gujarat_2014.parquet")
+gujarat_19 = pd.read_parquet(DATA_DIR / "gujarat_2019.parquet")
+gujarat_24 = pd.read_parquet(DATA_DIR / "gujarat_2024.parquet")
 
 def kpi(card_id, title):
     return dbc.Card(
