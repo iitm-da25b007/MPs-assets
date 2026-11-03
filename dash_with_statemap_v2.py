@@ -1569,7 +1569,6 @@ def update_constituency_map(map_state, period, measure):
             f"{len(with_value)} of {len(state_rows)} seats in {map_state} are drawn with a value; unfilled outlined "
             f"seats have no linked value and {len(geo_unmatched)} seat name(s) could not be matched to a boundary. "
             "Colour uses a compressed (asinh) scale so small and large changes both show; hover for exact amounts. "
-            "Boundaries: DataMeet india_pc_2019_simplified (CC0; 2008 delimitation, valid for 2014–2024)."
             + (f" Boundary names not in the election data: {', '.join(boundary_only)}." if boundary_only else "")
         )
     else:
