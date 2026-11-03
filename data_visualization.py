@@ -246,6 +246,8 @@ def calculate_asset_changes(previous_df: pd.DataFrame, current_df: pd.DataFrame)
 
     return pd.DataFrame(records)
 
+def symlog_transform(values):
+    return np.sign(values) * np.log1p(np.abs(values))
 
 def calculate_statistics(changes: pd.DataFrame):
     winners = changes[changes["Winner"] == True]
@@ -255,6 +257,11 @@ def calculate_statistics(changes: pd.DataFrame):
     losers = changes[changes["Winner"] == False]
     denom_losers = np.where(losers["Previous_assets"] > 0, losers["Previous_assets"], 1)
     losers_percen = (losers["Asset Change"] / denom_losers) * 100
+
+    period_colors = {
+        "2014-2019": "#DC2626",
+        "2019-2024": "#2563EB"
+    }
 
     if "Period" in changes.columns:
         df1 = changes.groupby(
@@ -266,26 +273,37 @@ def calculate_statistics(changes: pd.DataFrame):
             False: "Losers"
         })
 
+        df1["Scaled Asset Change"] = symlog_transform(df1["Asset Change"])
+
         bar_graph1 = px.bar(
             df1,
             x="Winner",
-            y="Asset Change",
+            y="Scaled Asset Change",
             color="Period",
             barmode="group",
+            custom_data=["Asset Change"],
             category_orders={
                 "Winner": ["Winners", "Losers"],
                 "Period": ["2014-2019", "2019-2024"]
             },
-            color_discrete_map={
-                "2014-2019": "#DC2626",
-                "2019-2024": "#2563EB"
-            },
-            title="Average Asset Change: Winners vs Losers Across Both Periods"
+            color_discrete_map=period_colors,
+            title="Change: Winners vs Losers Across Both Periods"
+        )
+
+        bar_graph1.update_traces(
+            hovertemplate=(
+                "Category: %{x}<br>"
+                "Period: %{fullData.name}<br>"
+                "Actual Asset Change: ₹%{customdata[0]:,.2f}"
+                "<extra></extra>"
+            )
         )
 
         df2 = winners.groupby(
             ["Constituency", "Period"]
         )["Asset Change"].mean().reset_index()
+
+        df2["Scaled Asset Change"] = symlog_transform(df2["Asset Change"])
 
         # Keep both election periods aligned for every constituency.
         period_order = ["2014-2019", "2019-2024"]
@@ -297,25 +315,29 @@ def calculate_statistics(changes: pd.DataFrame):
 
         bar_graph2 = go.Figure()
 
-        period_colors = {
-            "2014-2019": "#DC2626",
-            "2019-2024": "#2563EB"
-        }
-
         for period in period_order:
             if period in constituency_data.columns:
+                actual_values = constituency_data[period]
+
                 bar_graph2.add_trace(go.Bar(
                     x=constituency_data.index,
-                    y=constituency_data[period],
+                    y=symlog_transform(actual_values),
                     name=period,
-                    marker_color=period_colors[period]
+                    marker_color=period_colors[period],
+                    customdata=actual_values,
+                    hovertemplate=(
+                        "Constituency: %{x}<br>"
+                        f"Period: {period}<br>"
+                        "Actual Asset Change: ₹%{customdata:,.2f}"
+                        "<extra></extra>"
+                    )
                 ))
 
         bar_graph2.update_layout(
             barmode="group",
             title="Constituency-wise Asset Change Across Both Periods",
             xaxis_title="Constituency",
-            yaxis_title="Average Asset Change (₹)",
+            yaxis_title="Scaled Asset Change",
             xaxis_tickangle=-45,
             paper_bgcolor="#FFFFFF",
             plot_bgcolor="#FFFFFF",
@@ -330,28 +352,60 @@ def calculate_statistics(changes: pd.DataFrame):
             False: "Losers"
         })
 
+        df1["Scaled Asset Change"] = symlog_transform(df1["Asset Change"])
+
         bar_graph1 = px.bar(
             df1,
             x="Winner",
-            y="Asset Change",
+            y="Scaled Asset Change",
             color="Winner",
+            custom_data=["Asset Change"],
             color_discrete_map={
                 "Winners": "#0D9488",
                 "Losers": "#3B82F6"
             },
-            title="Average Asset Change: Winners vs Losers"
+            title="Asset Change: Winners vs Losers"
+        )
+
+        bar_graph1.update_traces(
+            hovertemplate=(
+                "Category: %{x}<br>"
+                "Actual Asset Change: ₹%{customdata[0]:,.2f}"
+                "<extra></extra>"
+            )
         )
 
         df2 = winners.groupby(
             "Constituency"
         )["Asset Change"].mean().reset_index()
 
+        df2["Scaled Asset Change"] = symlog_transform(df2["Asset Change"])
+
         bar_graph2 = px.bar(
             df2,
             x="Constituency",
-            y="Asset Change",
+            y="Scaled Asset Change",
             color="Constituency",
+            custom_data=["Asset Change"],
             title="Asset Change in Each Constituency"
+        )
+
+        bar_graph2.update_traces(
+            hovertemplate=(
+                "Constituency: %{x}<br>"
+                "Actual Asset Change: ₹%{customdata[0]:,.2f}"
+                "<extra></extra>"
+            )
+        )
+
+    for fig in [bar_graph1, bar_graph2]:
+        fig.update_layout(
+            yaxis=dict(
+                type="linear",
+                zeroline=True,
+                zerolinewidth=2,
+                zerolinecolor="black"
+            )
         )
 
     return (
