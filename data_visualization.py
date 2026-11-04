@@ -1094,7 +1094,7 @@ def calculate_statistics(changes: pd.DataFrame):
         bar_graph1.update_layout(
             xaxis_title="Election outcome",
             yaxis_title="Mean asset change",
-            showlegend=False,
+            showlegend=True,
         )
         bar_graph1.update_yaxes(tickvals=tv, ticktext=tt)
 
