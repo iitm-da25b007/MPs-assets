@@ -1,0 +1,80 @@
+File Name,Number of Rows,Number of Columns,Column Name,Data Type,Meaning
+andhra_2014.csv,329,8,Sno.,int64,Unique serial number assigned to a candidate.
+andhra_2014.csv,329,8,Candidate,str,Name of the candidate contesting the election.
+andhra_2014.csv,329,8,Party,str,Political party represented by the candidate.
+andhra_2014.csv,329,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+andhra_2014.csv,329,8,Education,str,Educational qualification declared by the candidate.
+andhra_2014.csv,329,8,Age,str,Age of the candidate.
+andhra_2014.csv,329,8,Total Assets,str,Total declared assets owned by the candidate.
+andhra_2014.csv,329,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+andhra_2019.csv,314,8,Sno.,int64,Unique serial number assigned to a candidate.
+andhra_2019.csv,314,8,Candidate,str,Name of the candidate contesting the election.
+andhra_2019.csv,314,8,Party,str,Political party represented by the candidate.
+andhra_2019.csv,314,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+andhra_2019.csv,314,8,Education,str,Educational qualification declared by the candidate.
+andhra_2019.csv,314,8,Age,str,Age of the candidate.
+andhra_2019.csv,314,8,Total Assets,str,Total declared assets owned by the candidate.
+andhra_2019.csv,314,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+andhra_2024.csv,450,8,Sno.,int64,Unique serial number assigned to a candidate.
+andhra_2024.csv,450,8,Candidate,str,Name of the candidate contesting the election.
+andhra_2024.csv,450,8,Party,str,Political party represented by the candidate.
+andhra_2024.csv,450,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+andhra_2024.csv,450,8,Education,str,Educational qualification declared by the candidate.
+andhra_2024.csv,450,8,Age,int64,Age of the candidate.
+andhra_2024.csv,450,8,Total Assets,str,Total declared assets owned by the candidate.
+andhra_2024.csv,450,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+bihar_2014.csv,605,8,Sno.,int64,Unique serial number assigned to a candidate.
+bihar_2014.csv,605,8,Candidate,str,Name of the candidate contesting the election.
+bihar_2014.csv,605,8,Party,str,Political party represented by the candidate.
+bihar_2014.csv,605,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+bihar_2014.csv,605,8,Education,str,Educational qualification declared by the candidate.
+bihar_2014.csv,605,8,Age,str,Age of the candidate.
+bihar_2014.csv,605,8,Total Assets,str,Total declared assets owned by the candidate.
+bihar_2014.csv,605,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+bihar_2019.csv,619,8,Sno.,int64,Unique serial number assigned to a candidate.
+bihar_2019.csv,619,8,Candidate,str,Name of the candidate contesting the election.
+bihar_2019.csv,619,8,Party,str,Political party represented by the candidate.
+bihar_2019.csv,619,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+bihar_2019.csv,619,8,Education,str,Educational qualification declared by the candidate.
+bihar_2019.csv,619,8,Age,int64,Age of the candidate.
+bihar_2019.csv,619,8,Total Assets,str,Total declared assets owned by the candidate.
+bihar_2019.csv,619,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+bihar_2024.csv,496,8,Sno.,int64,Unique serial number assigned to a candidate.
+bihar_2024.csv,496,8,Candidate,str,Name of the candidate contesting the election.
+bihar_2024.csv,496,8,Party,str,Political party represented by the candidate.
+bihar_2024.csv,496,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+bihar_2024.csv,496,8,Education,str,Educational qualification declared by the candidate.
+bihar_2024.csv,496,8,Age,int64,Age of the candidate.
+bihar_2024.csv,496,8,Total Assets,str,Total declared assets owned by the candidate.
+bihar_2024.csv,496,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+gujarat_2014.csv,333,8,Sno.,int64,Unique serial number assigned to a candidate.
+gujarat_2014.csv,333,8,Candidate,str,Name of the candidate contesting the election.
+gujarat_2014.csv,333,8,Party,str,Political party represented by the candidate.
+gujarat_2014.csv,333,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+gujarat_2014.csv,333,8,Education,str,Educational qualification declared by the candidate.
+gujarat_2014.csv,333,8,Age,str,Age of the candidate.
+gujarat_2014.csv,333,8,Total Assets,str,Total declared assets owned by the candidate.
+gujarat_2014.csv,333,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+gujarat_2019.csv,371,8,Sno.,int64,Unique serial number assigned to a candidate.
+gujarat_2019.csv,371,8,Candidate,str,Name of the candidate contesting the election.
+gujarat_2019.csv,371,8,Party,str,Political party represented by the candidate.
+gujarat_2019.csv,371,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+gujarat_2019.csv,371,8,Education,str,Educational qualification declared by the candidate.
+gujarat_2019.csv,371,8,Age,int64,Age of the candidate.
+gujarat_2019.csv,371,8,Total Assets,str,Total declared assets owned by the candidate.
+gujarat_2019.csv,371,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+gujarat_2024.csv,266,8,Sno.,int64,Unique serial number assigned to a candidate.
+gujarat_2024.csv,266,8,Candidate,str,Name of the candidate contesting the election.
+gujarat_2024.csv,266,8,Party,str,Political party represented by the candidate.
+gujarat_2024.csv,266,8,Criminal Cases,int64,Number of criminal cases declared by the candidate.
+gujarat_2024.csv,266,8,Education,str,Educational qualification declared by the candidate.
+gujarat_2024.csv,266,8,Age,int64,Age of the candidate.
+gujarat_2024.csv,266,8,Total Assets,str,Total declared assets owned by the candidate.
+gujarat_2024.csv,266,8,Liabilities,str,Total declared liabilities or debts of the candidate.
+loksabha_winners_2014_2019_2024_normalized.csv,273,7,State,str,Name of the state in which the candidate participated.
+loksabha_winners_2014_2019_2024_normalized.csv,273,7,Election Year,int64,Year in which the election was conducted.
+loksabha_winners_2014_2019_2024_normalized.csv,273,7,Constituency No.,float64,Unique Serial number assigned to constituency.
+loksabha_winners_2014_2019_2024_normalized.csv,273,7,Constituency,str,Name of the electoral constituency.
+loksabha_winners_2014_2019_2024_normalized.csv,273,7,Winner Candidate,str,Name of the candidate who won the election in the respective constituency in that election year.
+loksabha_winners_2014_2019_2024_normalized.csv,273,7,Winner Party,str,Political party name as recorded in the Myneta dataset for the winning candidate.
+loksabha_winners_2014_2019_2024_normalized.csv,273,7,Winner Party Source,str,Political party of the winning candidate.

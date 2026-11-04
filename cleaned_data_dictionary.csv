@@ -1,0 +1,97 @@
+File,Column,Dtype,Unit,Source,Allowed Range
+andhra_2014.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+andhra_2014.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+andhra_2014.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+andhra_2014.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+andhra_2014.csv,Education,str,N/A,Myneta dataset,Valid education categories
+andhra_2014.csv,Age,int64,Years,Myneta dataset,21 or above
+andhra_2014.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+andhra_2014.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+andhra_2014.csv,winner,bool,Boolean,Winners dataset,True or False
+andhra_2014.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+andhra_2019.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+andhra_2019.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+andhra_2019.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+andhra_2019.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+andhra_2019.csv,Education,str,N/A,Myneta dataset,Valid education categories
+andhra_2019.csv,Age,int64,Years,Myneta dataset,21 or above
+andhra_2019.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+andhra_2019.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+andhra_2019.csv,Recontester,int64,Serial number,Derived during preprocessing,-1 or valid previous-election serial number
+andhra_2019.csv,winner,bool,Boolean,Winners dataset,True or False
+andhra_2019.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+andhra_2024.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+andhra_2024.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+andhra_2024.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+andhra_2024.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+andhra_2024.csv,Education,str,N/A,Myneta dataset,Valid education categories
+andhra_2024.csv,Age,int64,Years,Myneta dataset,21 or above
+andhra_2024.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+andhra_2024.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+andhra_2024.csv,Recontester,int64,Serial number,Derived during preprocessing,-1 or valid previous-election serial number
+andhra_2024.csv,winner,bool,Boolean,Winners dataset,True or False
+andhra_2024.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+bihar_2014.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+bihar_2014.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+bihar_2014.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+bihar_2014.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+bihar_2014.csv,Education,str,N/A,Myneta dataset,Valid education categories
+bihar_2014.csv,Age,int64,Years,Myneta dataset,21 or above
+bihar_2014.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+bihar_2014.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+bihar_2014.csv,winner,bool,Boolean,Winners dataset,True or False
+bihar_2014.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+bihar_2019.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+bihar_2019.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+bihar_2019.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+bihar_2019.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+bihar_2019.csv,Education,str,N/A,Myneta dataset,Valid education categories
+bihar_2019.csv,Age,int64,Years,Myneta dataset,21 or above
+bihar_2019.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+bihar_2019.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+bihar_2019.csv,Recontester,int64,Serial number,Derived during preprocessing,-1 or valid previous-election serial number
+bihar_2019.csv,winner,bool,Boolean,Winners dataset,True or False
+bihar_2019.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+bihar_2024.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+bihar_2024.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+bihar_2024.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+bihar_2024.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+bihar_2024.csv,Education,str,N/A,Myneta dataset,Valid education categories
+bihar_2024.csv,Age,int64,Years,Myneta dataset,21 or above
+bihar_2024.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+bihar_2024.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+bihar_2024.csv,Recontester,int64,Serial number,Derived during preprocessing,-1 or valid previous-election serial number
+bihar_2024.csv,winner,bool,Boolean,Winners dataset,True or False
+bihar_2024.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+gujarat_2014.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+gujarat_2014.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+gujarat_2014.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+gujarat_2014.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+gujarat_2014.csv,Education,str,N/A,Myneta dataset,Valid education categories
+gujarat_2014.csv,Age,int64,Years,Myneta dataset,21 or above
+gujarat_2014.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+gujarat_2014.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+gujarat_2014.csv,winner,bool,Boolean,Winners dataset,True or False
+gujarat_2014.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+gujarat_2019.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+gujarat_2019.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+gujarat_2019.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+gujarat_2019.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+gujarat_2019.csv,Education,str,N/A,Myneta dataset,Valid education categories
+gujarat_2019.csv,Age,int64,Years,Myneta dataset,21 or above
+gujarat_2019.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+gujarat_2019.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+gujarat_2019.csv,Recontester,int64,Serial number,Derived during preprocessing,-1 or valid previous-election serial number
+gujarat_2019.csv,winner,bool,Boolean,Winners dataset,True or False
+gujarat_2019.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
+gujarat_2024.csv,Sno.,int64,Serial number,Myneta dataset,Positive integers
+gujarat_2024.csv,Candidate,str,N/A,Myneta dataset,Non-empty candidate names
+gujarat_2024.csv,Party,str,N/A,Myneta dataset,Valid political party names or IND
+gujarat_2024.csv,Criminal Cases,int64,Number of cases,Myneta dataset,Non-negative integers
+gujarat_2024.csv,Education,str,N/A,Myneta dataset,Valid education categories
+gujarat_2024.csv,Age,int64,Years,Myneta dataset,21 or above
+gujarat_2024.csv,Total Assets,int64,INR (₹),Myneta dataset,Non-negative values
+gujarat_2024.csv,Liabilities,int64,INR (₹),Myneta dataset,Non-negative values
+gujarat_2024.csv,Recontester,int64,Serial number,Derived during preprocessing,-1 or valid previous-election serial number
+gujarat_2024.csv,winner,bool,Boolean,Winners dataset,True or False
+gujarat_2024.csv,constituency,str,N/A,Myneta dataset,Empty or valid constituency name (for winners only)
