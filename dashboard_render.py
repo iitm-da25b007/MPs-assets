@@ -41,8 +41,8 @@ DATA_DIR = BASE_DIR / "clean"
 
 def find_raw_csv(slug, year):
     """Locate raw/<slug>_<year>[_dd-mm-yyyy].csv, preferring the most recently dated file."""
-    exact = RAW_DIR / f"{slug}_{year}.csv"
-    candidates = list(RAW_DIR.glob(f"{slug}_{year}_*.csv"))
+    exact = RAW_DIR / f"myneta_{slug}_{year}.csv"
+    candidates = list(RAW_DIR.glob(f"myneta_{slug}_{year}_*.csv"))
     if exact.exists():
         candidates.append(exact)
     if not candidates:
@@ -105,7 +105,7 @@ def rupees(value):
 import json
 from functools import lru_cache
 
-WINNERS_CSV = RAW_DIR / "loksabha_winners_2014_2019_2024_normalized.csv"
+WINNERS_CSV = RAW_DIR / "wikipedia_loksabha_winners_2014_2019_2024_normalized_20-09-2026.csv"
 GEO_PATH = BASE_DIR / "geo" / "india_pc_2019_simplified.geojson"
 CRORE = 10_000_000
 MAP_PERIODS = {
