@@ -7,6 +7,7 @@ import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 import re
+import os
 
 # ----------------------------------------------------------------------------
 # Data loading
@@ -414,6 +415,9 @@ app = Dash(
     title="Candidate Asset Trends",
     suppress_callback_exceptions=True,  # pages are rendered on demand by the router
 )
+
+# WSGI entry point used by Render/Gunicorn.
+server = app.server
 
 app.index_string = """<!DOCTYPE html>
 <html>
@@ -2118,4 +2122,4 @@ def update_relationships(state, year):
 
 
 if __name__ == "__main__":
-    app.run(debug=False, port=8051)
+    app.run(debug=False, port=int(os.environ.get("PORT", 8051)))
