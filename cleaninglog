@@ -1,0 +1,8 @@
+clean_candidate
+clean_age
+clean_money
+
+Rows dropped in deduplication:
+andhra_2014: 1 , andhra_2019: 1, andhra_2024: 1
+bihar_2014: 0, bihar_2019: 2, bihar_2024: 2
+gujarat_2014: 1, gujarat_2019: 2, gujarat_2024: 1
