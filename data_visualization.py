@@ -1,5 +1,6 @@
 # Import required libraries
 from dash import Dash, html, dcc, Input, Output
+from datetime import datetime
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import plotly.graph_objects as go
@@ -36,6 +37,22 @@ CLEANED_RAW_DIR = BASE_DIR / "interim" / "cleaned_raw_data"
 DROPPED_DIR = BASE_DIR / "interim" / "cleaned_data"
 DATA_DIR = BASE_DIR / "clean"
 
+
+def find_raw_csv(slug, year):
+    """Locate raw/<slug>_<year>[_dd-mm-yyyy].csv, preferring the most recently dated file."""
+    exact = RAW_DIR / f"{slug}_{year}.csv"
+    candidates = list(RAW_DIR.glob(f"{slug}_{year}_*.csv"))
+    if exact.exists():
+        candidates.append(exact)
+    if not candidates:
+        raise FileNotFoundError(f"No raw CSV found for {slug} {year} in {RAW_DIR}")
+
+    def stamp(path):
+        m = re.search(r"_(\d{2}-\d{2}-\d{4})$", path.stem)
+        return datetime.strptime(m.group(1), "%d-%m-%Y") if m else datetime.min
+
+    return max(candidates, key=lambda p: (stamp(p), p.name))
+
 andhra_14 = load(DATA_DIR / "andhra_2014.csv")
 andhra_19 = load(DATA_DIR / "andhra_2019.csv")
 andhra_24 = load(DATA_DIR / "andhra_2024.csv")
@@ -60,7 +77,7 @@ MISSING_COLUMNS = ["Age", "Total Assets", "Liabilities"]  # -1 marks a missing v
 RAW, OCR, CLEANED_RAW, DROPPED = {}, {}, {}, {}
 for _state, _slug in STATES.items():
     for _year in YEARS:
-        RAW[(_state, _year)] = pd.read_csv(RAW_DIR / f"{_slug}_{_year}.csv", encoding="utf-8-sig")
+        RAW[(_state, _year)] = pd.read_csv(find_raw_csv(_slug, _year), encoding="utf-8-sig")
         OCR[(_state, _year)] = pd.read_csv(OCR_DIR / f"{_slug}_{_year}.csv", encoding="utf-8-sig")
         CLEANED_RAW[(_state, _year)] = pd.read_csv(CLEANED_RAW_DIR / f"{_slug}_{_year}.csv")
         DROPPED[(_state, _year)] = pd.read_csv(DROPPED_DIR / f"{_slug}_{_year}_dropped.csv")
@@ -244,6 +261,9 @@ PERIOD_PATTERNS = {"2014-2019": "", "2019-2024": "/"}
 # Ordered light -> dark, with alternating hatches so neighbours stay apart in greyscale
 PIE_COLORS = ["#FEF9C3", "#FDE047", "#2DD4BF", "#F59E0B", "#EC4899", "#3B82F6", "#7C3AED"]
 PIE_PATTERNS = ["", "/", "", "\\", "", ".", "-"]
+# Extra colours/hatches so every party can keep one fixed colour across all pies
+PIE_COLORS_EXTRA = ["#A7F3D0", "#F97316", "#38BDF8", "#C4B5FD", "#22C55E", "#DC2626", "#F9A8D4", "#A16207"]
+PIE_PATTERNS_EXTRA = ["", "/", "", "\\", ".", "-", "", "/"]
 OTHERS_COLOR = "#64748B"
 OTHERS_PATTERN = "x"
 GOOD = "#2DD4BF"
@@ -519,6 +539,7 @@ def overview_page():
                 html.Li("State pages: asset change of returning winners and losers, per constituency."),
                 html.Li("Wealth analytics: candidate counts, total assets and each party's share of declared wealth."),
                 html.Li("Constituency map: where sitting MPs' declared assets grew or fell, with data-quality checks."),
+                html.Li("Relationships: how assets relate to age, criminal cases, liabilities, education and past assets."),
                 html.Li("Cleaning check: how scraping, OCR recovery and dropping incomplete rows shaped the final data."),
             ], className="overview-list"),
         ], className="content-panel"),
@@ -725,6 +746,7 @@ PAGES = {
     "/parties": parties_page,
     "/constituency-map": map_page,
     "/cleaning": cleaning_page,
+    "/relationships": lambda: relationships_page(),
 }
 
 # ----------------------------------------------------------------------------
@@ -753,6 +775,7 @@ sidebar = html.Div([
     dbc.Nav([
         nav_link("bi-pie-chart", "Wealth analytics", "/parties"),
         nav_link("bi-map", "Constituency map", "/constituency-map"),
+        nav_link("bi-diagram-3", "Relationships", "/relationships"),
     ], vertical=True, pills=True, className="navigation"),
 
     html.Hr(),
@@ -1214,7 +1237,59 @@ def short_party(name, max_len=10):
         return name
     return "".join(w[0].upper() for w in re.split(r"[\s\-]+", name) if w)
 
-def create_party_assets_pie(data, state, year, top_n=7):
+PIE_TOP_N = 7
+
+def _top_parties(data, top_n=PIE_TOP_N):
+    """Legend labels of the parties (excluding independents) that get their own slice in a pie."""
+    assets = data.groupby("Party")["Total Assets"].sum().drop("IND", errors="ignore")
+    return [short_party(p) for p in assets.sort_values(ascending=False).head(top_n).index]
+
+def build_party_styles(frames, top_n=PIE_TOP_N):
+    """One fixed (colour, hatch) per party, shared by every pie.
+
+    Keyed by the legend label (``short_party``), so spellings that display the same
+    (e.g. "YSRCP" and "Yuvajana Sramika Rythu Congress Party") share one colour.
+
+    Parties are taken in a stable order (number of pies they appear in, then total
+    declared assets across all elections, then name). Parties shown in more than one
+    pie get a colour of their own; the rest take the first slot not used by a recurring
+    party or by anyone they share a pie with, so slices never clash within a pie and a
+    party never changes colour.
+    """
+    palette = list(zip(PIE_COLORS + PIE_COLORS_EXTRA, PIE_PATTERNS + PIE_PATTERNS_EXTRA))
+    combined = pd.concat(frames, ignore_index=True)
+    combined = combined[combined["Party"].notna() & (combined["Party"] != "IND")]
+    totals = combined.groupby(combined["Party"].map(short_party))["Total Assets"].sum()
+
+    neighbours = {p: set() for p in totals.index}
+    appearances = {p: 0 for p in totals.index}
+    for frame in frames:
+        shown = _top_parties(frame, top_n)
+        for p in shown:
+            appearances[p] += 1
+            neighbours[p].update(q for q in shown if q != p)
+    order = sorted(totals.index, key=lambda p: (-min(appearances[p], 2), -totals[p], str(p)))
+
+    slots, reserved = {}, set()
+    for i, party in enumerate(order):
+        taken = {slots[q] for q in neighbours[party] if q in slots}
+        free = [k for k in range(len(palette)) if k not in taken]
+        preferred = [k for k in free if k not in reserved]
+        slots[party] = (preferred or free or [i % len(palette)])[0]
+        if appearances[party] > 1:
+            reserved.add(slots[party])
+    styles = {p: palette[k] for p, k in slots.items()}
+    styles["IND"] = styles["Others"] = (OTHERS_COLOR, OTHERS_PATTERN)  # independents sit in Others
+    return styles
+
+PARTY_STYLES = build_party_styles(list(CLEANED.values()))
+PARTY_COLORS = {party: color for party, (color, _) in PARTY_STYLES.items()}  # legend label -> colour
+
+def _is_light(hex_color):
+    r, g, b = (int(hex_color[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.5
+
+def create_party_assets_pie(data, state, year, top_n=PIE_TOP_N):
     party_assets = (
         data.groupby("Party")["Total Assets"]
         .sum()
@@ -1232,13 +1307,15 @@ def create_party_assets_pie(data, state, year, top_n=7):
     top_parties["Formatted"] = top_parties["Total Assets"].apply(money_short)
     top_parties["Short"] = top_parties["Party"].map(short_party)
 
+    # fixed per-party colours from PARTY_STYLES, so a party looks the same in every pie
     color_map, patterns = {}, []
-    for i, (full, short) in enumerate(zip(top_parties["Party"], top_parties["Short"])):
-        color_map[short] = OTHERS_COLOR if full == "Others" else PIE_COLORS[i % len(PIE_COLORS)]
-        patterns.append(OTHERS_PATTERN if full == "Others" else PIE_PATTERNS[i % len(PIE_PATTERNS)])
+    for full, short in zip(top_parties["Party"], top_parties["Short"]):
+        color, pattern = PARTY_STYLES.get("Others" if full == "Others" else short,
+                                          (OTHERS_COLOR, OTHERS_PATTERN))
+        color_map[short] = color
+        patterns.append(pattern)
     # dark labels on light slices, white labels on dark slices
-    light = {PIE_COLORS[0], PIE_COLORS[1], PIE_COLORS[2], PIE_COLORS[3]}
-    label_colors = ["#0B1020" if color_map[s] in light else "#FFFFFF" for s in top_parties["Short"]]
+    label_colors = ["#0B1020" if _is_light(color_map[s]) else "#FFFFFF" for s in top_parties["Short"]]
 
     fig = px.pie(
         data_frame=top_parties,
@@ -1722,7 +1799,8 @@ def update_constituency_map(map_state, period, measure):
         _tile(f"{linked}", "with a linked asset change", "good"),
     ]
     for status, n in counts.items():
-        if not status.startswith("Linked"):
+        # "Winner not found in <year> candidate file" tiles are deliberately not shown
+        if not status.startswith(("Linked", "Winner not found")):
             tiles.append(_tile(f"{n}", status, "warn"))
     if measure == "pct":
         undefined = int((state_rows["Change (₹ crore)"].notna() & state_rows["Change (%)"].isna()).sum())
@@ -1735,5 +1813,309 @@ def update_constituency_map(map_state, period, measure):
     ))
     return definition, fig, note, tiles
 
+# ----------------------------------------------------------------------------
+# Relationships (bivariate analysis)
+# ----------------------------------------------------------------------------
+REL_STATE_OPTIONS = [{"label": "All states", "value": "all"}] + [{"label": s, "value": s} for s in STATES]
+REL_YEAR_OPTIONS = [{"label": "All elections", "value": "all"}] + [{"label": str(y), "value": str(y)} for y in YEARS]
+CASE_BANDS = ["0", "1", "2–4", "5+"]
+EDU_ORDER = ["Illiterate", "Literate", "5th Pass", "8th Pass", "10th Pass", "12th Pass", "Graduate",
+             "Graduate Professional", "Post Graduate", "Doctorate", "Others", "Not Given"]
+
+
+def relationships_page():
+    return html.Div([
+        page_header(
+            "ANALYTICS / RELATIONSHIPS", "How Assets Relate to Other Traits",
+            "Bivariate views of the cleaned affidavits: declared assets against age, criminal cases, "
+            "liabilities, education and the candidate's own earlier declaration.", STATUS,
+        ),
+        filters(
+            filter_group("State", segmented("rel-state", REL_STATE_OPTIONS, "all")),
+            filter_group("Election year", segmented("rel-year", REL_YEAR_OPTIONS, "all")),
+        ),
+
+        section("Rank correlation with declared assets",
+                "Spearman's ρ: +1 means the two always rise together, 0 means no monotonic link."),
+        dbc.Row([
+            dbc.Col(kpi("rel-rho-past", "Earlier vs later assets", "win", "Returning candidates"), md=6, xl=3),
+            dbc.Col(kpi("rel-rho-liab", "Assets vs liabilities", "neutral", "All candidates"), md=6, xl=3),
+            dbc.Col(kpi("rel-rho-age", "Assets vs age", "neutral", "All candidates"), md=6, xl=3),
+            dbc.Col(kpi("rel-rho-crime", "Assets vs criminal cases", "lose", "All candidates"), md=6, xl=3),
+        ], className="g-3 mb-4"),
+
+        dbc.Row([
+            dbc.Col(chart(
+                "rel-past-scatter",
+                "Each dot is a candidate who contested again: earlier declared assets across, later assets up. "
+                "Dots above the dashed line got richer, dots below got poorer. Gold diamonds won the earlier "
+                "election, blue circles did not. Both axes are logarithmic.",
+            ), xl=12),
+        ], className="g-3 mb-4"),
+
+        dbc.Row([
+            dbc.Col(chart(
+                "rel-crime-box",
+                "Declared assets for candidates grouped by how many criminal cases they declared, split into "
+                "winners (gold) and non-winners (blue). The line inside each box is the median.",
+            ), xl=6),
+            dbc.Col(chart(
+                "rel-edu-bar",
+                "Median declared assets for each education level, winners (gold) next to non-winners (blue, "
+                "hatched). The scale is logarithmic; n is the number of candidates at that level and how many "
+                "of them won. Groups with fewer than three candidates are left blank.",
+            ), xl=6),
+        ], className="g-3 mb-4"),
+
+        dbc.Row([
+            dbc.Col(chart(
+                "rel-edu-crime-bars",
+                "Candidates are grouped by education, from least to most educated, and within each group by how "
+                "many criminal cases they declared. Each bar is the group's median declared assets, written on "
+                "top. Bars rising to the right mean more educated candidates declare more; deeper-coloured bars "
+                "standing taller mean candidates with more cases declare more. The axis is a normal (linear) "
+                "rupee scale, so small medians in lakhs appear as short bars. Groups with fewer than three "
+                "candidates are left out.",
+            ), xl=12),
+        ], className="g-3"),
+
+        html.Div("Caveat: these are associations in self-declared affidavits, not causal effects. Correlations "
+                 "use ranks, so a handful of very rich candidates cannot dominate them.", className="note-panel"),
+    ], className="page")
+
+
+def relationship_frame(state, year):
+    states = list(STATES) if state == "all" else [state]
+    years = YEARS if year == "all" else [int(year)]
+    frames = []
+    for st in states:
+        for y in years:
+            d = CLEANED[(st, y)].copy()
+            d["State"], d["Year"] = st, y
+            frames.append(d)
+    df = pd.concat(frames, ignore_index=True)
+    df["Won"] = df["winner"].map(_as_bool).astype(int)
+    df["Result"] = np.where(df["Won"] == 1, "Winners", "Non-winners")
+    return df[df["Total Assets"] > 0]
+
+
+def recontest_pairs(state, year):
+    states = list(STATES) if state == "all" else [state]
+    # pairs end in the chosen year; 2014 is the first election, so it has none
+    targets = [2019, 2024] if year == "all" else [] if year == "2014" else [int(year)]
+    frames = []
+    for st in states:
+        for y in targets:
+            prev = YEARS[YEARS.index(y) - 1]
+            ch = calculate_asset_changes(CLEANED[(st, prev)], CLEANED[(st, y)])
+            if ch.empty:
+                continue
+            ch["Later_assets"] = ch["Previous_assets"] + ch["Asset Change"]
+            ch["State"], ch["Interval"] = st, f"{prev}→{y}"
+            frames.append(ch)
+    if not frames:
+        return pd.DataFrame(columns=["Previous_assets", "Later_assets", "Winner", "Candidate", "State", "Interval"])
+    pairs = pd.concat(frames, ignore_index=True)
+    pairs["Winner"] = pairs["Winner"].map(_as_bool)
+    return pairs[(pairs["Previous_assets"] > 0) & (pairs["Later_assets"] > 0)]
+
+
+def rho(a, b):
+    if len(a) < 3:
+        return "—"
+    value = pd.Series(a).corr(pd.Series(b), method="spearman")
+    return "—" if pd.isna(value) else f"{value:+.2f}"
+
+
+RESULT_STYLE = {  # drawn losers first so winners sit on top
+    "Non-winners": dict(color=LOSE, symbol="circle", opacity=0.45),
+    "Winners": dict(color=WIN, symbol="diamond", opacity=0.9),
+}
+
+
+def scatter_by_result(fig, df, x, y, hover):
+    for result, style in RESULT_STYLE.items():
+        part = df[df["Result"] == result]
+        fig.add_trace(go.Scattergl(
+            x=x(part), y=y(part), mode="markers", name=f"{result} (n={len(part)})",
+            marker=dict(color=style["color"], symbol=style["symbol"], size=7, opacity=style["opacity"],
+                        line=dict(color=BG, width=0.5)),
+            customdata=hover(part), hovertemplate="%{customdata}<extra></extra>",
+        ))
+
+
+def empty_figure(message, height=440):
+    fig = go.Figure()
+    fig.add_annotation(xref="paper", yref="paper", x=0.5, y=0.5, showarrow=False, text=message,
+                       font=dict(color=MUTED, size=13))
+    style_fig(fig, height=height)
+    fig.update_xaxes(visible=False)
+    fig.update_yaxes(visible=False)
+    return fig
+
+
+def create_past_scatter(pairs, year="all"):
+    if year == "2014":
+        fig = empty_figure("2014 is the first election in the data, so there is no earlier declaration "
+                           "to compare with.<br>Choose 2019, 2024 or All elections to see returning candidates.",
+                           height=460)
+        fig.update_layout(title="Earlier vs later declared assets (returning candidates)")
+        return fig
+    if pairs.empty:
+        return empty_figure("No returning candidates could be linked for this selection")
+    df = pairs.assign(Result=np.where(pairs["Winner"], "Winners", "Non-winners"))
+    fig = go.Figure()
+    scatter_by_result(
+        fig, df, lambda d: d["Previous_assets"], lambda d: d["Later_assets"],
+        lambda d: [f"<b>{r.Candidate}</b> ({r.State}, {r.Interval})<br>Earlier: {money_short(r.Previous_assets)}"
+                   f"<br>Later: {money_short(r.Later_assets)}" for r in d.itertuples()],
+    )
+    lo = min(df["Previous_assets"].min(), df["Later_assets"].min())
+    hi = max(df["Previous_assets"].max(), df["Later_assets"].max())
+    fig.add_trace(go.Scatter(x=[lo, hi], y=[lo, hi], mode="lines", name="No change",
+                             line=dict(color=MUTED, dash="dash", width=1.2), hoverinfo="skip"))
+    tv, tt = log_ticks(np.r_[df["Previous_assets"], df["Later_assets"]])
+    style_fig(fig, height=460)
+    fig.update_layout(title="Earlier vs later declared assets (returning candidates)")
+    fig.update_xaxes(type="log", title="Assets at earlier election (log scale)", tickvals=tv, ticktext=tt)
+    fig.update_yaxes(type="log", title="Assets at later election (log scale)", tickvals=tv, ticktext=tt)
+    return fig
+
+
+
+
+def create_crime_box(df):
+    cases = df["Criminal Cases"]
+    df = df.assign(Band=case_band(cases))
+    fig = go.Figure()
+    for result, color, fill in (("Winners", WIN, "rgba(252,211,77,0.35)"), ("Non-winners", LOSE, "rgba(59,130,246,0.35)")):
+        part = df[df["Result"] == result]
+        fig.add_trace(go.Box(
+            x=part["Band"], y=part["Total Assets"], name=result, marker_color=color,
+            line=dict(color=color), fillcolor=fill, boxpoints=False,
+            hovertemplate="%{x} case(s)<br>₹%{y:,.0f}<extra></extra>",
+        ))
+    counts = df["Band"].value_counts()
+    tv, tt = log_ticks(df["Total Assets"])
+    style_fig(fig, height=440)
+    fig.update_layout(boxmode="group", title="Declared assets by number of criminal cases")
+    fig.update_xaxes(title="Criminal cases declared", categoryorder="array", categoryarray=CASE_BANDS,
+                     tickvals=CASE_BANDS, ticktext=[f"{b}<br><span style='font-size:10px'>n={counts.get(b, 0)}</span>"
+                                                    for b in CASE_BANDS], showgrid=False)
+    fig.update_yaxes(type="log", title="Declared assets (log scale)", tickvals=tv, ticktext=tt)
+    return fig
+
+
+
+def case_band(cases):
+    return np.select([cases == 0, cases == 1, cases <= 4], CASE_BANDS[:3], CASE_BANDS[3])
+
+
+EDU_BANDS = {  # ordered least -> most educated; Others / Not Given are left out
+    "Below 10th": ["Illiterate", "Literate", "5th Pass", "8th Pass"],
+    "10th–12th": ["10th Pass", "12th Pass"],
+    "Graduate": ["Graduate", "Graduate Professional"],
+    "Post-graduate & above": ["Post Graduate", "Doctorate"],
+}
+EDU_BAND_OF = {level: band for band, levels in EDU_BANDS.items() for level in levels}
+# light -> deep as criminal cases rise; hatch on the two darker bars keeps them apart in greyscale
+CASE_COLORS = {"0": "#A7F3D0", "1": "#38BDF8", "2–4": "#3B82F6", "5+": "#7C3AED"}
+CASE_PATTERNS = {"0": "", "1": "", "2–4": "/", "5+": "x"}
+
+
+def create_edu_crime_bars(df):
+    """Median declared assets by education band, one bar per criminal-case band."""
+    df = df.assign(Band=case_band(df["Criminal Cases"]), EduBand=df["Education"].map(EDU_BAND_OF))
+    df = df[df["EduBand"].notna()]
+    if df.empty:
+        return empty_figure("No candidates with a known education level for this selection")
+    stats = df.groupby(["EduBand", "Band"])["Total Assets"].agg(["median", "size"])
+    edu_order = list(EDU_BANDS)
+    fig = go.Figure()
+    for band in CASE_BANDS:
+        rows = stats.xs(band, level="Band") if band in stats.index.get_level_values("Band") else stats.iloc[0:0]
+        rows = rows.reindex(edu_order)
+        sizes = rows["size"].fillna(0).astype(int)
+        values = rows["median"].where(sizes >= 3)  # a median of one or two people is noise
+        label = f"{band} case{'' if band == '1' else 's'}"
+        fig.add_trace(go.Bar(
+            x=edu_order, y=values, name=f"{label} (n={int(sizes.sum())})",
+            marker=dict(color=CASE_COLORS[band], pattern=dict(shape=CASE_PATTERNS[band])),
+            text=[money_short(v).replace(" Crores", " Cr").replace(" Lakhs", " L") if pd.notna(v) else ""
+                  for v in values],
+            textposition="outside", textfont=dict(size=11, color=TEXT_2), cliponaxis=False,
+            customdata=np.column_stack([[money_short(v) for v in values], sizes]),
+            hovertemplate=f"<b>%{{x}}</b> · {label}<br>Median: %{{customdata[0]}}<br>"
+                          "Candidates: %{customdata[1]}<extra></extra>",
+        ))
+    shown = stats["median"].where(stats["size"] >= 3).dropna()
+    tv, tt = linear_ticks(np.r_[0.0, shown.to_numpy(dtype=float)], target=6)
+    counts = df["EduBand"].value_counts()
+    style_fig(fig, height=480)
+    fig.update_layout(barmode="group", bargap=0.22, bargroupgap=0.06,
+                      title="Median declared assets by education and criminal cases",
+                      legend_title_text="Criminal cases:")
+    fig.update_xaxes(title="Education (least → most)", showgrid=False, categoryorder="array",
+                     categoryarray=edu_order, tickvals=edu_order,
+                     ticktext=[f"{e}<br><span style='font-size:10px'>n={counts.get(e, 0)}</span>" for e in edu_order])
+    # linear axis from ₹0, with headroom for the value labels above the tallest bar
+    fig.update_yaxes(title="Median declared assets", tickvals=tv, ticktext=tt,
+                     range=[0, float(shown.max()) * 1.12])
+    return fig
+
+
+def create_edu_bar(df):
+    levels = [e for e in EDU_ORDER if e in set(df["Education"])]
+    grouped = df.groupby(["Education", "Result"])["Total Assets"].median().unstack()
+    n_by = df.groupby(["Education", "Result"]).size().unstack(fill_value=0)
+    # a median of one or two people is noise: hide groups with fewer than 3 candidates
+    grouped = grouped.where(n_by.reindex_like(grouped).fillna(0) >= 3)
+    counts = df["Education"].value_counts()
+    winners_n = n_by.get("Winners", pd.Series(0, index=n_by.index))
+    fig = go.Figure()
+    for result, color, pattern in (("Winners", WIN, ""), ("Non-winners", LOSE, LOSE_PATTERN)):
+        values = grouped.reindex(levels).get(result, pd.Series(index=levels, dtype=float))
+        fig.add_trace(go.Bar(
+            y=[f"{e} (n={counts[e]}, {winners_n.get(e, 0)} won)" for e in levels], x=values, orientation="h", name=result,
+            marker=dict(color=color, pattern=dict(shape=pattern)),
+            customdata=[money_short(v) for v in values],
+            hovertemplate="%{y}<br>" + result + ": %{customdata}<extra></extra>",
+        ))
+    tv, tt = log_ticks(grouped.to_numpy().ravel())
+    style_fig(fig, height=440)
+    fig.update_layout(barmode="group", title="Median declared assets by education", bargap=0.25,
+                      margin=dict(t=70, l=220, r=24, b=50))
+    fig.update_xaxes(type="log", title="Median assets (log scale)", tickvals=tv, ticktext=tt)
+    fig.update_yaxes(autorange="reversed", tickfont=dict(size=11, color=MUTED))
+    return fig
+
+
+@app.callback(
+    Output("rel-rho-past", "children"),
+    Output("rel-rho-liab", "children"),
+    Output("rel-rho-age", "children"),
+    Output("rel-rho-crime", "children"),
+    Output("rel-past-scatter", "figure"),
+    Output("rel-crime-box", "figure"),
+    Output("rel-edu-bar", "figure"),
+    Output("rel-edu-crime-bars", "figure"),
+    Input("rel-state", "value"),
+    Input("rel-year", "value"),
+)
+def update_relationships(state, year):
+    df = relationship_frame(state, year)
+    pairs = recontest_pairs(state, year)
+    return (
+        rho(pairs["Previous_assets"], pairs["Later_assets"]),
+        rho(df["Total Assets"], df["Liabilities"]),
+        rho(df["Total Assets"], df["Age"]),
+        rho(df["Total Assets"], df["Criminal Cases"]),
+        create_past_scatter(pairs, year),
+        create_crime_box(df),
+        create_edu_bar(df),
+        create_edu_crime_bars(df),
+    )
+
+
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=False, port=8051)
