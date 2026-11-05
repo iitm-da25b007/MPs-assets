@@ -244,6 +244,9 @@ PERIOD_PATTERNS = {"2014-2019": "", "2019-2024": "/"}
 # Ordered light -> dark, with alternating hatches so neighbours stay apart in greyscale
 PIE_COLORS = ["#FEF9C3", "#FDE047", "#2DD4BF", "#F59E0B", "#EC4899", "#3B82F6", "#7C3AED"]
 PIE_PATTERNS = ["", "/", "", "\\", "", ".", "-"]
+# Extra colours/hatches so every party can keep one fixed colour across all pies
+PIE_COLORS_EXTRA = ["#A7F3D0", "#F97316", "#38BDF8", "#C4B5FD", "#22C55E", "#DC2626", "#F9A8D4", "#A16207"]
+PIE_PATTERNS_EXTRA = ["", "/", "", "\\", ".", "-", "", "/"]
 OTHERS_COLOR = "#64748B"
 OTHERS_PATTERN = "x"
 GOOD = "#2DD4BF"
@@ -1217,7 +1220,59 @@ def short_party(name, max_len=10):
         return name
     return "".join(w[0].upper() for w in re.split(r"[\s\-]+", name) if w)
 
-def create_party_assets_pie(data, state, year, top_n=7):
+PIE_TOP_N = 7
+
+def _top_parties(data, top_n=PIE_TOP_N):
+    """Legend labels of the parties (excluding independents) that get their own slice in a pie."""
+    assets = data.groupby("Party")["Total Assets"].sum().drop("IND", errors="ignore")
+    return [short_party(p) for p in assets.sort_values(ascending=False).head(top_n).index]
+
+def build_party_styles(frames, top_n=PIE_TOP_N):
+    """One fixed (colour, hatch) per party, shared by every pie.
+
+    Keyed by the legend label (``short_party``), so spellings that display the same
+    (e.g. "YSRCP" and "Yuvajana Sramika Rythu Congress Party") share one colour.
+
+    Parties are taken in a stable order (number of pies they appear in, then total
+    declared assets across all elections, then name). Parties shown in more than one
+    pie get a colour of their own; the rest take the first slot not used by a recurring
+    party or by anyone they share a pie with, so slices never clash within a pie and a
+    party never changes colour.
+    """
+    palette = list(zip(PIE_COLORS + PIE_COLORS_EXTRA, PIE_PATTERNS + PIE_PATTERNS_EXTRA))
+    combined = pd.concat(frames, ignore_index=True)
+    combined = combined[combined["Party"].notna() & (combined["Party"] != "IND")]
+    totals = combined.groupby(combined["Party"].map(short_party))["Total Assets"].sum()
+
+    neighbours = {p: set() for p in totals.index}
+    appearances = {p: 0 for p in totals.index}
+    for frame in frames:
+        shown = _top_parties(frame, top_n)
+        for p in shown:
+            appearances[p] += 1
+            neighbours[p].update(q for q in shown if q != p)
+    order = sorted(totals.index, key=lambda p: (-min(appearances[p], 2), -totals[p], str(p)))
+
+    slots, reserved = {}, set()
+    for i, party in enumerate(order):
+        taken = {slots[q] for q in neighbours[party] if q in slots}
+        free = [k for k in range(len(palette)) if k not in taken]
+        preferred = [k for k in free if k not in reserved]
+        slots[party] = (preferred or free or [i % len(palette)])[0]
+        if appearances[party] > 1:
+            reserved.add(slots[party])
+    styles = {p: palette[k] for p, k in slots.items()}
+    styles["IND"] = styles["Others"] = (OTHERS_COLOR, OTHERS_PATTERN)  # independents sit in Others
+    return styles
+
+PARTY_STYLES = build_party_styles(list(CLEANED.values()))
+PARTY_COLORS = {party: color for party, (color, _) in PARTY_STYLES.items()}  # legend label -> colour
+
+def _is_light(hex_color):
+    r, g, b = (int(hex_color[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.5
+
+def create_party_assets_pie(data, state, year, top_n=PIE_TOP_N):
     party_assets = (
         data.groupby("Party")["Total Assets"]
         .sum()
@@ -1235,13 +1290,15 @@ def create_party_assets_pie(data, state, year, top_n=7):
     top_parties["Formatted"] = top_parties["Total Assets"].apply(money_short)
     top_parties["Short"] = top_parties["Party"].map(short_party)
 
+    # fixed per-party colours from PARTY_STYLES, so a party looks the same in every pie
     color_map, patterns = {}, []
-    for i, (full, short) in enumerate(zip(top_parties["Party"], top_parties["Short"])):
-        color_map[short] = OTHERS_COLOR if full == "Others" else PIE_COLORS[i % len(PIE_COLORS)]
-        patterns.append(OTHERS_PATTERN if full == "Others" else PIE_PATTERNS[i % len(PIE_PATTERNS)])
+    for full, short in zip(top_parties["Party"], top_parties["Short"]):
+        color, pattern = PARTY_STYLES.get("Others" if full == "Others" else short,
+                                          (OTHERS_COLOR, OTHERS_PATTERN))
+        color_map[short] = color
+        patterns.append(pattern)
     # dark labels on light slices, white labels on dark slices
-    light = {PIE_COLORS[0], PIE_COLORS[1], PIE_COLORS[2], PIE_COLORS[3]}
-    label_colors = ["#0B1020" if color_map[s] in light else "#FFFFFF" for s in top_parties["Short"]]
+    label_colors = ["#0B1020" if _is_light(color_map[s]) else "#FFFFFF" for s in top_parties["Short"]]
 
     fig = px.pie(
         data_frame=top_parties,
@@ -1725,7 +1782,8 @@ def update_constituency_map(map_state, period, measure):
         _tile(f"{linked}", "with a linked asset change", "good"),
     ]
     for status, n in counts.items():
-        if not status.startswith("Linked"):
+        # "Winner not found in <year> candidate file" tiles are deliberately not shown
+        if not status.startswith(("Linked", "Winner not found")):
             tiles.append(_tile(f"{n}", status, "warn"))
     if measure == "pct":
         undefined = int((state_rows["Change (₹ crore)"].notna() & state_rows["Change (%)"].isna()).sum())
