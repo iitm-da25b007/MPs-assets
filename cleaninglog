@@ -1,8 +1,32 @@
-clean_candidate
-clean_age
-clean_money
-
 Rows dropped in deduplication:
 andhra_2014: 1 , andhra_2019: 1, andhra_2024: 1
 bihar_2014: 0, bihar_2019: 2, bihar_2024: 2
 gujarat_2014: 1, gujarat_2019: 2, gujarat_2024: 1
+Total: 11
+
+Rows changed due to clean_candidate(candidate name cleaning):
+andhra_2014: 30, andhra_2019: 49, andhra_2024: 85
+bihar_2014: 28, bihar_2019: 30, bihar_2024: 19
+gujarat_2014: 13, gujarat_2019: 16, gujarat_2024: 23
+Total: 293
+
+Rows changed in clean_age(age column cleaning):
+andhra_2014: 329, andhra_2019: 314, andhra_2024: 450
+bihar_2014: 605, bihar_2019: 619, bihar_2024: 496
+gujarat_2014: 333, gujarat_2019: 371, gujarat_2024: 266
+
+Rows changed in clean_money(money column cleaning):
+andhra_2014: 329, andhra_2019: 314, andhra_2024: 450
+bihar_2014: 605, bihar_2019: 619, bihar_2024: 496
+gujarat_2014: 333, gujarat_2019: 371, gujarat_2024: 266
+
+Rows dropped for missing values:
+andhra_2014: 14, andhra_2019: 8, andhra_2024: 11
+bihar_2014: 8, bihar_2019: 2, bihar_2024: 0
+gujarat_2014: 6, gujarat_2019: 1, gujarat_2024: 0
+Total: 50
+
+andhra_2014: 314, andhra_2019: 305, andhra_2024: 438
+bihar_2014: 597, bihar_2019: 615, bihar_2024: 494
+gujarat_2014: 326, gujarat_2019: 368, gujarat_2024: 265
+Total: 3,722 (from 3,783 raw)
